@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sixth Gear Digital | Accelerate Your Growth</title>
+    <meta name="description" content="Performance marketing agency for local service businesses. Accelerate your growth with data-driven SEO, PPC, and Lead Generation.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#8b2cf5",
+                        "primary-dark": "#7022cc",
+                        "background-dark": "#0a0a0c",
+                        "slate-panel": "#141418",
+                        "slate-card": "#1c1c21",
+                        "slate-border": "rgba(255, 255, 255, 0.1)",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.375rem",
+                        "lg": "0.75rem",
+                        "xl": "1rem",
+                        "2xl": "1.5rem",
+                        "3xl": "2rem",
+                        "full": "9999px"
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-background-dark text-slate-300 font-display selection:bg-primary/30 selection:text-white;
+            }
+        }
+        @layer components {
+            .glass {
+                @apply bg-white/[0.03] backdrop-blur-xl border border-white/10;
+            }
+            .purple-glow {
+                box-shadow: 0 0 30px -5px rgba(139, 44, 245, 0.3);
+            }
+            .purple-glow-strong {
+                box-shadow: 0 0 50px -10px rgba(139, 44, 245, 0.5);
+            }
+            .icon-glow {
+                filter: drop-shadow(0 0 8px rgba(139, 44, 245, 0.6));
+            }
+            .bg-radial-gradient {
+                background: radial-gradient(circle at center, #1c1c21 0%, #0a0a0c 100%);
+            }
+            .hero-gradient {
+                background: radial-gradient(circle at 50% 50%, rgba(139, 44, 245, 0.08) 0%, transparent 70%);
+            }
+            .card-hover {
+                @apply transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:bg-white/[0.05] hover:shadow-[0_20px_40px_-15px_rgba(139,44,245,0.2)];
+            }
+            .btn-primary {
+                @apply bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-xl font-bold transition-all transform hover:scale-[1.02] active:scale-[0.98] purple-glow flex items-center justify-center gap-2;
+            }
+            .btn-secondary {
+                @apply glass text-white px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all flex items-center justify-center gap-2;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3 group cursor-pointer">
+                <div class="size-10 bg-primary rounded-lg flex items-center justify-center text-white purple-glow transition-transform group-hover:rotate-12">
+                    <span class="material-symbols-outlined text-2xl">speed</span>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span class="text-primary not-italic">Digital</span></h1>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors" href="#services">Services</a>
+                <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors" href="#case-studies">Case Studies</a>
+                <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors" href="#process">Process</a>
+                <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors" href="#about">About</a>
+            </div>
+            
+            <button class="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-lg text-sm font-bold transition-all transform hover:scale-105 active:scale-95 purple-glow">
+                Get Started
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-48 pb-32 overflow-hidden bg-radial-gradient min-h-screen flex items-center">
+        <div class="absolute inset-0 hero-gradient"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="flex flex-col gap-8">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-black uppercase tracking-[0.2em] w-fit">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                        </span>
+                        Performance Marketing Agency
+                    </div>
+                    
+                    <h2 class="text-6xl md:text-8xl font-bold leading-none tracking-tighter text-white">
+                        Accelerate Your <br/>
+                        <span class="text-primary italic filter drop-shadow-[0_0_15px_rgba(139,44,245,0.4)]">Local Growth</span>
+                    </h2>
+                    
+                    <p class="text-xl text-slate-400 max-w-xl leading-relaxed">
+                        The data-driven marketing engine for local service businesses. We don't just find leads; we fuel your entire sales pipeline with high-intent customers.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <button class="btn-primary text-lg">
+                            Book Performance Audit
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                        <button class="btn-secondary text-lg">
+                            View Case Studies
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Hero Image / Visual -->
+                <div class="relative group animate-float">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-primary/30 to-purple-500/30 rounded-[2.5rem] blur-2xl opacity-50 group-hover:opacity-70 transition duration-1000"></div>
+                    <div class="relative glass rounded-[2rem] overflow-hidden shadow-2xl border border-white/20 aspect-square lg:aspect-[4/5] xl:aspect-square">
+                        <!-- Hero Image from assets -->
+                        <div class="w-full h-full bg-cover bg-center" style="background-image: url('assets/hero.png')"></div>
+                        
+                        <!-- Floating Widget -->
+                        <div class="absolute bottom-10 left-10 right-10 glass p-8 rounded-2xl border border-white/15 shadow-2xl translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <div class="flex justify-between items-center mb-6">
+                                <span class="text-xs font-bold text-slate-300 uppercase tracking-[0.2em]">Growth Analytics</span>
+                                <span class="text-xs text-primary font-black filter drop-shadow-[0_0_5px_rgba(139,44,245,0.5)] bg-primary/10 px-2 py-1 rounded">+142% ROI</span>
+                            </div>
+                            <div class="flex gap-2 h-20 items-end">
+                                <div class="flex-1 bg-primary/10 h-[30%] rounded-md hover:bg-primary/30 transition-all duration-300"></div>
+                                <div class="flex-1 bg-primary/20 h-[45%] rounded-md hover:bg-primary/40 transition-all duration-300"></div>
+                                <div class="flex-1 bg-primary/30 h-[60%] rounded-md hover:bg-primary/50 transition-all duration-300"></div>
+                                <div class="flex-1 bg-primary/50 h-[50%] rounded-md hover:bg-primary/60 transition-all duration-300"></div>
+                                <div class="flex-1 bg-primary/70 h-[80%] rounded-md hover:bg-primary/80 transition-all duration-300"></div>
+                                <div class="flex-1 bg-primary h-full rounded-md purple-glow animate-pulse-slow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-20 border-y border-white/5 bg-white/[0.01]">
+        <div class="max-w-7xl mx-auto px-6">
+            <p class="text-center text-slate-500 text-[10px] font-black uppercase tracking-[0.4em] mb-16">Trusted by 50+ Local Business Owners</p>
+            <div class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
+                <!-- Using descriptive icons for partners since we don't have their true logos -->
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-4xl">construction</span>
+                    <span class="font-bold text-xl tracking-tighter">BUILDER CO</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-4xl">plumbing</span>
+                    <span class="font-bold text-xl tracking-tighter">FLOWMASTERS</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-4xl">electric_bolt</span>
+                    <span class="font-bold text-xl tracking-tighter">VOLT SERVICES</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-4xl">hvac</span>
+                    <span class="font-bold text-xl tracking-tighter">AIRTECH</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="material-symbols-outlined text-4xl">home_repair_service</span>
+                    <span class="font-bold text-xl tracking-tighter">PROFIX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-32 relative">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(139,44,245,0.05),transparent_50%)]"></div>
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="mb-24 text-center">
+                <span class="text-primary font-black uppercase tracking-[0.3em] text-[10px]">What we do</span>
+                <h2 class="text-4xl md:text-6xl font-bold text-white mt-4 mb-6">Our Strategic Services</h2>
+                <div class="w-24 h-1.5 bg-primary rounded-full mx-auto purple-glow"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- SEO -->
+                <div class="group p-12 rounded-[2rem] bg-slate-card border border-white/5 card-hover">
+                    <div class="size-20 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-10 group-hover:scale-110 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-5xl icon-glow">search_insights</span>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-6">Dominant SEO</h3>
+                    <p class="text-slate-400 leading-relaxed mb-10 text-lg">
+                        Rank where it matters. We optimize your local presence so you dominate Google Maps and top search results, driving organic leads daily.
+                    </p>
+                    <a class="text-primary font-black text-sm flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                        EXPLORE SEO <span class="material-symbols-outlined text-base">arrow_forward</span>
+                    </a>
+                </div>
+                
+                <!-- PPC -->
+                <div class="group p-12 rounded-[2rem] bg-slate-card border border-white/5 card-hover">
+                    <div class="size-20 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-10 group-hover:scale-110 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-5xl icon-glow">ads_click</span>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-6">Precision PPC</h3>
+                    <p class="text-slate-400 leading-relaxed mb-10 text-lg">
+                        Instant traffic, high-quality leads. We manage multi-channel ad campaigns that convert clicks into paying customers in real-time.
+                    </p>
+                    <a class="text-primary font-black text-sm flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                        EXPLORE PPC <span class="material-symbols-outlined text-base">arrow_forward</span>
+                    </a>
+                </div>
+                
+                <!-- Lead Gen -->
+                <div class="group p-12 rounded-[2rem] bg-slate-card border border-white/5 card-hover">
+                    <div class="size-20 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-10 group-hover:scale-110 transition-transform duration-500">
+                        <span class="material-symbols-outlined text-5xl icon-glow">hub</span>
+                    </div>
+                    <h3 class="text-3xl font-bold text-white mb-6">Funnel Lead Gen</h3>
+                    <p class="text-slate-400 leading-relaxed mb-10 text-lg">
+                        Fueling your sales pipeline. We build custom high-converting funnels that pre-qualify prospects before they ever talk to your sales team.
+                    </p>
+                    <a class="text-primary font-black text-sm flex items-center gap-2 group-hover:gap-4 transition-all" href="#">
+                        EXPLORE FUNNELS <span class="material-symbols-outlined text-base">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-32 bg-slate-panel/40 border-y border-white/5 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(139,44,245,0.05),transparent_40%)]"></div>
+        <div class="max-w-7xl mx-auto px-6 relative">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-16 text-center">
+                <div class="flex flex-col gap-4">
+                    <div class="text-6xl md:text-7xl font-bold text-white tracking-tighter">500k+</div>
+                    <div class="text-slate-500 font-black uppercase text-[10px] tracking-[0.3em]">Leads Generated</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="text-6xl md:text-7xl font-bold text-primary tracking-tighter filter drop-shadow-[0_0_10px_rgba(139,44,245,0.3)]">312%</div>
+                    <div class="text-slate-500 font-black uppercase text-[10px] tracking-[0.3em]">Avg. ROI Increase</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="text-6xl md:text-7xl font-bold text-white tracking-tighter">15+</div>
+                    <div class="text-slate-500 font-black uppercase text-[10px] tracking-[0.3em]">Industries Served</div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <div class="text-6xl md:text-7xl font-bold text-primary tracking-tighter filter drop-shadow-[0_0_10px_rgba(139,44,245,0.3)]">24/7</div>
+                    <div class="text-slate-500 font-black uppercase text-[10px] tracking-[0.3em]">Support Access</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Form -->
+    <section class="py-40 relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,rgba(139,44,245,0.1),transparent_60%)]"></div>
+        <div class="max-w-4xl mx-auto px-6 relative">
+            <div class="glass p-12 md:p-20 rounded-[3rem] border border-white/10 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-8">
+                    <span class="material-symbols-outlined text-8xl text-primary/10 rotate-12">auto_awesome</span>
+                </div>
+                
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-6xl font-bold text-white mb-6">Ready to Shift into <span class="italic text-primary">Sixth Gear?</span></h2>
+                    <p class="text-slate-400 text-xl max-w-2xl mx-auto">Get a free, no-obligation performance audit of your current digital presence and unlock your growth potential.</p>
+                </div>
+                
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-8" onsubmit="event.preventDefault(); alert('Request received! We will be in touch soon.');">
+                    <div class="flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Full Name</label>
+                        <input required class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none" placeholder="John Doe" type="text"/>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Business Email</label>
+                        <input required class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none" placeholder="john@company.com" type="email"/>
+                    </div>
+                    <div class="md:col-span-2 flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Website URL</label>
+                        <input required class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none" placeholder="https://www.yourbusiness.com" type="url"/>
+                    </div>
+                    <div class="md:col-span-2 pt-6">
+                        <button type="submit" class="w-full btn-primary h-20 text-2xl font-black">
+                            REQUEST PERFORMANCE AUDIT
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-panel/80 border-t border-white/5 py-32">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-10">
+                        <div class="size-8 bg-primary rounded flex items-center justify-center text-white purple-glow">
+                            <span class="material-symbols-outlined text-lg">speed</span>
+                        </div>
+                        <h2 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear</h2>
+                    </div>
+                    <p class="text-slate-400 text-lg leading-relaxed mb-10">
+                        Data-driven performance marketing for local service business owners who are ready to scale beyond their current limits.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="size-12 rounded-xl glass flex items-center justify-center hover:bg-primary/20 transition-all text-slate-400 hover:text-white" href="#" aria-label="LinkedIn">
+                            <span class="material-symbols-outlined text-xl">share</span>
+                        </a>
+                        <a class="size-12 rounded-xl glass flex items-center justify-center hover:bg-primary/20 transition-all text-slate-400 hover:text-white" href="#" aria-label="Email">
+                            <span class="material-symbols-outlined text-xl">alternate_email</span>
+                        </a>
+                        <a class="size-12 rounded-xl glass flex items-center justify-center hover:bg-primary/20 transition-all text-slate-400 hover:text-white" href="#" aria-label="Community">
+                            <span class="material-symbols-outlined text-xl">groups</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Strategic Services</h4>
+                    <ul class="flex flex-col gap-6 text-slate-400">
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Local SEO Domination</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Google Ads Management</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Facebook Lead Generation</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Conversion Optimization</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-black mb-10 uppercase tracking-[0.3em] text-[10px]">The Company</h4>
+                    <ul class="flex flex-col gap-6 text-slate-400">
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Our Data Story</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Success Case Studies</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Partner Ecosystem</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform" href="#">Contact Success Team</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Growth Newsletter</h4>
+                    <p class="text-slate-400 mb-8 text-lg">Stay ahead of the competition with weekly performance tactics.</p>
+                    <div class="flex flex-col gap-3">
+                        <div class="flex gap-2">
+                            <input class="bg-white/5 border border-white/10 rounded-xl h-14 px-5 text-sm w-full outline-none focus:ring-1 focus:ring-primary" placeholder="Email address" type="email"/>
+                            <button class="bg-primary px-6 rounded-xl text-white purple-glow hover:bg-primary-dark transition-all">
+                                <span class="material-symbols-outlined">send</span>
+                            </button>
+                        </div>
+                        <p class="text-[10px] text-slate-600">No spam. Only high-performance insights.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-32 pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 text-[10px] text-slate-500 font-black uppercase tracking-[0.4em]">
+                <p>© 2026 Sixth Gear Digital. Built for Performance.</p>
+                <div class="flex gap-12">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
