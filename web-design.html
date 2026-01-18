@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>High-Converting Web Design | Sixth Gear Digital</title>
+    <meta name="description"
+        content="We build high-performance websites designed to convert. Modern, fast, and optimized for local service businesses to drive more leads.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#8b2cf5",
+                        "primary-dark": "#7022cc",
+                        "primary-light": "#f5f0ff",
+                        "background-light": "#fcfcfd",
+                        "slate-panel": "#ffffff",
+                        "slate-card": "#ffffff",
+                        "slate-border": "rgba(0, 0, 0, 0.05)",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.375rem",
+                        "lg": "0.75rem",
+                        "xl": "1rem",
+                        "2xl": "1.5rem",
+                        "3xl": "2rem",
+                        "full": "9999px"
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'shimmer': 'shimmer 2s linear infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        shimmer: {
+                            '0%': { backgroundPosition: '-200% 0' },
+                            '100%': { backgroundPosition: '200% 0' },
+                        }
+                    }
+                },
+            },
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-background-light text-slate-700 font-display selection:bg-primary/20 selection:text-primary;
+            }
+        }
+        @layer components {
+            .glass-light {
+                @apply bg-white/70 backdrop-blur-xl border border-black/5 shadow-sm;
+            }
+            .purple-glow {
+                box-shadow: 0 10px 30px -5px rgba(139, 44, 245, 0.15);
+            }
+            .purple-glow-strong {
+                box-shadow: 0 20px 50px -10px rgba(139, 44, 245, 0.25);
+            }
+            .icon-glow {
+                filter: drop-shadow(0 0 8px rgba(139, 44, 245, 0.3));
+            }
+            .bg-radial-light {
+                background: radial-gradient(circle at center, #ffffff 0%, #f9fafb 100%);
+            }
+            .hero-gradient-light {
+                background: radial-gradient(circle at 50% 50%, rgba(139, 44, 245, 0.05) 0%, transparent 70%);
+            }
+            .card-hover {
+                @apply transition-all duration-300 hover:-translate-y-2 hover:border-primary/20 hover:bg-white hover:shadow-xl;
+            }
+            .btn-primary {
+                @apply bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-xl font-bold transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/20 flex items-center justify-center gap-2;
+            }
+            .btn-secondary {
+                @apply bg-white text-slate-900 border border-slate-200 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition-all flex items-center justify-center gap-2 shadow-sm;
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-light border-b border-black/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 group cursor-pointer">
+                <div
+                    class="size-10 bg-primary rounded-lg flex items-center justify-center text-white shadow-lg shadow-primary/20 transition-transform group-hover:rotate-12">
+                    <span class="material-symbols-outlined text-2xl">speed</span>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear <span
+                        class="text-primary not-italic">Digital</span></h1>
+            </a>
+
+            <div class="hidden md:flex items-center gap-10">
+                <!-- Services Dropdown -->
+                <div class="relative group">
+                    <button
+                        class="text-sm font-semibold text-slate-500 group-hover:text-primary transition-colors flex items-center gap-1 py-8 text-nowrap">
+                        Services <span
+                            class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span>
+                    </button>
+                    <div
+                        class="absolute top-full left-0 w-64 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <div class="bg-white border border-black/5 rounded-2xl p-2 shadow-2xl backdrop-blur-xl">
+                            <a href="web-design.html"
+                                class="flex items-start gap-3 p-3 hover:bg-slate-50 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/5 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">draw</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Web Design</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">High-converting systems</p>
+                                </div>
+                            </a>
+                            <a href="seo.html"
+                                class="flex items-start gap-3 p-3 hover:bg-slate-50 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/5 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">search_insights</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Local SEO</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Dominate search results</p>
+                                </div>
+                            </a>
+                            <a href="ppc.html"
+                                class="flex items-start gap-3 p-3 hover:bg-slate-50 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/5 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">ads_click</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Precision PPC</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Instant traffic & ROI</p>
+                                </div>
+                            </a>
+                            <a href="funnels.html"
+                                class="flex items-start gap-3 p-3 hover:bg-slate-50 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/5 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">hub</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-slate-900">Lead Funnels</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Pre-qualify prospects</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors"
+                    href="index.html#case-studies">Case Studies</a>
+                <a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors"
+                    href="index.html#process">Process</a>
+                <a class="text-sm font-semibold text-slate-500 hover:text-primary transition-colors"
+                    href="about.html">About</a>
+            </div>
+
+            <button
+                class="bg-primary hover:bg-primary-dark text-white px-6 py-2.5 rounded-lg text-sm font-bold transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-primary/20">
+                Get Started
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-48 pb-32 overflow-hidden bg-radial-light min-h-[90vh] flex items-center">
+        <div class="absolute inset-0 hero-gradient-light"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="flex flex-col gap-8">
+                    <div
+                        class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/10 text-primary text-[10px] font-black uppercase tracking-[0.2em] w-fit">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                        </span>
+                        Next-Gen Web Design
+                    </div>
+
+                    <h2 class="text-6xl md:text-7xl font-bold leading-[1.1] tracking-tighter text-slate-900">
+                        Websites That <br />
+                        <span class="text-primary italic">Actually Convert</span>
+                    </h2>
+
+                    <p class="text-xl text-slate-600 max-w-xl leading-relaxed">
+                        Stop losing leads to a slow, outdated website. We build high-performance, conversion-optimized
+                        sites that turn visitors into loyal customers for local service businesses.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <button class="btn-primary text-lg">
+                            Get Your Design Audit
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                        <button class="btn-secondary text-lg">
+                            View Our Work
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hero Visual (CSS Mockup) -->
+                <div class="relative group animate-float">
+                    <div
+                        class="absolute -inset-4 bg-primary/5 rounded-[2.5rem] blur-2xl opacity-50 group-hover:opacity-100 transition duration-1000">
+                    </div>
+                    <div
+                        class="relative bg-white rounded-[2rem] overflow-hidden shadow-2xl border border-slate-200 aspect-square lg:aspect-[4/5] xl:aspect-square p-4">
+                        <!-- Browser Header -->
+                        <div class="flex items-center gap-2 mb-4 px-2">
+                            <div class="size-3 rounded-full bg-red-400"></div>
+                            <div class="size-3 rounded-full bg-yellow-400"></div>
+                            <div class="size-3 rounded-full bg-green-400"></div>
+                            <div
+                                class="h-6 flex-1 bg-slate-50 rounded-lg mx-4 border border-slate-100 italic text-[10px] px-3 flex items-center text-slate-400">
+                                https://your-business.com</div>
+                        </div>
+
+                        <!-- Content Mockup -->
+                        <div class="w-full h-full bg-slate-50 rounded-2xl p-6 overflow-hidden">
+                            <div class="flex justify-between items-center mb-8">
+                                <div class="w-24 h-4 bg-slate-200 rounded-full"></div>
+                                <div class="flex gap-4">
+                                    <div class="w-12 h-3 bg-slate-200 rounded-full"></div>
+                                    <div class="w-12 h-3 bg-slate-200 rounded-full"></div>
+                                </div>
+                            </div>
+
+                            <div class="space-y-4 mb-8">
+                                <div class="w-3/4 h-8 bg-slate-300 rounded-xl"></div>
+                                <div class="w-1/2 h-8 bg-primary/20 rounded-xl"></div>
+                                <div class="w-full h-4 bg-slate-200 rounded-full"></div>
+                                <div class="w-5/6 h-4 bg-slate-200 rounded-full"></div>
+                            </div>
+
+                            <div class="w-40 h-10 bg-primary rounded-xl mb-12"></div>
+
+                            <!-- Conversion Card -->
+                            <div
+                                class="bg-white p-6 rounded-2xl shadow-lg border border-primary/10 transform translate-y-4">
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-[10px] font-bold text-primary uppercase tracking-widest">Leads
+                                        Today</span>
+                                    <span class="text-xs font-bold text-green-500">+24%</span>
+                                </div>
+                                <div class="flex gap-2">
+                                    <div class="flex-1 h-12 bg-primary/5 rounded-lg border-b-2 border-primary"></div>
+                                    <div class="flex-1 h-8 bg-slate-50 rounded-lg self-end"></div>
+                                    <div class="flex-1 h-16 bg-primary/10 rounded-lg border-b-2 border-primary"></div>
+                                    <div class="flex-1 h-10 bg-slate-50 rounded-lg self-end"></div>
+                                    <div class="flex-1 h-20 bg-primary/20 rounded-lg border-b-2 border-primary"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Badge -->
+                        <div
+                            class="absolute -top-6 -right-6 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 flex flex-col items-center">
+                            <span class="text-3xl font-bold text-primary">99</span>
+                            <span
+                                class="text-[8px] font-black uppercase tracking-widest text-slate-400">PageSpeed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Props Section -->
+    <section class="py-32 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-24">
+                <span class="text-primary font-black uppercase tracking-[0.3em] text-[10px]">Why Choose Us</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-slate-900 mt-4 mb-6 text-balance">Built for Speed,
+                    Designed for Profit</h2>
+                <p class="text-slate-500 text-lg max-w-2xl mx-auto">Most agencies build "pretty" websites. We build
+                    sales machines that look incredible and perform better.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Speed -->
+                <div class="p-10 rounded-3xl border border-slate-100 bg-slate-50/50 card-hover">
+                    <div
+                        class="size-16 rounded-2xl bg-white shadow-sm flex items-center justify-center text-primary mb-8">
+                        <span class="material-symbols-outlined text-3xl">bolt</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Ultra-Fast Performance</h3>
+                    <p class="text-slate-600 leading-relaxed">Page speed is a ranking factor. Our sites load in under 1
+                        second, keeping visitors on the page and improving your SEO.</p>
+                </div>
+
+                <!-- Conversion -->
+                <div class="p-10 rounded-3xl border border-slate-100 bg-slate-50/50 card-hover">
+                    <div
+                        class="size-16 rounded-2xl bg-white shadow-sm flex items-center justify-center text-primary mb-8">
+                        <span class="material-symbols-outlined text-3xl">ads_click</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Conversion Psych</h3>
+                    <p class="text-slate-600 leading-relaxed">We use proven UI/UX patterns that guide users toward your
+                        primary CTA, significantly increasing your lead conversion rate.</p>
+                </div>
+
+                <!-- Responsive -->
+                <div class="p-10 rounded-3xl border border-slate-100 bg-slate-50/50 card-hover">
+                    <div
+                        class="size-16 rounded-2xl bg-white shadow-sm flex items-center justify-center text-primary mb-8">
+                        <span class="material-symbols-outlined text-3xl">devices</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Mobile-First UI</h3>
+                    <p class="text-slate-600 leading-relaxed">70%+ of local searches happen on mobile. Our designs are
+                        pixel-perfect on any screen size, from iPhone to Desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Grid -->
+    <section class="py-32 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="relative">
+                    <div
+                        class="aspect-video bg-white rounded-3xl shadow-xl border border-slate-200 p-8 overflow-hidden group">
+                        <div class="w-full h-full bg-slate-50 rounded-xl p-6 flex flex-col gap-6">
+                            <div class="h-4 w-1/3 bg-slate-200 rounded-full"></div>
+                            <div class="grid grid-cols-3 gap-4">
+                                <div class="h-20 bg-primary/5 rounded-xl border border-primary/10"></div>
+                                <div class="h-20 bg-primary/5 rounded-xl border border-primary/10"></div>
+                                <div class="h-20 bg-primary/10 rounded-xl border border-primary/20"></div>
+                            </div>
+                            <div class="flex-1 bg-white rounded-xl shadow-sm border border-slate-100 p-4">
+                                <div class="flex items-center gap-3 mb-4">
+                                    <div class="size-8 rounded-full bg-primary/20"></div>
+                                    <div class="h-3 w-32 bg-slate-200 rounded-full"></div>
+                                </div>
+                                <div class="space-y-2">
+                                    <div class="h-2 w-full bg-slate-100 rounded-full"></div>
+                                    <div class="h-2 w-5/6 bg-slate-100 rounded-full"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-tr from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                        </div>
+                    </div>
+
+                    <!-- Floating Stat -->
+                    <div
+                        class="absolute -bottom-10 -left-10 bg-white p-8 rounded-3xl shadow-2xl border border-slate-100">
+                        <div class="flex items-baseline gap-2">
+                            <span class="text-5xl font-bold text-slate-900 tracking-tighter">3.5x</span>
+                            <span class="text-green-500 font-bold">↑</span>
+                        </div>
+                        <p class="text-xs font-black text-slate-400 uppercase tracking-widest mt-2">Conversion Lift</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-8">
+                    <span class="text-primary font-black uppercase tracking-[0.3em] text-[10px]">The Engine</span>
+                    <h2 class="text-4xl md:text-5xl font-bold text-slate-900">Custom Built for Your <span
+                            class="italic text-primary">Local Market</span></h2>
+
+                    <ul class="space-y-6">
+                        <li class="flex gap-4">
+                            <div
+                                class="size-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-sm">check</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">SEO-Ready Infrastructure</h4>
+                                <p class="text-slate-500 text-sm">Semantic HTML and Schema markups built in from day
+                                    one.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div
+                                class="size-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-sm">check</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Lead Magnet Integration</h4>
+                                <p class="text-slate-500 text-sm">Capture emails and phone numbers with seamless forms
+                                    and popups.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div
+                                class="size-6 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+                                <span class="material-symbols-outlined text-sm">check</span>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Analytics & Tracking</h4>
+                                <p class="text-slate-500 text-sm">Full G4 and Pixel setup to track every dollar of ROI.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="pt-6">
+                        <button class="btn-primary w-fit">
+                            See Pricing & Process
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-32 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div
+                class="bg-primary rounded-[3rem] p-12 md:p-20 relative text-white overflow-hidden shadow-2xl shadow-primary/20">
+                <div class="absolute top-0 right-0 p-12 opacity-10">
+                    <span class="material-symbols-outlined text-[10rem]">format_quote</span>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center text-center">
+                    <div
+                        class="size-20 rounded-full bg-white/20 border border-white/30 mb-8 flex items-center justify-center">
+                        <span class="material-symbols-outlined text-4xl">person</span>
+                    </div>
+                    <p class="text-2xl md:text-3xl font-medium mb-10 leading-relaxed max-w-4xl text-balance">
+                        "Sixth Gear Digital didn't just give us a new website; they gave us a sales channel. Our inbound
+                        leads tripled within 30 days of the new site going live. It's the best investment we've made in
+                        our marketing."
+                    </p>
+                    <div>
+                        <h4 class="text-xl font-bold">Mark Henderson</h4>
+                        <p class="text-white/60 text-sm uppercase tracking-widest font-black mt-2">Owner, Pro-Flow
+                            Plumbing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="audit" class="py-40 relative bg-slate-50 overflow-hidden">
+        <div class="absolute inset-0 hero-gradient-light opacity-50"></div>
+        <div class="max-w-4xl mx-auto px-6 relative">
+            <div class="bg-white p-12 md:p-20 rounded-[3rem] border border-slate-100 shadow-2xl relative">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-6xl font-bold text-slate-900 mb-6">Ready to <span
+                            class="text-primary italic">Outshine</span> Your Competitors?</h2>
+                    <p class="text-slate-500 text-xl max-w-2xl mx-auto">Get a free design audit and see exactly where
+                        your current website is leaking money.</p>
+                </div>
+
+                <form class="grid grid-cols-1 md:grid-cols-2 gap-8"
+                    onsubmit="event.preventDefault(); alert('Request received!');">
+                    <div class="flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Full
+                            Name</label>
+                        <input required
+                            class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
+                            placeholder="John Doe" type="text" />
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Business
+                            Email</label>
+                        <input required
+                            class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
+                            placeholder="john@company.com" type="email" />
+                    </div>
+                    <div class="md:col-span-2 flex flex-col gap-3">
+                        <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Current Website
+                            URL</label>
+                        <input required
+                            class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
+                            placeholder="https://www.yourbusiness.com" type="url" />
+                    </div>
+                    <div class="md:col-span-2 pt-6">
+                        <button type="submit" class="w-full btn-primary h-20 text-2xl font-black">
+                            REQUEST DESIGN AUDIT
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-100 py-32">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-3 mb-10">
+                        <div class="size-8 bg-primary rounded flex items-center justify-center text-white">
+                            <span class="material-symbols-outlined text-lg">speed</span>
+                        </div>
+                        <h2 class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear</h2>
+                    </div>
+                    <p class="text-slate-500 text-lg leading-relaxed mb-10 text-balance">
+                        Performance-driven web design and marketing for local service business owners ready to dominate
+                        their market.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="size-12 rounded-xl bg-slate-50 flex items-center justify-center hover:bg-primary/5 transition-all text-slate-400 hover:text-primary"
+                            href="#" aria-label="LinkedIn">
+                            <span class="material-symbols-outlined text-xl">share</span>
+                        </a>
+                        <a class="size-12 rounded-xl bg-slate-50 flex items-center justify-center hover:bg-primary/5 transition-all text-slate-400 hover:text-primary"
+                            href="#" aria-label="Email">
+                            <span class="material-symbols-outlined text-xl">alternate_email</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-slate-900 font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Services</h4>
+                    <ul class="flex flex-col gap-6 text-slate-500">
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="web-design.html">Web Design</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="seo.html">Local SEO</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="ppc.html">PPC Ads</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="funnels.html">Lead Funnels</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-slate-900 font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Company</h4>
+                    <ul class="flex flex-col gap-6 text-slate-500">
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="about.html">About Alex</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="index.html#case-studies">Success Stories</a></li>
+                        <li><a class="hover:text-primary transition-colors font-medium hover:translate-x-1 inline-block transform"
+                                href="index.html#process">Our Process</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-slate-900 font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Newsletter</h4>
+                    <p class="text-slate-500 mb-8 text-sm">Weekly digital growth tactics.</p>
+                    <div class="flex gap-2">
+                        <input
+                            class="bg-slate-50 border border-slate-200 rounded-xl h-12 px-4 text-sm w-full outline-none focus:ring-1 focus:ring-primary"
+                            placeholder="Email" type="email" />
+                        <button class="bg-primary px-4 rounded-xl text-white hover:bg-primary-dark transition-all">
+                            <span class="material-symbols-outlined text-sm">send</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="mt-32 pt-12 border-t border-slate-100 flex flex-col md:flex-row items-center justify-between gap-8 text-[10px] text-slate-400 font-black uppercase tracking-[0.4em]">
+                <p>© 2026 Sixth Gear Digital.</p>
+                <div class="flex gap-12">
+                    <a class="hover:text-primary transition-colors" href="#">Privacy</a>
+                    <a class="hover:text-primary transition-colors" href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

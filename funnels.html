@@ -109,8 +109,63 @@
             </a>
 
             <div class="hidden md:flex items-center gap-10">
-                <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
-                    href="index.html#services">Services</a>
+                <!-- Services Dropdown -->
+                <div class="relative group">
+                    <button
+                        class="text-sm font-semibold text-slate-400 group-hover:text-white transition-colors flex items-center gap-1 py-8">
+                        Services <span
+                            class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span>
+                    </button>
+                    <div
+                        class="absolute top-full left-0 w-64 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                        <div class="bg-slate-card border border-white/10 rounded-2xl p-2 shadow-2xl backdrop-blur-xl">
+                            <a href="web-design.html"
+                                class="flex items-start gap-3 p-3 hover:bg-white/5 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">draw</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-white">Web Design</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">High-converting systems</p>
+                                </div>
+                            </a>
+                            <a href="seo.html"
+                                class="flex items-start gap-3 p-3 hover:bg-white/5 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">search_insights</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-white">Local SEO</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Dominate search results</p>
+                                </div>
+                            </a>
+                            <a href="ppc.html"
+                                class="flex items-start gap-3 p-3 hover:bg-white/5 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">ads_click</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-white">Precision PPC</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Instant traffic & ROI</p>
+                                </div>
+                            </a>
+                            <a href="funnels.html"
+                                class="flex items-start gap-3 p-3 hover:bg-white/5 rounded-xl transition-colors group/item">
+                                <div
+                                    class="size-8 rounded-lg bg-primary/10 flex items-center justify-center text-primary shrink-0 group-hover/item:bg-primary group-hover/item:text-white transition-colors">
+                                    <span class="material-symbols-outlined text-lg">hub</span>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-white">Lead Funnels</p>
+                                    <p class="text-[10px] text-slate-500 mt-0.5">Pre-qualify prospects</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
                     href="index.html#case-studies">Case Studies</a>
                 <a class="text-sm font-semibold text-slate-400 hover:text-white transition-colors"
