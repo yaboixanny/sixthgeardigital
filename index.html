@@ -4,9 +4,62 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Sixth Gear Digital | Accelerate Your Growth</title>
+    <title>Sixth Gear Digital | Local Lead Generation & Performance Marketing Agency</title>
     <meta name="description"
         content="Performance marketing agency for local service businesses. Accelerate your growth with data-driven SEO, PPC, and Lead Generation.">
+
+    <!-- SEO Meta Tags -->
+    <link rel="canonical" href="https://sixthgeardigital.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sixth Gear Digital | Local Lead Generation & Performance Marketing Agency" />
+    <meta property="og:description"
+        content="Performance marketing agency for local service businesses. Accelerate your growth with data-driven SEO, PPC, and Lead Generation." />
+    <meta property="og:url" content="https://sixthgeardigital.com/" />
+    <meta property="og:image" content="https://sixthgeardigital.com/assets/hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Sixth Gear Digital | Local Lead Generation & Performance Marketing Agency" />
+    <meta name="twitter:description"
+        content="Performance marketing agency for local service businesses. Accelerate your growth with data-driven SEO, PPC, and Lead Generation." />
+    <meta name="twitter:image" content="https://sixthgeardigital.com/assets/hero.png" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Sixth Gear Digital",
+      "image": "https://sixthgeardigital.com/assets/hero.png",
+      "@id": "https://sixthgeardigital.com/#organization",
+      "url": "https://sixthgeardigital.com/",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "",
+        "addressRegion": "",
+        "postalCode": "",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 0,
+        "longitude": 0
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      "sameAs": []
+    }
+    </script>
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,8 +157,8 @@
                     class="size-10 bg-primary rounded-lg flex items-center justify-center text-white purple-glow transition-transform group-hover:rotate-12">
                     <span class="material-symbols-outlined text-2xl">speed</span>
                 </div>
-                <h1 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
-                        class="text-primary not-italic">Digital</span></h1>
+                <div class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
+                        class="text-primary not-italic">Digital</span></div>
             </div>
 
             <div class="hidden md:flex items-center gap-10">
@@ -197,11 +250,11 @@
                         Performance Marketing Agency
                     </div>
 
-                    <h2 class="text-6xl md:text-8xl font-bold leading-none tracking-tighter text-white">
+                    <h1 class="text-6xl md:text-8xl font-bold leading-none tracking-tighter text-white">
                         Accelerate Your <br />
                         <span class="text-primary italic filter drop-shadow-[0_0_15px_rgba(139,44,245,0.4)]">Local Lead
                             Generation</span>
-                    </h2>
+                    </h1>
 
                     <p class="text-xl text-slate-400 max-w-xl leading-relaxed">
                         The data-driven marketing engine for local service businesses. We don't just find leads; we fuel
@@ -573,26 +626,25 @@
                         your current digital presence and unlock your growth potential.</p>
                 </div>
 
-                <form class="grid grid-cols-1 md:grid-cols-2 gap-8"
-                    onsubmit="event.preventDefault(); alert('Request received! We will be in touch soon.');">
+                <form name="audit" data-netlify="true" class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Full
                             Name</label>
-                        <input required
+                        <input required name="name"
                             class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none"
                             placeholder="John Doe" type="text" />
                     </div>
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Business
                             Email</label>
-                        <input required
+                        <input required name="email"
                             class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none"
                             placeholder="john@company.com" type="email" />
                     </div>
                     <div class="md:col-span-2 flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Website
                             URL</label>
-                        <input required
+                        <input required name="website"
                             class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-white placeholder:text-slate-600 outline-none"
                             placeholder="https://www.yourbusiness.com" type="url" />
                     </div>
@@ -615,7 +667,7 @@
                         <div class="size-8 bg-primary rounded flex items-center justify-center text-white purple-glow">
                             <span class="material-symbols-outlined text-lg">speed</span>
                         </div>
-                        <h2 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear</h2>
+                        <div class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear</div>
                     </div>
                     <p class="text-slate-400 text-lg leading-relaxed mb-10">
                         Data-driven performance marketing for local service business owners who are ready to scale
@@ -671,18 +723,18 @@
                     </h4>
                     <p class="text-slate-400 mb-8 text-lg">Stay ahead of the competition with weekly performance
                         tactics.</p>
-                    <div class="flex flex-col gap-3">
+                    <form name="newsletter" data-netlify="true" class="flex flex-col gap-3">
                         <div class="flex gap-2">
-                            <input
+                            <input name="email"
                                 class="bg-white/5 border border-white/10 rounded-xl h-14 px-5 text-sm w-full outline-none focus:ring-1 focus:ring-primary"
-                                placeholder="Email address" type="email" />
-                            <button
+                                placeholder="Email address" type="email" required />
+                            <button type="submit"
                                 class="bg-primary px-6 rounded-xl text-white purple-glow hover:bg-primary-dark transition-all">
                                 <span class="material-symbols-outlined">send</span>
                             </button>
                         </div>
                         <p class="text-[10px] text-slate-600">No spam. Only high-performance insights.</p>
-                    </div>
+                    </form>
                 </div>
             </div>
 

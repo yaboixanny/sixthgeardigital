@@ -4,9 +4,42 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Dominant SEO | Sixth Gear Digital</title>
+    <title>Dominant SEO Services | Sixth Gear Digital</title>
     <meta name="description"
         content="Dominate local search and Google Maps. Our SEO strategies drive organic leads daily for local service businesses.">
+
+    <!-- SEO Meta Tags -->
+    <link rel="canonical" href="https://sixthgeardigital.com/seo.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dominant SEO Services | Sixth Gear Digital" />
+    <meta property="og:description"
+        content="Dominate local search and Google Maps. Our SEO strategies drive organic leads daily for local service businesses." />
+    <meta property="og:url" content="https://sixthgeardigital.com/seo.html" />
+    <meta property="og:image" content="https://sixthgeardigital.com/assets/hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dominant SEO Services | Sixth Gear Digital" />
+    <meta name="twitter:description"
+        content="Dominate local search and Google Maps. Our SEO strategies drive organic leads daily for local service businesses." />
+    <meta name="twitter:image" content="https://sixthgeardigital.com/assets/hero.png" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Search Engine Optimization",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sixth Gear Digital",
+        "url": "https://sixthgeardigital.com/"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "US"
+      },
+      "description": "Rank where it matters. We optimize your local presence so you dominate Google Maps and top search results."
+    }
+    </script>
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,8 +137,8 @@
                     class="size-10 bg-primary rounded-lg flex items-center justify-center text-white purple-glow transition-transform group-hover:rotate-12">
                     <span class="material-symbols-outlined text-2xl">speed</span>
                 </div>
-                <h1 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
-                        class="text-primary not-italic">Digital</span></h1>
+                <div class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
+                        class="text-primary not-italic">Digital</span></div>
             </a>
 
             <div class="hidden md:flex items-center gap-10">
@@ -192,11 +225,11 @@
                         Search Engine Optimization
                     </div>
 
-                    <h2 class="text-6xl md:text-8xl font-bold leading-none tracking-tighter text-white">
+                    <h1 class="text-6xl md:text-8xl font-bold leading-none tracking-tighter text-white">
                         Dominant <br />
                         <span class="text-primary italic filter drop-shadow-[0_0_15px_rgba(139,44,245,0.4)]">SEO
                             Strategy</span>
-                    </h2>
+                    </h1>
 
                     <p class="text-xl text-slate-400 max-w-xl leading-relaxed">
                         Rank where it matters. We optimize your local presence so you dominate Google Maps and top
@@ -284,19 +317,18 @@
                     <p class="text-slate-400 text-xl max-w-2xl mx-auto">Get a free, no-obligation performance audit of
                         your current digital presence and unlock your growth potential.</p>
                 </div>
-                <form class="grid grid-cols-1 md:grid-cols-2 gap-8"
-                    onsubmit="event.preventDefault(); alert('Request received!');">
+                <form name="seo-audit" data-netlify="true" class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Full
                             Name</label>
-                        <input required
+                        <input required name="name"
                             class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 text-white placeholder:text-slate-600 outline-none"
                             placeholder="John Doe" type="text" />
                     </div>
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">Business
                             Email</label>
-                        <input required
+                        <input required name="email"
                             class="bg-white/5 border border-white/10 rounded-xl h-16 px-6 text-white placeholder:text-slate-600 outline-none"
                             placeholder="john@company.com" type="email" />
                     </div>
@@ -317,7 +349,7 @@
                 <div class="size-8 bg-primary rounded flex items-center justify-center text-white purple-glow">
                     <span class="material-symbols-outlined text-lg">speed</span>
                 </div>
-                <h2 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear</h2>
+                <div class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear</div>
             </div>
             <p class="text-[10px] text-slate-500 font-black uppercase tracking-[0.4em]">© 2026 Sixth Gear Digital. Built
                 for Performance.</p>

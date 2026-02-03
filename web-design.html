@@ -4,9 +4,39 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>High-Converting Web Design | Sixth Gear Digital</title>
+    <title>High-Converting Web Design Services | Sixth Gear Digital</title>
     <meta name="description"
         content="We build high-performance websites designed to convert. Modern, fast, and optimized for local service businesses to drive more leads.">
+
+    <!-- SEO Meta Tags -->
+    <link rel="canonical" href="https://sixthgeardigital.com/web-design.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="High-Converting Web Design Services | Sixth Gear Digital" />
+    <meta property="og:description"
+        content="We build high-performance websites designed to convert. Modern, fast, and optimized for local service businesses to drive more leads." />
+    <meta property="og:url" content="https://sixthgeardigital.com/web-design.html" />
+    <meta property="og:image" content="https://sixthgeardigital.com/assets/hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="High-Converting Web Design Services | Sixth Gear Digital" />
+    <meta name="twitter:description"
+        content="We build high-performance websites designed to convert. Modern, fast, and optimized for local service businesses to drive more leads." />
+    <meta name="twitter:image" content="https://sixthgeardigital.com/assets/hero.png" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Web Design",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Sixth Gear Digital",
+        "url": "https://sixthgeardigital.com/"
+      },
+      "areaServed": "US",
+      "description": "Stop losing leads to a slow, outdated website. We build high-performance, conversion-optimized sites."
+    }
+    </script>
 
     <!-- Fonts & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,8 +143,8 @@
                     class="size-10 bg-primary rounded-lg flex items-center justify-center text-white shadow-lg shadow-primary/20 transition-transform group-hover:rotate-12">
                     <span class="material-symbols-outlined text-2xl">speed</span>
                 </div>
-                <h1 class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear <span
-                        class="text-primary not-italic">Digital</span></h1>
+                <div class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear <span
+                        class="text-primary not-italic">Digital</span></div>
             </a>
 
             <div class="hidden md:flex items-center gap-10">
@@ -206,10 +236,10 @@
                         Next-Gen Web Design
                     </div>
 
-                    <h2 class="text-6xl md:text-7xl font-bold leading-[1.1] tracking-tighter text-slate-900">
+                    <h1 class="text-6xl md:text-7xl font-bold leading-[1.1] tracking-tighter text-slate-900">
                         Websites That <br />
                         <span class="text-primary italic">Actually Convert</span>
-                    </h2>
+                    </h1>
 
                     <p class="text-xl text-slate-600 max-w-xl leading-relaxed">
                         Stop losing leads to a slow, outdated website. We build high-performance, conversion-optimized
@@ -476,26 +506,25 @@
                         your current website is leaking money.</p>
                 </div>
 
-                <form class="grid grid-cols-1 md:grid-cols-2 gap-8"
-                    onsubmit="event.preventDefault(); alert('Request received!');">
+                <form name="web-design-audit" data-netlify="true" class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Full
                             Name</label>
-                        <input required
+                        <input required name="name"
                             class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
                             placeholder="John Doe" type="text" />
                     </div>
                     <div class="flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Business
                             Email</label>
-                        <input required
+                        <input required name="email"
                             class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
                             placeholder="john@company.com" type="email" />
                     </div>
                     <div class="md:col-span-2 flex flex-col gap-3">
                         <label class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">Current Website
                             URL</label>
-                        <input required
+                        <input required name="website"
                             class="bg-slate-50 border border-slate-200 rounded-xl h-16 px-6 focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-slate-900 placeholder:text-slate-400 outline-none"
                             placeholder="https://www.yourbusiness.com" type="url" />
                     </div>
@@ -518,7 +547,7 @@
                         <div class="size-8 bg-primary rounded flex items-center justify-center text-white">
                             <span class="material-symbols-outlined text-lg">speed</span>
                         </div>
-                        <h2 class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear</h2>
+                        <div class="text-xl font-bold tracking-tight text-slate-900 uppercase italic">Sixth Gear</div>
                     </div>
                     <p class="text-slate-500 text-lg leading-relaxed mb-10 text-balance">
                         Performance-driven web design and marketing for local service business owners ready to dominate
@@ -565,14 +594,15 @@
                 <div>
                     <h4 class="text-slate-900 font-black mb-10 uppercase tracking-[0.3em] text-[10px]">Newsletter</h4>
                     <p class="text-slate-500 mb-8 text-sm">Weekly digital growth tactics.</p>
-                    <div class="flex gap-2">
-                        <input
+                    <form name="newsletter" data-netlify="true" class="flex gap-2">
+                        <input name="email"
                             class="bg-slate-50 border border-slate-200 rounded-xl h-12 px-4 text-sm w-full outline-none focus:ring-1 focus:ring-primary"
-                            placeholder="Email" type="email" />
-                        <button class="bg-primary px-4 rounded-xl text-white hover:bg-primary-dark transition-all">
+                            placeholder="Email" type="email" required />
+                        <button type="submit"
+                            class="bg-primary px-4 rounded-xl text-white hover:bg-primary-dark transition-all">
                             <span class="material-symbols-outlined text-sm">send</span>
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
 
