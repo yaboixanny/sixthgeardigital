@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -79,10 +79,10 @@
                     colors: {
                         "primary": "#8b2cf5",
                         "primary-dark": "#7022cc",
-                        "background-dark": "#0a0a0c",
-                        "slate-panel": "#141418",
-                        "slate-card": "#1c1c21",
-                        "slate-border": "rgba(255, 255, 255, 0.1)",
+                        "background-dark": "#fcfbff",
+                        "slate-panel": "#f4eefb",
+                        "slate-card": "#ffffff",
+                        "slate-border": "rgba(91, 51, 139, 0.12)",
                     },
                     fontFamily: {
                         "display": ["Space Grotesk", "sans-serif"]
@@ -146,6 +146,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="light-theme.css" />
 </head>
 
 <body class="antialiased">
@@ -280,8 +281,9 @@
                     <div
                         class="relative glass rounded-[2rem] overflow-hidden shadow-2xl border border-white/20 aspect-square lg:aspect-[4/5] xl:aspect-square">
                         <!-- Hero Image from assets -->
-                        <div class="w-full h-full bg-cover bg-center" style="background-image: url('assets/hero.png')">
-                        </div>
+                        <img class="w-full h-full object-cover object-center"
+                             src="assets/hero.png"
+                             alt="Sixth Gear Digital Performance Marketing Dashboard Visual" />
 
                         <!-- Floating Widget -->
                         <div
@@ -330,7 +332,8 @@
                     </div>
                     <div
                         class="size-48 lg:size-64 rounded-full glass border-2 border-primary/20 flex items-center justify-center overflow-hidden relative">
-                        <span class="material-symbols-outlined text-8xl text-primary/20">person</span>
+                        <img src="assets/alex-avatar.webp" alt="Alex, founder of Sixth Gear Digital"
+                            class="w-full h-full object-cover" width="500" height="500" loading="lazy" decoding="async" />
                         <div class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
                     </div>
                     <!-- Stats Badges -->

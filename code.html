@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -18,9 +18,9 @@
                 extend: {
                     colors: {
                         "primary": "#8b2cf5",
-                        "background-dark": "#1a1c23",
-                        "slate-panel": "#252833",
-                        "slate-card": "#2d313e",
+                        "background-dark": "#fcfbff",
+                        "slate-panel": "#f4eefb",
+                        "slate-card": "#ffffff",
                     },
                     fontFamily: {
                         "display": ["Space Grotesk", "sans-serif"]
@@ -56,6 +56,7 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="light-theme.css" />
 </head>
 
 <body class="bg-background-dark font-display text-slate-200 selection:bg-primary selection:text-white">
@@ -65,8 +66,8 @@
                 <div class="size-10 bg-primary rounded-lg flex items-center justify-center text-white purple-glow">
                     <span class="material-symbols-outlined text-2xl">speed</span>
                 </div>
-                <h1 class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
-                        class="text-primary not-italic">Digital</span></h1>
+                <div class="text-xl font-bold tracking-tight text-white uppercase italic">Sixth Gear <span
+                        class="text-primary not-italic">Digital</span></div>
             </div>
             <div class="hidden md:flex items-center gap-10">
                 <a class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors"
@@ -124,9 +125,9 @@
                     </div>
                     <div
                         class="relative bg-slate-panel border border-white/15 rounded-2xl aspect-square w-full overflow-hidden flex items-center justify-center shadow-2xl">
-                        <div class="w-full h-full bg-cover bg-center"
-                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHw69gCNPovm1IK8XoiMZbxy1dyODmzDqFp-hY7EGMdzxluyeJQjlHr6hzPti9s-YVzfby3LYZJgN6896OKM3-miqXHi-EuIqmlHDiZXsHJqI5gAljbwPF_jmr3oe9mB6tXok4m2M-fBPbtYom5r8oJ_wZug-gfcCp0UL4RMOsMgNkeeowOhXeRluT83QCVmwjzJeX3yTAsTUQkMaS50ZmDZQe9ALoxXB69Z8G9F2wMnpjF-CfEzUaDL86Xdo4lGPVqVrsra6a')">
-                        </div>
+                        <img class="w-full h-full object-cover object-center"
+                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHw69gCNPovm1IK8XoiMZbxy1dyODmzDqFp-hY7EGMdzxluyeJQjlHr6hzPti9s-YVzfby3LYZJgN6896OKM3-miqXHi-EuIqmlHDiZXsHJqI5gAljbwPF_jmr3oe9mB6tXok4m2M-fBPbtYom5r8oJ_wZug-gfcCp0UL4RMOsMgNkeeowOhXeRluT83QCVmwjzJeX3yTAsTUQkMaS50ZmDZQe9ALoxXB69Z8G9F2wMnpjF-CfEzUaDL86Xdo4lGPVqVrsra6a"
+                             alt="Sixth Gear Digital Growth Analytics Dashboard Visual" />
                         <div
                             class="absolute bottom-8 left-8 right-8 glass p-6 rounded-xl border border-white/10 shadow-xl">
                             <div class="flex justify-between items-center mb-4">
