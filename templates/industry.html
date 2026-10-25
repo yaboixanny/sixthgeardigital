@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title</title>
+  <meta name="description" content="$description">
+  <link rel="canonical" href="$canonical">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="$title">
+  <meta property="og:description" content="$description">
+  <meta property="og:url" content="$canonical">
+  <meta property="og:image" content="https://sixthgeardigital.com/assets/industries/$slug.svg">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/industry.css">
+  <script src="/industrial.js" defer></script>
+  <script type="application/ld+json">$structured_data</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Sixth Gear Digital home"><span class="brand-mark" aria-hidden="true">6</span><span>SIXTH GEAR <b>DIGITAL</b><small>INDUSTRIAL MARKETING AGENCY</small></span></a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="/">Agency overview</a><a href="/#industries">Industries</a><a href="#playbook">Our approach</a><a href="#capabilities">Capabilities</a><a href="#faq">FAQ</a></nav>
+    <button type="button" class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+    <a class="button header-cta" href="#consultation-audit">Get a growth plan <span aria-hidden="true">↗</span></a>
+  </div>
+  <nav id="mobile-menu" aria-label="Mobile navigation" hidden><a href="/">Agency overview</a><a href="/#industries">All industries</a><a href="#playbook">Our approach</a><a href="#capabilities">Capabilities</a><a href="#faq">FAQ</a><a href="#consultation-audit">Get a growth plan</a></nav>
+</header>
+<main id="main">
+  <section class="container hero">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#industries">Industries</a><span aria-hidden="true">/</span><span aria-current="page">$short</span></nav>
+    <div class="sector-line"><span class="badge"><i></i> INDUSTRY FOCUS / $short</span><span class="technical">SECTOR / $number</span></div>
+    <div class="hero-grid">
+      <div class="hero-copy"><h1>$headline <em>$accent</em></h1><p class="lead">$intro</p>
+        <div class="actions"><a class="button" href="#consultation-audit">Request a growth assessment <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#campaign-example">Explore the campaign plan <span aria-hidden="true">↓</span></a></div>
+        <div class="focus-grid"><div><span class="eyebrow">The audience</span><strong>$buyers</strong></div><div><span class="eyebrow">The opportunity</span><strong>$goal</strong></div><div><span class="eyebrow">The approach</span><strong>Search. Qualify.<br>Connect.</strong></div></div>
+      </div>
+      <figure class="hero-visual"><div class="visual-top"><span class="orange-dot"></span><span>BUILT AROUND YOUR CAPABILITIES</span></div><img src="/assets/industries/$slug.svg" width="600" height="490" alt="$short equipment illustration" fetchpriority="high"><figcaption><span class="eyebrow">From search to sales</span><strong>$goal</strong><span class="visual-arrow" aria-hidden="true">↗</span></figcaption></figure>
+    </div>
+  </section>
+  <section class="section white" id="challenges"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">01 / THE CHALLENGE</p><h2>Build the inquiry around<br>the work you want.</h2></div><p>Relevance starts before the first call. Your marketing needs to explain who you serve, what you do, and what makes a project a fit.</p></div><div class="grid three">$challenge_cards</div></div></section>
+  <section class="section" id="playbook"><div class="container"><div class="section-heading centered"><p class="eyebrow accent">02 / THE SIXTH GEAR APPROACH</p><h2>A practical plan for<br>$short.</h2><p>Connect the buyer’s search with useful information, a clear next step, and a prepared sales team.</p></div><div class="grid four">$playbook_cards</div><div class="search-strip"><span class="eyebrow">Example search themes</span>$query_tags</div></div></section>
+  <section class="section white" id="capabilities"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">03 / INDUSTRY COVERAGE</p><h2>Put your capabilities<br>in front of the right buyers.</h2></div><p>We shape the scope around the products, services, territories, and project types your business actually supports.</p></div><div class="grid two">$capability_cards</div></div></section>
+  <section class="section container" id="campaign-example"><div class="blueprint"><div class="blueprint-top"><div><p class="eyebrow">04 / ILLUSTRATIVE CAMPAIGN PLAN</p><h2>One clear path from<br>interest to inquiry.</h2></div><span class="plan-label">A planning example,<br>not a client result.</span></div><div class="grid three">$scenario_cards</div><div class="intake-row"><p class="eyebrow">Useful details at handoff</p><div>$intake_tags</div></div></div></section>
+  <section class="section faq-section" id="faq"><div class="container narrow"><p class="eyebrow accent">05 / QUESTIONS & ANSWERS</p><h2>Before we get started.</h2><div class="faq-list">$faq_items</div></div></section>
+  <section class="section container" id="consultation-audit"><div class="audit-panel"><div><p class="eyebrow">06 / YOUR NEXT MOVE</p><h2>Build a growth plan<br>around your business.</h2><p>Tell us about your business and the opportunities you want to pursue. We’ll start with your capabilities, target buyers, and current marketing.</p><ul><li>Review how commercial buyers find you</li><li>Identify gaps in your inquiry journey</li><li>Discuss a practical scope and next steps</li></ul><a class="support-link" href="/#services">Explore our industrial marketing services ↗</a></div>
+      <div class="form-panel"><form id="growth-plan-form" name="$form_name" method="POST" data-netlify="true" netlify-honeypot="website-confirmation">
+        <input type="hidden" name="form-name" value="$form_name"><input type="hidden" name="industry" value="$name"><input type="hidden" name="source-page" value="$canonical">
+        <p hidden><label>Leave this empty <input name="website-confirmation"></label></p>
+        <div class="form-row"><div><label for="contact-name">Your name <span>*</span></label><input id="contact-name" name="name" autocomplete="name" required placeholder="Full name"></div><div><label for="company">Company <span>*</span></label><input id="company" name="company" autocomplete="organization" required placeholder="Business name"></div></div>
+        <label for="capability">Primary capability <span>*</span></label><select id="capability" name="capability" required><option value="">Select your primary capability</option>$capability_options<option value="other">Other / multiple capabilities</option></select>
+        <div class="form-row"><div><label for="contact-email">Work email <span>*</span></label><input id="contact-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div><div><label for="phone">Phone <small>(optional)</small></label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Your phone number"></div></div>
+        <label for="territory">Markets or service area <span>*</span></label><input id="territory" name="territory" required placeholder="Regions or markets you serve">
+        <label for="goals">What would you like to grow? <small>(optional)</small></label><textarea id="goals" name="goals" rows="3" placeholder="$goal_placeholder"></textarea>
+        <button class="button" type="submit">Request my growth assessment <span aria-hidden="true">↗</span></button><p class="form-note">Please share business context only. This form does not accept technical drawings or confidential specifications.</p>
+      </form><p id="form-status" role="status" hidden></p></div>
+    </div></section>
+</main>
+<footer><div class="container footer-grid"><div><a class="brand" href="/">SIXTH GEAR <b>DIGITAL</b></a><p>Industrial marketing for companies that build, move, and power industry.</p></div><nav aria-label="Footer navigation"><a href="/#industries">Explore all 12 industries</a><a href="/#services">Industrial marketing services</a><a href="#consultation-audit">Discuss your growth plan</a></nav></div><div class="container footer-bottom"><span>© 2026 Sixth Gear Digital</span><a href="#main">Back to top ↑</a></div></footer>
+</body>
+</html>

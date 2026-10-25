@@ -1,0 +1,1082 @@
+[
+  {
+    "slug": "hydraulics-fluid-power-marketing",
+    "name": "Commercial Hydraulics & Fluid Power Systems",
+    "short": "Hydraulics & Fluid Power",
+    "headline": "Marketing for the Teams That",
+    "accent": "Keep Hydraulics Moving.",
+    "intro": "Mobile hose repair, pump remanufacturing, and cylinder overhauls need different paths to a customer. We help fluid power businesses put the right service in front of plant maintenance teams, equipment operators, and commercial fleet managers.",
+    "buyers": "Maintenance teams & fleet managers",
+    "goal": "Service calls & rebuild quotes",
+    "queries": [
+      "mobile hydraulic hose repair",
+      "industrial hydraulic cylinder repair",
+      "hydraulic pump remanufacturing"
+    ],
+    "challenges": [
+      [
+        "Urgent calls outside your coverage",
+        "Broad targeting can bring service requests from places your technicians cannot reach. Campaigns should reflect actual branch coverage and staffed hours."
+      ],
+      [
+        "Automotive and DIY inquiries",
+        "Hydraulic searches can mix industrial requirements with consumer repairs. Clear service language and search exclusions help focus attention on commercial equipment."
+      ],
+      [
+        "Repair work needs different intake",
+        "A hose failure needs a fast phone path. A planned cylinder overhaul needs equipment details, symptoms, and a useful handoff to the rebuild team."
+      ]
+    ],
+    "playbook": [
+      [
+        "Capture urgent demand",
+        "Build search campaigns around mobile hose service and field repair, aligned with the territory and hours you actually cover."
+      ],
+      [
+        "Clarify rebuild capabilities",
+        "Give pumps, cylinders, and workshop repairs their own landing pages with equipment coverage and a clear quotation route."
+      ],
+      [
+        "Recover missed conversations",
+        "Scope missed-call follow-up and dispatch notifications around your team’s workflow, messaging permissions, and available systems."
+      ],
+      [
+        "Measure useful service inquiries",
+        "Review answered calls, serviceable locations, repair quote requests, and available job outcomes together."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Mobile hose repair",
+        "On-site hose replacement, field support, and commercial breakdown response."
+      ],
+      [
+        "Cylinder repair & overhaul",
+        "Industrial cylinder inspection, resealing, rebuilds, and planned repair work."
+      ],
+      [
+        "Pump & motor services",
+        "Pump remanufacturing, motor repair, and replacement component inquiries."
+      ],
+      [
+        "Plant & fleet maintenance",
+        "Scheduled support for hydraulic equipment across factories, yards, and fleets."
+      ]
+    ],
+    "scenario": [
+      "A contractor searches for mobile hose repair near a job site.",
+      "A location-specific service page explains coverage and gives a direct route to the service desk.",
+      "The team receives the location, equipment type, and callback details needed to assess the job."
+    ],
+    "intake": [
+      "Service area",
+      "Equipment type",
+      "Repair urgency",
+      "Mobile or workshop service"
+    ],
+    "faqs": [
+      [
+        "Can campaigns run only during our staffed hours?",
+        "Yes. We can scope ad schedules around your availability and make after-hours arrangements clear. A 24/7 message should only appear if your business provides that service."
+      ],
+      [
+        "Can we promote rebuild work alongside emergency repairs?",
+        "Yes. Planned rebuilds and emergency calls should have separate messaging, landing pages, and inquiry routes so each reaches the appropriate team."
+      ],
+      [
+        "How would missed-call follow-up work?",
+        "We first review your phone system, dispatch process, and messaging permissions. Any follow-up automation is scoped around those systems rather than assumed to be available."
+      ]
+    ]
+  },
+  {
+    "slug": "attachment-manufacturer-dealer-marketing",
+    "name": "Specialized Attachment Manufacturers & Dealers",
+    "short": "Attachments & Dealers",
+    "headline": "Put Your Attachments in Front of",
+    "accent": "The Right Equipment Buyers.",
+    "intro": "From breakers and demolition shears to tiltrotators, forestry mulchers, and custom buckets, attachment buyers need to see both the application and the fit. We connect product demonstrations, technical information, and quote requests into one clear buying path.",
+    "buyers": "Fleet directors, contractors & dealers",
+    "goal": "Compatible equipment inquiries",
+    "queries": [
+      "hydraulic breaker for excavator",
+      "forestry mulcher attachment",
+      "custom excavator buckets"
+    ],
+    "challenges": [
+      [
+        "Attention without compatibility",
+        "An action video may attract interest without establishing whether the attachment fits the buyer’s carrier, application, or hydraulic setup."
+      ],
+      [
+        "Specs are hard to compare",
+        "Scattered brochures and unclear model information make it harder for commercial buyers to shortlist the right product."
+      ],
+      [
+        "Dealer inquiries lose context",
+        "A generic contact form leaves sales teams chasing the carrier model, operating requirements, and buyer’s location before a useful conversation can begin."
+      ]
+    ],
+    "playbook": [
+      [
+        "Show the work in context",
+        "Use your real field footage to demonstrate the applications, equipment, and operating conditions relevant to buyers."
+      ],
+      [
+        "Capture product searches",
+        "Build search campaigns around attachment types, applications, and compatibility information supported by your catalog."
+      ],
+      [
+        "Make selection easier",
+        "Create product landing pages with accessible specifications, carrier-fit information, and a clear quote request."
+      ],
+      [
+        "Support the dealer handoff",
+        "Collect the location, carrier model, and application needed to route inquiries to the appropriate sales team."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Demolition attachments",
+        "Hydraulic breakers, pulverizers, demolition shears, and related equipment."
+      ],
+      [
+        "Forestry & land clearing",
+        "Mulchers, grapples, and attachments for commercial land management."
+      ],
+      [
+        "Earthmoving & excavation",
+        "Buckets, tiltrotators, grading tools, and specialized excavator attachments."
+      ],
+      [
+        "Custom attachment fabrication",
+        "Application-specific designs and fabricated equipment for unusual requirements."
+      ]
+    ],
+    "scenario": [
+      "A fleet buyer watches a demonstration of a demolition attachment.",
+      "The landing page connects that application to model specifications and carrier compatibility.",
+      "The quote request captures the buyer’s machine and location for a relevant product discussion."
+    ],
+    "intake": [
+      "Carrier make & model",
+      "Attachment application",
+      "Buyer location",
+      "Purchase timing"
+    ],
+    "faqs": [
+      [
+        "Can you use our equipment demonstration videos?",
+        "Yes. Existing field footage can support landing pages and video campaigns. We plan the content around the application, product fit, and the next step a buyer can take."
+      ],
+      [
+        "Do we need an instant quote calculator?",
+        "Not always. If pricing depends on fit, customization, freight, or dealer terms, a structured quote request may be more useful. A calculator needs approved pricing rules and clear assumptions."
+      ],
+      [
+        "Can inquiries go to our dealer network?",
+        "We can scope routing by territory or product line using your current process. Dealer coverage, ownership rules, and integration requirements need to be agreed before implementation."
+      ]
+    ]
+  },
+  {
+    "slug": "commercial-fleet-graphics-marketing",
+    "name": "Commercial Fleet Graphics & Industrial Wraps",
+    "short": "Fleet Graphics & Wraps",
+    "headline": "Turn Fleet Branding Searches into",
+    "accent": "Commercial Rollout Conversations.",
+    "intro": "Fleet graphics buyers are planning more than a single vehicle wrap. We help commercial wrap providers explain their design, installation, and rollout capabilities to logistics operators, utility fleets, equipment businesses, and municipal buyers.",
+    "buyers": "Fleet operations & brand teams",
+    "goal": "Fleet rollout quote requests",
+    "queries": [
+      "commercial fleet wraps",
+      "fleet vehicle graphics installation",
+      "utility truck fleet branding"
+    ],
+    "challenges": [
+      [
+        "Single-car inquiries dominate",
+        "Consumer customization searches can crowd out the fleet projects your team wants. Positioning needs to distinguish commercial programs from individual vehicle work."
+      ],
+      [
+        "Buyers cannot see rollout capacity",
+        "A strong photo gallery helps, but fleet buyers also need to understand scheduling, installation locations, vehicle types, and brand consistency."
+      ],
+      [
+        "Quotes stall after the first touch",
+        "Multi-vehicle projects often involve operations, procurement, and marketing. Follow-up needs to keep the scope and next action clear for each stakeholder."
+      ]
+    ],
+    "playbook": [
+      [
+        "Separate fleet intent",
+        "Focus search campaigns and landing pages on commercial fleets, rebrands, and multi-vehicle installation programs."
+      ],
+      [
+        "Show relevant project work",
+        "Use approved project photos to explain vehicle types, installation scope, and how your team manages a rollout."
+      ],
+      [
+        "Collect a useful fleet brief",
+        "Ask for vehicle count, locations, artwork status, and timing so estimators can respond with context."
+      ],
+      [
+        "Keep the quote moving",
+        "Scope CRM reminders and follow-up sequences around the buyer’s project stage and your team’s sales process."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Logistics & delivery fleets",
+        "Truck, trailer, van, and delivery vehicle graphics programs."
+      ],
+      [
+        "Utility & service vehicles",
+        "Consistent branding for field service trucks and utility fleets."
+      ],
+      [
+        "Heavy equipment graphics",
+        "Industrial equipment identification, branding, and approved graphics applications."
+      ],
+      [
+        "Municipal & transit programs",
+        "Fleet branding projects with coordinated procurement and installation schedules."
+      ]
+    ],
+    "scenario": [
+      "An operations manager searches for a provider to rebrand a delivery fleet.",
+      "A fleet-specific page shows relevant installation work and explains rollout planning.",
+      "A structured inquiry gives the estimator vehicle counts, locations, and project timing."
+    ],
+    "intake": [
+      "Vehicle count & types",
+      "Installation locations",
+      "Artwork status",
+      "Rollout timeline"
+    ],
+    "faqs": [
+      [
+        "Can campaigns focus on fleet projects instead of personal cars?",
+        "Yes. We use commercial language, appropriate search targeting, exclusions, and form questions to establish fleet fit. Inquiry quality still needs ongoing review."
+      ],
+      [
+        "What project content should we supply?",
+        "Approved photos, vehicle types, installation locations, and a factual description of the rollout are useful. We avoid publishing client names or results without permission."
+      ],
+      [
+        "Can you help follow up on open quotes?",
+        "We can scope CRM tasks and email follow-up around your sales process. The aim is to make the next step clear while respecting the prospect’s communication preferences."
+      ]
+    ]
+  },
+  {
+    "slug": "modular-buildings-site-offices-marketing",
+    "name": "Modular Buildings, Site Offices & Blast-Resistant Modules",
+    "short": "Modular Buildings & Site Offices",
+    "headline": "Build Demand for Your",
+    "accent": "Next Modular Project.",
+    "intro": "Help project teams find the right temporary buildings, site offices, security units, and specialist modules. We shape search campaigns and inquiry journeys around location, occupancy needs, rental terms, and project schedules.",
+    "buyers": "Project teams & regional procurement",
+    "goal": "Rental & purchase inquiries",
+    "queries": [
+      "construction site office rental",
+      "modular buildings for industrial sites",
+      "blast resistant module supplier"
+    ],
+    "challenges": [
+      [
+        "Local availability is unclear",
+        "A prospect needs to know whether you serve the project location and can discuss the required delivery window before they request a quote."
+      ],
+      [
+        "Rental and purchase journeys collide",
+        "A short-term site office rental and a specialist module purchase call for different specifications, terms, and sales conversations."
+      ],
+      [
+        "Specialist requirements get lost",
+        "Blast-resistant and other specialist structures need verified product information and technical review. A generic form cannot stand in for that assessment."
+      ]
+    ],
+    "playbook": [
+      [
+        "Match search to project needs",
+        "Organize campaigns around site offices, temporary buildings, and specialist modules with location-specific messaging."
+      ],
+      [
+        "Explain the offer clearly",
+        "Separate rental and purchase information, available configurations, and the steps involved in delivery planning."
+      ],
+      [
+        "Qualify the project",
+        "Capture location, unit requirements, intended use, and target dates before handing the inquiry to a regional representative."
+      ],
+      [
+        "Track the lease conversation",
+        "Review qualified project inquiries and their progress into quotations, leases, or purchase discussions where sales data is available."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Site offices & welfare units",
+        "Temporary accommodation for project administration and site teams."
+      ],
+      [
+        "Security & access modules",
+        "Gatehouses, security containers, and site access buildings."
+      ],
+      [
+        "Specialist industrial modules",
+        "Supplier-verified blast-resistant and other purpose-designed structures."
+      ],
+      [
+        "Multi-unit project facilities",
+        "Coordinated modular installations for larger or longer-term projects."
+      ]
+    ],
+    "scenario": [
+      "A project team needs office space for an upcoming industrial site.",
+      "A regional landing page explains unit choices and rental or purchase routes.",
+      "The inquiry captures location, intended use, and dates for a regional feasibility discussion."
+    ],
+    "intake": [
+      "Project location",
+      "Unit type & quantity",
+      "Rental or purchase",
+      "Required delivery date"
+    ],
+    "faqs": [
+      [
+        "Can marketing distinguish rentals from building sales?",
+        "Yes. We can create separate campaigns, page sections, and inquiry questions for rental and purchase opportunities, including lease duration where relevant."
+      ],
+      [
+        "How do you describe blast-resistant modules?",
+        "We use your approved technical documentation and product descriptions. Marketing should direct specification questions to qualified staff and avoid implying unsupported certifications or performance ratings."
+      ],
+      [
+        "Can inquiries be assigned to regional lease managers?",
+        "Routing can be scoped around your territories and CRM. We confirm ownership rules and the information each regional team needs before setting it up."
+      ]
+    ]
+  },
+  {
+    "slug": "forklift-material-handling-marketing",
+    "name": "Material Handling, Forklifts & Automated Guided Vehicles",
+    "short": "Forklifts & Material Handling",
+    "headline": "Help Warehouse Buyers Find",
+    "accent": "Their Next Fleet Partner.",
+    "intro": "Connect forklift sales, rentals, service, and warehouse automation with the buyers who need them. We help material handling businesses explain equipment fit and guide fleet managers from a local search to a useful commercial inquiry.",
+    "buyers": "Warehouse & fleet operations",
+    "goal": "Sales, rental & fleet consultations",
+    "queries": [
+      "used forklift for sale",
+      "warehouse forklift rental",
+      "automated guided vehicle integrator"
+    ],
+    "challenges": [
+      [
+        "Searches mix several needs",
+        "A short-term rental, a used truck purchase, and an automation project need different pages and qualification questions."
+      ],
+      [
+        "Inventory and fit are disconnected",
+        "Capacity alone does not establish equipment fit. Buyers need relevant information about lift height, application, power source, and availability."
+      ],
+      [
+        "Branches compete for the same lead",
+        "Unclear location coverage can produce duplicate follow-up or send an inquiry to a branch that cannot serve it."
+      ]
+    ],
+    "playbook": [
+      [
+        "Organize by buyer intent",
+        "Separate rental, used equipment, new fleet, and automation searches into distinct campaign and landing-page journeys."
+      ],
+      [
+        "Build branch visibility",
+        "Improve branch and service-area information so nearby commercial buyers can find the right location."
+      ],
+      [
+        "Capture equipment requirements",
+        "Use quote forms that ask about the application, capacity, lift requirements, and timing."
+      ],
+      [
+        "Connect inquiries to sales",
+        "Scope branch routing and call measurement around your existing sales responsibilities and operating hours."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Forklift sales & leasing",
+        "New and used equipment, fleet replacement, and leasing inquiries."
+      ],
+      [
+        "Rental & short-term capacity",
+        "Warehouse truck rentals aligned with location and project duration."
+      ],
+      [
+        "Electric fleet transitions",
+        "Commercial inquiries for electric equipment and supported power options."
+      ],
+      [
+        "AGVs & warehouse automation",
+        "Longer-cycle opportunities involving workflow and site evaluation."
+      ]
+    ],
+    "scenario": [
+      "A warehouse manager searches for a forklift rental near a distribution center.",
+      "The relevant branch page clarifies equipment categories and how to request availability.",
+      "Sales receives the location, rental period, and operating requirements for a fit assessment."
+    ],
+    "intake": [
+      "Equipment application",
+      "Capacity & lift requirements",
+      "Site location",
+      "Rental or purchase timing"
+    ],
+    "faqs": [
+      [
+        "Can each branch have its own search presence?",
+        "Yes. Branch pages and local listings should reflect real locations, coverage, and services. We build around those facts rather than creating unsupported location claims."
+      ],
+      [
+        "Can you promote used stock?",
+        "Yes, provided inventory information is kept current. We can scope product pages or a stock feed around the systems and update process you use."
+      ],
+      [
+        "Should AGV projects share a forklift rental page?",
+        "They can sit within the same website, but the inquiry paths should differ. AGV projects need workflow and site context, while rental buyers often need a quicker equipment discussion."
+      ]
+    ]
+  },
+  {
+    "slug": "commercial-generators-critical-power-marketing",
+    "name": "Commercial Generators & Critical Power Infrastructure",
+    "short": "Generators & Critical Power",
+    "headline": "Connect Critical Power Expertise with",
+    "accent": "Commercial Project Demand.",
+    "intro": "Industrial generator sales, rental systems, and planned maintenance have distinct buying cycles. We help power businesses communicate their capabilities to facility teams, project engineers, and procurement groups evaluating commercial power requirements.",
+    "buyers": "Facility teams & project engineers",
+    "goal": "Power project & service inquiries",
+    "queries": [
+      "industrial generator rental",
+      "commercial standby generator supplier",
+      "industrial generator maintenance"
+    ],
+    "challenges": [
+      [
+        "Residential traffic dilutes demand",
+        "Broad generator searches can bring consumer inquiries that do not match your commercial equipment, service scope, or project size."
+      ],
+      [
+        "Technical value is hard to see",
+        "Buyers need accessible product and application information to decide whether your team belongs on their shortlist."
+      ],
+      [
+        "Project research has a long runway",
+        "Capital equipment decisions may involve engineering, procurement, and operations over multiple stages. A single contact prompt does not serve every stage."
+      ]
+    ],
+    "playbook": [
+      [
+        "Separate commercial search demand",
+        "Organize campaigns around industrial rentals, equipment sales, and service needs within your actual market coverage."
+      ],
+      [
+        "Publish useful technical content",
+        "Turn approved product and application material into accessible pages, guides, and supporting resources."
+      ],
+      [
+        "Support named-account outreach",
+        "Scope account-focused campaigns around a defined customer profile, appropriate channels, and available sales capacity."
+      ],
+      [
+        "Measure project progression",
+        "Review inquiries, technical conversations, quotations, and recorded sales stages to understand campaign quality."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Industrial generator systems",
+        "Commercial diesel generator and supported standby power applications."
+      ],
+      [
+        "Temporary power rentals",
+        "Project-based and temporary industrial power requirements."
+      ],
+      [
+        "Service & maintenance",
+        "Planned servicing and supported commercial repair programs."
+      ],
+      [
+        "Critical power & microgrids",
+        "Specialist project inquiries requiring technical discovery and engineering review."
+      ]
+    ],
+    "scenario": [
+      "A facility team researches commercial standby power for a site expansion.",
+      "A technical landing page explains relevant applications and links to approved product information.",
+      "A consultation request captures the site, project stage, and application for review by the supplier."
+    ],
+    "intake": [
+      "Power application",
+      "Project location",
+      "Project stage",
+      "Required timing"
+    ],
+    "faqs": [
+      [
+        "Can campaigns exclude residential generator work?",
+        "We can focus language, search terms, landing pages, and qualification on commercial applications. Search-term review helps identify and reduce irrelevant inquiries over time."
+      ],
+      [
+        "Do technical guides need to be gated?",
+        "Not always. Some information is most useful as an open resource, while an optional download can support a longer sales conversation. We choose based on buyer needs and the content available."
+      ],
+      [
+        "Will you recommend system sizes on the website?",
+        "Engineering recommendations should come from your qualified team. Marketing can collect application details and explain the consultation process without presenting an unverified design or sizing recommendation."
+      ]
+    ]
+  },
+  {
+    "slug": "cnc-machining-fabrication-marketing",
+    "name": "Custom CNC Machining, Precision Tooling & Contract Fabricators",
+    "short": "CNC Machining & Fabrication",
+    "headline": "Marketing Engineered for",
+    "accent": "Machine Shops & Fabricators.",
+    "intro": "Bring your machining, tooling, and fabrication capabilities into focus for industrial buyers. We help job shops reach procurement teams and engineers with clear technical pages and quote requests built around the work they actually want to win.",
+    "buyers": "Procurement teams & engineers",
+    "goal": "Production-fit RFQ conversations",
+    "queries": [
+      "contract precision CNC machining",
+      "5 axis machining services",
+      "contract sheet metal fabrication"
+    ],
+    "challenges": [
+      [
+        "Inquiries do not fit the shop",
+        "A shop pursuing recurring production can lose quoting time on requests that do not match its batch sizes, materials, or commercial focus."
+      ],
+      [
+        "Capabilities are buried",
+        "A machine list is only part of the story. Buyers need to understand applications, material experience, production scope, and supported quality requirements."
+      ],
+      [
+        "Technical files need an agreed process",
+        "Drawings and proprietary specifications may require controlled handling. The public inquiry journey should make the next step clear without claiming compliance it cannot establish."
+      ]
+    ],
+    "playbook": [
+      [
+        "Build capability-level search campaigns",
+        "Align searches with the machining processes, materials, and fabrication services your shop can support."
+      ],
+      [
+        "Create useful RFQ intake",
+        "Collect project scope, quantities, timing, and contact information before an estimator begins reviewing fit."
+      ],
+      [
+        "Show production strengths",
+        "Present real equipment, capacity context, material experience, and verified qualifications in a buyer-friendly format."
+      ],
+      [
+        "Support estimator handoff",
+        "Define the information and follow-up steps needed to move a suitable inquiry into a technical review."
+      ]
+    ],
+    "capabilities": [
+      [
+        "CNC milling & turning",
+        "Multi-axis machining, turning, and supported production requirements."
+      ],
+      [
+        "Tooling & mold making",
+        "Tool and die work, molds, fixtures, and precision tooling services."
+      ],
+      [
+        "Contract metal fabrication",
+        "Laser cutting, forming, welding, and fabricated assemblies."
+      ],
+      [
+        "Finishing & sub-assembly",
+        "Supported finishing processes and coordinated production services."
+      ]
+    ],
+    "scenario": [
+      "An engineer searches for a machining partner for a recurring component run.",
+      "A capability page explains relevant processes and the shop’s verified production strengths.",
+      "The RFQ intake captures quantity, material, and timing before any controlled technical-file exchange."
+    ],
+    "intake": [
+      "Process & material",
+      "Batch or annual quantity",
+      "Project timing",
+      "Drawing-transfer requirements"
+    ],
+    "faqs": [
+      [
+        "Can we qualify for production work rather than prototypes?",
+        "Yes. We can make your preferred work clear and ask about quantities, timing, and project type. Qualification should reflect your real commercial thresholds, including any prototype work you do want."
+      ],
+      [
+        "How should proprietary CAD files be handled?",
+        "We first agree on your approved file-transfer process and any contractual or security requirements. This public marketing inquiry form does not accept drawings or claim a regulated file-handling capability."
+      ],
+      [
+        "How quickly will campaigns produce RFQs?",
+        "Timing depends on demand, competition, your website, and buyer fit. We establish a baseline, launch with suitable tracking, and assess relevant inquiries without promising a fixed number or timeline."
+      ]
+    ]
+  },
+  {
+    "slug": "heavy-haul-rigging-marketing",
+    "name": "Heavy Haul, Rigging & Specialized Transportation",
+    "short": "Heavy Haul & Rigging",
+    "headline": "Get Found for the Moves That",
+    "accent": "Require Your Expertise.",
+    "intro": "Heavy transport buyers need a partner who understands the job before quoting it. We help specialized carriers, rigging teams, crane services, and machinery movers present their capabilities and collect the details that make a project worth evaluating.",
+    "buyers": "Plant teams & project logistics",
+    "goal": "Qualified move & lift inquiries",
+    "queries": [
+      "heavy haul machinery transport",
+      "industrial machinery movers",
+      "plant relocation rigging services"
+    ],
+    "challenges": [
+      [
+        "General freight inquiries crowd the desk",
+        "Broad transportation campaigns may attract loads outside your equipment, route coverage, or preferred project scope."
+      ],
+      [
+        "A contact form misses the real job",
+        "Pickup, destination, dimensions, weight, access, and timing all affect whether your team can assess a request."
+      ],
+      [
+        "Technical capability is hard to judge",
+        "Buyers need clear descriptions of supported equipment and project types before they commit to a conversation."
+      ]
+    ],
+    "playbook": [
+      [
+        "Target specialized transport demand",
+        "Build campaigns around machinery moves, oversized loads, rigging, and the corridors you actually serve."
+      ],
+      [
+        "Show project-relevant capability",
+        "Present approved project examples and equipment information that help buyers understand your scope."
+      ],
+      [
+        "Improve quote intake",
+        "Ask for route, load, timing, and known access constraints so your team has a practical starting point."
+      ],
+      [
+        "Follow inquiries through the bid",
+        "Review call quality, qualified requests, and available bid outcomes with your sales team."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Oversized & heavy transport",
+        "Specialized loads and equipment moves within supported route coverage."
+      ],
+      [
+        "Machinery moving & rigging",
+        "Plant machinery placement, relocations, and coordinated moves."
+      ],
+      [
+        "Crane & lifting services",
+        "Project inquiries for your approved lifting service capabilities."
+      ],
+      [
+        "Industrial relocation projects",
+        "Larger moves that require planning across site teams and suppliers."
+      ]
+    ],
+    "scenario": [
+      "A plant manager searches for a machinery mover for a line relocation.",
+      "A project page explains supported move types and the information needed for an initial discussion.",
+      "The inquiry records origins, destinations, known load details, and target dates for feasibility review."
+    ],
+    "intake": [
+      "Pickup & destination",
+      "Load dimensions & weight",
+      "Site access details",
+      "Move window"
+    ],
+    "faqs": [
+      [
+        "Can campaigns focus on particular transport corridors?",
+        "Yes. Geographic targeting and landing-page content can reflect your actual route coverage and preferred project areas. We review the quality of resulting inquiries with your team."
+      ],
+      [
+        "Does the form replace a technical move assessment?",
+        "No. It collects enough information to start a conversation. Your qualified operations team remains responsible for assessing feasibility, site conditions, and the requirements of the move."
+      ],
+      [
+        "Can we advertise both crane work and machinery moving?",
+        "Yes, with separate service messaging and suitable intake fields. That helps route each inquiry to the right specialist instead of treating every project as general freight."
+      ]
+    ]
+  },
+  {
+    "slug": "industrial-refrigeration-marketing",
+    "name": "Industrial Refrigeration & Ammonia Cold Storage Systems",
+    "short": "Industrial Refrigeration",
+    "headline": "Make Your Refrigeration Expertise",
+    "accent": "Easier to Find and Evaluate.",
+    "intro": "Food processing, pharmaceutical storage, and distribution projects need specialist partners. We help industrial refrigeration contractors explain their design, installation, retrofit, and service capabilities to technical and commercial decision-makers.",
+    "buyers": "Facility teams & project engineers",
+    "goal": "Industrial project consultations",
+    "queries": [
+      "industrial refrigeration contractor",
+      "cold storage refrigeration systems",
+      "ammonia refrigeration service"
+    ],
+    "challenges": [
+      [
+        "Commercial intent is too broad",
+        "Restaurant equipment and domestic repair searches can distract from industrial refrigeration projects and service agreements."
+      ],
+      [
+        "Expertise is difficult to demonstrate",
+        "A buyer evaluating a specialist contractor needs clear scope, approved project information, and a realistic view of your team’s capabilities."
+      ],
+      [
+        "Project teams are at different stages",
+        "An early expansion study and a planned retrofit need different content and different next steps."
+      ]
+    ],
+    "playbook": [
+      [
+        "Focus on industrial applications",
+        "Organize search campaigns around the facilities, systems, and service work your team supports."
+      ],
+      [
+        "Explain technical capabilities",
+        "Create accessible pages using your approved application, project, and service information."
+      ],
+      [
+        "Use real project evidence",
+        "Turn permitted project photography, walkthroughs, and factual case information into resources for evaluating your business."
+      ],
+      [
+        "Qualify the project stage",
+        "Capture facility use, location, existing system context, and timing before routing the inquiry for technical discovery."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Food processing facilities",
+        "Industrial refrigeration projects for production and processing environments."
+      ],
+      [
+        "Cold storage & distribution",
+        "Storage and distribution projects with defined operating requirements."
+      ],
+      [
+        "Pharmaceutical storage",
+        "Specialist cold storage inquiries subject to your verified capabilities."
+      ],
+      [
+        "Ammonia systems & retrofits",
+        "Supported industrial system service, modernization, and project work."
+      ]
+    ],
+    "scenario": [
+      "A facility team researches refrigeration partners for a cold storage expansion.",
+      "An application page explains your scope and presents approved project evidence.",
+      "A consultation form records the facility type, location, and stage for an initial technical discussion."
+    ],
+    "intake": [
+      "Facility application",
+      "Project location",
+      "Existing or new system",
+      "Project stage & timing"
+    ],
+    "faqs": [
+      [
+        "Can we avoid restaurant and domestic repair inquiries?",
+        "We can focus campaign and page language on industrial facilities and review search terms for irrelevant demand. Qualification questions further establish the type of facility and project."
+      ],
+      [
+        "What technical claims belong on the website?",
+        "Use current, approved statements about your own capabilities, qualifications, and project scope. System design, safety, and compliance assessments should remain with qualified professionals."
+      ],
+      [
+        "Can project videos help a longer buying cycle?",
+        "Yes. Approved walkthroughs and project explanations can help stakeholders understand your approach. We connect them to useful next steps rather than presenting unsupported project outcomes."
+      ]
+    ]
+  },
+  {
+    "slug": "steel-building-marketing",
+    "name": "Pre-Engineered Steel Buildings & Rigid Frame Structures",
+    "short": "Steel Buildings & Structures",
+    "headline": "Build a Stronger Pipeline for",
+    "accent": "Your Next Steel Building.",
+    "intro": "Help commercial, agricultural, and industrial buyers understand your building offer. We connect search demand with clear information about applications, project scope, and the details your estimating team needs to start a useful conversation.",
+    "buyers": "Owners, developers & contractors",
+    "goal": "Building package & project quotes",
+    "queries": [
+      "commercial pre engineered steel buildings",
+      "industrial steel warehouse buildings",
+      "agricultural clear span buildings"
+    ],
+    "challenges": [
+      [
+        "Price-only inquiries lack context",
+        "A square-foot price request rarely provides enough information to assess a building project, supply scope, or delivery requirements."
+      ],
+      [
+        "Supply and erection are confused",
+        "Buyers may not know whether they are speaking to a manufacturer, package supplier, erector, or turnkey provider."
+      ],
+      [
+        "Project details arrive piecemeal",
+        "Use, location, dimensions, schedule, and site readiness need to be gathered without making the first inquiry overwhelming."
+      ]
+    ],
+    "playbook": [
+      [
+        "Match campaigns to building use",
+        "Separate commercial, agricultural, and industrial applications using your actual markets and service scope."
+      ],
+      [
+        "Make project scope explicit",
+        "Explain what your proposal can include, from building supply to supported erection or coordination services."
+      ],
+      [
+        "Create a guided building brief",
+        "Capture intended use, project location, approximate size, and schedule before asking for detailed plans."
+      ],
+      [
+        "Maintain useful follow-up",
+        "Scope email and CRM follow-up around the buyer’s stage, information needs, and communication preferences."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Commercial building packages",
+        "Building supply and project inquiries for supported commercial uses."
+      ],
+      [
+        "Industrial warehouses",
+        "Steel structures for industrial storage and operational space."
+      ],
+      [
+        "Agricultural clear-spans",
+        "Building applications for agricultural businesses and facilities."
+      ],
+      [
+        "Rigid frame & erection services",
+        "Supported structural systems and clearly defined erection scope."
+      ]
+    ],
+    "scenario": [
+      "A business owner searches for a steel warehouse building supplier.",
+      "A project page explains building uses, supply scope, and how quotations are developed.",
+      "A guided brief captures location, dimensions, and intended use for the estimating team."
+    ],
+    "intake": [
+      "Building use",
+      "Project location",
+      "Approximate dimensions",
+      "Supply or erection scope"
+    ],
+    "faqs": [
+      [
+        "Do we need a 3D configurator to generate inquiries?",
+        "No. A clear project brief can be a strong starting point. A configurator is a separate feature that needs approved options, constraints, and a defined role in your estimating process."
+      ],
+      [
+        "Can campaigns distinguish manufacturers from erectors?",
+        "Yes. We make the offered scope explicit in ad copy, landing pages, and form options so buyers can understand whether your business fits the project."
+      ],
+      [
+        "Should the website show instant building prices?",
+        "Only when you can maintain approved pricing rules and explain their limits. Otherwise, collecting the core project details for a scoped estimate is more reliable than an unsupported instant price."
+      ]
+    ]
+  },
+  {
+    "slug": "scaffolding-shoring-formwork-marketing",
+    "name": "Scaffolding, Shoring & Formwork Systems",
+    "short": "Scaffolding, Shoring & Formwork",
+    "headline": "Get in Front of Teams Planning",
+    "accent": "The Next Construction Phase.",
+    "intro": "Commercial construction buyers need availability, coverage, and a practical quotation route. We help scaffolding, shoring, and formwork businesses connect local demand with the project information their rental and sales teams need.",
+    "buyers": "Contractors & project procurement",
+    "goal": "Rental & project supply inquiries",
+    "queries": [
+      "commercial scaffolding rental",
+      "shoring tower rental",
+      "concrete formwork supplier"
+    ],
+    "challenges": [
+      [
+        "DIY demand competes with site work",
+        "Scaffolding searches can mix small residential jobs with commercial projects requiring a different scope and rental period."
+      ],
+      [
+        "Availability questions reach the wrong team",
+        "Without clear branch and coverage information, inquiries can land where the requested equipment or service is not supported."
+      ],
+      [
+        "Schedules matter as much as quantities",
+        "Project phase, site access, and rental duration help a representative assess an opportunity; a generic callback form leaves those details out."
+      ]
+    ],
+    "playbook": [
+      [
+        "Build local commercial visibility",
+        "Develop branch and service-area content around the actual markets and services your team covers."
+      ],
+      [
+        "Separate system-level demand",
+        "Organize campaigns around scaffolding, shoring, and formwork so buyers land on relevant information."
+      ],
+      [
+        "Collect the project brief",
+        "Ask for site location, system type, phase, and rental period to improve the initial conversation."
+      ],
+      [
+        "Route and review opportunities",
+        "Scope sales notifications and CRM tracking so teams can review quote-ready projects and follow-up progress."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Commercial scaffolding",
+        "Supported access systems for commercial and infrastructure projects."
+      ],
+      [
+        "Shoring & support systems",
+        "Rental and supply inquiries for your approved shoring capabilities."
+      ],
+      [
+        "Concrete formwork",
+        "System-specific formwork supply and rental opportunities."
+      ],
+      [
+        "Longer-term site programs",
+        "Phased equipment needs across multi-stage construction schedules."
+      ]
+    ],
+    "scenario": [
+      "A contractor searches for formwork rental for an upcoming project phase.",
+      "A local service page explains relevant systems and how to request availability.",
+      "The inquiry gives the sales representative the site, project phase, and rental window."
+    ],
+    "intake": [
+      "Site location",
+      "Required system",
+      "Project phase",
+      "Rental period"
+    ],
+    "faqs": [
+      [
+        "Can you target the areas our branches serve?",
+        "Yes. We align local content and campaign coverage with real branches and service territories. Location targeting is reviewed alongside actual inquiry quality."
+      ],
+      [
+        "Can leads be routed to the right rental representative?",
+        "Routing can be scoped around branch ownership, product lines, and your CRM. The project intake should capture the information used to make that assignment."
+      ],
+      [
+        "Does an online quote request cover the engineering review?",
+        "No. The form starts a commercial discussion. Equipment selection, design, installation, and project-specific engineering remain part of your qualified team’s assessment."
+      ]
+    ]
+  },
+  {
+    "slug": "industrial-automation-robotics-marketing",
+    "name": "Industrial Automation, Robotics & System Integrators",
+    "short": "Automation & Robotics",
+    "headline": "Turn Technical Expertise into",
+    "accent": "Your Next Integration Conversation.",
+    "intro": "Robotic cells, conveyors, and control upgrades are bought through careful evaluation. We help integrators show what they do, reach relevant operations teams, and build an inquiry journey that supports a longer technical sales process.",
+    "buyers": "Plant directors & operations leaders",
+    "goal": "Qualified integration consultations",
+    "queries": [
+      "robotic cell system integrator",
+      "industrial conveyor automation",
+      "PLC control system upgrade"
+    ],
+    "challenges": [
+      [
+        "Demo interest is not project fit",
+        "A compelling robot video can attract students and enthusiasts as well as buyers. The next step needs to establish the application and commercial context."
+      ],
+      [
+        "Solutions are described too generally",
+        "Buyers need to see how your expertise relates to their process, existing equipment, and desired operational change."
+      ],
+      [
+        "Long evaluations lose momentum",
+        "An integration decision can involve engineering, finance, operations, and procurement. Follow-up should support those stages with relevant information."
+      ]
+    ],
+    "playbook": [
+      [
+        "Lead with the application",
+        "Organize search campaigns and landing pages around the processes and systems your team integrates."
+      ],
+      [
+        "Show real systems at work",
+        "Use approved demonstration footage and project explanations to make technical capabilities understandable."
+      ],
+      [
+        "Reach defined account groups",
+        "Scope LinkedIn or other account-focused campaigns around the companies, roles, and applications that fit your business."
+      ],
+      [
+        "Support technical follow-up",
+        "Plan email resources and CRM stages around discovery, feasibility, and proposal discussions with sales input."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Robotic cells",
+        "Supported robotic applications and integrated production workcells."
+      ],
+      [
+        "Conveyor & material flow",
+        "Automated conveying and connected material movement systems."
+      ],
+      [
+        "PLC & controls upgrades",
+        "Control modernization and supported automation system work."
+      ],
+      [
+        "Production system integration",
+        "Multi-system projects connecting equipment, controls, and operational workflows."
+      ]
+    ],
+    "scenario": [
+      "A plant director watches a demonstration of an automation application.",
+      "An application page explains the process, integration scope, and relevant project context.",
+      "A discovery request captures the current process, project stage, and desired operational outcome."
+    ],
+    "intake": [
+      "Process or application",
+      "Existing equipment",
+      "Project stage",
+      "Desired operational outcome"
+    ],
+    "faqs": [
+      [
+        "Can you promote our existing robot demonstration videos?",
+        "Yes. We pair approved footage with application context and a useful inquiry path. That helps distinguish commercial project interest from general views."
+      ],
+      [
+        "How do you support a long sales cycle?",
+        "We plan resources and follow-up around the stages your sales team uses, from initial discovery to feasibility and proposal review. Measurement should account for that longer process."
+      ],
+      [
+        "Do account-based campaigns guarantee access to named buyers?",
+        "No. They help focus a campaign on relevant account and role groups where the platform supports it. Reach and results still depend on audience availability, content, budget, and execution."
+      ]
+    ]
+  }
+]

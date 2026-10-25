@@ -1,0 +1,18 @@
+# Industry pages
+
+The twelve sectors in `industries.json` are the editorial source for the static pages.
+
+- Shared markup: `templates/industry.html`
+- Shared design: `assets/industry.css`
+- Form and navigation behavior: `industrial.js`
+- Page rendering, local SVG illustrations, homepage directory, sitemap: `scripts/build_industries.py`
+
+Run `python3 scripts/build_industries.py` after editing the data or template. The script does not require third-party packages. Generated `.html` and `.svg` files are committed so the existing static hosting can serve them without a build step.
+
+Each industry has a unique title, canonical URL, description, content, capability choices, and Netlify form name. Form submissions include the industry and source URL. Netlify must detect forms on deployment; delivery is not established by local preview.
+
+The homepage directory is the curated list of sectors requested by the site owner. Each industry page links to the directory and the agency's supporting services. There is no automatic related-industry fallback.
+
+Campaign plans are illustrative. Replace them with client case studies only when supporting facts and publication permission are available. Product capabilities, certifications, and controlled drawing-handling workflows must come from approved business information.
+
+When republishing changed industry content, update `DATE` in the generator to the substantive edit date before regenerating the sitemap entries.
