@@ -54,6 +54,8 @@ for index, page in enumerate(PAGES):
         {'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Industries','item':BASE+'/#industries'},{'@type':'ListItem','position':3,'name':page['short'],'item':canonical}]}]}
     fields = {k:e(v) for k,v in page.items() if isinstance(v,str)}
     fields.update(title=e(title),description=e(description),canonical=e(canonical),number=f'{index+1:02}',form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
+    services = json.loads((ROOT / 'content/services.json').read_text())
+    fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
     (ROOT / 'industries' / f'{slug}.html').write_text(TEMPLATE.substitute(fields))
     (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
