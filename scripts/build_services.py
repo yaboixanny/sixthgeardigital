@@ -21,30 +21,30 @@ def links(current=None):
  return ''.join(f'<a href="{route(s)}"'+(' aria-current="page"' if s['slug']==current else '')+f'>{e(s["short"])}</a>' for s in SERVICES)
 
 HEADINGS = {
- 'industrial-google-ads':('Make the search match the commercial opportunity.','Campaign quality depends on targeting, the page a buyer reaches, and what happens when they get in touch.','Four foundations of industrial paid search.','Campaigns shaped around how your buyers buy.'),
- 'industrial-seo':('Make technical expertise easy to discover.','Useful visibility begins with clear architecture, accurate content, and pages that answer a real buying question.','Build search visibility on useful foundations.','Cover the searches that support supplier selection.'),
- 'industrial-websites':('Give every buying situation a clear next step.','The page should help a buyer understand fit and help your sales team start with useful information.','Design the whole inquiry journey.','Three page types. Three different sales conversations.'),
- 'industrial-lead-tracking':('Keep the opportunity visible after first contact.','Source information, clear stages, and consistent follow-up make the reporting more useful to both marketing and sales.','Connect the stages that matter to sales.','Track opportunities at the pace they actually move.')
+ 'industrial-google-ads':('Make your ads useful to the people who see them.','The search term, the page and the response all affect whether an ad brings useful work.','How we manage your Google Ads.','Different needs call for different ads.'),
+ 'industrial-seo':('Help buyers find clear answers.','Your website should make it easy to understand what you do and how to contact you.','How we improve your website for search.','Pages for the questions buyers ask.'),
+ 'industrial-websites':('Make the next step easy to find.','A useful page answers the buyer’s questions and helps your team respond.','How we plan and build your pages.','Three pages for three different needs.'),
+ 'industrial-lead-tracking':('Keep track of requests after they arrive.','Clear records help your team know who needs a reply and what happens next.','How we organize requests and follow-up.','Keep track of each type of request.')
 }
 RELATIONS = {
- 'industrial-google-ads': ['Use search findings to inform useful long-term service and application content.','Give each campaign a landing page and inquiry path suited to the buyer.','Connect paid inquiries with qualification, quotes, and recorded sales outcomes.'],
- 'industrial-seo': ['Pursue selected commercial search demand alongside your organic content work.','Build clear, usable pages that support technical evaluation and contact.','Understand whether organic inquiries progress into suitable sales opportunities.'],
- 'industrial-websites': ['Bring relevant commercial demand to a page designed for that buying situation.','Give the website a clear architecture and useful content for search discovery.','Connect the website’s forms and calls with an owner, next action, and outcome.'],
- 'industrial-lead-tracking': ['Give campaign reviews feedback on inquiry fit and recorded sales outcomes.','Review the quality of opportunities arriving through organic search.','Capture the right inquiry details and create a dependable handoff from the website.']
+ 'industrial-google-ads': ['Use what you learn from ads to improve the pages people find through search.','Give each ad a clear page where people can call or ask for a quote.','See which ad inquiries lead to quotes and jobs.'],
+ 'industrial-seo': ['Run ads for selected services while you improve the website.','Make your pages clear and easy to use.','Find out whether search visitors become useful customer inquiries.'],
+ 'industrial-websites': ['Help people find your service pages through ads.','Help people find your pages through search.','Keep track of calls, forms and follow-up after someone visits your site.'],
+ 'industrial-lead-tracking': ['Use sales feedback to see which ads bring useful work.','Review the inquiries that come from search.','Ask useful questions on your forms and send requests to the right person.']
 }
-
 EXAMPLE_FIELDS = [
- ('dispatch','Dispatch page',[('Job location','Site address or service area'),('Equipment & issue','Machine type and a short description'),('Urgency','When service is required'),('Callback details','Name and phone number')],'Route the request to the service desk with the job location, issue, and callback details.'),
- ('equipment','Equipment quote',[('Equipment requirement','Product category or model'),('Operating application','Use, capacity, or fit requirements'),('Purchase or rental','Buying intent and timing'),('Delivery location','Where the equipment is needed')],'Give the equipment representative enough context to discuss suitability, availability, and the quote.'),
- ('project','Project inquiry',[('Project scope','What the buyer is planning'),('Site or delivery location','Where the work or supply is needed'),('Project stage','Research, specification, or ready to quote'),('Target schedule','Milestones or required delivery dates')],'Start a project discovery conversation before arranging detailed plans or technical-file transfer.')
+ ('dispatch','Repair service',[('Job location','Where the equipment is'),('Equipment and problem','Machine type and what went wrong'),('How urgent is it?','When help is needed'),('Contact details','Name and phone number')],'Your service team can check the job, location and urgency before calling back.'),
+ ('equipment','Equipment quote',[('Equipment needed','Type or model'),('What is the job?','How the equipment will be used'),('Purchase or rental','Which option and when it is needed'),('Delivery location','Where the equipment needs to go')],'Your sales team can check fit and availability before preparing a quote.'),
+ ('project','Project quote',[('Type of work','What the buyer is planning'),('Site or delivery location','Where the work is needed'),('Project stage','Early planning or ready for a quote'),('Required dates','When the work needs to happen')],'Your team can discuss the basics before asking for plans or other files.')
 ]
+
 def form_examples():
  tabs=''.join(f'<button type="button" role="tab" id="tab-{key}" aria-controls="panel-{key}" aria-selected="{str(i==0).lower()}" tabindex="{0 if i==0 else -1}">{label}</button>' for i,(key,label,_,_) in enumerate(EXAMPLE_FIELDS))
  panels=''
  for i,(key,label,fields,note) in enumerate(EXAMPLE_FIELDS):
   rows=''.join(f'<div class="example-field"><span>{e(a)}</span><p>{e(b)}</p></div>' for a,b in fields)
-  panels+=f'<div role="tabpanel" id="panel-{key}" aria-labelledby="tab-{key}" tabindex="0"'+(' hidden' if i else '')+f'><div class="example-fields">{rows}</div><p class="handoff-note"><strong>Sales handoff:</strong> {e(note)}</p></div>'
- return '<div class="form-examples"><p class="eyebrow accent">INTAKE DESIGN EXAMPLES</p><h3>See what sales needs from each inquiry.</h3><p>Select a buying situation to compare example fields and the handoff they support. These are field examples, not submission forms.</p><div class="example-tabs" role="tablist" aria-label="Inquiry examples">'+tabs+'</div>'+panels+'</div>'
+  panels+=f'<div role="tabpanel" id="panel-{key}" aria-labelledby="tab-{key}" tabindex="0"'+(' hidden' if i else '')+f'><div class="example-fields">{rows}</div><p class="handoff-note"><strong>What happens next:</strong> {e(note)}</p></div>'
+ return '<div class="form-examples"><p class="eyebrow accent">EXAMPLE FORM QUESTIONS</p><h3>Ask the questions your team needs answered.</h3><p>Choose a type of request to see example questions. These examples do not send a message.</p><div class="example-tabs" role="tablist" aria-label="Form question examples">'+tabs+'</div>'+panels+'</div>'
 
 for s in SERVICES:
  canonical=BASE+route(s); title=s['name']+' | Sixth Gear Digital'
@@ -57,8 +57,8 @@ for s in SERVICES:
  fields['challenge_cards']=''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(a)}</h3><p>{e(b)}</p></article>' for i,(a,b) in enumerate(s['challenges'],1))
  fields['pillar_cards']=''.join(f'<article class="card service-pillar"><div class="pillar-top"><span class="card-number">{i:02}</span><span class="eyebrow">{e(s["short"])}</span></div><h3>{e(a)}</h3><p>{e(b)}</p><div class="pillar-strip">{e(c)}</div></article>' for i,(a,b,c) in enumerate(s['pillars'],1))
  fields['type_cards']=''.join(f'<article class="card type-card"><h3>{e(a)}</h3><p>{e(b)}</p><ul>'+''.join(f'<li>{e(x)}</li>' for x in c)+'</ul></article>' for a,b,c in s['types'])
- fields['example_stages']=''.join(f'<div class="example-stage"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(['The buyer','The next step','The sales connection'],s['example'][1:]))
- fields['scope_cards']=''.join(f'<article class="card scope-card"><span class="card-number">{i:02} / SCOPE</span><h3>{e(a)}</h3><p>{e(b)}</p><a class="button'+('' if i==2 else ' button-secondary')+'" href="#audit-form">Discuss this scope <span aria-hidden="true">↗</span></a></article>' for i,(a,b) in enumerate(s['scope'],1))
+ fields['example_stages']=''.join(f'<div class="example-stage"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(['The buyer','The next step','Your team’s response'],s['example'][1:]))
+ fields['scope_cards']=''.join(f'<article class="card scope-card"><span class="card-number">{i:02} / OPTION</span><h3>{e(a)}</h3><p>{e(b)}</p><a class="button'+('' if i==2 else ' button-secondary')+'" href="#audit-form">Ask about this option <span aria-hidden="true">↗</span></a></article>' for i,(a,b) in enumerate(s['scope'],1))
  others=[x for x in SERVICES if x['slug']!=s['slug']]
  fields['related_services']=''.join(f'<a class="related-service" href="{route(other)}"><h3>{e(other["name"])}</h3><p>{e(reason)}</p><span>Explore {e(other["short"])} ↗</span></a>' for other,reason in zip(others,RELATIONS[s['slug']]))
  fields['faq_items']=''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in s['faqs'])
@@ -73,7 +73,7 @@ for s in SERVICES:
 lead=SERVICES[0]
 other_cards=''.join(f'<a class="core-service-card" href="{route(s)}"><span class="core-service-number">0{i}</span><h3>{e(s["name"])}</h3><p>{e(s["intro"])}</p><span class="core-service-link">Explore {e(s["short"])} ↗</span></a>' for i,s in enumerate(SERVICES[1:],2))
 section=f'''<!-- SECTION: SERVICES -->
-<section class="py-24 lg:py-32 bg-brand-midnight text-white" id="services"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-amber">Core Services</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mt-3">Connect the Search to the Sales Opportunity.</h2><p class="text-lg text-slate-400 mt-4">Google Ads leads the way, supported by useful search content, clear websites, and visibility into what happens after the inquiry.</p></div><div class="core-services-grid"><a class="core-service-card core-service-lead" href="{route(lead)}"><span class="core-service-number">01 / LEAD SERVICE</span><h3>{e(lead['name'])}</h3><p>{e(lead['intro'])}</p><ul><li>Keyword selection and commercial search intent</li><li>Location strategy and relevant landing pages</li><li>Calls, RFQs, and qualified opportunity tracking</li></ul><span class="core-service-link">Explore Industrial Google Ads ↗</span></a><div class="core-service-stack">{other_cards}</div></div></div></section>
+<section class="py-24 lg:py-32 bg-brand-midnight text-white" id="services"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-amber">Our services</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mt-3">How we can help.</h2><p class="text-lg text-slate-400 mt-4">We help people find your business, understand what you offer and get in touch. Then we help you keep track of the requests.</p></div><div class="core-services-grid"><a class="core-service-card core-service-lead" href="{route(lead)}"><span class="core-service-number">01 / GOOGLE ADS</span><h3>{e(lead['name'])}</h3><p>{e(lead['intro'])}</p><ul><li>Search terms that match your services</li><li>Ads for the areas you serve</li><li>A clear way to track calls and quote requests</li></ul><span class="core-service-link">Explore Industrial Google Ads ↗</span></a><div class="core-service-stack">{other_cards}</div></div></div></section>
 '''
 p=ROOT/'index.html'; html=p.read_text()
 html,count=re.subn(r'<!-- SECTION: SERVICES -->.*?(?=<!-- SECTION: THE 4-STEP BLUEPRINT -->)',lambda _:section,html,flags=re.S)

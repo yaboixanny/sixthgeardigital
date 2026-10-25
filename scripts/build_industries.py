@@ -35,7 +35,7 @@ DRAWINGS = [
 ]
 
 def illustration(index, page):
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 490" role="img" aria-labelledby="title"><title id="title">{e(page['short'])} schematic illustration</title><defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#29374e" stroke-width=".6"/></pattern></defs><rect width="600" height="490" fill="#131b2e"/><rect width="600" height="490" fill="url(#grid)"/><circle cx="300" cy="242" r="181" fill="none" stroke="#364358" stroke-dasharray="3 9"/><style>.hot{{stroke:#fd833f}}</style><g stroke="#b7cbe5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">{DRAWINGS[index]}</g><g stroke="#596b86" fill="none"><path d="M80 385H520M80 377v16M520 377v16M65 110v240M58 110h14M58 350h14"/></g><g fill="#8da3c0" font-family="monospace" font-size="10" letter-spacing="2"><text x="80" y="87">SG / INDUSTRY {index+1:02}</text><text x="415" y="87">CAPABILITY</text></g></svg>'''
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 490" role="img" aria-labelledby="title"><title id="title">{e(page['short'])} schematic illustration</title><defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#29374e" stroke-width=".6"/></pattern></defs><rect width="600" height="490" fill="#131b2e"/><rect width="600" height="490" fill="url(#grid)"/><circle cx="300" cy="242" r="181" fill="none" stroke="#364358" stroke-dasharray="3 9"/><style>.hot{{stroke:#fd833f}}</style><g stroke="#b7cbe5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">{DRAWINGS[index]}</g><g stroke="#596b86" fill="none"><path d="M80 385H520M80 377v16M520 377v16M65 110v240M58 110h14M58 350h14"/></g><g fill="#8da3c0" font-family="monospace" font-size="10" letter-spacing="2"><text x="80" y="87">SG / INDUSTRY {index+1:02}</text><text x="415" y="87">EQUIPMENT</text></g></svg>'''
 
 for index, page in enumerate(PAGES):
     slug = page['slug']
@@ -46,7 +46,7 @@ for index, page in enumerate(PAGES):
     challenge_cards = ''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['challenges'],1))
     playbook_cards = ''.join(f'<article class="card play-card"><span class="card-number">{i:02}</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['playbook'],1))
     capability_cards = ''.join(f'<article class="card capability-card"><span class="capability-mark" aria-hidden="true">{i:02}</span><div><h3>{e(t)}</h3><p>{e(b)}</p></div></article>' for i,(t,b) in enumerate(page['capabilities'],1))
-    labels = ['Buyer intent', 'Relevant destination', 'Sales handoff']
+    labels = ['What the buyer needs', 'What the page shows', 'What your team receives']
     scenario_cards = ''.join(f'<div class="scenario-card"><h3>{i:02} / {label}</h3><p>{e(body)}</p></div>' for i,(label,body) in enumerate(zip(labels,page['scenario']),1))
     faq_items = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in page['faqs'])
     schema = {'@context':'https://schema.org','@graph':[
@@ -55,7 +55,7 @@ for index, page in enumerate(PAGES):
     fields = {k:e(v) for k,v in page.items() if isinstance(v,str)}
     brief = page['buyer_brief']
     brief_links = ' and '.join(f'<a href="/services/{e(link["service"])}/">{e(link["label"])}</a>' for link in brief['links'])
-    fields['buyer_brief'] = '<section class="section container buyer-brief"><p class="eyebrow accent">PLANNING THE BUYER JOURNEY</p><h2>What makes a useful inquiry in this sector?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','The buying decision'),('page','The page and intake'),('handoff','The qualification check')]) + '</div><p class="context-links">Build this journey with ' + brief_links + '.</p></section>'
+    fields['buyer_brief'] = '<section class="section container buyer-brief"><p class="eyebrow accent">A CLOSER LOOK</p><h2>What does your team need to know?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','What the buyer needs'),('page','What the page should explain'),('handoff','What to check next')]) + '</div><p class="context-links">Services that can help: ' + brief_links + '.</p></section>'
 
     fields.update(title=e(title),description=e(description),canonical=e(canonical),number=f'{index+1:02}',form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
@@ -69,7 +69,7 @@ for index, page in enumerate(PAGES):
 links = ''.join(f'''<a class="industry-directory-card" href="/industries/{e(p['slug'])}.html"><span class="industry-directory-number">{i:02} / INDUSTRY</span><h3>{e(p['short'])}</h3><p>{e(p['goal'])}</p><span class="industry-directory-link">Explore {e(p['short'].lower())} marketing <span aria-hidden="true">↗</span></span></a>''' for i,p in enumerate(PAGES,1))
 section = f'''<!-- SECTION: WHO WE HELP -->
 <section class="py-24 lg:py-32 bg-brand-surface border-b border-brand-border" id="industries">
-<div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-orange">Operational Sectors</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-charcoal tracking-tight mt-3">Built for the Way Industrial Buyers Buy.</h2><p class="text-lg text-brand-muted mt-4">Explore a marketing approach built around your equipment, capabilities, and commercial sales cycle.</p></div><div class="industry-directory">{links}</div></div></section>
+<div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-orange">Industries</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-charcoal tracking-tight mt-3">Marketing for the work you do.</h2><p class="text-lg text-brand-muted mt-4">Choose your industry to see how we can help explain your services and bring in useful inquiries.</p></div><div class="industry-directory">{links}</div></div></section>
 '''
 p = ROOT / 'index.html'
 s = p.read_text()

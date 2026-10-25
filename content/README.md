@@ -48,3 +48,9 @@ The site self-hosts a single Latin Inter variable WOFF2 font, with its OFL licen
 Service descriptions are authored independently of introductory copy. Industry `buyer_brief` entries provide sector-specific planning guidance and explicitly curated links to supporting service routes. Keep these relationships editorially relevant when adding a sector.
 
 About content and examples must not claim client outcomes or geographic coverage without evidence. See `SEO-MEASUREMENT.md` for the account-dependent Search Console baseline and approved-evidence checklist.
+
+# Writing style
+
+Write for a reader around ninth grade. Use short sentences, familiar words and specific examples. Keep the tone helpful and matter-of-fact. Explain SEO, CRM and other marketing terms the first time they are used. Keep industry terms when they identify the actual work, and explain them where useful.
+
+Use direct labels such as “service area,” “quote requests” and “follow-up.” Avoid sales slogans, pressure, “growth assessments,” “conversion pathways” and similar jargon. Buttons should describe the next step, such as “Get in touch” or “Send your message.” Preserve page topics, URLs and relevant internal links when editing copy.

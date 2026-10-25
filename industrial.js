@@ -30,8 +30,8 @@ if (form && status) form.addEventListener('submit', async event => {
     const response = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(form)).toString() });
     if (!response.ok) throw new Error('Submission failed');
     form.hidden = true;
-    status.textContent = 'Thank you. Your request has been submitted. We’ll be in touch using the email address you provided.';
+    status.textContent = 'Thanks for your message. We’ll reply to the email address you provided.';
   } catch {
-    status.textContent = 'Your request could not be sent. Please try again. Your entries have been kept.';
+    status.textContent = 'Your message could not be sent. Please try again. Your details are still in the form.';
   } finally { button.disabled = false; }
 });

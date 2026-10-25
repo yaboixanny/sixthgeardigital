@@ -5,140 +5,140 @@
     "short": "Industrial Google Ads",
     "headline": "Google Ads",
     "accent": "for Industrial Companies",
-    "intro": "Capture demand for repairs, rentals, equipment, fabrication, and industrial contractors. We build Google Ads campaigns around what you sell, where you can deliver, and the calls and RFQs your sales team wants to receive.",
-    "cta": "Request a Google Ads review",
-    "badge": "LEAD SERVICE / INDUSTRIAL PAID SEARCH",
+    "intro": "We help industrial companies run Google Ads for the products and services they sell. The goal is to reach people who need your help, in places you serve, and make it easy to call or ask for a quote.",
+    "cta": "Talk about your ads",
+    "badge": "GOOGLE ADS",
     "steps": [
-      "Commercial search",
-      "Relevant landing page",
-      "Qualified call or RFQ",
-      "Sales outcome"
+      "Buyer searches",
+      "Visits your page",
+      "Calls or asks for a quote",
+      "Your team follows up"
     ],
     "outcomes": [
       [
-        "Buyer intent",
-        "Keywords shaped around commercial applications and buying situations."
+        "Useful searches",
+        "Show ads for the work you want to take on."
       ],
       [
-        "Serviceable markets",
-        "Location and scheduling decisions tied to your actual sales coverage."
+        "The right areas",
+        "Focus on places where you can do the work or deliver the equipment."
       ],
       [
-        "Qualified opportunities",
-        "Review inquiry fit, quotations, and recorded sales outcomes."
+        "Clear results",
+        "See which calls and quote requests are a good fit for your business."
       ]
     ],
     "challenges": [
       [
-        "Broad searches blur intent",
-        "Repair, equipment, and fabrication terms can attract very different buyers. Campaigns need a clear definition of the work you want and the inquiries you cannot serve."
+        "Some searches bring the wrong calls",
+        "The same search can mean different things. We choose terms that match your work and exclude searches that do not."
       ],
       [
-        "Traffic reaches the wrong page",
-        "A buyer searching for emergency repair needs a fast service path. An equipment buyer needs specifications. Sending both to the same generic page creates friction."
+        "The page does not answer the question",
+        "Someone with a broken machine needs a phone number and service hours. An equipment buyer needs product details. Each should reach a page that helps."
       ],
       [
-        "Conversion counts hide quality",
-        "A phone call or submitted form is a starting point. Sales feedback is needed to distinguish a relevant commercial inquiry from spam, unsuitable work, or an existing customer request."
+        "More calls do not always mean more work",
+        "Some calls are spam or requests you cannot handle. Feedback from your team helps us see which ads bring useful inquiries."
       ]
     ],
     "pillars": [
       [
-        "Keyword selection & search review",
-        "Map campaigns to services, equipment, applications, and purchase intent. Review search terms and exclusions against your actual offer, without blocking useful research that can lead to a project.",
-        "Repairs · Rentals · Equipment · Production"
+        "Choose the search terms",
+        "We start with what you sell and how customers search for it. Then we check the searches that trigger your ads and make changes as we learn.",
+        "Repairs · Rentals · Equipment · Parts"
       ],
       [
-        "Location & scheduling strategy",
-        "Align targeting with branch coverage, delivery areas, supported markets, and staffed hours. Separate urgent local service from regional equipment sales or wider manufacturing demand.",
-        "Territory · Branch · Availability"
+        "Choose where and when ads run",
+        "We match ads to your service area, delivery range and hours. Local repair calls may need a different plan from equipment sales.",
+        "Location · Hours · Service area"
       ],
       [
-        "Landing pages, calls & RFQs",
-        "Match the search with a page that explains fit and gives the buyer an appropriate next step. Track calls and usable quote requests, and route them with the context sales needs.",
-        "Search intent → relevant inquiry"
+        "Give each ad a useful page",
+        "The page should explain what you offer and make the next step clear. Buyers can call, ask about equipment or request a quote.",
+        "Search → page → call or quote"
       ],
       [
-        "Qualified lead tracking & improvement",
-        "Agree on qualification criteria and review campaign results alongside sales stages. Where supported, use recorded outcomes to inform campaign decisions and reporting.",
-        "Inquiry → qualified → quote → outcome"
+        "Check which inquiries lead to work",
+        "We agree on what makes a good inquiry. Then we review costs, quotes and sales where your records allow us to do so.",
+        "Inquiry → quote → job"
       ]
     ],
     "types": [
       [
-        "Urgent repairs & field service",
-        "Use clear service coverage, availability, and phone contact for buyers dealing with a breakdown. Campaign schedules should reflect when your team can respond.",
+        "Repairs and field service",
+        "Make your service area, hours and phone number easy to find. Run ads when your team can answer calls.",
         [
           "Equipment type",
           "Job location",
-          "Urgency & callback"
+          "How soon help is needed"
         ]
       ],
       [
-        "Equipment sales & rentals",
-        "Help buyers evaluate the right machine or rental category. Keep inventory and product claims accurate, and collect the application details needed for a quote.",
+        "Equipment sales and rentals",
+        "Show what the equipment does and who it is for. Ask a few questions so your team can check fit and prepare a quote.",
         [
-          "Equipment requirement",
+          "Equipment needed",
           "Delivery location",
-          "Purchase or rental timing"
+          "Purchase or rental dates"
         ]
       ],
       [
-        "Fabrication & contractor projects",
-        "Support longer evaluations with capability information and structured RFQs. Ask about project scope, quantity or scale, and the intended schedule.",
+        "Fabrication and project work",
+        "Explain the work you do and the details needed to quote it. Buyers may need time to compare suppliers.",
         [
-          "Capability or project scope",
-          "Quantity or project scale",
+          "Type of work",
+          "Quantity or project size",
           "Required dates"
         ]
       ]
     ],
     "example": [
-      "A repair search becomes a useful service inquiry.",
-      "A commercial operator searches for hydraulic hose repair in a serviceable area.",
-      "The campaign leads to a location-specific service page with a clear phone route and accurate operating hours.",
-      "The team classifies the inquiry, records the job opportunity, and feeds the result back into campaign review."
+      "A customer needs a hose repair.",
+      "A business owner searches for hydraulic hose repair near their job site.",
+      "The ad opens a page with your service area, hours and phone number.",
+      "Your team checks the request and records whether it became a job. We use that feedback when reviewing the ads."
     ],
     "scope": [
       [
-        "Launch a focused campaign",
-        "Start with one defined service or equipment offer, an agreed territory, a relevant landing page, and measurement of calls or forms."
+        "Start a campaign",
+        "Begin with one service or product, a clear service area and a page where buyers can get in touch."
       ],
       [
-        "Improve an existing account",
-        "Review structure, search demand, landing-page fit, conversion setup, and the quality of inquiries reaching sales."
+        "Review your current ads",
+        "Look at search terms, spending, pages and the calls your ads bring in."
       ],
       [
-        "Expand across services or territories",
-        "Add coverage when there is a clear offer, capacity to handle the demand, and a workable process for judging opportunity quality."
+        "Add another service or area",
+        "Expand when your team can handle more work and the current results give you a reason to do so."
       ]
     ],
     "faqs": [
       [
-        "Is media spend included in your management scope?",
-        "Media spend and agency work should be agreed separately. We establish the campaign scope, landing-page needs, tracking work, and proposed advertising budget before launch."
+        "Is the ad budget included in your fee?",
+        "No. We discuss what you pay Google separately from our work. We agree on the budget, pages and tracking before the ads start."
       ],
       [
-        "Can Google Ads produce only qualified industrial leads?",
-        "No campaign can guarantee that every inquiry will qualify. We use relevant targeting, clear pages, sensible intake questions, and sales feedback to improve fit over time."
+        "Will every inquiry be a good fit?",
+        "No. Clear ads, useful pages and sensible form questions can help, but some inquiries will still be unsuitable. Your team’s feedback helps us improve the ads."
       ],
       [
-        "Can you work with our existing account?",
-        "Yes. A review can start with your existing structure, historical results, and current conversion setup. Any account access is arranged separately through the appropriate platform permissions."
+        "Can you use our existing Google Ads account?",
+        "Yes. We can review your account and past results. We arrange access through Google Ads, so you do not need to share your password."
       ],
       [
-        "How do you judge campaign performance?",
-        "We look at qualified inquiry cost and progression into quotes or won work where reliable data is available. Calls, forms, and clicks remain useful diagnostics, but each needs context."
+        "How do you judge the results?",
+        "We look at the cost of useful inquiries and whether they lead to quotes or jobs. Clicks and calls help explain what happened, but they do not tell the whole story."
       ]
     ],
-    "form_label": "Current Google Ads activity",
+    "form_label": "Are you running Google Ads?",
     "form_options": [
-      "Not currently advertising",
-      "Running campaigns internally",
-      "Working with another provider",
-      "Planning a new market or service"
+      "Not yet",
+      "We manage our own ads",
+      "Another company manages our ads",
+      "We want to advertise a new service or area"
     ],
-    "description": "Google Ads for industrial companies. Reach buyers searching for repairs, equipment, rentals and fabrication, with qualified call and RFQ tracking."
+    "description": "Google Ads for industrial companies. Reach people looking for your products or services, and see which calls and quote requests lead to work."
   },
   {
     "slug": "industrial-seo",
@@ -146,141 +146,141 @@
     "short": "Industrial SEO",
     "headline": "Industrial SEO",
     "accent": "for Manufacturers and Service Companies",
-    "intro": "Build visibility for the services, equipment, applications, and industries you serve. We organize your website around real buyer questions, clear technical content, and the information a procurement team needs to evaluate a supplier.",
-    "cta": "Request an SEO review",
-    "badge": "SERVICE / INDUSTRIAL SEARCH VISIBILITY",
+    "intro": "Search engine optimization, or SEO, helps people find your website through search. We improve your pages so buyers can understand what you do, check whether you can help and get in touch.",
+    "cta": "Talk about your SEO",
+    "badge": "SEARCH ENGINE OPTIMIZATION",
     "steps": [
-      "Buyer questions",
-      "Clear site structure",
-      "Useful technical pages",
-      "Relevant inquiries"
+      "Buyer searches",
+      "Finds a useful page",
+      "Learns what you offer",
+      "Gets in touch"
     ],
     "outcomes": [
       [
-        "Search coverage",
-        "Connect service, equipment, application, and industry topics."
+        "Easy to find",
+        "Create pages for the services and products people search for."
       ],
       [
-        "Technical clarity",
-        "Help buyers understand the work you can actually support."
+        "Easy to understand",
+        "Explain what you do in words your buyers use."
       ],
       [
-        "Supplier evaluation",
-        "Make capabilities, evidence, and next steps easy to find."
+        "Easy to contact",
+        "Help buyers find the right details and ask a question."
       ]
     ],
     "challenges": [
       [
-        "Important capabilities have no clear home",
-        "A broad services page or a PDF catalog can bury specific capabilities. Buyers need useful pages that connect their requirement to your offer."
+        "Your best work is hard to find",
+        "A long service list or product catalog can hide what makes your business useful. Key services need clear pages of their own."
       ],
       [
-        "Content misses the technical decision",
-        "Generic articles may attract visits without helping someone choose a supplier. Useful content explains applications, fit, processes, and practical buying questions."
+        "Pages do not answer buyer questions",
+        "People need to know what you can make, repair or supply. General articles are less useful if they leave those questions unanswered."
       ],
       [
-        "Architecture creates dead ends",
-        "Unclear navigation, duplicate pages, and weak internal links make it harder to understand which page matters and what the visitor should do next."
+        "The site is hard to follow",
+        "Confusing menus and repeated pages make it hard to find the right information. Clear links help people move between related pages."
       ]
     ],
     "pillars": [
       [
-        "Site architecture & content mapping",
-        "Build a page plan around your services, equipment, applications, industries, and real locations. Give each page a distinct purpose and connect it to directly supporting information.",
-        "Service → application → capability → inquiry"
+        "Plan the pages",
+        "Give each main service or product a useful place on the site. Link related pages so buyers can find more detail when they need it.",
+        "Services · Products · Industries"
       ],
       [
-        "Technical foundations",
-        "Review crawl access, indexing signals, canonical URLs, redirects, mobile usability, and page performance. Prioritize issues that prevent useful pages from being discovered or used.",
-        "Accessible pages · clear signals"
+        "Fix problems that get in the way",
+        "Check that search engines can find the pages. Fix broken links, repeated pages, slow loading and problems on phones.",
+        "Pages that load and work"
       ],
       [
-        "Technical content buyers can use",
-        "Develop content with subject-matter input: specifications, process explanations, application fit, project context, and verified qualifications. Explain technical terms where it helps the buyer.",
-        "Engineering input → clear buyer information"
+        "Write with help from your team",
+        "Your staff know the work. We turn their knowledge into clear pages about products, processes and common buyer questions. Your team checks the facts before publishing.",
+        "Your knowledge, clearly explained"
       ],
       [
-        "Local visibility & inquiry review",
-        "For businesses serving defined areas, align branch pages and business listings with real locations and coverage. Review search visibility and inquiry relevance alongside sales feedback.",
-        "Real locations · service coverage · inquiry fit"
+        "Help local buyers find you",
+        "For local services, show real locations and accurate service areas. Review search results and ask your team whether the inquiries are useful.",
+        "Locations · Service areas · Contact details"
       ]
     ],
     "types": [
       [
-        "Service & equipment searches",
-        "Create useful pages for the specific service or product category the buyer needs, including scope, suitable applications, and quote requirements.",
+        "Service and product searches",
+        "Explain what you offer, what it is used for and what you need to prepare a quote.",
         [
-          "What you provide",
-          "Where it fits",
-          "How to inquire"
+          "What you sell",
+          "Who it is for",
+          "How to ask for a quote"
         ]
       ],
       [
-        "Application & industry searches",
-        "Explain how your capabilities support a particular operating environment or buyer requirement. Link only to services that directly support that situation.",
+        "Industry and use-specific searches",
+        "Show how your work helps a certain type of customer. Include examples and links to the services they may need.",
         [
-          "Buyer problem",
-          "Relevant capability",
-          "Supporting evidence"
+          "The customer’s need",
+          "How you can help",
+          "Examples of your work"
         ]
       ],
       [
-        "Local & regional searches",
-        "Support actual branches, service areas, and delivery coverage. Give buyers accurate contact information and a clear path to the team serving them.",
+        "Local searches",
+        "Give buyers accurate branch details, opening hours and service areas. Help them reach the right person.",
         [
-          "Real branch information",
-          "Coverage & services",
-          "Local contact route"
+          "Branch details",
+          "Services in that area",
+          "Who to contact"
         ]
       ]
     ],
     "example": [
-      "A capability becomes a clear entry point.",
-      "An engineer researches a supplier for a specific machining process.",
-      "A focused capability page explains process scope, material experience, and the information needed for an RFQ.",
-      "The buyer reaches a relevant inquiry route, while reporting tracks visibility and the quality of resulting conversations."
+      "A buyer finds a machine shop.",
+      "An engineer searches for a shop that can make a certain part.",
+      "A page explains the shop’s processes, materials and the details needed for a quote.",
+      "The buyer can check whether the shop is a fit and send a request. The shop records whether that request leads to work."
     ],
     "scope": [
       [
-        "Establish the foundation",
-        "Audit the existing structure and technical issues, then prioritize the pages that best represent your commercial offer."
+        "Review the website",
+        "Find the pages and site problems that need attention first."
       ],
       [
-        "Build useful search coverage",
-        "Develop approved service, equipment, application, and industry content with a clear role for every page."
+        "Write or improve pages",
+        "Build clear pages for your services, equipment and the work your customers need."
       ],
       [
-        "Refine and maintain",
-        "Review visibility, content accuracy, internal links, and inquiry quality as your capabilities and markets change."
+        "Keep the site up to date",
+        "Review results and update the content as your business changes."
       ]
     ],
     "faqs": [
       [
-        "How long does industrial SEO take?",
-        "Timing varies with your existing website, competition, content, and market demand. We agree on useful milestones and review progress without guaranteeing rankings or a fixed inquiry timeline."
+        "How long does SEO take?",
+        "It usually takes time. Your current website, competition and market all affect progress. We set clear tasks and review results, but we do not promise a ranking or a set number of calls."
       ],
       [
-        "Do we need a separate page for every city?",
-        "No. Location pages need a real purpose, accurate coverage information, and useful content. We avoid creating near-identical pages for places your business does not meaningfully serve."
+        "Do we need a page for every city?",
+        "No. A location page should help people in a place you actually serve. Copying the same page for many cities is not a useful starting point."
       ],
       [
-        "Can you work with technical content from our team?",
-        "Yes. Engineers, product specialists, and sales staff provide the detail that makes industrial content useful. We help structure it for buyers and arrange a review before publication."
+        "Can you use information from our team?",
+        "Yes. Your engineers, product staff and sales team know the details buyers need. We help organize that information and ask your team to check it."
       ],
       [
-        "How does SEO fit with Google Ads?",
-        "Ads can help you pursue selected search demand while the website’s search coverage develops. Both should use coherent page architecture and share what sales learns about inquiry quality."
+        "How does SEO work with Google Ads?",
+        "Ads can bring people to your site while you improve its search visibility. Both work better when the pages answer buyer questions and your team shares feedback on the inquiries."
       ]
     ],
-    "form_label": "Your current SEO priority",
+    "form_label": "What needs attention?",
     "form_options": [
-      "Clarify site structure",
-      "Improve service or equipment pages",
-      "Develop technical content",
-      "Improve local visibility",
-      "Review an existing SEO program"
+      "Make the site easier to follow",
+      "Improve service or product pages",
+      "Write clearer content",
+      "Help local buyers find us",
+      "Review our current SEO work"
     ],
-    "description": "Industrial SEO for manufacturers and service companies. Build visibility with technical content, clear site architecture and useful supplier information."
+    "description": "Industrial SEO for manufacturers and service companies. Help buyers find your website, understand what you offer and ask for a quote."
   },
   {
     "slug": "industrial-websites",
@@ -288,141 +288,140 @@
     "short": "Industrial Websites",
     "headline": "Industrial Website Design",
     "accent": "& Landing Pages",
-    "intro": "Build a website that helps commercial buyers take the next step. We design the page and inquiry path around the job: dispatching a repair, quoting equipment, or starting a longer industrial project conversation.",
-    "cta": "Discuss your website",
-    "badge": "SERVICE / WEBSITES & LANDING PAGES",
+    "intro": "Your website should explain what you do and make it easy to get in touch. We build websites and landing pages—pages made for a specific ad or service—that help people call, request equipment or ask for a project quote.",
+    "cta": "Talk about your website",
+    "badge": "WEBSITES AND LANDING PAGES",
     "steps": [
-      "Buyer requirement",
-      "Relevant page",
-      "Useful intake",
-      "Prepared sales handoff"
+      "Buyer has a need",
+      "Finds the right page",
+      "Sends useful details",
+      "Your team responds"
     ],
     "outcomes": [
       [
-        "Clear page purpose",
-        "Give urgent service, equipment, and project buyers appropriate next steps."
+        "Clear information",
+        "Help buyers understand what you do and whether you can help."
       ],
       [
-        "Useful RFQs",
-        "Capture the information that helps sales assess and respond."
+        "Better quote requests",
+        "Ask for the details your team needs to respond."
       ],
       [
-        "Practical handoff",
-        "Connect the inquiry with the person responsible for follow-up."
+        "A clear next step",
+        "Send each request to the person who can help."
       ]
     ],
     "challenges": [
       [
-        "Every visitor gets the same journey",
-        "A generic homepage and contact form cannot explain every service or buying situation equally well. Page structure should reflect the task the buyer is trying to complete."
+        "One page tries to do too much",
+        "A homepage cannot explain every service in detail. Buyers need pages that answer the questions behind their visit."
       ],
       [
-        "Technical detail is difficult to use",
-        "Large catalogs, buried capabilities, and unexplained terminology slow evaluation. Important information needs a clear hierarchy and a usable mobile layout."
+        "Important details are buried",
+        "Long catalogs and unfamiliar terms can make a site hard to use. Clear headings and simple menus help buyers find what matters."
       ],
       [
-        "Forms create more questions than answers",
-        "Too little context leaves sales chasing the basics. Too many questions can make an initial inquiry harder than it needs to be. The form should collect enough for the next step."
+        "Forms ask too much or too little",
+        "A short form may leave your team chasing basic details. A long one may put people off. We ask for enough to start a useful conversation."
       ]
     ],
     "pillars": [
       [
-        "Information architecture & page purpose",
-        "Plan the site around services, products, applications, and industries. Give campaign pages a focused message while retaining access to supporting technical information.",
-        "One buyer task per primary journey"
+        "Make the site easy to follow",
+        "Plan pages around your services and products. Each page should help a buyer complete a clear task, with links to more detail where needed.",
+        "Find the right page"
       ],
       [
-        "Technical content & responsive design",
-        "Present real capabilities, approved specifications, project evidence, and clear calls to action. Build for readable content, keyboard access, and practical mobile use.",
-        "Find it · understand it · act on it"
+        "Make the content easy to read",
+        "Use clear descriptions, accurate product details and real examples. Pages should work well on phones and be easy to use with a keyboard.",
+        "Understand what you offer"
       ],
       [
-        "Forms built for sales intake",
-        "Agree on the details your team needs to assess a call, quote, or project. Use clear labels, required fields only where justified, and visible submission feedback.",
-        "Relevant questions → useful context"
+        "Ask useful questions",
+        "Work with your team to choose the details needed for each request. Use clear labels and show people whether their message was sent.",
+        "Share the right details"
       ],
       [
-        "Routing, measurement & maintenance",
-        "Plan ownership and follow-up alongside the interface. Test forms and contact routes, preserve important URLs during changes, and define how content stays current.",
-        "Working handoff · reliable measurement"
+        "Check what happens next",
+        "Decide who receives each request and how they follow up. Test the forms and links, and agree on how to keep the site up to date.",
+        "Get a response"
       ]
     ],
     "types": [
       [
-        "Dispatch page",
-        "Prioritize the service area, actual availability, phone contact, and equipment scope. Keep the first step quick for a buyer dealing with downtime.",
+        "Repair service page",
+        "Show your service area, hours and phone number. Keep the first step simple for someone dealing with a breakdown.",
         [
-          "Location",
-          "Equipment & issue",
-          "Urgency & callback"
+          "Job location",
+          "Equipment and problem",
+          "How soon help is needed"
         ]
       ],
       [
         "Equipment quote page",
-        "Help a buyer compare the equipment and explain the application. Collect fit and timing details that support an informed quote.",
+        "Explain the equipment and ask how the buyer plans to use it. That helps your team check fit and prepare a quote.",
         [
-          "Model or equipment category",
-          "Application & capacity",
-          "Purchase or rental timing"
+          "Equipment or model",
+          "Job and load requirements",
+          "Purchase or rental dates"
         ]
       ],
       [
-        "Project inquiry page",
-        "Support a longer evaluation with capability information and project context. Gather the initial brief before moving to technical review.",
+        "Project quote page",
+        "Explain the work you take on and ask for a few starting details. Your team can discuss drawings and other files later.",
         [
-          "Scope & intended outcome",
+          "Type of work",
           "Site or delivery location",
-          "Project stage & schedule"
+          "Project stage and dates"
         ]
       ]
     ],
     "example": [
-      "The page changes with the buying situation.",
-      "A forklift buyer arrives from a campaign for commercial rentals.",
-      "A rental page explains the offer and asks about application, location, and rental timing.",
-      "The inquiry arrives with enough context for a representative to discuss fit and availability."
+      "A rental page asks the right questions.",
+      "A buyer clicks an ad for forklift rentals.",
+      "The page explains the rental service and asks about the job, location and dates.",
+      "Your team has enough detail to check the equipment needed and discuss availability."
     ],
     "scope": [
       [
-        "A focused landing page",
-        "Create a clear destination for one campaign, capability, or buying situation, with an agreed inquiry route."
+        "Build one landing page",
+        "Create a page for one service or ad, with a clear way to get in touch."
       ],
       [
-        "An industrial website rebuild",
-        "Plan architecture, content, templates, URL handling, and the forms needed across your core offers."
+        "Rebuild the website",
+        "Plan the pages, content and forms for your main services and products."
       ],
       [
-        "Improve the inquiry journey",
-        "Review existing pages, simplify the next step, and repair gaps between the site, forms, and sales handoff."
+        "Improve the current site",
+        "Make key pages easier to use and fix problems with forms and follow-up."
       ]
     ],
     "faqs": [
       [
         "Can you work with our existing website?",
-        "Yes. We can assess whether focused improvements or new landing pages would meet the need before proposing a full rebuild. The right scope depends on the current system and content."
+        "Yes. A few page changes may be enough. We review the site before suggesting a full rebuild."
       ],
       [
-        "Can we accept CAD drawings through a form?",
-        "That needs a separately agreed file-handling process. We first establish your technical, contractual, and security requirements, then select an appropriate transfer method. A general marketing form is not automatically suitable for controlled files."
+        "Can buyers send CAD drawings through a form?",
+        "We can discuss that as part of the work. First, we need to agree on how files will be sent, stored and shared. Use the general contact form for basic details, not private drawings."
       ],
       [
-        "Will changing the website affect existing search traffic?",
-        "A rebuild should account for existing URLs, useful content, internal links, metadata, and redirects where URLs change. We plan those details and verify the launch rather than treating migration as a visual change alone."
+        "Will a rebuild affect traffic from search?",
+        "It can, so we plan for it. We keep useful content and page addresses where possible. If an address changes, we send visitors from the old page to the new one."
       ],
       [
-        "What happens after someone submits an RFQ?",
-        "That is part of the project scope. We agree on the receiving team, fields, notifications, CRM requirements, and confirmation behavior, then test the intended path."
+        "What happens after someone asks for a quote?",
+        "We agree on who gets the request, what details they receive and how they follow up. The form should help your team start the next conversation."
       ]
     ],
-    "form_label": "What would you like to build?",
+    "form_label": "What are you looking for?",
     "form_options": [
-      "Dispatch or field-service page",
-      "Equipment quote page",
-      "Project inquiry page",
-      "Full industrial website",
-      "Improve an existing website"
+      "A page for an ad or service",
+      "A new website",
+      "Better forms and quote requests",
+      "Help improving the current site"
     ],
-    "description": "Industrial website design and landing pages built for service calls, equipment quotes and project RFQs. Give buyers and sales teams a clearer next step."
+    "description": "Industrial websites and landing pages that explain your work clearly. Help customers call, ask about equipment or send a useful project quote request."
   },
   {
     "slug": "industrial-lead-tracking",
@@ -430,140 +429,140 @@
     "short": "Lead Tracking & Follow-Up",
     "headline": "Industrial Lead Tracking",
     "accent": "& Sales Follow-Up",
-    "intro": "Connect calls, forms, CRM stages, quote follow-up, and reporting. We help industrial teams see which inquiries become qualified opportunities, which quotes need attention, and which jobs are recorded as won.",
-    "cta": "Request a tracking review",
-    "badge": "SERVICE / OPPORTUNITY VISIBILITY",
+    "intro": "See what happens after someone calls or fills out a form. We help your team keep track of requests, follow up on quotes and record which inquiries become jobs.",
+    "cta": "Talk about lead tracking",
+    "badge": "LEAD TRACKING AND FOLLOW-UP",
     "steps": [
-      "Call or form",
-      "Qualification",
-      "Quote & follow-up",
-      "Won or lost outcome"
+      "Call or message",
+      "Check whether you can help",
+      "Send a quote and follow up",
+      "Record the result"
     ],
     "outcomes": [
       [
-        "Connected records",
-        "Keep source information and inquiry details together where systems allow."
+        "Keep details together",
+        "See where a request came from and what the customer needs."
       ],
       [
-        "Clear ownership",
-        "Give each opportunity a next action and a responsible person."
+        "Know who is following up",
+        "Give each request a contact person and a next step."
       ],
       [
-        "Useful reporting",
-        "Review qualified opportunities, quote progression, and won jobs."
+        "See the results",
+        "Review the requests, quotes and jobs your team records."
       ]
     ],
     "challenges": [
       [
-        "Calls and forms live in different places",
-        "Separate inboxes, phone logs, and spreadsheets can make it hard to connect a campaign with a real sales conversation."
+        "Details are spread across different tools",
+        "Calls, emails and spreadsheets may each hold part of the story. It can be hard to see which ads or pages led to a job."
       ],
       [
-        "Opportunity stages are inconsistent",
-        "A lead marked “new” by one person may already be quoted by another. Shared definitions make reporting and follow-up more useful."
+        "No one is sure what happens next",
+        "One person may think a request is new while another has sent a quote. Shared steps help the team stay on the same page."
       ],
       [
-        "Quotes leave the reporting trail",
-        "When outcomes are not recorded, marketing reports stop before the commercial result. Missing next actions also make it easier for promising conversations to stall."
+        "Quotes are sent and then forgotten",
+        "Without a follow-up date or a recorded result, it is easy to lose track of a quote. Reports also miss whether the request became work."
       ]
     ],
     "pillars": [
       [
-        "Call & form source capture",
-        "Review how incoming calls and forms are identified, attributed, and recorded. Capture campaign or page context where supported, with appropriate disclosure and consent handling for the tracking used.",
-        "Source + inquiry context"
+        "Record where requests come from",
+        "Check how calls and forms reach your team. Where the tools allow, keep the source of the request with the customer’s details.",
+        "Source + customer request"
       ],
       [
-        "CRM stages & qualification",
-        "Define inquiry, qualified opportunity, quote, won, and lost stages with your sales team. Agree on ownership, duplicate handling, required fields, and reasons an inquiry does not fit.",
-        "Shared definitions · clear ownership"
+        "Agree on the sales steps",
+        "Use clear steps such as new request, ready to quote, quote sent, won and lost. In your customer management system, or CRM, make it clear who owns each request.",
+        "Clear steps and responsibilities"
       ],
       [
-        "Quote follow-up & next actions",
-        "Set up practical reminders, tasks, and approved follow-up sequences around your sales process. Keep a clear next action without sending the same message to every buyer.",
-        "Owner + next action + due date"
+        "Set follow-up dates",
+        "Add reminders and tasks that fit the way your team works. The next message should help the buyer, rather than repeat the same sales pitch.",
+        "Contact person + next step + date"
       ],
       [
-        "Opportunity & revenue reporting",
-        "Connect records into reports that distinguish new inquiries, qualified opportunities, quotations, and recorded wins. Show missing data and attribution limits alongside the numbers.",
-        "Qualified opportunity → quote → won job"
+        "Show what happened",
+        "Build reports around useful requests, quotes and jobs. Make missing details clear so the numbers do not suggest more certainty than the records support.",
+        "Request → quote → result"
       ]
     ],
     "types": [
       [
-        "Service & dispatch inquiries",
-        "Connect a call or service request with the customer record and job outcome. Distinguish new commercial demand from existing-customer activity where practical.",
+        "Repair and service calls",
+        "Link the call to the customer and record what happened. Separate new requests from calls about work already in progress.",
         [
-          "Caller & source",
-          "Service fit",
-          "Recorded job outcome"
+          "Who called",
+          "What help they need",
+          "Whether the job went ahead"
         ]
       ],
       [
-        "Equipment quotations",
-        "Track the product requirement and quote stage, with clear ownership and a next action for the sales representative.",
+        "Equipment quotes",
+        "Keep the equipment request, quote status and next follow-up date together.",
         [
-          "Equipment requirement",
+          "Equipment needed",
           "Quote status",
           "Follow-up date"
         ]
       ],
       [
-        "Longer industrial projects",
-        "Support multiple stakeholders and longer evaluation periods with agreed stages, notes, and a clear record of proposal and outcome.",
+        "Longer projects",
+        "Keep notes as people compare options and discuss the work. Record who is responsible for the next step.",
         [
           "Project stage",
-          "Responsible owner",
-          "Won or lost reason"
+          "Person following up",
+          "Result and reason"
         ]
       ]
     ],
     "example": [
-      "A quote remains visible after it is sent.",
-      "An equipment inquiry arrives with campaign context and application details.",
-      "Sales qualifies the opportunity, sends a quote, and records an owner and next follow-up date.",
-      "Reporting separates the original inquiry from the quoted opportunity and the eventual recorded outcome."
+      "A quote has a clear follow-up date.",
+      "An equipment buyer sends a request with details about the job.",
+      "Your team checks the request, sends a quote and sets a date to follow up.",
+      "The report shows the request, the quote and whether the sale went ahead once your team records the result."
     ],
     "scope": [
       [
-        "Understand the current setup",
-        "Map calls, forms, inboxes, CRM stages, and the way sales records quotations and outcomes."
+        "Review how you work now",
+        "Look at your calls, forms, customer records and quote process."
       ],
       [
-        "Connect the essential handoffs",
-        "Prioritize source capture, qualification, ownership, and next actions using the systems your team already operates."
+        "Connect the key details",
+        "Use your current tools where possible to keep requests, owners and next steps together."
       ],
       [
-        "Improve reporting & follow-up",
-        "Review data quality, missing outcomes, and practical workflow changes with the people using the system."
+        "Improve follow-up and reports",
+        "Find missing details and make changes that help the people using the system."
       ]
     ],
     "faqs": [
       [
-        "Can you work with our current CRM?",
-        "We start by reviewing the CRM, phone system, form tools, and available integration options. The scope depends on access, supported fields, permissions, and how your team uses those systems."
+        "Can you use our current CRM?",
+        "We start by checking your customer management software, phone system and form tools. What we can connect depends on the features they support."
       ],
       [
-        "Does tracking identify the source of every job?",
-        "No. Some journeys span multiple devices, offline conversations, or incomplete records. Reporting should distinguish known sources from unknown or partially attributed outcomes."
+        "Can you tell where every job came from?",
+        "No. People may use different devices, call directly or hear about you offline. Reports should show when the source is unknown."
       ],
       [
-        "Do we need to record every phone call?",
-        "Not necessarily. The right setup depends on the information needed and the tools in use. Call recording, where proposed, needs its own assessment of notice, consent, access, and retention requirements."
+        "Do we need to record every call?",
+        "No. We choose a setup based on what you need to know. If call recording is part of it, we first agree on consent, access and how long recordings are kept."
       ],
       [
-        "Can follow-up run automatically?",
-        "Some tasks, reminders, and approved messages can be automated where systems and communication permissions support them. Sales still needs to own the opportunity and keep its status accurate."
+        "Can follow-up happen automatically?",
+        "Some reminders and messages can. That depends on your tools and permission to contact the buyer. Your team still needs to respond to questions and keep the records current."
       ]
     ],
-    "form_label": "Where is the biggest gap?",
+    "form_label": "What needs attention?",
     "form_options": [
-      "Call and form tracking",
-      "CRM stages and ownership",
-      "Quote follow-up",
-      "Reporting on won jobs",
-      "Unsure — review the full journey"
+      "Keeping track of calls and forms",
+      "Knowing who follows up",
+      "Following up on quotes",
+      "Seeing which inquiries become jobs",
+      "Not sure yet"
     ],
-    "description": "Industrial lead tracking connects calls, forms, CRM stages and quote follow-up. See which inquiries become qualified opportunities and recorded won jobs."
+    "description": "Industrial lead tracking and sales follow-up. Keep calls, quote requests and next steps together, and see which inquiries become jobs."
   }
 ]
