@@ -7,7 +7,7 @@ The twelve sectors in `industries.json` are the editorial source for the static 
 - Form and navigation behavior: `industrial.js`
 - Page rendering, local SVG illustrations, homepage directory, sitemap: `scripts/build_industries.py`
 
-Run `python3 scripts/build_industries.py` after editing the data or template. The script does not require third-party packages. Generated `.html` and `.svg` files are committed so the existing static hosting can serve them without a build step.
+Run `python3 scripts/build_industries.py` after editing the data or template. The script does not require third-party packages. Generated `.html` and `.svg` files are committed for review; the production build regenerates them before publishing.
 
 Each industry has a unique title, canonical URL, description, content, capability choices, and Netlify form name. Form submissions include the industry and source URL. Netlify must detect forms on deployment; delivery is not established by local preview.
 
@@ -35,4 +35,16 @@ python3 scripts/build_industries.py
 
 The industry renderer reads `services.json` for footer navigation. Service-to-service links use explicit editorial explanations in `build_services.py`; they are not selected by recency or generic similarity. Google Ads is the primary homepage offer. Each service form includes its own form name, service, source URL, industry, and selected priority.
 
-The service template retains the supplied industrial image and uses scope options in place of unconfirmed template prices. Examples describe planned workflows rather than client results. The website intake examples are interactive field comparisons, not live customer RFQ submission forms.
+The service template uses a local optimized copy of the supplied industrial image and uses scope options in place of unconfirmed template prices. Examples describe planned workflows rather than client results. The website intake examples are interactive field comparisons, not live customer RFQ submission forms.
+
+# Production deployment and SEO maintenance
+
+Netlify now builds with `npm run build && npm run check` and publishes only `dist/` (see `netlify.toml`). Run `npm ci` first on a fresh checkout. The build runs both page generators, compiles homepage Tailwind CSS, and copies an explicit production allowlist. Do not change the publish directory back to the repository root: that exposes source templates and legacy drafts.
+
+`_redirects` consolidates legacy service routes. The sitemap contains only the 18 current canonical pages. `scripts/check_site.py` validates the generated publish artifact. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.
+
+The site self-hosts a single Latin Inter variable WOFF2 font, with its OFL license in `assets/fonts/`. The existing template photos are stored as 320px/512px WebP variants, matching the available source resolution rather than upscaling it. Higher-resolution original photography can replace them later. The homepage uses inline SVG icons rather than an icon font.
+
+Service descriptions are authored independently of introductory copy. Industry `buyer_brief` entries provide sector-specific planning guidance and explicitly curated links to supporting service routes. Keep these relationships editorially relevant when adding a sector.
+
+About content and examples must not claim client outcomes or geographic coverage without evidence. See `SEO-MEASUREMENT.md` for the account-dependent Search Console baseline and approved-evidence checklist.

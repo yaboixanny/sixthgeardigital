@@ -42,7 +42,7 @@ for index, page in enumerate(PAGES):
     assert re.fullmatch(r'[a-z0-9-]+', slug), slug
     canonical = f'{BASE}/industries/{slug}.html'
     title = f"{page['short']} Marketing | Sixth Gear Digital"
-    description = f"Industrial marketing for {page['name'].lower()}. Campaigns, websites, and inquiry journeys focused on {page['goal'].lower()}."
+    description = page['description']
     challenge_cards = ''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['challenges'],1))
     playbook_cards = ''.join(f'<article class="card play-card"><span class="card-number">{i:02}</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['playbook'],1))
     capability_cards = ''.join(f'<article class="card capability-card"><span class="capability-mark" aria-hidden="true">{i:02}</span><div><h3>{e(t)}</h3><p>{e(b)}</p></div></article>' for i,(t,b) in enumerate(page['capabilities'],1))
@@ -50,9 +50,13 @@ for index, page in enumerate(PAGES):
     scenario_cards = ''.join(f'<div class="scenario-card"><h3>{i:02} / {label}</h3><p>{e(body)}</p></div>' for i,(label,body) in enumerate(zip(labels,page['scenario']),1))
     faq_items = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in page['faqs'])
     schema = {'@context':'https://schema.org','@graph':[
-        {'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':description,'isPartOf':{'@id':BASE+'/#website'},'about':{'@type':'Service','name':page['short']+' marketing','provider':{'@type':'Organization','name':'Sixth Gear Digital','url':BASE+'/'}},'breadcrumb':{'@id':canonical+'#breadcrumb'}},
+        {'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':description,'isPartOf':{'@id':BASE+'/#website'},'about':{'@type':'Service','name':page['short']+' marketing','provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},'breadcrumb':{'@id':canonical+'#breadcrumb'}},
         {'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Industries','item':BASE+'/#industries'},{'@type':'ListItem','position':3,'name':page['short'],'item':canonical}]}]}
     fields = {k:e(v) for k,v in page.items() if isinstance(v,str)}
+    brief = page['buyer_brief']
+    brief_links = ' and '.join(f'<a href="/services/{e(link["service"])}/">{e(link["label"])}</a>' for link in brief['links'])
+    fields['buyer_brief'] = '<section class="section container buyer-brief"><p class="eyebrow accent">PLANNING THE BUYER JOURNEY</p><h2>What makes a useful inquiry in this sector?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','The buying decision'),('page','The page and intake'),('handoff','The qualification check')]) + '</div><p class="context-links">Build this journey with ' + brief_links + '.</p></section>'
+
     fields.update(title=e(title),description=e(description),canonical=e(canonical),number=f'{index+1:02}',form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)

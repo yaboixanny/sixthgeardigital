@@ -3,8 +3,8 @@
     "slug": "industrial-google-ads",
     "name": "Google Ads for Industrial Companies",
     "short": "Industrial Google Ads",
-    "headline": "Reach Industrial Buyers",
-    "accent": "While They’re Searching.",
+    "headline": "Google Ads",
+    "accent": "for Industrial Companies",
     "intro": "Capture demand for repairs, rentals, equipment, fabrication, and industrial contractors. We build Google Ads campaigns around what you sell, where you can deliver, and the calls and RFQs your sales team wants to receive.",
     "cta": "Request a Google Ads review",
     "badge": "LEAD SERVICE / INDUSTRIAL PAID SEARCH",
@@ -137,14 +137,15 @@
       "Running campaigns internally",
       "Working with another provider",
       "Planning a new market or service"
-    ]
+    ],
+    "description": "Google Ads for industrial companies. Reach buyers searching for repairs, equipment, rentals and fabrication, with qualified call and RFQ tracking."
   },
   {
     "slug": "industrial-seo",
     "name": "Industrial SEO",
     "short": "Industrial SEO",
-    "headline": "Make Your Capabilities",
-    "accent": "Easier to Find and Evaluate.",
+    "headline": "Industrial SEO",
+    "accent": "for Manufacturers and Service Companies",
     "intro": "Build visibility for the services, equipment, applications, and industries you serve. We organize your website around real buyer questions, clear technical content, and the information a procurement team needs to evaluate a supplier.",
     "cta": "Request an SEO review",
     "badge": "SERVICE / INDUSTRIAL SEARCH VISIBILITY",
@@ -278,14 +279,15 @@
       "Develop technical content",
       "Improve local visibility",
       "Review an existing SEO program"
-    ]
+    ],
+    "description": "Industrial SEO for manufacturers and service companies. Build visibility with technical content, clear site architecture and useful supplier information."
   },
   {
     "slug": "industrial-websites",
     "name": "Industrial Websites & Landing Pages",
     "short": "Industrial Websites",
-    "headline": "Turn Technical Traffic into",
-    "accent": "Calls and Usable RFQs.",
+    "headline": "Industrial Website Design",
+    "accent": "& Landing Pages",
     "intro": "Build a website that helps commercial buyers take the next step. We design the page and inquiry path around the job: dispatching a repair, quoting equipment, or starting a longer industrial project conversation.",
     "cta": "Discuss your website",
     "badge": "SERVICE / WEBSITES & LANDING PAGES",
@@ -419,14 +421,15 @@
       "Project inquiry page",
       "Full industrial website",
       "Improve an existing website"
-    ]
+    ],
+    "description": "Industrial website design and landing pages built for service calls, equipment quotes and project RFQs. Give buyers and sales teams a clearer next step."
   },
   {
     "slug": "industrial-lead-tracking",
     "name": "Lead Tracking & Sales Follow-Up",
     "short": "Lead Tracking & Follow-Up",
-    "headline": "See What Happens",
-    "accent": "After the Inquiry.",
+    "headline": "Industrial Lead Tracking",
+    "accent": "& Sales Follow-Up",
     "intro": "Connect calls, forms, CRM stages, quote follow-up, and reporting. We help industrial teams see which inquiries become qualified opportunities, which quotes need attention, and which jobs are recorded as won.",
     "cta": "Request a tracking review",
     "badge": "SERVICE / OPPORTUNITY VISIBILITY",
@@ -560,6 +563,7 @@
       "Quote follow-up",
       "Reporting on won jobs",
       "Unsure — review the full journey"
-    ]
+    ],
+    "description": "Industrial lead tracking connects calls, forms, CRM stages and quote follow-up. See which inquiries become qualified opportunities and recorded won jobs."
   }
 ]

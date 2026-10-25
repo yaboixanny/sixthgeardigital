@@ -1,0 +1,11 @@
+{
+  "name": "sixth-gear-digital",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i styles/home.css -o assets/home.css --minify",
+    "build": "python3 scripts/build_services.py && python3 scripts/build_industries.py && npm run build:css && python3 scripts/build_site.py",
+    "check": "python3 scripts/check_site.py"
+  },
+  "devDependencies": {"tailwindcss": "3.4.17", "@tailwindcss/forms": "0.5.10"}
+}

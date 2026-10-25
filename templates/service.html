@@ -12,9 +12,7 @@
   <meta property="og:url" content="$canonical">
   
   <meta name="twitter:card" content="summary">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/fonts.css">
   <link rel="stylesheet" href="/assets/industry.css">
   <link rel="stylesheet" href="/assets/services.css"><script src="/industrial.js" defer></script><script src="/assets/services.js" defer></script>
   <script type="application/ld+json">$structured_data</script>
@@ -24,16 +22,16 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="/" aria-label="Sixth Gear Digital home"><span class="brand-mark" aria-hidden="true">6</span><span>SIXTH GEAR <b>DIGITAL</b><small>INDUSTRIAL MARKETING AGENCY</small></span></a>
-    <nav class="desktop-nav" aria-label="Main navigation"><a href="/">Agency overview</a><a href="/#industries">Industries</a><a href="/#services">Services</a><a href="#approach">Our approach</a><a href="#faq">FAQ</a></nav>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="/about.html">About</a><a href="/#industries">Industries</a><a href="/#services">Services</a><a href="#approach">Our approach</a><a href="#faq">FAQ</a></nav>
     <button type="button" class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
     <a class="button header-cta" href="#audit-form">Get a growth plan <span aria-hidden="true">↗</span></a>
   </div>
-  <nav id="mobile-menu" aria-label="Mobile navigation" hidden><a href="/">Agency overview</a><a href="/#industries">All industries</a><a href="/#services">Services</a><a href="#approach">Our approach</a><a href="#faq">FAQ</a><a href="#audit-form">Get a growth plan</a></nav>
+  <nav id="mobile-menu" aria-label="Mobile navigation" hidden><a href="/about.html">About</a><a href="/#industries">All industries</a><a href="/#services">Services</a><a href="#approach">Our approach</a><a href="#faq">FAQ</a><a href="#audit-form">Get a growth plan</a></nav>
 </header>
 <main id="main">
 <nav class="service-nav container" aria-label="Core services">$service_navigation</nav>
 <section class="service-hero"><div class="container"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#services">Services</a><span aria-hidden="true">/</span><span aria-current="page">$name</span></nav><div class="hero-center"><span class="badge"><i></i>$badge</span><h1>$headline<br><em>$accent</em></h1><p class="lead">$intro</p><div class="actions"><a class="button" href="#audit-form">$cta <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#approach">Explore the approach <span aria-hidden="true">↓</span></a></div></div>
-<div class="service-banner"><img src="$hero_image" alt="Industrial machining facility with production equipment" width="1400" height="650" fetchpriority="high"><div class="banner-caption"><span class="eyebrow">$short</span><strong>Built around the commercial buyer’s journey.</strong></div></div>
+<div class="service-banner"><img src="$hero_image" srcset="/assets/images/industrial-services-320.webp 320w, /assets/images/industrial-services-512.webp 512w" sizes="(max-width: 768px) 100vw, 1184px" alt="Industrial machining facility with production equipment" width="1400" height="650" fetchpriority="high"><div class="banner-caption"><span class="eyebrow">$short</span><strong>Built around the commercial buyer’s journey.</strong></div></div>
 <div class="journey-strip" aria-label="Service journey">$journey_steps</div><div class="service-outcomes grid three">$outcome_cards</div></div></section>
 <section class="section service-tint"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">01 / THE CHALLENGE</p><h2>$challenge_title</h2></div><p>$challenge_intro</p></div><div class="grid three">$challenge_cards</div></div></section>
 <section class="section container" id="approach"><div class="section-heading"><div><p class="eyebrow accent">02 / THE FRAMEWORK</p><h2>$approach_title</h2></div><p>Agree on the commercial goal, build the right foundations, and review what the sales team is actually receiving.</p></div><div class="grid two">$pillar_cards</div></section>
@@ -51,5 +49,5 @@
 <label for="goals">What would you like to improve? <small>(optional)</small></label><textarea id="goals" name="goals" rows="3" placeholder="A little context about your goals"></textarea>
 <button class="button" type="submit">$cta <span aria-hidden="true">↗</span></button><p class="form-note">Share business context only. Account access and any technical-file transfer are arranged separately.</p></form><p id="form-status" role="status" hidden></p></div></div></section>
 </main>
-<footer><div class="container footer-grid"><div><a class="brand" href="/">SIXTH GEAR <b>DIGITAL</b></a><p>Industrial marketing for companies that build, move, and power industry.</p><a href="/#industries">Explore the industries we serve ↗</a></div><nav aria-label="Service navigation">$footer_links</nav></div><div class="container footer-bottom"><span>© 2026 Sixth Gear Digital</span><a href="#main">Back to top ↑</a></div></footer>
+<footer><div class="container footer-grid"><div><a class="brand" href="/">SIXTH GEAR <b>DIGITAL</b></a><p>Industrial marketing for companies that build, move, and power industry.</p><a href="/#industries">Explore the industries we serve ↗</a></div><nav aria-label="Service navigation"><a href="/about.html">About Sixth Gear</a>$footer_links</nav></div><div class="container footer-bottom"><span>© 2026 Sixth Gear Digital</span><a href="#main">Back to top ↑</a></div></footer>
 </body></html>

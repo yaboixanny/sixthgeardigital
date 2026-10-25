@@ -16,7 +16,7 @@ document.addEventListener('keydown', event => { if (event.key === 'Escape' && !m
 window.matchMedia('(min-width: 1024px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 const form = document.querySelector('#growth-plan-form');
 const status = document.querySelector('#form-status');
-form.addEventListener('submit', async event => {
+if (form && status) form.addEventListener('submit', async event => {
   event.preventDefault();
   status.hidden = false;
   if (['localhost', '127.0.0.1'].includes(location.hostname)) {

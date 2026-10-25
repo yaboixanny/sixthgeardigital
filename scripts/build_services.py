@@ -12,7 +12,7 @@ DATE = '2026-10-25'
 SERVICES = json.loads((ROOT/'content/services.json').read_text())
 INDUSTRIES = json.loads((ROOT/'content/industries.json').read_text())
 TEMPLATE = Template((ROOT/'templates/service.html').read_text())
-HERO = 'https://lh3.googleusercontent.com/aida-public/AB6AXuA6jPPyZvw_wQ_7f5LDWRwcMy4XmZPkJK47Kvy-c7UwU_Y_rQU0R1jtiQsi8Uhj-OWqD4MsIhob9jv-Z_bmYJxVg0r0HvXRQ-9H1bvuN1dt5IPsqrhjhxNMQAoY3n1wn8Uuyk7pWFk_aSPENvH_sil6qvIrtpU4V_Gm4OIucPhJTvovPSL3mqeLOLOf_U5ZGzGJheCJOWh0Y2HUZHpv1wPbAWhAV1F2dBCsnMaf75LNJeoVsBZE6Vaj'
+HERO = '/assets/images/industrial-services-512.webp'
 
 def e(s): return escape(str(s),quote=True)
 def route(s): return '/services/'+s['slug']+'/'
@@ -48,7 +48,7 @@ def form_examples():
 
 for s in SERVICES:
  canonical=BASE+route(s); title=s['name']+' | Sixth Gear Digital'
- desc=s['intro']
+ desc=s['description']
  h=HEADINGS[s['slug']]
  fields={k:e(v) for k,v in s.items() if isinstance(v,str)}
  fields.update(title=e(title),description=e(desc),canonical=e(canonical),hero_image=e(HERO),form_name='service-'+s['slug'],service_navigation=links(s['slug']),footer_links=links(s['slug']),challenge_title=e(h[0]),challenge_intro=e(h[1]),approach_title=e(h[2]),types_title=e(h[3]),example_title=e(s['example'][0]),form_examples=form_examples() if s['slug']=='industrial-websites' else '')
@@ -64,7 +64,7 @@ for s in SERVICES:
  fields['faq_items']=''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in s['faqs'])
  fields['industry_options']=''.join(f'<option value="{e(p["slug"])}">{e(p["short"])}</option>' for p in INDUSTRIES)
  fields['form_options']=''.join(f'<option value="{e(x)}">{e(x)}</option>' for x in s['form_options'])
- schema={'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':desc,'about':{'@id':canonical+'#service'},'breadcrumb':{'@id':canonical+'#breadcrumb'}},{'@type':'Service','@id':canonical+'#service','name':s['name'],'url':canonical,'description':desc,'provider':{'@type':'Organization','name':'Sixth Gear Digital','url':BASE+'/'}},{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Services','item':BASE+'/#services'},{'@type':'ListItem','position':3,'name':s['name'],'item':canonical}]}]}
+ schema={'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'isPartOf':{'@id':BASE+'/#website'},'name':title,'description':desc,'about':{'@id':canonical+'#service'},'breadcrumb':{'@id':canonical+'#breadcrumb'}},{'@type':'Service','@id':canonical+'#service','name':s['name'],'url':canonical,'description':desc,'provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Services','item':BASE+'/#services'},{'@type':'ListItem','position':3,'name':s['name'],'item':canonical}]}]}
  fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
  (folder/'index.html').write_text(TEMPLATE.substitute(fields))
