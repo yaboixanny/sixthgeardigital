@@ -9,17 +9,20 @@ DIST = ROOT / 'dist'
 if DIST.exists():
     shutil.rmtree(DIST)
 DIST.mkdir()
-for name in ('index.html', 'about.html', '404.html', 'robots.txt', 'sitemap.xml', 'industrial.css', 'industrial.js', '_redirects'):
+for name in ('index.html', '404.html', 'robots.txt', 'sitemap.xml', 'industrial.css', 'industrial.js', '_redirects'):
     shutil.copy2(ROOT / name, DIST / name)
 for folder in ('services', 'industries'):
     (DIST / folder).mkdir()
+(DIST / 'about').mkdir()
+shutil.copy2(ROOT / 'about.html', DIST / 'about' / 'index.html')
 for item in json.loads((ROOT / 'content/services.json').read_text()):
     slug = item['slug']
     (DIST / 'services' / slug).mkdir()
     shutil.copy2(ROOT / 'services' / slug / 'index.html', DIST / 'services' / slug / 'index.html')
 for item in json.loads((ROOT / 'content/industries.json').read_text()):
-    name = item['slug'] + '.html'
-    shutil.copy2(ROOT / 'industries' / name, DIST / 'industries' / name)
+    slug = item['slug']
+    (DIST / 'industries' / slug).mkdir()
+    shutil.copy2(ROOT / 'industries' / slug / 'index.html', DIST / 'industries' / slug / 'index.html')
 (DIST / 'assets').mkdir()
 for name in ('home.css', 'fonts.css', 'industry.css', 'services.css', 'services.js', 'alex-founder.webp'):
     shutil.copy2(ROOT / 'assets' / name, DIST / 'assets' / name)

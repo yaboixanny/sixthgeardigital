@@ -8,7 +8,7 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
-DATE = '2026-10-25'
+DATE = '2026-10-26'
 SERVICES = json.loads((ROOT/'content/services.json').read_text())
 INDUSTRIES = json.loads((ROOT/'content/industries.json').read_text())
 TEMPLATE = Template((ROOT/'templates/service.html').read_text())

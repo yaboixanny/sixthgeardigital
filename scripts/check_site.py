@@ -58,7 +58,7 @@ for source,page in pages.items():
     if source=='404.html':
         check(page.noindex,'404 must have noindex')
     else:
-        expected=BASE+('/' if source=='index.html' else '/'+source.removesuffix('index.html') if source.startswith('services/') else '/'+source)
+        expected=BASE+('/' if source=='index.html' else '/about/' if source=='about/index.html' else '/' + source.removesuffix('index.html') if source.startswith(('services/','industries/')) else '/'+source)
         check(page.canon==[expected],f'{source}: wrong canonical')
         check(expected in urls,f'{source}: missing from sitemap')
         check(page.h1==1,f'{source}: expected one H1')
@@ -72,14 +72,18 @@ for source,page in pages.items():
     check('cdn.tailwindcss.com' not in text and 'fonts.googleapis.com' not in text,f'{source}: runtime CDN remains')
     for link in page.links+page.assets:
         parsed=urlparse(link)
+        if not parsed.scheme and not parsed.netloc and link in page.links:
+            check(not parsed.path.endswith('.html'), f'{source}: internal link uses an .html URL: {link}')
         if parsed.scheme or parsed.netloc:continue
         target=resolve(unquote(parsed.path),source) if parsed.path else source
         check((DIST/target).is_file(),f'{source}: broken destination {link}')
         if parsed.fragment and target in pages:check(parsed.fragment in pages[target].ids,f'{source}: missing fragment {link}')
 for forbidden in ['templates','scripts','content','code.html','ppc.html','seo.html','web-design.html','funnels.html','node_modules','package.json']:
     check(not (DIST/forbidden).exists(),'Source/legacy file published: '+forbidden)
-for name in ['ppc.html','seo.html','web-design.html','funnels.html','code.html','index.html']:
+for name in ['ppc.html','seo.html','web-design.html','funnels.html','code.html','index.html','about.html']:
     check('/'+name+' ' in (DIST/'_redirects').read_text(),'Missing redirect '+name)
+for page in json.loads((ROOT/'content/industries.json').read_text()):
+    check(f'/industries/{page["slug"]}.html /industries/{page["slug"]}/ 301!' in (DIST/'_redirects').read_text(), 'Missing clean URL redirect '+page['slug'])
 # CSS assets must resolve, too (including font files).
 for file in (DIST/'assets').glob('*.css'):
     for url in re.findall(r'url\([\'"]?([^\)\'\"]+)',file.read_text()):

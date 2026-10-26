@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
 PAGES = json.loads((ROOT / 'content/industries.json').read_text())
 TEMPLATE = Template((ROOT / 'templates/industry.html').read_text())
-DATE = '2026-10-25'
+DATE = '2026-10-26'
 
 def e(value):
     return escape(str(value), quote=True)
@@ -40,7 +40,7 @@ def illustration(index, page):
 for index, page in enumerate(PAGES):
     slug = page['slug']
     assert re.fullmatch(r'[a-z0-9-]+', slug), slug
-    canonical = f'{BASE}/industries/{slug}.html'
+    canonical = f'{BASE}/industries/{slug}/'
     title = f"{page['short']} Marketing | Sixth Gear Digital"
     description = page['description']
     challenge_cards = ''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['challenges'],1))
@@ -60,13 +60,15 @@ for index, page in enumerate(PAGES):
     fields.update(title=e(title),description=e(description),canonical=e(canonical),number=f'{index+1:02}',form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
-    (ROOT / 'industries' / f'{slug}.html').write_text(TEMPLATE.substitute(fields))
+    route = ROOT / 'industries' / slug
+    route.mkdir(parents=True, exist_ok=True)
+    (route / 'index.html').write_text(TEMPLATE.substitute(fields))
     (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
 # The homepage is the curated directory for the twelve user-requested industries.
 # Industry pages link back to this hub and to supporting agency services;
 # no automatic cross-industry related-content recommendations are generated.
-links = ''.join(f'''<a class="industry-directory-card" href="/industries/{e(p['slug'])}.html"><span class="industry-directory-number">{i:02} / INDUSTRY</span><h3>{e(p['short'])}</h3><p>{e(p['goal'])}</p><span class="industry-directory-link">Explore {e(p['short'].lower())} marketing <span aria-hidden="true">↗</span></span></a>''' for i,p in enumerate(PAGES,1))
+links = ''.join(f'''<a class="industry-directory-card" href="/industries/{e(p['slug'])}/"><span class="industry-directory-number">{i:02} / INDUSTRY</span><h3>{e(p['short'])}</h3><p>{e(p['goal'])}</p><span class="industry-directory-link">Explore {e(p['short'].lower())} marketing <span aria-hidden="true">↗</span></span></a>''' for i,p in enumerate(PAGES,1))
 section = f'''<!-- SECTION: WHO WE HELP -->
 <section class="py-24 lg:py-32 bg-brand-surface border-b border-brand-border" id="industries">
 <div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-orange">Industries</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-charcoal tracking-tight mt-3">Marketing for the work you do.</h2><p class="text-lg text-brand-muted mt-4">Choose your industry to see how we can help explain your services and bring in useful inquiries.</p></div><div class="industry-directory">{links}</div></div></section>
@@ -80,7 +82,15 @@ p.write_text(s)
 # Preserve existing pages, then replace only the generated industry sitemap block.
 p = ROOT / 'sitemap.xml'
 s = re.sub(r'\s*<!-- INDUSTRY PAGES START -->.*?<!-- INDUSTRY PAGES END -->','',p.read_text(),flags=re.S)
-entries = '\n'.join(f'  <url>\n    <loc>{BASE}/industries/{p["slug"]}.html</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>' for p in PAGES)
+entries = '\n'.join(f'  <url>\n    <loc>{BASE}/industries/{p["slug"]}/</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>' for p in PAGES)
 s = s.replace('</urlset>',f'  <!-- INDUSTRY PAGES START -->\n{entries}\n  <!-- INDUSTRY PAGES END -->\n</urlset>')
 p.write_text(s)
+
+# Keep old industry URLs working while making the clean route canonical.
+redirects = ROOT / '_redirects'
+redirect_text = redirects.read_text()
+redirect_text = re.sub(r'\n?# INDUSTRY ROUTES START\n.*?(?=\n?# INDUSTRY ROUTES END|\Z)', '', redirect_text, flags=re.S)
+legacy_rules = '\n'.join(f'/industries/{page["slug"]}.html /industries/{page["slug"]}/ 301!' for page in PAGES)
+redirect_text = redirect_text.rstrip() + '\n\n# INDUSTRY ROUTES START\n' + legacy_rules + '\n# INDUSTRY ROUTES END\n'
+redirects.write_text(redirect_text)
 print(f'Built {len(PAGES)} industry pages and illustrations; updated homepage directory and sitemap.')
