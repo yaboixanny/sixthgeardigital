@@ -1002,7 +1002,9 @@
         "Yes. State that on the page and in the form so buyers understand your role before asking for a quote."
       ]
     ],
-    "description": "Marketing for steel building suppliers and contractors. Explain what your service includes and help buyers send a useful quote request.",
+    "description": "Steel and metal building marketing for suppliers and contractors. Reach buyers, explain your options and turn project research into quote requests.",
+    "title": "Steel & Metal Building Marketing for Suppliers & Contractors",
+    "custom_sections_file": "content/steel-building-sections.html",
     "buyer_brief": {
       "decision": "Buyers need to know whether you supply the package, erect the building or do both. Make that clear before discussing price.",
       "page": "Ask for the intended use, location, rough size and dates. Explain which work is included in your service.",

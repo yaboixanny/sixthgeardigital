@@ -41,7 +41,7 @@ for index, page in enumerate(PAGES):
     slug = page['slug']
     assert re.fullmatch(r'[a-z0-9-]+', slug), slug
     canonical = f'{BASE}/industries/{slug}/'
-    title = f"{page['short']} Marketing | Sixth Gear Digital"
+    title = page.get('title') or f"{page['short']} Marketing | Sixth Gear Digital"
     description = page['description']
     challenge_cards = ''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['challenges'],1))
     playbook_cards = ''.join(f'<article class="card play-card"><span class="card-number">{i:02}</span><h3>{e(t)}</h3><p>{e(b)}</p></article>' for i,(t,b) in enumerate(page['playbook'],1))
@@ -56,6 +56,22 @@ for index, page in enumerate(PAGES):
     brief = page['buyer_brief']
     brief_links = ' and '.join(f'<a href="/services/{e(link["service"])}/">{e(link["label"])}</a>' for link in brief['links'])
     fields['buyer_brief'] = '<section class="section container buyer-brief"><p class="eyebrow accent">A CLOSER LOOK</p><h2>What does your team need to know?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','What the buyer needs'),('page','What the page should explain'),('handoff','What to check next')]) + '</div><p class="context-links">Services that can help: ' + brief_links + '.</p></section>'
+
+    custom_sections = page.get('custom_sections_file')
+    query_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries'])
+    intake_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake'])
+    if custom_sections:
+        fields['page_sections'] = (ROOT / custom_sections).read_text()
+        fields['faq_section'] = ''
+    else:
+        fields['faq_section'] = f'<section class="section faq-section" id="faq"><div class="container narrow"><p class="eyebrow accent">05 / QUESTIONS &amp; ANSWERS</p><h2>Common questions.</h2><div class="faq-list">{faq_items}</div></div></section>'
+        fields['page_sections'] = ''.join([
+            f'<section class="section white" id="challenges"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">01 / COMMON PROBLEMS</p><h2>Help people understand<br>what you do.</h2></div><p>Clear ads and pages help people decide whether you can help before they call.</p></div><div class="grid three">{challenge_cards}</div></div></section>',
+            f'<section class="section" id="playbook"><div class="container"><div class="section-heading centered"><p class="eyebrow accent">02 / HOW WE HELP</p><h2>A practical plan for<br>{e(page["short"])}.</h2><p>Help people find your business, understand your services and get in touch.</p></div><div class="grid four">{playbook_cards}</div><div class="search-strip"><span class="eyebrow">Example searches your customers make</span>{query_tags}</div></div></section>',
+            f'<section class="section white" id="capabilities"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">03 / TYPES OF WORK</p><h2>Explain the work<br>your business handles.</h2></div><p>We focus on the products you sell, the work you do and the places you serve.</p></div><div class="grid two">{capability_cards}</div></div></section>',
+            f'<section class="section container" id="campaign-example"><div class="blueprint"><div class="blueprint-top"><div><p class="eyebrow">04 / AN EXAMPLE</p><h2>How a customer might<br>find and contact you.</h2></div><span class="plan-label">An example,<br>not a client result.</span></div><div class="grid three">{scenario_cards}</div><div class="intake-row"><p class="eyebrow">Details your team needs</p><div>{intake_tags}</div></div></div></section>',
+            fields['buyer_brief']
+        ])
 
     fields.update(title=e(title),description=e(description),canonical=e(canonical),number=f'{index+1:02}',form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
