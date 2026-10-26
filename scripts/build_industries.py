@@ -64,8 +64,8 @@ for index, page in enumerate(PAGES):
         fields['page_sections'] = (ROOT / custom_sections).read_text()
         fields['faq_section'] = ''
     else:
-        fields['faq_section'] = f'<section class="section faq-section" id="faq"><div class="container narrow"><p class="eyebrow accent">05 / QUESTIONS &amp; ANSWERS</p><h2>Common questions.</h2><div class="faq-list">{faq_items}</div></div></section>'
-        fields['page_sections'] = ''.join([
+        fields['faq_section'] = f'  <section class="section faq-section" id="faq"><div class="container narrow"><p class="eyebrow accent">05 / QUESTIONS & ANSWERS</p><h2>Common questions.</h2><div class="faq-list">{faq_items}</div></div></section>'
+        fields['page_sections'] = '\n  '.join([
             f'<section class="section white" id="challenges"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">01 / COMMON PROBLEMS</p><h2>Help people understand<br>what you do.</h2></div><p>Clear ads and pages help people decide whether you can help before they call.</p></div><div class="grid three">{challenge_cards}</div></div></section>',
             f'<section class="section" id="playbook"><div class="container"><div class="section-heading centered"><p class="eyebrow accent">02 / HOW WE HELP</p><h2>A practical plan for<br>{e(page["short"])}.</h2><p>Help people find your business, understand your services and get in touch.</p></div><div class="grid four">{playbook_cards}</div><div class="search-strip"><span class="eyebrow">Example searches your customers make</span>{query_tags}</div></div></section>',
             f'<section class="section white" id="capabilities"><div class="container"><div class="section-heading"><div><p class="eyebrow accent">03 / TYPES OF WORK</p><h2>Explain the work<br>your business handles.</h2></div><p>We focus on the products you sell, the work you do and the places you serve.</p></div><div class="grid two">{capability_cards}</div></div></section>',
@@ -78,7 +78,8 @@ for index, page in enumerate(PAGES):
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
-    (route / 'index.html').write_text(TEMPLATE.substitute(fields))
+    template = Template((ROOT / page['template']).read_text()) if page.get('template') else TEMPLATE
+    (route / 'index.html').write_text(template.substitute(fields))
     (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
 # The homepage is the curated directory for the twelve user-requested industries.
@@ -105,7 +106,7 @@ p.write_text(s)
 # Keep old industry URLs working while making the clean route canonical.
 redirects = ROOT / '_redirects'
 redirect_text = redirects.read_text()
-redirect_text = re.sub(r'\n?# INDUSTRY ROUTES START\n.*?(?=\n?# INDUSTRY ROUTES END|\Z)', '', redirect_text, flags=re.S)
+redirect_text = re.sub(r'\n?# INDUSTRY ROUTES START\n.*?(?:\n# INDUSTRY ROUTES END|\Z)', '', redirect_text, flags=re.S)
 legacy_rules = '\n'.join(f'/industries/{page["slug"]}.html /industries/{page["slug"]}/ 301!' for page in PAGES)
 redirect_text = redirect_text.rstrip() + '\n\n# INDUSTRY ROUTES START\n' + legacy_rules + '\n# INDUSTRY ROUTES END\n'
 redirects.write_text(redirect_text)

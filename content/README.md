@@ -11,6 +11,8 @@ Run `python3 scripts/build_industries.py` after editing the data or template. Th
 
 Each industry has a unique title, canonical URL, description, content, capability choices, and Netlify form name. Form submissions include the industry and source URL. Netlify must detect forms on deployment; delivery is not established by local preview.
 
+The steel-building page uses `templates/steel-building.html` and `content/steel-building-sections.html`, selected in its industry record. It shares the service-page styles and adds scoped layout styles in `assets/steel-building.css`. Its steel-frame illustration is `assets/images/steel-building-frame.svg`. Edit these sources and run the normal build; do not edit only the generated page.
+
 The homepage directory is the curated list of sectors requested by the site owner. Each industry page links to the directory and the agency's supporting services. There is no automatic related-industry fallback.
 
 Campaign plans are illustrative. Replace them with client case studies only when supporting facts and publication permission are available. Product capabilities, certifications, and controlled drawing-handling workflows must come from approved business information.

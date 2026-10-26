@@ -1019,7 +1019,8 @@
           "label": "lead tracking and follow-up"
         }
       ]
-    }
+    },
+    "template": "templates/steel-building.html"
   },
   {
     "slug": "scaffolding-shoring-formwork-marketing",
