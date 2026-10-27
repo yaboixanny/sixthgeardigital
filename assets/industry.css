@@ -224,6 +224,32 @@ footer .brand b { color: #ff995f; }
 .cnc-checklist li { border-top: 1px solid var(--line); padding-top: 22px; }
 .cnc-checklist p { color: var(--muted); line-height: 1.8; margin-bottom: 0; }
 .cnc-source { color: var(--muted); font-size: 12px; line-height: 1.8; }
+.buyer-path { background: linear-gradient(180deg, #fff, #f0f5fb); border-block: 1px solid #e5ebf3; padding-block: 70px; }
+.buyer-path .section-heading { max-width: 750px; margin-bottom: 44px; }
+.buyer-path-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 40px; list-style: none; padding: 0; margin: 0; }
+.buyer-path-step { position: relative; min-width: 0; }
+.buyer-path-step:not(:last-child)::before { content: ''; position: absolute; top: 40px; left: calc(50% + 52px); width: calc(100% - 64px); border-top: 1px dashed #adbed2; }
+.buyer-path-step:not(:last-child)::after { content: ''; position: absolute; top: 36px; left: calc(100% + 16px); width: 7px; height: 7px; border-top: 1.5px solid #6e87a5; border-right: 1.5px solid #6e87a5; transform: rotate(45deg); background: #f8fafd; }
+.buyer-path-icon { display: grid; place-items: center; width: 80px; height: 80px; margin: 0 auto 25px; border: 1px solid #d3dfed; border-radius: 50%; color: #244567; background: white; box-shadow: 0 6px 18px #203e5d08; }
+.buyer-path-icon svg { width: 36px; height: 36px; }
+.buyer-path-step:last-child .buyer-path-icon { color: #25725d; border-color: #c4e2d7; background: #eaf6f0; }
+.buyer-path-copy { text-align: center; }
+.buyer-path-copy h3 { max-width: 280px; margin: auto; font-size: 21px; line-height: 1.35; }
+.buyer-path-copy p { color: var(--muted); margin: 16px auto 0; max-width: 340px; line-height: 1.85; }
+@media(max-width:800px) {
+  .buyer-path { padding-block: 46px; }
+  .buyer-path .section-heading { text-align: left; margin-bottom: 34px; }
+  .buyer-path-list { display: block; }
+  .buyer-path-step { display: grid; grid-template-columns: 60px minmax(0,1fr); gap: 22px; }
+  .buyer-path-step + .buyer-path-step { margin-top: 32px; }
+  .buyer-path-icon { width: 60px; height: 60px; margin: 0; }
+  .buyer-path-icon svg { width: 29px; height: 29px; }
+  .buyer-path-copy { text-align: left; padding-top: 3px; }
+  .buyer-path-copy h3 { margin: 0; max-width: none; font-size: 20px; }
+  .buyer-path-copy p { max-width: none; margin-top: 12px; }
+  .buyer-path-step:not(:last-child)::before { top: 76px; bottom: -16px; left: 29px; width: 0; border-top: 0; border-left: 1px dashed #adbed2; }
+  .buyer-path-step:not(:last-child)::after { top: calc(100% + 8px); left: 26px; transform: rotate(135deg); }
+}
 @media(max-width:700px) {
   .cnc-services .card { padding: 24px; }
   .cnc-checklist { grid-template-columns: 1fr; gap: 22px; }

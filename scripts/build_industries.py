@@ -81,8 +81,15 @@ for index, page in enumerate(PAGES):
         ])
 
     if journey := page.get('buyer_journey'):
-        journey_cards = ''.join(f'<article class="card play-card"><h3>{e(title)}</h3><p>{e(body)}</p></article>' for title,body in journey['steps'])
-        fields['page_sections'] = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + fields['page_sections']
+        journey_icons = [
+            '<circle cx="14" cy="14" r="8"/><path d="m20 20 8 8"/>',
+            '<rect x="5" y="6" width="16" height="21" rx="2"/><path d="M11 3h14a2 2 0 0 1 2 2v17M9 12h8m-8 5 2 2 5-5m-7 9h8"/>',
+            '<path d="M18 4H7a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V11l-7-7Z"/><path d="M18 4v8h7M10 21h10m-4-4 4 4-4 4"/>'
+        ]
+        journey_steps = ''.join(
+            f'<li class="buyer-path-step"><div class="buyer-path-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{icon}</svg></div><div class="buyer-path-copy"><h3>{e(title)}</h3><p>{e(body)}</p></div></li>'
+            for icon,(title,body) in zip(journey_icons,journey['steps']))
+        fields['page_sections'] = f'<section class="section buyer-path" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><ol class="buyer-path-list" role="list">{journey_steps}</ol></div></section>\n  ' + fields['page_sections']
 
     fields['hero_summary'] = ''
     if page.get('show_hero_summary', True):
