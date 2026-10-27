@@ -73,6 +73,10 @@ for index, page in enumerate(PAGES):
             fields['buyer_brief']
         ])
 
+    if journey := page.get('buyer_journey'):
+        journey_cards = ''.join(f'<article class="card play-card"><h3>{e(title)}</h3><p>{e(body)}</p></article>' for title,body in journey['steps'])
+        fields['page_sections'] = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + fields['page_sections']
+
     fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
