@@ -728,7 +728,8 @@
           "Once a shop makes the shortlist, the buyer sends a request for quote (RFQ). It may include drawings, material, quantity, required finish and delivery date. A clear contact route helps them share the basics and arrange file transfer. A useful reply answers questions and sets out the next step."
         ]
       ]
-    }
+    },
+    "show_hero_summary": false
   },
   {
     "slug": "heavy-haul-rigging-marketing",
