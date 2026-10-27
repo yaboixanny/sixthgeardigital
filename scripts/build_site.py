@@ -24,7 +24,7 @@ for item in json.loads((ROOT / 'content/industries.json').read_text()):
     (DIST / 'industries' / slug).mkdir()
     shutil.copy2(ROOT / 'industries' / slug / 'index.html', DIST / 'industries' / slug / 'index.html')
 (DIST / 'assets').mkdir()
-for name in ('home.css', 'fonts.css', 'industry.css', 'services.css', 'steel-building.css', 'services.js', 'alex-founder.webp'):
+for name in ('home.css', 'fonts.css', 'industry.css', 'services.css', 'services.js', 'alex-founder.webp'):
     shutil.copy2(ROOT / 'assets' / name, DIST / 'assets' / name)
 for folder in ('industries', 'images', 'fonts'):
     shutil.copytree(ROOT / 'assets' / folder, DIST / 'assets' / folder)

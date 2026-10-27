@@ -5,7 +5,7 @@
     "short": "Hydraulics & Fluid Power",
     "headline": "Marketing for",
     "accent": "Hydraulic Repair & Fluid Power Companies",
-    "intro": "Help customers find your hydraulic repair and fluid power services. We build ads and pages that explain what you repair, where you work and how to reach your team.",
+    "intro": "We help hydraulic repair and fluid power companies with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Maintenance teams and equipment owners",
     "goal": "Repair calls and rebuild quotes",
     "queries": [
@@ -16,33 +16,19 @@
     "challenges": [
       [
         "The wrong calls take time",
-        "Broad repair ads can bring requests for equipment or areas you do not cover."
+        "Broad repair ads can bring requests for equipment or areas you do not cover. Someone needing a workshop pump rebuild is not always a fit for a mobile hose crew. Name the components, equipment types and job sizes you accept so unsuitable requests take less time to sort."
       ],
       [
         "Urgent repairs and rebuilds get mixed up",
-        "A broken hose needs a quick call. A cylinder rebuild may need more detail before you can quote."
+        "A broken hose needs a quick call. A cylinder rebuild may need more detail before you can quote. If every ad opens the same page, the buyer may not know whom to contact. Give urgent calls a clear phone route and planned repairs a form that collects the component and fault details."
       ],
       [
         "Your service area is unclear",
-        "Buyers need to know where you work and when someone can respond."
-      ]
-    ],
-    "playbook": [
-      [
-        "Focus the ads",
-        "Choose searches for the repairs you offer and the places you serve."
+        "Buyers need to know where you work and when someone can respond. A page that says you cover everywhere can confuse buyers and your team. Show real coverage and response hours, with a way to check availability before assuming a technician can attend."
       ],
       [
-        "Explain the repair service",
-        "Show the equipment you work on, your hours and how to reach the right team."
-      ],
-      [
-        "Ask a few useful questions",
-        "Get the location, equipment type and urgency before asking for more detail."
-      ],
-      [
-        "Review the calls",
-        "Record whether the request was a fit and whether it became a job."
+        "Repeat accounts can hide a quiet pipeline",
+        "Regular maintenance customers are valuable, but work can slow when one fleet or plant changes plans. Planned rebuilds may also need several approvals. Make it easy for new customers to find you before an empty workshop schedule becomes urgent."
       ]
     ],
     "capabilities": [
@@ -63,11 +49,6 @@
         "Planned work to keep factory and fleet equipment running."
       ]
     ],
-    "scenario": [
-      "An equipment owner searches for hydraulic hose repair nearby.",
-      "A page shows your service area, hours and phone number.",
-      "Your team gets the job location and equipment details, then checks whether you can help."
-    ],
     "intake": [
       "Job location",
       "Equipment type",
@@ -76,30 +57,148 @@
     ],
     "faqs": [
       [
-        "Can you focus ads on our service area?",
-        "Yes. We use the areas you actually cover and check where the calls come from."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A mobile hose campaign and a regional rebuild campaign may need different coverage, pages and call handling."
       ],
       [
-        "Can we promote both repairs and rebuilds?",
-        "Yes. Each needs its own page and next step. A repair call can go to your service desk, while rebuild requests go to the person who prepares quotes."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. Urgent repair demand may show up sooner than planned rebuild work, which can require inspection and purchasing approval."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test repair demand in your actual service area while component pages build longer-term visibility for rebuild searches."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Separate emergency callouts from workshop quotes and note which inquiries become paid repairs or ongoing maintenance work."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. New visibility can reduce dependence on one fleet or plant and help regular customers discover other supported services."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Answer real questions about service coverage, supported components and the information needed to discuss a repair."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your technical team should still approve repair descriptions and tell whoever manages campaigns which jobs fit your workshop."
       ]
     ],
     "description": "Marketing for hydraulic repair and fluid power companies. Help customers find your services, check your coverage and ask for a repair or rebuild quote.",
-    "buyer_brief": {
-      "decision": "A hose failure may need help today. A workshop rebuild may start with a quote. Keep those requests separate so buyers reach the right person.",
-      "page": "The repair page should show hours and coverage. The rebuild page should explain what parts you work on and what details you need to quote.",
-      "handoff": "Check whether the job is in your area and fits your services. Review urgent calls separately from planned workshop work.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Hydraulic Service Company",
+      "steps": [
+        [
+          "Search for the repair needed",
+          "An equipment owner with a failed hose may search for mobile hydraulic hose repair nearby. A maintenance engineer planning a rebuild may look for cylinder repair or pump service. The page needs to show which equipment you support and whether work happens on site or in your workshop."
+        ],
+        [
+          "Check coverage and capabilities",
+          "Maintenance teams check your service area, hours and supported components. Purchasing staff may compare repair scope, transport and expected turnaround, while an owner wants to know how soon the equipment can return to work. Clear limits help each person assess whether to call."
+        ],
+        [
+          "Call or request a repair quote",
+          "An urgent job may start with a phone call, while a planned rebuild starts with a quote request. Collect the location, equipment type and known fault. Your team can then check fit, ask for component details and agree on the next step."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Hydraulic Repair & Fluid Power Companies Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Hydraulic Repair & Fluid Power Companies",
+      "services": [
         {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “mobile hydraulic hose repair,” “industrial hydraulic cylinder repair” and “hydraulic pump remanufacturing.” Ads focus on supported equipment, actual coverage and the times your team can respond. A breakdown search should reach a call-focused repair page, while a rebuild search needs more component details.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
           "service": "industrial-google-ads",
-          "label": "Google Ads"
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We build useful pages around hose replacement, cylinder rebuilds and pump service, with the equipment and areas you support. Buyers researching “hydraulic cylinder repair” need to understand your scope, what information helps an estimate and how a component reaches your workshop.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A customer searching for “hydraulic hose repair near me” should find coverage, hours and a phone number quickly. A buyer planning pump work needs supported components, a repair explanation and a clear request form. We organize those routes so the two requests reach the right person.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
           "service": "industrial-websites",
-          "label": "websites and quote forms"
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect calls from “mobile hydraulic repair” ads and forms about cylinder rebuilds to a shared record. Track emergency jobs separately from planned workshop work. Your team can note whether a repair fits, needs inspection, receives a quote and becomes a completed job.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A hose failure may need help today. A workshop rebuild may start with a quote. Keep those requests separate so buyers reach the right person.",
+      "work_cards": [
+        [
+          "Mobile hose repair",
+          "State the areas, hours and equipment you cover. Make it easy to describe a failed hose and check whether a visit is available, rather than promising an arrival time before the team reviews the job."
+        ],
+        [
+          "Cylinder repairs and rebuilds",
+          "Explain which cylinders you accept and how customers arrange assessment. Describe the information and inspection needed before a final repair quote, using approved examples of the work your workshop handles."
+        ],
+        [
+          "Pump and motor service",
+          "List supported pump and motor types without implying that every unit can be repaired. Give buyers a route to share part details and discuss repair, replacement or further inspection with your team."
+        ],
+        [
+          "Plant and fleet maintenance",
+          "Show how customers ask about scheduled service and ongoing workshop support. Explain the equipment you cover and the details needed to discuss a maintenance plan, without mixing it with urgent callouts."
+        ]
+      ],
+      "credentials_title": "Service scope and technical capabilities",
+      "credentials_body": "Show supported components, workshop equipment, testing capabilities and any current training or certifications relevant to your work. Have your team approve statements about pressure ranges, materials and repair limits. Buyers need accurate scope, not a broad promise to fix every hydraulic system.",
+      "example": [
+        "An equipment owner searches for “mobile hydraulic hose repair” after a machine stops working. An ad opens a page with your coverage, hours and call details. The customer can check that you handle the equipment and serve the job location.",
+        "The caller shares the location, equipment type and fault. Your team checks availability and whether the job fits before discussing attendance. A planned cylinder rebuild follows a separate quote route with component details and a workshop assessment where needed.",
+        "The call or form is linked to its marketing source. Your team records whether it became an inspection, quote or repair. Reporting separates suitable jobs from out-of-area calls, so spending decisions use actual work rather than the total number of phone rings."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Service coverage and hours",
+          "Show where mobile crews work, your workshop location and when calls are answered. Explain how to check availability for an urgent job."
+        ],
+        [
+          "Supported components",
+          "List the hoses, cylinders, pumps and motors you handle, with enough detail for customers to check fit before contacting you."
+        ],
+        [
+          "Workshop capabilities",
+          "Describe assessment, testing and repair work your team actually provides. Use current qualifications and approved technical limits where they matter."
+        ],
+        [
+          "Repair request form",
+          "Ask for the location, equipment, component details and urgency. Give customers a clear way to arrange photos or further information."
+        ],
+        [
+          "Examples of your work",
+          "Use approved repair photos and short explanations of the equipment and problem. Keep customer information and private records out of public examples."
+        ]
+      ],
+      "faq_heading": "Common Questions About Hydraulics & Fluid Power Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "attachment-manufacturer-dealer-marketing",
@@ -107,7 +206,7 @@
     "short": "Attachments & Dealers",
     "headline": "Marketing for",
     "accent": "Attachment Manufacturers & Equipment Dealers",
-    "intro": "Help buyers find the right attachment and understand what it fits. We build ads and pages for attachment makers and dealers, with clear product details and a simple way to ask for a quote.",
+    "intro": "We help attachment manufacturers and equipment dealers with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Equipment owners and dealers",
     "goal": "Equipment quote requests",
     "queries": [
@@ -118,33 +217,19 @@
     "challenges": [
       [
         "The attachment may not fit",
-        "Buyers need to check the machine model and job before choosing a product."
+        "Buyers need to check the machine model and job before choosing a product. A broad product name does not explain mounting, machine class or operating needs. Show approved compatibility information and ask for the machine details before a buyer assumes that a product will work."
       ],
       [
         "General searches bring the wrong requests",
-        "Not every attachment search matches the brands or types you sell."
+        "Not every attachment search matches the brands or types you sell. Used equipment, rental requests and products for unsupported machines can fill the inbox. Pages and ads should make the product range, sales model and delivery area clear so buyers understand what you offer."
       ],
       [
         "Quote requests miss key details",
-        "Your team needs to know the machine, intended use and delivery location."
-      ]
-    ],
-    "playbook": [
-      [
-        "Group products clearly",
-        "Create useful pages for the attachment types you sell."
+        "Your team needs to know the machine, intended use and delivery location. An inquiry that only says “send a price” leaves your sales team guessing. Short, relevant form questions help you check suitability and stock before spending time on an estimate that may not fit."
       ],
       [
-        "Show fit and uses",
-        "Use accurate product details and explain which jobs each attachment is made for."
-      ],
-      [
-        "Make quotes easier",
-        "Ask for the machine model, job and buying timeline."
-      ],
-      [
-        "Check the requests",
-        "Review whether buyers need a product you can supply."
+        "Price comparisons miss the whole offer",
+        "Buyers may compare several dealers using only the product price. Custom attachments can also involve a long review. Explain the application, fit checks, included support and delivery arrangements so the discussion goes beyond choosing the lowest number on a quote."
       ]
     ],
     "capabilities": [
@@ -165,11 +250,6 @@
         "Attachments built for a specific machine or job."
       ]
     ],
-    "scenario": [
-      "An owner searches for an attachment for their excavator.",
-      "A product page explains its uses and the details needed to check fit.",
-      "Your sales team receives the machine model and job details before discussing a quote."
-    ],
     "intake": [
       "Machine make and model",
       "Intended use",
@@ -178,30 +258,148 @@
     ],
     "faqs": [
       [
-        "Can you help buyers check compatibility?",
-        "We can make your approved fit information easier to find. Your team should confirm that a product suits the machine and job."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A single product campaign and a larger catalog with dealer coverage will need different amounts of work."
       ],
       [
-        "Can we separate dealer and customer requests?",
-        "Yes. Clear links and form choices help send each request to the right person."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. An available standard attachment may move faster than a custom design that requires measurements, review and approval."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for selected products while SEO builds useful pages around machine fit and applications."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track whether the attachment fits the machine, whether a quote is sent and which requests become purchases."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can reach owners outside your existing dealer network and explain new products to customers who already know you."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Publish clear product specifications, approved compatibility information and answers to the application questions buyers actually ask."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Keep compatibility and technical reviews with your team, even when an outside agency manages the campaigns and website."
       ]
     ],
     "description": "Marketing for attachment makers and equipment dealers. Explain product fit, reach buyers through search and make quote requests easier.",
-    "buyer_brief": {
-      "decision": "A product name alone is not enough to check fit. Buyers should share their machine model and the work they plan to do.",
-      "page": "Group pages by attachment type and use. Show approved fit details, then give buyers a clear way to ask about a purchase or rental.",
-      "handoff": "Check the product, machine and buying plans before counting a request as a good fit.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose an Attachment Supplier",
+      "steps": [
+        [
+          "Search for a tool and application",
+          "An equipment owner may search for an excavator breaker, forestry mulcher or custom bucket. The job usually comes first: breaking concrete, clearing brush or moving material. Product pages should connect that use to the attachment types you sell without assuming every machine is compatible."
+        ],
+        [
+          "Compare fit and supply options",
+          "Operators and owners check whether the attachment suits their machine and work. A fleet or purchasing team may also review specifications, support, delivery and the choice between buying and renting. Clear product limits help buyers shortlist suppliers before discussing a price."
+        ],
+        [
+          "Request a fit check and quote",
+          "A useful request gives your team the machine make and model, intended use, location and target date. Your team checks compatibility and availability before quoting. Custom work may need a longer discussion about the application, measurements and information still missing."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Attachment Manufacturers & Equipment Dealers Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Attachment Manufacturers & Equipment Dealers",
+      "services": [
         {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We focus ads on searches such as “hydraulic breaker for excavator,” “forestry mulcher attachment” and “custom excavator buckets.” Campaigns distinguish product types and buying needs, then target areas you can supply. Search exclusions help reduce requests for unsupported machines or products outside your range.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We organize pages by attachment type, machine fit and use. Someone searching for “excavator demolition attachments” needs practical product details and a route to confirm compatibility. Application pages can explain the differences between options without copying the same description across every product.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for a “forestry mulcher attachment” should reach specifications, approved machine-fit information and product photos quickly. We make quote requests simple while collecting the machine model, application and delivery location. Custom products need a clear route to a deeper technical discussion.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
           "service": "industrial-websites",
-          "label": "websites and quote forms"
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect inquiries from “excavator bucket supplier” ads and product-page forms to the sales record. Your team can track machine fit, stock checks, dealer discussions and custom design reviews. That helps distinguish a useful sales opportunity from a product question outside your range.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A product name alone is not enough to check fit. Buyers should share their machine model and the work they plan to do.",
+      "work_cards": [
+        [
+          "Demolition attachments",
+          "Explain the supported applications and machine classes for breakers, shears and other tools you sell. Help buyers compare options and request a compatibility check rather than treating product names as proof of fit."
+        ],
+        [
+          "Forestry and land clearing",
+          "Show the clearing work each product is intended for and the machine information needed to review it. Use real product examples, supported specifications and a clear way to discuss the intended application."
+        ],
+        [
+          "Earthmoving and excavation",
+          "Organize buckets and digging tools by use and supported equipment. Describe available options and the details your team needs before confirming fit, delivery and a quote for the buyer’s job."
+        ],
+        [
+          "Custom attachments",
+          "Explain how a buyer starts a custom discussion and what measurements or drawings may be needed. Show approved examples without implying that a design from one project fits every machine or task."
+        ]
+      ],
+      "credentials_title": "Compatibility, specifications and product support",
+      "credentials_body": "Publish approved machine-fit details, product specifications and relevant documentation. Show current certifications only when they apply to the product or work described. Buyers should also understand warranty and support arrangements, with any compatibility or application decision checked by your technical team.",
+      "example": [
+        "An excavator owner searches for “hydraulic breaker for excavator.” An ad opens a page for the breaker range you sell, showing applications, supported equipment information and the next step for checking machine compatibility before discussing a purchase.",
+        "The buyer shares the excavator make and model, intended work, location and target date. Your sales team checks the product match and availability, asks for any missing specifications and prepares a quote for a suitable option.",
+        "The inquiry is linked to its ad source and moves through fit review, quote and sale. Requests for unsupported machines are recorded separately. Your report can show which product searches bring suitable opportunities, rather than counting every specification download as an order."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Product range",
+          "Group attachments by type and application. Show the models and options you supply rather than using one broad equipment page for every search."
+        ],
+        [
+          "Machine-fit details",
+          "Publish approved compatibility information and explain what machine details your team needs to confirm suitability for a specific job."
+        ],
+        [
+          "Specifications and support",
+          "Keep product data, warranty information and support routes current. Identify documentation relevant to the exact product being considered."
+        ],
+        [
+          "A useful quote form",
+          "Ask for machine make and model, intended use, buyer location and timing. Separate standard products from custom design requests."
+        ],
+        [
+          "Product and application gallery",
+          "Use approved product photos and real application examples. Explain the setup shown so buyers do not assume that every attachment fits every machine."
+        ]
+      ],
+      "faq_heading": "Common Questions About Attachments & Dealers Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "commercial-fleet-graphics-marketing",
@@ -209,7 +407,7 @@
     "short": "Fleet Graphics & Wraps",
     "headline": "Marketing for",
     "accent": "Commercial Fleet Graphics & Wrap Companies",
-    "intro": "Help businesses find your fleet graphics and vehicle wrap services. We make it easier to explain the work, show real examples and collect the details needed for a quote.",
+    "intro": "We help commercial fleet graphics and wrap companies with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Fleet managers and business owners",
     "goal": "Fleet graphics quote requests",
     "queries": [
@@ -220,33 +418,19 @@
     "challenges": [
       [
         "Personal wraps and fleet jobs get mixed up",
-        "Business fleets often need a different plan from a single personal vehicle."
+        "Business fleets often need a different plan from a single personal vehicle. A personal color-change wrap may not fit the jobs you want. Explain minimum scope where relevant and show examples of commercial vehicles, so a fleet buyer can recognize the work you are set up to deliver."
       ],
       [
         "Buyers cannot see how a rollout works",
-        "They need to understand design, installation locations and scheduling."
+        "They need to understand design, installation locations and scheduling. A gallery alone does not answer questions about multiple sites or keeping vehicles in service. Explain how project planning, artwork approval and installation scheduling work before the buyer requests a fleet quote."
       ],
       [
         "Quotes start with too little detail",
-        "Vehicle count, types and dates affect the work and price."
-      ]
-    ],
-    "playbook": [
-      [
-        "Focus on business fleets",
-        "Use ads and page copy that make your commercial services clear."
+        "Vehicle count, types and dates affect the work and price. A request for “ten wraps” may cover different vehicle sizes, artwork and locations. Collect those basics at the start so your team can review the job without repeated calls to clarify its scope."
       ],
       [
-        "Show real examples",
-        "Use approved photos to show the vehicles and types of work you handle."
-      ],
-      [
-        "Explain the steps",
-        "Describe how design, approval and installation work."
-      ],
-      [
-        "Keep quotes moving",
-        "Record the next step and follow up when the customer is ready."
+        "Fleet decisions can take several approvals",
+        "A rebrand may need input from owners, marketing, procurement and operations. Buyers can also compare quotes before agreeing on rollout dates. Marketing should keep the project easy to understand and give your team a way to follow up while those decisions happen."
       ]
     ],
     "capabilities": [
@@ -267,11 +451,6 @@
         "Vehicle graphics for public services and transit."
       ]
     ],
-    "scenario": [
-      "A fleet manager looks for a company to wrap several vans.",
-      "A page shows examples and explains how installation is scheduled.",
-      "The request includes vehicle count, locations and target dates so your team can prepare a quote."
-    ],
     "intake": [
       "Vehicle count and types",
       "Installation locations",
@@ -280,30 +459,148 @@
     ],
     "faqs": [
       [
-        "Can we focus on fleet work instead of personal vehicles?",
-        "Yes. We make that focus clear in your ads, pages and quote questions."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. The work needed to market local fleet installations differs from a campaign covering several branches or regions."
       ],
       [
-        "What should the first quote form ask?",
-        "Start with vehicle types, how many there are, where they are based and when the work is needed. Detailed artwork can follow later."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. A simple vehicle update may move faster than a fleet rebrand that needs artwork, purchasing and operations approval."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for commercial fleet work while SEO builds pages for vehicle types and installation areas."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track qualified fleet requests, design discussions, approved quotes and installed projects rather than gallery views alone."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. New visibility can help you reach growing fleets and reduce dependence on a small number of repeat accounts."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Use clear project descriptions, installation-area information and approved photos that show the kind of fleets you handle."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your team should still check installation scope, approve project photos and confirm dates before a campaign promises availability."
       ]
     ],
     "description": "Marketing for fleet graphics and wrap companies. Show your work, explain installation plans and help businesses request a quote.",
-    "buyer_brief": {
-      "decision": "A fleet job may involve many vehicles and several locations. The buyer needs to know how you would plan the work.",
-      "page": "Show real examples and explain where you install. Ask for vehicle count, locations, artwork status and dates.",
-      "handoff": "Keep fleet requests separate from personal wraps. Track each job through design approval, quote and installation.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Fleet Graphics Company",
+      "steps": [
+        [
+          "Search for a fleet partner",
+          "A business owner may search for commercial fleet wraps after adding vehicles or changing a brand. A fleet manager may look for installation support across several locations. They need to see whether you handle full fleet projects rather than only personal vehicle wraps."
+        ],
+        [
+          "Compare examples and rollout plans",
+          "Marketing staff review the look of finished work, while fleet managers check scheduling and vehicle downtime. Purchasing teams compare scope, locations and included services. Clear examples and a practical explanation of the rollout help buyers decide which companies to contact."
+        ],
+        [
+          "Share the fleet details",
+          "The buyer sends vehicle counts, types, installation locations and target dates. They may also share the status of logos and artwork. Your team checks the project, discusses design and installation needs and prepares a quote for the actual scope."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Fleet Graphics & Wrap Companies Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Fleet Graphics & Wrap Companies",
+      "services": [
         {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We build campaigns around searches such as “commercial fleet wraps,” “fleet vehicle graphics installation” and “utility truck fleet branding.” Ads focus on commercial jobs and the locations you actually serve. Search exclusions help reduce personal wrap requests when those are not the work your team wants.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
           "service": "industrial-google-ads",
-          "label": "Google Ads"
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages around fleet types, installation coverage and the services included in a rollout. A buyer searching for “delivery van fleet graphics” needs more than a photo gallery. Useful pages explain design, production and installation, with approved examples that match the kind of fleet involved.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Someone searching for a “fleet vehicle graphics company” should see relevant work, installation areas and a clear quote route. We organize galleries by vehicle or project type and explain how scheduling works. The request form collects vehicle count, artwork status, locations and target dates.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect forms and calls from “commercial fleet wraps” campaigns to a shared project record. Track the inquiry through artwork discussion, quote, approval and installation. Notes on vehicle types, locations and rollout dates help your team follow up without losing details between marketing and production.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A fleet job may involve many vehicles and several locations. The buyer needs to know how you would plan the work.",
+      "work_cards": [
+        [
+          "Delivery and transport fleets",
+          "Show vans, trucks and trailers that match the fleets you want to serve. Explain the size of rollout your team can handle and how buyers ask about several vehicle types in one project."
+        ],
+        [
+          "Utility and service vehicles",
+          "Help field-service companies understand the graphics options and installation plan. Use examples that make branding, vehicle identification and artwork requirements clear without assuming that every utility fleet has the same needs."
+        ],
+        [
+          "Heavy equipment graphics",
+          "Show the machine and surface types your team supports, with approved examples of installation work. Collect equipment details before quoting, since site access and the intended coverage can change the project scope."
+        ],
+        [
+          "Municipal and transit fleets",
+          "Explain how buyers discuss larger schedules, artwork review and installation locations. Show only approved project examples and relevant qualifications, while making the route for a formal quote or tender inquiry clear."
+        ]
+      ],
+      "credentials_title": "Materials, installation scope and approved examples",
+      "credentials_body": "Show the graphic materials and installation methods you actually use, along with relevant current training or manufacturer credentials. Explain artwork requirements, removal work and any limits that affect a quote. Get permission before publishing client logos, vehicle registrations or project photos.",
+      "example": [
+        "A fleet manager searches for “commercial fleet wraps” while planning a new look for delivery vans. An ad opens a page with comparable fleet projects, installation coverage and an explanation of how artwork and rollout dates are discussed.",
+        "The buyer shares the vehicle types and count, locations, available artwork and target dates. Your team checks the scope and installation capacity, asks about any missing details and prepares a quote with the work and scheduling assumptions clearly explained.",
+        "The request is recorded with its campaign source and moves through design discussion, quote, approval and installation. Single personal wrap requests are reviewed separately. Reporting connects qualified fleet projects to signed work instead of treating every gallery visit as a sales opportunity."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Fleet project gallery",
+          "Group approved examples by vehicle or fleet type. Explain the project scope so buyers can see work similar to their own plans."
+        ],
+        [
+          "Services and materials",
+          "Describe design, print, installation and removal where offered. List relevant materials and current training without making unsupported durability claims."
+        ],
+        [
+          "Installation coverage",
+          "Show real installation locations and how customers ask about multiple sites, vehicle access and scheduling around normal fleet operations."
+        ],
+        [
+          "Fleet quote form",
+          "Collect vehicle types and count, locations, artwork status and required dates. Explain how buyers can share vehicle lists and brand files."
+        ],
+        [
+          "A clear rollout process",
+          "Explain artwork review, scheduling and the next discussion after a quote request. Buyers should know which details are still needed before work is booked."
+        ]
+      ],
+      "faq_heading": "Common Questions About Fleet Graphics & Wraps Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "modular-buildings-site-offices-marketing",
@@ -311,7 +608,7 @@
     "short": "Modular Buildings & Site Offices",
     "headline": "Marketing for",
     "accent": "Modular Building & Site Office Suppliers",
-    "intro": "Help customers find your modular buildings and site offices. We explain rental and purchase options clearly, so buyers can ask about space that fits their site and schedule.",
+    "intro": "We help modular building and site office suppliers with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Site managers and purchasing teams",
     "goal": "Rental and purchase requests",
     "queries": [
@@ -322,33 +619,19 @@
     "challenges": [
       [
         "Rental and purchase needs differ",
-        "A short site job and a long-term building need different information."
+        "A short site job and a long-term building need different information. A single page can leave both buyers unsure where to start. Separate rental periods and availability questions from permanent building discussions, with the right details and contact route for each type of request."
       ],
       [
         "Delivery details are missing",
-        "Location, site access and required dates all matter."
+        "Location, site access and required dates all matter. A unit may suit the intended use but still need an access review. Ask about the site early and explain that your team checks delivery arrangements before confirming availability, dates or the full quoted scope."
       ],
       [
         "Building options are hard to compare",
-        "Buyers need clear details about size, use and what is included."
-      ]
-    ],
-    "playbook": [
-      [
-        "Separate rental and purchase",
-        "Give each option a clear page and next step."
+        "Buyers need clear details about size, use and what is included. Photos do not always explain the layout, included fittings or site requirements. Give each unit range enough detail for buyers to compare options and identify the questions they need to discuss with your team."
       ],
       [
-        "Explain the building options",
-        "Show the types, uses and sizes you can supply."
-      ],
-      [
-        "Ask about the site",
-        "Collect location, quantity and delivery dates before preparing a quote."
-      ],
-      [
-        "Track the next step",
-        "Keep site discussions, quotes and follow-up dates together."
+        "Project approvals can stretch the sales cycle",
+        "A site office request may be urgent, while a larger modular project can involve operations, purchasing and several approvals. Keeping dates, scope and next steps together helps your team follow the opportunity without treating every early planning question as a ready-to-order building."
       ]
     ],
     "capabilities": [
@@ -369,11 +652,6 @@
         "Several units planned together for a larger site."
       ]
     ],
-    "scenario": [
-      "A contractor searches for a site office rental.",
-      "A page explains unit options, delivery areas and how to ask about availability.",
-      "Your team receives the site location, number of units and required dates."
-    ],
     "intake": [
       "Site location",
       "Unit type and quantity",
@@ -382,30 +660,148 @@
     ],
     "faqs": [
       [
-        "Can we advertise rentals and building sales?",
-        "Yes. Separate pages help each buyer find the right details and contact route."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A local rental range and a multi-area building supply business may need different pages, campaigns and follow-up routes."
       ],
       [
-        "Can the form confirm delivery or site suitability?",
-        "No. It collects the starting details. Your team still needs to check access, availability and site requirements."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. An available office unit may move quickly, while a larger building purchase can need layout reviews and several approvals."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test rental demand while SEO develops pages for unit types, uses and real delivery areas."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Separate rental bookings from building purchases and record how many inquiries reach a quote or confirmed order."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can introduce your range to contractors working in new areas and help current customers find additional unit options."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Publish clear layouts, product descriptions, delivery information and answers about the building options you actually supply."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your operations team should still confirm availability, delivery scope and specialist specifications before those details appear in campaigns."
       ]
     ],
     "description": "Marketing for modular building and site office suppliers. Explain rental and purchase options, delivery areas and how to ask for a quote.",
-    "buyer_brief": {
-      "decision": "A temporary office may be needed quickly. A permanent building may need more planning and approval. Keep the two paths clear.",
-      "page": "Show rental periods, building uses and delivery areas. Ask about the site and dates, then let your team check the details.",
-      "handoff": "Record whether the buyer wants to rent or buy. Track the site discussion, quote and final decision.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Modular Building Supplier",
+      "steps": [
+        [
+          "Search for space that fits the site",
+          "A contractor may search for site office rental before a job begins. A facilities team planning a longer-term building may research purchase options instead. Buyers need to see the unit types, intended uses and delivery areas that match the space they need."
+        ],
+        [
+          "Compare layouts and delivery scope",
+          "Site managers check layout, access and dates, while purchasing staff compare rental periods, transport and what is included. Owners may review the longer-term cost of renting or buying. Clear product details help each person shortlist suppliers without guessing which services are available."
+        ],
+        [
+          "Ask about availability and a quote",
+          "A useful request includes the location, unit type, quantity, rental or purchase preference and target date. Your team can check stock, delivery access and any further site details before preparing a quote. Larger multi-unit projects may need another discussion before the scope is clear."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Modular Building & Site Office Suppliers Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Modular Building & Site Office Suppliers",
+      "services": [
         {
-          "service": "industrial-websites",
-          "label": "websites and quote forms"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “construction site office rental,” “modular buildings for industrial sites” and specialist module inquiries. Ads focus on the buildings, delivery areas and rental or purchase options you supply. Each search should reach a page that helps the buyer ask about the right kind of space.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages for real unit types, building uses and delivery areas. A buyer searching for “site office rental” needs a different explanation from someone comparing modular buildings for purchase. Useful layouts, scope details and project examples help each buyer assess whether your range fits the site.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Someone searching for a “modular building supplier” needs layouts, available options and a clear next step. We organize rental and purchase routes separately. Quote forms collect the site, quantity, intended use and timing, with delivery details left for your team to review before making a commitment.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect inquiries from “site office rental” campaigns and building pages to a shared record. Your team can track availability checks, delivery discussions, quotes and orders. Keep rental periods separate from purchase plans so follow-up reflects the buyer’s actual dates and decision process.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A temporary office may be needed quickly. A permanent building may need more planning and approval. Keep the two paths clear.",
+      "work_cards": [
+        [
+          "Site offices and welfare units",
+          "Show layouts, unit options and the uses your range supports. Explain what is included and which site details must be checked before your team can discuss delivery, connection arrangements and a complete quote."
+        ],
+        [
+          "Security and access units",
+          "Describe the buildings and features you supply for site entry and security work. Help buyers understand layout choices, delivery coverage and the information needed to review a particular location and schedule."
+        ],
+        [
+          "Specialist site modules",
+          "Explain specialist features only where your business supplies them and has current supporting documentation. Keep approved specifications close to the relevant unit, rather than applying a claim from one model to the entire range."
+        ],
+        [
+          "Multi-unit sites",
+          "Show how customers begin a discussion about several units or connected spaces. Collect intended use, site details and dates so your team can review the layout and delivery plan before giving a firm scope."
+        ]
+      ],
+      "credentials_title": "Specifications, documentation and delivery scope",
+      "credentials_body": "Publish current layouts, dimensions and the relevant documentation for each building type. Explain who handles transport, site preparation and connections. Any specialist performance claim should match the specific unit and approved documentation, with your technical team checking details before they are published.",
+      "example": [
+        "A contractor searches for “construction site office rental” ahead of a new job. An ad takes them to a page with unit options, intended uses, delivery coverage and the details needed to ask about availability for the site.",
+        "The request gives your team the location, number of units, intended use and rental dates. Your team checks the range and availability, asks about access and clarifies what must be reviewed before delivery arrangements and the full quote can be confirmed.",
+        "The inquiry is linked to its campaign source and recorded as a rental opportunity. Follow-up tracks the site discussion, quote and booking. Purchase inquiries are reported separately, making it easier to see which searches bring usable requests for each part of the business."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Unit layouts and dimensions",
+          "Show current plans, sizes and intended uses. Explain what is included in each range so buyers can compare options before contacting you."
+        ],
+        [
+          "Rental and purchase routes",
+          "Make the choice clear and list the details needed for each. Explain how to ask about rental periods and stock availability."
+        ],
+        [
+          "Delivery and site information",
+          "Show actual delivery areas and explain that access, site preparation and connection details need review before a complete scope is confirmed."
+        ],
+        [
+          "A useful building inquiry form",
+          "Collect the site, unit type, quantity, intended use and dates. Give buyers a route to discuss larger layouts or specialist requirements."
+        ],
+        [
+          "Approved project examples",
+          "Use real building and site photos with relevant context. Keep current documentation attached to the specific product or performance claim it supports."
+        ]
+      ],
+      "faq_heading": "Common Questions About Modular Buildings & Site Offices Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "forklift-material-handling-marketing",
@@ -413,7 +809,7 @@
     "short": "Forklifts & Material Handling",
     "headline": "Marketing for",
     "accent": "Forklift & Material Handling Businesses",
-    "intro": "Help buyers find your forklifts, rentals and repair services. We build clear pages for each part of the business, so customers can explain what they need and reach the right team.",
+    "intro": "We help forklift and material handling businesses with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Warehouse teams and fleet managers",
     "goal": "Sales, rental and repair requests",
     "queries": [
@@ -424,33 +820,19 @@
     "challenges": [
       [
         "Different requests reach the same inbox",
-        "A repair call and a new forklift quote need different responses."
+        "A repair call and a new forklift quote need different responses. A buyer looking for an urgent service visit should not have to work through a sales form. Give each business line a clear route and collect the details that help the right team respond."
       ],
       [
         "Buyers may not know the right model",
-        "They may only know the load, lift height and space they work in."
+        "They may only know the load, lift height and space they work in. A model list alone may not help someone assess suitability. Explain which job details your team needs and make it easy to ask about equipment, rather than expecting the buyer to select a truck without support."
       ],
       [
         "Rental dates are missing",
-        "Your team needs the location and rental period to check availability."
-      ]
-    ],
-    "playbook": [
-      [
-        "Separate sales, rentals and repairs",
-        "Give each service its own page and form or phone contact."
+        "Your team needs the location and rental period to check availability. A rental inquiry without a period, load or delivery location is difficult to review. Ask for those basics early and make clear that stock and suitability must be checked before availability or pricing is confirmed."
       ],
       [
-        "Explain the equipment",
-        "Use accurate details about capacity and the jobs each type supports."
-      ],
-      [
-        "Ask about the work",
-        "Collect load needs, location and dates to help your team check fit."
-      ],
-      [
-        "Review each service separately",
-        "Compare repair calls with repair calls, and rental requests with rentals."
+        "Repeat fleet accounts can leave gaps",
+        "Existing fleets may provide regular work, but a quiet rental period or a delayed equipment replacement can change demand. Marketing should reach other suitable buyers and keep longer sales discussions visible, without mixing every repair call and equipment inquiry into one lead total."
       ]
     ],
     "capabilities": [
@@ -471,11 +853,6 @@
         "Vehicles and systems that move goods with less manual driving."
       ]
     ],
-    "scenario": [
-      "A warehouse manager searches for a forklift rental.",
-      "A rental page explains the options and asks about the job.",
-      "Your team gets the load needs, site location and dates before checking availability."
-    ],
     "intake": [
       "What needs to be moved",
       "Load and lift height",
@@ -484,30 +861,148 @@
     ],
     "faqs": [
       [
-        "Can we promote sales, rentals and service together?",
-        "Yes, with separate ads and pages where needed. Each request should reach the team that handles it."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A rental campaign, used-equipment range and repair service may need different pages, locations and ways to handle inquiries."
       ],
       [
-        "Should the form recommend a forklift?",
-        "The form can collect useful details. Your equipment team should check which machine suits the job."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. A short rental can close sooner than a fleet purchase that needs equipment reviews, budgets and several approvals."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test a defined equipment or rental need while SEO develops sales, service and application pages."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track qualified requests, equipment quotes, rental bookings and sales separately so one busy repair line does not hide another channel."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. New customers can help fill seasonal rental gaps and broaden demand beyond the fleets that already use your services."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Provide clear equipment specifications, supported applications and answers about the information needed to discuss suitability."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your equipment team should still approve specifications, check suitability and tell marketers which requests become useful work."
       ]
     ],
     "description": "Marketing for forklift and material handling companies. Help buyers find your sales, rental and repair services and reach the right team.",
-    "buyer_brief": {
-      "decision": "Someone who needs a repair today has different questions from someone buying a forklift. Make each service easy to find.",
-      "page": "Give sales, rentals and repairs their own pages. Ask what the buyer needs to move, where they work and when they need help.",
-      "handoff": "Check equipment fit, dates and service coverage. Review each business line on its own before comparing results.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Forklift Supplier",
+      "steps": [
+        [
+          "Search for equipment or help",
+          "A warehouse manager may search for a forklift rental, a used truck for sale or repair support. Buyers often know the load and lift height before they know the right model. The page should help them find the relevant sales, rental or service team."
+        ],
+        [
+          "Compare equipment and support",
+          "Operations staff check the job and working space, while fleet managers compare equipment options and ongoing support. Purchasing teams review availability, terms and the full quote. Owners may weigh a short rental against buying or leasing, especially when the need is seasonal."
+        ],
+        [
+          "Share the job requirements",
+          "The buyer gives your team the load, lift needs, location and required dates. For a repair, they share the equipment details and fault. Your team checks suitability and availability, asks for missing information and agrees on the next step before quoting or booking work."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Forklift & Material Handling Businesses Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Forklift & Material Handling Businesses",
+      "services": [
         {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “used forklift for sale,” “warehouse forklift rental” and supported repair services. Campaigns focus on the equipment, service areas and buying routes you offer. A rental search should reach a page about the job and dates, while a service search needs a quick contact route.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
           "service": "industrial-google-ads",
-          "label": "Google Ads"
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We build pages around sales, rentals, repairs and the applications you support. Someone searching for “electric forklift supplier” needs equipment information and help checking fit. Useful pages can explain the details to share, with current product examples and accurate coverage rather than a list of broad claims.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for “warehouse forklift rental” should quickly find the equipment range, delivery area and a useful inquiry form. We separate purchase and service routes, then ask for load, lift height, location and timing. Your team handles the final suitability and stock review.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
           "service": "industrial-websites",
-          "label": "websites and quote forms"
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect inquiries from “forklift rental” ads, equipment listings and service pages to a shared record. Track each business line separately, from the first call through suitability review, quote and booking or sale. That makes seasonal rentals and longer equipment purchases easier to follow.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "Someone who needs a repair today has different questions from someone buying a forklift. Make each service easy to find.",
+      "work_cards": [
+        [
+          "Forklift sales and leasing",
+          "Show the equipment range and explain how buyers discuss a purchase or longer-term lease. List useful specifications and the job details your team needs to check fit, with stock information kept current where displayed."
+        ],
+        [
+          "Short-term rentals",
+          "Help customers describe the load, lift requirements, site and rental period. Explain delivery coverage and the availability-check process without implying that every listed model is ready for immediate delivery."
+        ],
+        [
+          "Electric fleet changes",
+          "Explain the equipment options and questions buyers should bring to a fleet discussion. Keep product specifications and charging-related information accurate, with your team reviewing what is suitable for the customer’s actual site."
+        ],
+        [
+          "Automated warehouse vehicles",
+          "Describe the applications and project stages your business supports. Give buyers a clear route to discuss workflow and existing equipment instead of treating a complex integration request like a standard short-term rental."
+        ]
+      ],
+      "credentials_title": "Equipment specifications and service capabilities",
+      "credentials_body": "Publish accurate load and lift specifications for the models shown, plus relevant service coverage and current qualifications. Make the equipment-selection process clear. Your team should check suitability, site conditions and any application limits rather than relying on a website listing as final approval.",
+      "example": [
+        "A warehouse manager searches for “warehouse forklift rental” during a busy period. An ad opens a rental page showing the equipment range, service coverage and the job details needed to discuss availability, rather than sending them to a general sales page.",
+        "The buyer shares the load, required lift height, site location and rental dates. Your team checks fit and stock, asks about any missing site details and prepares a quote for a suitable option with the delivery arrangements clearly stated.",
+        "The request is recorded with its campaign source and tracked through review, quote and booking. Repair calls and longer-term purchases stay in their own categories. Reporting shows which searches lead to qualified equipment requests and actual rental or sales work."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Equipment range",
+          "Show the models or categories you supply with current, useful specifications. Explain how customers ask for help selecting equipment for their job."
+        ],
+        [
+          "Separate sales, rental and service pages",
+          "Give each buyer a clear contact route and the details they need. Do not make urgent repair callers complete a sales inquiry."
+        ],
+        [
+          "Applications and coverage",
+          "Explain the sites and working conditions you support, plus actual delivery and service areas. Keep product limitations and qualifications accurate."
+        ],
+        [
+          "Equipment inquiry form",
+          "Collect load, lift height, site location and dates. Ask whether the customer wants to buy, rent, lease or discuss a repair."
+        ],
+        [
+          "Current equipment and project photos",
+          "Use real, approved examples and identify what is shown. Keep availability information current and avoid implying that every application suits every truck."
+        ]
+      ],
+      "faq_heading": "Common Questions About Forklifts & Material Handling Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "commercial-generators-critical-power-marketing",
@@ -515,7 +1010,7 @@
     "short": "Generators & Critical Power",
     "headline": "Marketing for",
     "accent": "Generator & Critical Power Companies",
-    "intro": "Help customers find your generator sales, installations and service work. We make it easier to explain what you support and guide each request to the right person.",
+    "intro": "We help generator and critical power companies with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Facility managers and project teams",
     "goal": "Generator quotes and service calls",
     "queries": [
@@ -526,33 +1021,19 @@
     "challenges": [
       [
         "Urgent calls and planned projects differ",
-        "A power problem needs a quick response. A new installation needs a longer discussion."
+        "A power problem needs a quick response. A new installation needs a longer discussion. One general contact page can make both customers work too hard. Give urgent service calls a clear phone route, while planned rental and installation inquiries collect the site, project stage and known requirements."
       ],
       [
         "Broad searches bring unsuitable work",
-        "Home generator searches may not fit a commercial power business."
+        "Home generator searches may not fit a commercial power business. A commercial business may not handle the home products or small portable units shown in broad searches. Name the equipment and facility types you support so the right buyers recognize your service and others can rule themselves out."
       ],
       [
         "Project details arrive too late",
-        "Facility type, location and timing help your team decide how to respond."
-      ]
-    ],
-    "playbook": [
-      [
-        "Focus on the work you offer",
-        "Separate service, maintenance and installation ads."
+        "Facility type, location and timing help your team decide how to respond. A request without equipment details or a project stage is difficult to route. Short forms and clear service choices help your team identify the right first discussion instead of assuming every inquiry needs the same response."
       ],
       [
-        "Explain your coverage",
-        "Show the sites, equipment and areas your team supports."
-      ],
-      [
-        "Ask about the need",
-        "Get the location, type of site and project stage."
-      ],
-      [
-        "Follow the request",
-        "Track service calls separately from quotes for larger projects."
+        "Large projects can stay open for months",
+        "New power systems may involve engineering review, budget approval and several suppliers. Existing service accounts alone may not provide a steady project pipeline. Track early discussions and follow-up so a worthwhile opportunity remains visible while the buyer works through the decision."
       ]
     ],
     "capabilities": [
@@ -573,11 +1054,6 @@
         "Power systems that help a site keep running when its main supply is unavailable."
       ]
     ],
-    "scenario": [
-      "A facility manager searches for a generator service company.",
-      "A page shows the equipment you support and your service area.",
-      "Your team gets the site details and urgency before arranging the next step."
-    ],
     "intake": [
       "Type of site",
       "Project location",
@@ -586,30 +1062,148 @@
     ],
     "faqs": [
       [
-        "Can we separate urgent calls from new projects?",
-        "Yes. Use a clear phone route for service and a separate form for planned work."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. Service, rental and installation campaigns can require different locations, landing pages and inquiry-handling arrangements."
       ],
       [
-        "Can the website tell buyers what power system they need?",
-        "It can explain your services and collect details. Your qualified team should assess the site and recommend the system."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. Maintenance requests may move sooner than a new installation that needs a site review, engineering input and budget approval."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test a specific service line while SEO builds equipment, maintenance and project pages over time."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Separate maintenance work, rental bookings and installation opportunities, then follow each through quotes and completed jobs."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can reach new facilities and introduce additional service lines to the customers who already know your team."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Publish accurate service scope, supported equipment and clear answers about the first steps in reviewing a power project."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your technical team must still check equipment descriptions, review site requirements and confirm which inquiries fit the business."
       ]
     ],
     "description": "Marketing for generator and power companies. Help buyers understand your sales, rentals and service work, then get in touch.",
-    "buyer_brief": {
-      "decision": "A breakdown, maintenance plan and new installation need different next steps. Make those choices clear before the buyer contacts you.",
-      "page": "Show service hours and coverage for repairs. For projects, ask about the site, stage and known requirements.",
-      "handoff": "Record whether each request reached the right team and led to a site visit, quote or job.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Generator Company",
+      "steps": [
+        [
+          "Search for the immediate need",
+          "A facility manager may search for generator service during a fault, rental power for a project or a supplier for a new installation. Buyers need to recognize which part of the business handles their request and whether it serves their site and equipment."
+        ],
+        [
+          "Check equipment and project fit",
+          "Maintenance staff review supported equipment and service coverage. Engineers check the project scope, while purchasing staff compare service terms, rental arrangements or installation proposals. Owners may be involved in planned spending. Clear information helps these people shortlist suitable companies before a site discussion."
+        ],
+        [
+          "Share the site and requirements",
+          "The buyer gives your team the location, facility type, urgency and known equipment or project details. Your team decides whether the next step is a service call, rental discussion or site review. Planned power projects may require more information before a quote is appropriate."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Generator & Critical Power Companies Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Generator & Critical Power Companies",
+      "services": [
         {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “industrial generator rental,” “commercial standby generator supplier” and “industrial generator maintenance.” Ads focus on supported equipment, facility types and actual coverage. Urgent service searches need a clear call route, while planned projects need pages that explain scope and collect useful site details.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We build pages for the service lines and power applications your team supports. Someone searching for “commercial generator maintenance” needs different information from a new installation buyer. Clear equipment scope, coverage and approved examples help customers assess your business without relying on vague reliability claims.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for a “commercial standby generator supplier” should understand your role, service area and project-review process. We separate service, rental and installation routes. Forms collect facility type, location, timing and known equipment details, while your technical team confirms requirements and the next step.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect calls from “industrial generator maintenance” ads and forms about new projects to a shared record. Track site discussions, service visits, rental quotes and installations in separate categories. Your team can record project stages and approvals, making longer opportunities easier to follow beyond the first inquiry.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A breakdown, maintenance plan and new installation need different next steps. Make those choices clear before the buyer contacts you.",
+      "work_cards": [
+        [
+          "Industrial generators",
+          "Explain the equipment and facilities your business supports. Show how buyers begin a discussion about supply or installation, with relevant product information and a clear distinction between known project details and requirements still needing review."
+        ],
+        [
+          "Temporary power rentals",
+          "Help customers describe the site, intended use and rental period. Explain actual delivery coverage and the review needed before confirming an equipment option, availability or the full scope of a temporary power quote."
+        ],
+        [
+          "Service and maintenance",
+          "Show the equipment types, coverage and response hours your team offers. Give urgent requests a phone route and planned maintenance buyers a way to discuss the site, existing equipment and service requirements."
+        ],
+        [
+          "Backup power and microgrids",
+          "Describe the project types and parts of the system you handle. Use approved examples and explain how a buyer shares the site and project stage before the technical team reviews requirements and options."
+        ]
+      ],
+      "credentials_title": "Supported equipment and technical qualifications",
+      "credentials_body": "Show current qualifications, supported makes and relevant product documentation where they apply. Keep statements about equipment ratings, testing and installation scope tied to approved information. Marketing should make the review process clear, rather than promise that a system will meet an unreviewed site requirement.",
+      "example": [
+        "A facility manager searches for “industrial generator maintenance.” An ad opens a page showing the equipment you support, actual coverage and a clear way to contact the service team. The buyer can quickly check whether the business fits the site.",
+        "The request includes the location, facility type, known equipment details and urgency. Your team checks coverage and the nature of the work, asks for missing information and decides whether to arrange a call, visit or further project discussion before quoting.",
+        "The inquiry is linked to its marketing source and tracked through review, quote and completed work. Rental and installation opportunities stay separate from service requests. Reporting shows which campaigns bring suitable jobs and useful project discussions rather than counting every call as an installation sale."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Supported equipment and sites",
+          "Describe the generator types and facilities you handle. Keep product specifications and current qualifications tied to the relevant work."
+        ],
+        [
+          "Clear service routes",
+          "Separate repairs, planned maintenance, rentals and new projects. Give urgent callers coverage, hours and a phone number they can find quickly."
+        ],
+        [
+          "Project scope and documentation",
+          "Explain which parts of supply, installation and support you provide. Use approved product details and avoid making site-specific promises before review."
+        ],
+        [
+          "Site inquiry form",
+          "Ask for the location, facility type, equipment or project details, timing and urgency. Explain how the team will decide the next step."
+        ],
+        [
+          "Approved project examples",
+          "Show real equipment and work with permission, describing your role. Do not publish private site details or unsupported claims about performance."
+        ]
+      ],
+      "faq_heading": "Common Questions About Generators & Critical Power Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "cnc-machining-fabrication-marketing",
@@ -643,24 +1237,6 @@
         "Repeat orders can keep a shop busy, but losing one large account can leave a gap. New buyers may take months to approve a supplier or send price-focused RFQs to several shops. Marketing needs to build a steady pool of suitable opportunities, with patient follow-up."
       ]
     ],
-    "playbook": [
-      [
-        "Show what the shop does",
-        "Create clear pages for your main processes and materials."
-      ],
-      [
-        "Use real examples",
-        "Share approved photos and job details that help buyers understand your work."
-      ],
-      [
-        "Improve quote questions",
-        "Ask about material, quantity and dates before arranging drawing transfer."
-      ],
-      [
-        "Review the results",
-        "Track which requests fit your shop and move on to quotes or orders."
-      ]
-    ],
     "capabilities": [
       [
         "CNC milling and turning",
@@ -678,11 +1254,6 @@
         "Finishing and assembly",
         "Finishing parts and putting components together."
       ]
-    ],
-    "scenario": [
-      "An engineer searches for a shop to make a batch of parts.",
-      "A page explains your processes, materials and job sizes.",
-      "The quote request gives your team the material, quantity and deadline. Drawings follow through an agreed method."
     ],
     "intake": [
       "Process and material",
@@ -721,21 +1292,6 @@
       ]
     ],
     "description": "Marketing for CNC machine shops and fabricators. Explain your processes and materials, show your work and make it easier to ask for a quote.",
-    "buyer_brief": {
-      "decision": "Buyers may compare processes, materials, part size and order volume before asking for a price. Clear details help them judge whether your shop fits.",
-      "page": "Show the work you can handle. Ask for the process, material, quantity and dates, then arrange a suitable way to receive drawings.",
-      "handoff": "Keep prototype requests separate from repeat orders. Record which jobs fit, which receive quotes and which become orders.",
-      "links": [
-        {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
-        },
-        {
-          "service": "industrial-websites",
-          "label": "websites and quote forms"
-        }
-      ]
-    },
     "buyer_journey": {
       "heading": "How Buyers Find and Choose a CNC Machine Shop",
       "steps": [
@@ -753,11 +1309,102 @@
         ]
       ]
     },
-    "show_hero_summary": false,
-    "custom_sections_file": "content/cnc-machining-sections.html",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "lastmod": "2026-10-27"
+    "lastmod": "2026-10-27",
+    "marketing_content": {
+      "challenge_heading": "Why CNC Machine Shops Struggle to Get Quote Requests",
+      "challenge_intro": "Good work alone does not help a new buyer find and assess your shop.",
+      "services_heading": "How We Market CNC Machine Shops & Fabricators",
+      "services": [
+        {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We build campaigns around searches such as “CNC milling services,” “5 axis machining” and “contract sheet metal fabrication.” Ads focus on the processes, materials and order types your shop wants, in the areas you serve. We check search terms and exclude requests outside your scope.",
+            "Each ad leads to a page that explains the matching capability and offers a clear way to ask for a quote. Call and form tracking helps connect spending to useful inquiries."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
+        },
+        {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create useful pages for searches such as “aluminum CNC machining,” “precision turning” and “tool and die shop.” Each page explains the work, materials and project types your team can handle.",
+            "We also check that search engines can access your pages and that buyers can move between related capabilities. Real project examples and clear technical details help buyers assess your shop while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for a “precision machining company” needs more than a home page with a machine photo. We organize your website around the processes, materials, equipment and part sizes that help them decide whether to contact you.",
+            "Quote forms ask for the material, quantity, timing and type of work. Buyers get a clear next step for sharing drawings. Pages should be easy to read on a phone and make contact details simple to find."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We help connect calls and forms to that record. You can see whether an inquiry came from an ad for “CNC turning services” or an unpaid search for “contract fabrication.”",
+            "Your team records whether the job fits, receives a quote and becomes an order. Follow-up reminders help keep longer supplier reviews moving, so the report shows progress beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
+        }
+      ],
+      "capabilities_intro": "We organize your marketing around the work your shop actually does, so buyers can check fit before asking for a quote.",
+      "work_cards": [
+        [
+          "CNC machining",
+          "Explain your milling and turning work, the materials you cut and the part sizes you handle. Separate prototype jobs from repeat production where that helps buyers understand the work you want."
+        ],
+        [
+          "Metal fabrication",
+          "Show the cutting, forming and welding work your team offers. Describe the materials, thickness ranges and assemblies you can handle, using approved photos that help a buyer picture a similar job."
+        ],
+        [
+          "Precision tooling",
+          "Give tools, molds, jigs and fixtures their own space when they are part of your service. Explain the application, design input and job details your team needs before discussing a quote."
+        ],
+        [
+          "Finishing and assembly",
+          "Make it clear which finishing and assembly steps you handle and which rely on outside partners. Buyers should understand what is included in your quote and what they must arrange separately."
+        ]
+      ],
+      "credentials_title": "Certifications and capabilities",
+      "credentials_body": "Show current ISO or AS9100 certifications only if your shop holds them, with the relevant scope. Include material and tolerance lists, inspection capabilities and any limits that affect supplier approval. Check every technical claim with your team before publishing it.",
+      "example": [
+        "An engineer needs a batch of aluminum parts and searches for “aluminum CNC milling services.” A Google ad takes them to a page about that process, with materials, part-size limits and approved examples. They can quickly check whether the shop fits.",
+        "The engineer sends an RFQ with the material, quantity and target date. The page explains how to arrange drawing transfer. Your team checks the specifications, asks for anything missing and decides whether the job is suitable to quote.",
+        "The inquiry is linked to its ad source and recorded with a next step. Your team updates it when a quote is sent and an order is won or lost. Reporting connects the marketing to qualified requests and sales, rather than counting every form as an order."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they send an RFQ. Start with these basics and keep them current as your shop changes.",
+      "website_checklist": [
+        [
+          "Equipment list",
+          "List the machines that matter to the work you want, with useful details such as travel, work envelope or supported processes."
+        ],
+        [
+          "Capabilities and materials",
+          "Explain your main services, materials, part sizes and suitable order quantities. State the limits that help buyers check whether a job fits."
+        ],
+        [
+          "Tolerances and quality",
+          "Give realistic tolerance ranges with context. Show current certifications and inspection methods where relevant, rather than making broad claims about every job."
+        ],
+        [
+          "A clear RFQ form",
+          "Ask for contact details, material, quantity and required date. Explain how drawings will be shared and what happens after the request arrives."
+        ],
+        [
+          "Project gallery",
+          "Use approved photos and short descriptions of the process, material and application. Leave out customer names, drawings or details you do not have permission to publish."
+        ]
+      ],
+      "faq_heading": "Common Questions About CNC Machining Marketing"
+    }
   },
   {
     "slug": "heavy-haul-rigging-marketing",
@@ -765,7 +1412,7 @@
     "short": "Heavy Haul & Rigging",
     "headline": "Marketing for",
     "accent": "Heavy Haul & Rigging Companies",
-    "intro": "Help customers find your heavy haul, machinery moving and rigging services. We explain the work and routes you cover, and ask for the details your team needs to review a move.",
+    "intro": "We help heavy haul and rigging companies with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Plant managers and project teams",
     "goal": "Moving and lifting quote requests",
     "queries": [
@@ -776,33 +1423,19 @@
     "challenges": [
       [
         "General freight calls waste time",
-        "Not every load or route fits your equipment and services."
+        "Not every load or route fits your equipment and services. Broad transport campaigns can attract small deliveries or routes outside your business. Describe the machinery, load types and coverage you handle so buyers can check whether your team is a reasonable fit before calling."
       ],
       [
         "Load details are missing",
-        "Size, weight and access affect how your team reviews the move."
+        "Size, weight and access affect how your team reviews the move. A request that says “move a machine” does not give enough context for an estimate. Ask for known dimensions, weight and access information, while making it clear that your team may need to review further details."
       ],
       [
         "Buyers cannot judge your range",
-        "They need to know which types of machinery and projects you handle."
-      ]
-    ],
-    "playbook": [
-      [
-        "Focus on suitable moves",
-        "Use ads for your services and the routes you cover."
+        "They need to know which types of machinery and projects you handle. A few unlabelled job photos can leave buyers guessing about your role. Explain the move, equipment type and work you performed, using approved examples that show the projects your business wants to take on."
       ],
       [
-        "Explain the work you handle",
-        "Show approved project examples and equipment details."
-      ],
-      [
-        "Ask about the load",
-        "Collect pickup, destination, known size and weight, and dates."
-      ],
-      [
-        "Keep track of the quote",
-        "Record the site review, quote and follow-up steps."
+        "Shutdown dates and approvals delay decisions",
+        "A plant relocation may involve several suppliers, internal approvals and a changing production schedule. Repeat customers can also leave gaps between large moves. Keep suitable projects visible through site reviews, quotes and date changes instead of treating the first request as a confirmed job."
       ]
     ],
     "capabilities": [
@@ -823,11 +1456,6 @@
         "Planned moves involving several machines or work areas."
       ]
     ],
-    "scenario": [
-      "A plant manager searches for a machinery mover.",
-      "A page explains the moves you handle and the details needed for a quote.",
-      "Your team gets the route, load details and dates before reviewing the job."
-    ],
     "intake": [
       "Pickup and destination",
       "Load size and weight",
@@ -836,30 +1464,148 @@
     ],
     "faqs": [
       [
-        "Can ads focus on our usual routes?",
-        "Yes. We use the routes and areas you serve, then review whether the requests fit."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A local machinery-moving campaign and a wider heavy haul service may need different coverage, pages and inquiry checks."
       ],
       [
-        "Does the quote form confirm that we can do the move?",
-        "No. It starts the discussion. Your operations team still needs to check the load, sites and requirements."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. One planned move may progress faster than a plant relocation tied to shutdown dates and several internal approvals."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for defined moves or routes while SEO builds useful service and project pages."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Record qualified move requests, site reviews, quotes and booked work, including projects delayed by changing schedules."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can broaden the project pipeline between major moves and introduce your capabilities to new plant and contractor teams."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Use clear load, route and service descriptions with approved project examples and answers about the information needed for review."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your operations team should still review loads, routes and technical scope, even when an agency handles the marketing work."
       ]
     ],
     "description": "Marketing for heavy haul and rigging companies. Explain the loads and routes you cover and collect the details needed to review a move.",
-    "buyer_brief": {
-      "decision": "A machinery move needs more than a pickup address. Buyers should share what is moving, where it is going and when.",
-      "page": "Show the moves and routes you support. Collect known load and access details without promising a price before review.",
-      "handoff": "Check route and load fit, record any site visit, then follow the quote through to a decision.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Machinery Moving Company",
+      "steps": [
+        [
+          "Search for a specialist move",
+          "A plant manager may search for industrial machinery movers when replacing equipment or planning a relocation. A contractor may need heavy haul transport for one load. Buyers need to see whether you handle the machine, route and type of move they have in mind."
+        ],
+        [
+          "Compare scope and experience",
+          "Operations staff look at access, downtime and schedule. Engineers may help describe the equipment, while purchasing staff compare scope and supplier information. Owners may review the cost and disruption. Approved project examples help each person assess your experience without assuming every move is the same."
+        ],
+        [
+          "Share the load and route",
+          "A useful request includes pickup and destination, known size and weight, access details and dates. Your team checks fit and decides whether more information or a site visit is needed. The final scope and quote follow that review, rather than a price based only on distance."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Heavy Haul & Rigging Companies Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Heavy Haul & Rigging Companies",
+      "services": [
         {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We focus on searches such as “heavy haul machinery transport,” “industrial machinery movers” and “plant relocation rigging services.” Campaigns reflect the loads, routes and projects you support. Exclusions help reduce general freight calls, while the landing page explains the information needed before your team reviews a move.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
           "service": "industrial-google-ads",
-          "label": "Google Ads"
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages for the move types, machinery and routes your business handles. Someone searching for “industrial machinery movers” needs relevant scope and project examples, not a general transport slogan. Useful pages explain access questions, project stages and the details your team needs for an initial discussion.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for a “plant relocation rigging company” should understand your role and how to start a review. We organize transport, site moving and lifting services clearly. Inquiry forms collect the route, known load details, access and timing, with a clear next step for sharing more information.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect “heavy haul machinery transport” calls and project forms to a shared opportunity record. Your team can track load reviews, site visits, quotes and schedule changes. Record why a request is unsuitable or delayed, so reporting distinguishes open projects from confirmed moves and completed work.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A machinery move needs more than a pickup address. Buyers should share what is moving, where it is going and when.",
+      "work_cards": [
+        [
+          "Heavy and oversized transport",
+          "Show the load types and routes your business supports. Collect known dimensions, weight and locations before discussing scope, with any route or equipment decision left to your team’s review rather than a website promise."
+        ],
+        [
+          "Machinery moving and rigging",
+          "Describe the moving and positioning work you handle inside or around a site. Use approved project examples and explain which access, machine and schedule details help your team decide on the next discussion."
+        ],
+        [
+          "Crane and lifting work",
+          "Explain which parts of lifting work your team provides and what buyers need to share. Keep published equipment capabilities accurate, with the actual lift and site requirements reviewed through your normal technical process."
+        ],
+        [
+          "Plant moves",
+          "Help buyers understand your role in larger relocations involving several machines or work areas. Ask about the project stage and shutdown dates, then explain how your team discusses access, coordination and the quoted scope."
+        ]
+      ],
+      "credentials_title": "Equipment capabilities and project qualifications",
+      "credentials_body": "Show relevant current qualifications, equipment information and approved project experience. Explain the load and site details needed for a review. Keep published capabilities within your actual scope, without suggesting that a photo or equipment listing replaces a project-specific transport or lifting assessment.",
+      "example": [
+        "A plant manager searches for “industrial machinery movers” before replacing a production machine. An ad opens a page explaining the moves you handle and showing approved examples of similar work. The buyer can check scope before requesting a discussion.",
+        "The request includes pickup and destination, known size and weight, access and target dates. Your team checks whether the project fits, asks for missing details and decides whether a site review is needed before preparing a complete quote.",
+        "The inquiry is linked to its campaign source and tracked through review, site visit, quote and decision. Schedule changes remain visible. General freight and unsupported routes are recorded separately, so reporting shows which searches bring useful machinery-moving opportunities rather than just more calls."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Move types and machinery",
+          "Explain the loads and projects you handle, with clear transport, rigging and site-moving service descriptions that help buyers assess fit."
+        ],
+        [
+          "Routes and service coverage",
+          "Show actual coverage and how customers ask about a route. Avoid promising acceptance of a move before load and location review."
+        ],
+        [
+          "Capabilities and qualifications",
+          "Publish current, relevant equipment and team information. Keep technical limits accurate and explain that specific jobs still require your normal review."
+        ],
+        [
+          "Project inquiry form",
+          "Ask for pickup, destination, known load size and weight, access and dates. Explain how to arrange photos or additional documents."
+        ],
+        [
+          "Approved move examples",
+          "Describe your role in real projects and the machinery involved. Get permission before sharing customer facilities, names or private site details."
+        ]
+      ],
+      "faq_heading": "Common Questions About Heavy Haul & Rigging Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "industrial-refrigeration-marketing",
@@ -867,7 +1613,7 @@
     "short": "Industrial Refrigeration",
     "headline": "Marketing for",
     "accent": "Industrial Refrigeration Contractors",
-    "intro": "Help facility teams find your industrial refrigeration services. We explain your repair, installation and upgrade work so buyers can understand what you do and discuss their project.",
+    "intro": "We help industrial refrigeration contractors with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Facility managers and engineers",
     "goal": "Service and project requests",
     "queries": [
@@ -878,33 +1624,19 @@
     "challenges": [
       [
         "Small repair searches miss your market",
-        "Home and restaurant equipment may not fit your industrial services."
+        "Home and restaurant equipment may not fit your industrial services. Broad refrigeration searches can bring calls about products you do not service. Describe the facility types and system work you support so an industrial buyer can recognize the right fit and unrelated callers can rule themselves out."
       ],
       [
         "Specialist work is hard to explain",
-        "Buyers need clear details about the sites and systems you support."
+        "Buyers need clear details about the sites and systems you support. A list of equipment terms alone may not explain what your team does. Organize pages around the facilities, applications and work involved, using approved details that help buyers understand your role without overstating the scope."
       ],
       [
         "Projects are at different stages",
-        "An early expansion plan needs a different response from a scheduled repair."
-      ]
-    ],
-    "playbook": [
-      [
-        "Focus on the right facilities",
-        "Build pages and ads for the site types you serve."
+        "An early expansion plan needs a different response from a scheduled repair. One contact form can mix urgent service questions with early project planning. Ask about the facility, existing system, stage and timing so the request reaches someone who can review the relevant next step."
       ],
       [
-        "Explain your services",
-        "Describe your work using accurate details from your team."
-      ],
-      [
-        "Show real projects",
-        "Use approved photos and examples to explain how you work."
-      ],
-      [
-        "Ask about the project stage",
-        "Collect the site type, location, system details and timing."
+        "Long reviews can hide useful opportunities",
+        "A refrigeration project may involve engineering, operations, purchasing and budget approvals. A good inquiry can stay open while the site plan changes. Keep the discussion and next action recorded, rather than losing track of a suitable project between the first call and the final quote."
       ]
     ],
     "capabilities": [
@@ -925,11 +1657,6 @@
         "Service and upgrade work within your approved range."
       ]
     ],
-    "scenario": [
-      "A facility team looks for help with a cold storage expansion.",
-      "A page explains your services and shows approved project examples.",
-      "Your team receives the facility type, location and project stage before an initial discussion."
-    ],
     "intake": [
       "Facility type",
       "Project location",
@@ -938,30 +1665,148 @@
     ],
     "faqs": [
       [
-        "Can we avoid domestic repair requests?",
-        "We can focus ads and pages on industrial sites and check for unrelated searches. Clear form questions also help."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A specialist service campaign and a larger installation pipeline may require different coverage, pages and sales follow-up."
       ],
       [
-        "What project details should we publish?",
-        "Use accurate descriptions and approved examples. Have your team check statements about systems, qualifications and the work you can do."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. Service work may move sooner than an upgrade or new facility that needs technical review and several approvals."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for supported work while SEO builds facility, application and system pages over time."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track qualified facility inquiries, site discussions, proposals and won work, with early planning kept separate from urgent service."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can reach new facilities and reduce reliance on a small number of ongoing plant relationships."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Publish accurate system scope, approved project examples and useful explanations of the site information needed for an initial discussion."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your engineers and service team should still approve technical content and confirm which facilities and projects fit the business."
       ]
     ],
     "description": "Marketing for industrial refrigeration companies. Explain your services, show approved projects and help facility teams get in touch.",
-    "buyer_brief": {
-      "decision": "Repairs, upgrades and new cold storage projects may involve different people and deadlines. Each should have a clear contact route.",
-      "page": "Explain the sites and systems you support. Ask about the location, existing setup and project stage before a deeper discussion.",
-      "handoff": "Check whether the facility and work fit your services. Track site reviews and quotes over time, since larger projects may take months.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose an Industrial Refrigeration Contractor",
+      "steps": [
+        [
+          "Search by facility and requirement",
+          "A facilities team may search for an industrial refrigeration contractor during an expansion, upgrade or service need. Searches can name cold storage, a production site or an existing system. Buyers need to see which facilities and services you actually support before starting a discussion."
+        ],
+        [
+          "Check technical fit and experience",
+          "Engineers review the system and project scope, while maintenance teams consider service coverage and the existing equipment. Purchasing staff compare supplier information and proposals. Owners may be involved in budgets and timing. Clear, approved project examples help these people decide which contractors to shortlist."
+        ],
+        [
+          "Explain the site and project stage",
+          "The buyer shares the facility type, location, existing or planned system and required dates. Your team checks whether the work fits and asks for more details. An initial conversation or site review may come before a quote, especially for larger upgrades and new installations."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Industrial Refrigeration Contractors Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Industrial Refrigeration Contractors",
+      "services": [
         {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “industrial refrigeration contractor,” “cold storage refrigeration systems” and supported specialist service work. Campaigns focus on the facilities, systems and locations you handle. Search exclusions help reduce household or unrelated equipment calls, while the page explains which details your team needs to review a request.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages around facility types, service work and the applications your team supports. Someone researching a “cold storage refrigeration contractor” needs to understand your role and see relevant examples. Clear project descriptions and system scope help technical buyers compare suppliers without relying on broad performance claims.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "A buyer searching for “industrial refrigeration services” needs clear facility coverage, supported work and a practical contact route. We separate service requests from installation and upgrade discussions. Forms collect the site, existing or new system, project stage and timing so your team can decide what needs review.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect calls from “industrial refrigeration contractor” campaigns and project forms to a shared record. Track technical discussions, site reviews, quote stages and approvals. Notes on project fit and delays help your team follow longer decisions, rather than judging every early inquiry as a ready-to-start installation.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "Repairs, upgrades and new cold storage projects may involve different people and deadlines. Each should have a clear contact route.",
+      "work_cards": [
+        [
+          "Food processing sites",
+          "Explain the production environments and refrigeration work your team supports. Use approved examples to show your role, with enough context for facility teams to ask about a service need, installation or planned upgrade."
+        ],
+        [
+          "Cold storage and distribution",
+          "Describe the warehouse and distribution projects you handle, separating existing-site work from new builds. Ask about the facility, system and project stage before suggesting that a standard package fits every storage requirement."
+        ],
+        [
+          "Pharmaceutical storage",
+          "Show this work only where it matches your actual experience and qualifications. Keep approved project information specific to the site and service described, and give buyers a clear route to discuss their requirements with your team."
+        ],
+        [
+          "Ammonia systems and upgrades",
+          "Explain the service and upgrade work within your approved range. Publish relevant experience and current qualifications, while leaving system-specific decisions and technical assessments to the team responsible for reviewing the actual facility."
+        ]
+      ],
+      "credentials_title": "System experience and current qualifications",
+      "credentials_body": "Show the systems, facilities and service scope your team is qualified to handle, with relevant current documentation. Use approved descriptions for specialist work. Technical claims and project examples should be checked before publication, rather than implying that every refrigeration system falls within your scope.",
+      "example": [
+        "A facility engineer searches for “cold storage refrigeration contractor” while planning an expansion. An ad opens a page explaining your supported work and showing approved examples. The buyer can assess whether the business handles projects at the right facility scale.",
+        "The request gives your team the location, facility type, existing or planned system and project stage. Your team checks fit, asks about the schedule and missing details, then decides whether an initial call or site review is needed before discussing a proposal.",
+        "The inquiry is linked to its campaign source and tracked through discussion, site review, quote and decision. Early plans remain separate from urgent service requests. Reporting can show progress toward qualified project work, even when internal approvals or site changes delay a final order."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Supported facilities and systems",
+          "Describe the sites, systems and work you handle. Make industrial scope clear so unrelated domestic or small-equipment requests are easier to avoid."
+        ],
+        [
+          "Service and project routes",
+          "Separate repair questions, planned upgrades and new installations. Ask buyers about the project stage so the right team can respond."
+        ],
+        [
+          "Qualifications and technical scope",
+          "Show current, relevant qualifications and approved capabilities. Check specialist statements with your technical team and avoid publishing unsupported system or performance claims."
+        ],
+        [
+          "A useful facility inquiry form",
+          "Collect site location, facility type, known system details, project stage and dates. Explain how the next discussion or document exchange is arranged."
+        ],
+        [
+          "Approved project gallery",
+          "Use real examples that explain your role and the type of facility. Leave out customer names, drawings and sensitive details without permission."
+        ]
+      ],
+      "faq_heading": "Common Questions About Industrial Refrigeration Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "steel-building-marketing",
@@ -969,7 +1814,7 @@
     "short": "Steel Buildings & Structures",
     "headline": "Marketing for",
     "accent": "Steel Building Suppliers & Contractors",
-    "intro": "Help buyers understand your steel building services. We make it clear whether you supply building packages, put them up or handle both, so customers can send a useful quote request.",
+    "intro": "We help steel building suppliers and contractors with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Business owners and contractors",
     "goal": "Building quotes",
     "queries": [
@@ -980,33 +1825,19 @@
     "challenges": [
       [
         "Price questions lack detail",
-        "Size alone is not enough to quote a building. Use, location and included work matter."
+        "Size alone is not enough to quote a building. Use, location and included work matter. A request for a 40×60 building can mean a package alone or a more complete project. Explain the main price factors and ask enough questions to understand what the customer wants before preparing an estimate."
       ],
       [
         "Supply and installation get confused",
-        "Buyers may not know which parts of the project your business handles."
+        "Buyers may not know which parts of the project your business handles. A buyer may expect foundations, permits and erection to be included when you only sell the kit. State your role on the page and form so customers understand what you handle and what they arrange separately."
       ],
       [
         "Project details come in slowly",
-        "A few clear questions can save repeated calls about the basics."
-      ]
-    ],
-    "playbook": [
-      [
-        "Explain the building uses",
-        "Show the types of buildings and projects you support."
+        "A few clear questions can save repeated calls about the basics. Repeated questions about use, location and timing slow down the estimating process. A short form can collect these basics, then your team can ask for the extra site or specification details that the project requires."
       ],
       [
-        "Be clear about your role",
-        "List what your quote includes and what the buyer arranges separately."
-      ],
-      [
-        "Ask for the basics",
-        "Collect use, location, rough size and target dates."
-      ],
-      [
-        "Follow up at the right time",
-        "Keep track of the buyer’s plans and what they need next."
+        "Buyers compare prices before the scope is clear",
+        "A buyer may request several quotes while still deciding what to build. Larger projects can take months to approve. Clear inclusions, useful examples and patient follow-up help your team keep suitable projects moving without assuming every price question is ready for a sale."
       ]
     ],
     "capabilities": [
@@ -1027,11 +1858,6 @@
         "Building frames and clearly defined installation work."
       ]
     ],
-    "scenario": [
-      "A business owner searches for a steel warehouse supplier.",
-      "A page explains building options and what your service includes.",
-      "The request gives your team the use, location and rough size before an estimate."
-    ],
     "intake": [
       "Building use",
       "Project location",
@@ -1040,33 +1866,153 @@
     ],
     "faqs": [
       [
-        "Do we need to show instant prices?",
-        "Only if you can keep them accurate and explain what is included. Otherwise, a clear quote request is a better starting point."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A focused building-type campaign and a wider delivery-area plan need different amounts of page, ad and tracking work."
       ],
       [
-        "Can we make it clear that we only supply the building?",
-        "Yes. State that on the page and in the form so buyers understand your role before asking for a quote."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. A package inquiry may move sooner than a larger building project that needs site decisions, approvals and financing."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for selected building types while SEO develops useful size, price-factor and delivery-area pages."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track qualified building requests, estimates and signed contracts, with early price research kept separate from ready-to-quote projects."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. New visibility can reach buyers planning their first building and reduce dependence on a handful of recurring contractor accounts."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Use clear building-type pages, approved examples and plain explanations of the factors that change a package or installation quote."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your sales and estimating team should still confirm inclusions, project fit and which requests become useful quotes."
+      ],
+      [
+        "Are the leads exclusive?",
+        "We work on marketing for your business and do not sell shared lead lists. Inquiries come through your own campaigns and website. Buyers may still contact other suppliers, so we cannot promise they have contacted only you. Clear scope and helpful follow-up matter while they compare."
       ]
     ],
     "description": "Steel and metal building marketing for suppliers and contractors. Reach buyers, explain your options and turn project research into quote requests.",
     "title": "Steel & Metal Building Marketing for Suppliers & Contractors",
-    "custom_sections_file": "content/steel-building-sections.html",
-    "buyer_brief": {
-      "decision": "Buyers need to know whether you supply the package, erect the building or do both. Make that clear before discussing price.",
-      "page": "Ask for the intended use, location, rough size and dates. Explain which work is included in your service.",
-      "handoff": "Keep early planning questions separate from projects ready for a quote. Record what the estimating team needs next.",
-      "links": [
-        {
-          "service": "industrial-websites",
-          "label": "websites and quote forms"
-        },
-        {
-          "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
-        }
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Steel Building Supplier",
+      "steps": [
+        [
+          "Research sizes and prices",
+          "Buyers may start with a search for a 40×60 metal building price, a 30×50 workshop with a slab or a small garage. They are often still planning. Useful pages explain the building types you supply and the details that affect a project quote."
+        ],
+        [
+          "Compare suppliers and project scope",
+          "An owner may compare several suppliers or try a 3D building tool. Contractors and purchasing staff check delivery, installation, lead times and what is included. Buyers also ask about foundations, permits and financing. Clear scope helps them compare a kit supplier with a turnkey contractor."
+        ],
+        [
+          "Share the building plans",
+          "The buyer sends the intended use, project location, rough size and target date. Your team checks whether they need supply, erection or both and explains what must be reviewed before quoting. Early planning questions and projects ready for an estimate should have clear next steps."
+        ]
       ]
     },
-    "template": "templates/steel-building.html"
+    "marketing_content": {
+      "challenge_heading": "Why Steel Building Suppliers & Contractors Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Steel Building Suppliers & Contractors",
+      "services": [
+        {
+          "title": "Google Ads",
+          "paragraphs": [
+            "We focus on searches such as “40x60 metal building price,” “commercial steel building supplier” and “metal garage near me.” Campaigns reflect the building types, delivery area and supply or installation work you offer. Exclusions reduce unrelated shed or DIY requests when those are outside your market.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
+        },
+        {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages for building uses, sizes and real delivery areas. A buyer researching “steel workshop buildings” needs scope, options and useful planning information. Price-factor guides and approved examples can explain what changes between a building package and an installed project without publishing an unsupported instant quote.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Someone searching for a “steel building contractor” should understand whether you supply, erect or manage the full project. We organize galleries by building type and explain delivery, installation and quote details. A 3D builder can help planning if its limits are clear; a useful form can work without one.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect calls from “metal building supplier” ads and quote forms to a shared project record. Your team can track site discussions, estimates, follow-up and signed contracts. Keep early size and price research separate from projects with a location, scope and realistic next step toward a quote.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
+        }
+      ],
+      "capabilities_intro": "Buyers need to know whether you supply the package, erect the building or do both. Make that clear before discussing price.",
+      "work_cards": [
+        [
+          "Commercial building packages",
+          "Explain the building uses, package options and delivery areas you supply. Make inclusions clear so buyers understand which parts of design, delivery, erection and site preparation are part of the quote and which are separate."
+        ],
+        [
+          "Industrial warehouses",
+          "Show approved examples of storage and warehouse projects, with your role clearly described. Ask about location, use, rough dimensions and project stage before suggesting that a standard building package fits the full requirement."
+        ],
+        [
+          "Agricultural buildings",
+          "Organize examples around the farm uses your range supports, such as equipment storage or workshops. Help buyers identify the size, options and site details they need to discuss, without assuming that one package suits every application."
+        ],
+        [
+          "Frames and building erection",
+          "Show whether your team supplies the frame, erects it or handles a wider scope. Make the review and quoting process clear, including what buyers must arrange separately before installation dates or a full project price can be confirmed."
+        ]
+      ],
+      "credentials_title": "Building specifications and service scope",
+      "credentials_body": "Publish approved building specifications, current relevant qualifications and clear inclusions for each type of work. Explain how location and project requirements are reviewed. Keep claims about design, engineering or installation within your actual role, rather than suggesting that every package includes a complete turnkey build.",
+      "example": [
+        "A business owner searches for “steel warehouse building supplier.” An ad opens a page showing the building types you supply, delivery coverage and whether erection is included. Approved examples help the buyer compare your scope with other suppliers before asking for a quote.",
+        "The request gives your team the intended use, location, rough size and target date. Your team clarifies package-only or installation needs, asks for missing site details and explains what must be reviewed before preparing a useful estimate for the project.",
+        "The inquiry is linked to its ad source and tracked through scope review, estimate, follow-up and contract. Early research stays separate from quote-ready projects. Reporting follows qualified requests and signed work, rather than treating every use of a 3D planning tool as a sale."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Building types and gallery",
+          "Organize approved examples by use or size, including the garages, workshops, barns, barndominiums, carports or commercial buildings your business actually supplies."
+        ],
+        [
+          "Supply and installation scope",
+          "Explain what your quote includes and who handles foundations, permits, erection and site work. Define turnkey services where you offer them."
+        ],
+        [
+          "Prices and planning tools",
+          "Keep any price ranges current and label their inclusions. Explain that a 3D builder is a planning tool, not a final project quote."
+        ],
+        [
+          "Building quote form",
+          "Ask for intended use, location, rough size, supply or installation needs and target dates. Leave deeper project questions for the next discussion."
+        ],
+        [
+          "Delivery and financing information",
+          "Show actual delivery coverage, how availability is checked and current financing information where offered, with clear terms and the provider identified."
+        ]
+      ],
+      "faq_heading": "Common Questions About Steel Buildings & Structures Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "scaffolding-shoring-formwork-marketing",
@@ -1074,7 +2020,7 @@
     "short": "Scaffolding, Shoring & Formwork",
     "headline": "Marketing for",
     "accent": "Scaffolding, Shoring & Formwork Suppliers",
-    "intro": "Help contractors find your scaffolding, shoring and formwork services. We explain the systems and areas you cover, and make it easier to ask about rentals, supply and availability.",
+    "intro": "We help scaffolding, shoring and formwork suppliers with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Contractors and site teams",
     "goal": "Rental and supply requests",
     "queries": [
@@ -1085,33 +2031,19 @@
     "challenges": [
       [
         "Small jobs and site projects get mixed up",
-        "Some searches bring requests outside your usual project size."
+        "Some searches bring requests outside your usual project size. Broad rental searches can attract domestic or small jobs outside your usual scope. Name the systems and project types you support so commercial site teams can recognize your range and unsuitable buyers can check fit before calling."
       ],
       [
         "Requests reach the wrong branch",
-        "The site location and system needed should help decide who responds."
+        "The site location and system needed should help decide who responds. A request without a clear site or system can be passed around several teams. Show actual branch coverage and ask for location early, giving the inquiry a better chance of reaching someone who can check the relevant range."
       ],
       [
         "Dates are missing",
-        "Your team needs to know when the work starts and how long equipment is needed."
-      ]
-    ],
-    "playbook": [
-      [
-        "Show where you work",
-        "Use real branch and service-area details."
+        "Your team needs to know when the work starts and how long equipment is needed. A project may need equipment for one stage or several months. Collect the expected start and rental period, then explain how your team checks stock and scheduling before confirming availability or the quoted rental scope."
       ],
       [
-        "Separate the systems",
-        "Give scaffolding, shoring and formwork their own useful information."
-      ],
-      [
-        "Ask about the site and dates",
-        "Collect enough detail for the rental or sales team to respond."
-      ],
-      [
-        "Keep requests with the right team",
-        "Record who is handling the quote and the next follow-up date."
+        "Staged projects create slow decisions",
+        "A site may change its schedule or need approval before committing to a rental. Several suppliers may also be quoting different scopes. Keep the system, branch, dates and next action together so a suitable project does not disappear while the buyer resolves the plan."
       ]
     ],
     "capabilities": [
@@ -1132,11 +2064,6 @@
         "Equipment needs spread across several stages of a job."
       ]
     ],
-    "scenario": [
-      "A contractor searches for formwork rental.",
-      "A page shows the systems you supply and your service area.",
-      "The request includes the site, job stage and rental dates for your team to review."
-    ],
     "intake": [
       "Site location",
       "System needed",
@@ -1145,30 +2072,148 @@
     ],
     "faqs": [
       [
-        "Can requests go to the right branch?",
-        "We can plan the form and follow-up around your branch areas and the systems each one handles."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. Several systems or branches may need different pages, location targeting and ways to route rental and supply inquiries."
       ],
       [
-        "Does a quote form replace a site or engineering review?",
-        "No. It collects starting details. Your qualified team still checks equipment, design and site needs."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. One equipment rental may progress sooner than a phased project with changing dates and a technical review still open."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for defined systems while SEO develops useful equipment, application and real branch-coverage pages."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Record qualified site requests, availability reviews, quotes and bookings, with technical scope and date changes kept visible."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can reach contractors starting work in your area and introduce other systems to customers who already use one part of your range."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Publish accurate system descriptions, actual coverage and clear answers about what information a site team should share first."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your branch and technical staff should still confirm availability, review scope and report which inquiries lead to useful work."
       ]
     ],
     "description": "Marketing for scaffolding, shoring and formwork companies. Show your systems and service areas, and make rental and supply requests easier.",
-    "buyer_brief": {
-      "decision": "Site teams often need to know whether a system is available for a certain period. Location and dates are key to the first response.",
-      "page": "Show real branch coverage and separate the equipment types. Ask for the site, job stage and rental period.",
-      "handoff": "Group requests by branch, system and dates. Track the availability discussion and quote, while your team handles technical checks.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose a Scaffolding or Formwork Supplier",
+      "steps": [
+        [
+          "Search for the system and location",
+          "A contractor may search for commercial scaffolding rental, shoring towers or a concrete formwork supplier before a project stage begins. Buyers need to see whether you supply the relevant systems and serve the site, rather than land on a page that treats every rental as the same job."
+        ],
+        [
+          "Compare scope and availability",
+          "Site managers check the schedule and system needs, while project engineers may review technical information. Purchasing staff compare the rental scope, branch coverage and included services. Clear product descriptions help buyers shortlist suppliers before asking the team to review the actual project requirements."
+        ],
+        [
+          "Share the site and dates",
+          "A useful request includes the location, system needed, job stage and rental period. Your team checks coverage and availability, asks for missing information and routes any technical questions to the right person. A more detailed review may be needed before a full quote is possible."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Scaffolding, Shoring & Formwork Suppliers Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Scaffolding, Shoring & Formwork Suppliers",
+      "services": [
         {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We separate searches such as “commercial scaffolding rental,” “shoring tower rental” and “concrete formwork supplier.” Ads reflect the systems, project types and areas you support. Pages make the rental or supply route clear, while search exclusions help reduce small or unrelated requests outside your normal scope.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We create pages for equipment types, uses and real branch coverage. A buyer searching for “concrete formwork rental” needs system information and a clear way to discuss availability. Relevant examples and approved specifications help site teams assess the range before asking your team to review their project.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Someone searching for a “commercial scaffolding supplier” should find the relevant systems, coverage and contact route quickly. We separate scaffolding, shoring and formwork pages, then collect the site, project stage and dates. Technical questions go to your team rather than being treated as automatic online approvals.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
           "service": "industrial-websites",
-          "label": "websites and quote forms"
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect forms from “shoring tower rental” pages and calls from ads to a shared opportunity record. Track the branch, system, site review, availability discussion and quote. When dates change, your team can follow the next step instead of losing the request between general inboxes.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
+          "service": "industrial-lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "Site teams often need to know whether a system is available for a certain period. Location and dates are key to the first response.",
+      "work_cards": [
+        [
+          "Commercial scaffolding",
+          "Describe the access equipment and site work your business supports. Show real coverage and explain how buyers begin a rental or supply discussion, with the actual system and site requirements reviewed by your team."
+        ],
+        [
+          "Shoring and support",
+          "Show the support systems in your range and the information needed for an initial inquiry. Keep technical capabilities tied to approved documentation, without suggesting that a product page decides suitability for a particular structure or job."
+        ],
+        [
+          "Concrete formwork",
+          "Explain the formwork types you supply and how project teams ask about scope and availability. Use approved examples, with a clear route for discussing the job stage, required period and any further technical information."
+        ],
+        [
+          "Longer-term site rentals",
+          "Help buyers explain phased equipment needs and changing dates. Show how your team discusses branch coverage, availability and the rental scope, rather than implying that every system is available throughout an unconfirmed site schedule."
+        ]
+      ],
+      "credentials_title": "System documentation and technical support",
+      "credentials_body": "Publish approved product information, relevant current qualifications and a clear description of the support you offer. Explain which project details need review before suitability or scope is confirmed. Keep rental availability separate from technical decisions about the system required for a particular job.",
+      "example": [
+        "A contractor searches for “concrete formwork supplier” before the next stage of a job. An ad opens a page showing the systems you supply, actual coverage and the information needed to ask about availability for the site and expected rental period.",
+        "The buyer shares the location, system needed, project stage and dates. Your team routes the request to the right branch, checks the range and availability and asks for any technical information needed before reviewing scope and preparing a quote.",
+        "The inquiry is linked to its campaign source and tracked through review, quote and booking. Schedule changes remain visible, and unsuitable requests are recorded separately. Reporting shows which searches lead to qualified site opportunities, rather than treating every stock question as confirmed rental work."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "System range",
+          "Separate scaffolding, shoring and formwork pages. Explain the equipment and project types you support so buyers can find the relevant range."
+        ],
+        [
+          "Branch and site coverage",
+          "Show actual service areas and the right contact route. Explain how the site location helps your team check stock and route the inquiry."
+        ],
+        [
+          "Approved specifications",
+          "Keep system details and current qualifications accurate. Make the technical-review process clear without implying that the website confirms suitability for a particular job."
+        ],
+        [
+          "Rental or supply inquiry form",
+          "Collect the site, system, project stage and expected dates. Give buyers a way to arrange any further information your team needs."
+        ],
+        [
+          "Relevant project examples",
+          "Show real, approved work with your role explained. Leave out private site plans and unsupported claims about what a system can do."
+        ]
+      ],
+      "faq_heading": "Common Questions About Scaffolding, Shoring & Formwork Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   },
   {
     "slug": "industrial-automation-robotics-marketing",
@@ -1176,7 +2221,7 @@
     "short": "Automation & Robotics",
     "headline": "Marketing for",
     "accent": "Automation & Robotics Integrators",
-    "intro": "Help manufacturers understand your automation and robotics work. We explain the problems you solve, show approved examples and give buyers a clear way to discuss a project.",
+    "intro": "We help automation and robotics integrators with Google Ads, SEO, website design and lead tracking.",
     "buyers": "Plant managers and engineers",
     "goal": "Automation project discussions",
     "queries": [
@@ -1187,33 +2232,19 @@
     "challenges": [
       [
         "Video views do not always mean project interest",
-        "A robot demo can attract people who are not planning to buy."
+        "A robot demo can attract people who are not planning to buy. A busy demo video does not tell you whether the viewer has a suitable application. Connect each demo to a clear process page and ask for project details before treating views or downloads as sales opportunities."
       ],
       [
         "Services sound too broad",
-        "Buyers need to understand how your work applies to their process."
+        "Buyers need to understand how your work applies to their process. A list of robots and software brands may not explain the problem you solve. Pages should connect the system to a real task, supported application and the information needed for an initial discussion with your team."
       ],
       [
         "Decisions take time",
-        "Engineering, operations and purchasing teams may all need different details."
-      ]
-    ],
-    "playbook": [
-      [
-        "Start with the problem",
-        "Explain the jobs and processes your systems can help with."
+        "Engineering, operations and purchasing teams may all need different details. One person may be researching options while another controls the budget. Capture the project stage and next action, then give each team useful information without assuming that the first technical question means a project is approved."
       ],
       [
-        "Show the work clearly",
-        "Use approved demonstrations and project details to show what you do."
-      ],
-      [
-        "Ask about the current setup",
-        "Collect the process, equipment and project stage before a meeting."
-      ],
-      [
-        "Support the next discussion",
-        "Keep track of questions, technical reviews and follow-up dates."
+        "Long sales cycles can leave the pipeline unclear",
+        "Automation work may wait for budgets, production plans or several reviews. Repeat customers can also pause investment. Marketing should help suitable new buyers find your capabilities and keep open discussions visible, with clear reasons why each opportunity moves forward, pauses or closes."
       ]
     ],
     "capabilities": [
@@ -1234,11 +2265,6 @@
         "Work that connects machines and controls into a working system."
       ]
     ],
-    "scenario": [
-      "A plant manager watches a demo of an automated task.",
-      "A page explains what the system does and where it may fit.",
-      "The buyer shares the current process and project stage so your team can discuss the need."
-    ],
     "intake": [
       "Process to improve",
       "Current equipment",
@@ -1247,29 +2273,147 @@
     ],
     "faqs": [
       [
-        "Can you use our existing demonstration videos?",
-        "Yes, with your approval. We add useful context and a clear next step for people with a project to discuss."
+        "What does this marketing cost?",
+        "It depends on the scope, target market, website and tracking work needed. We agree on tasks and fees before starting. Ad spending and any extra software costs are discussed separately. A focused application campaign and a broader mix of controls, robotics and integration services need different amounts of content and tracking."
       ],
       [
-        "How do you handle a long sales process?",
-        "We plan content and follow-up around the steps your team uses. That may include an initial call, technical review and proposal."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand and the page. SEO usually needs months of steady work; there is no guaranteed date. An approved upgrade may move sooner than a new system that needs discovery, technical reviews and budget decisions."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation and the work you want. Make sure the website explains your offer and gives buyers a useful contact route before sending more traffic. Ads can test demand for a defined application while SEO builds useful process and system pages for longer research."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit, receive quotes and become customers. Review qualified opportunities and won work alongside traffic and spending. Track application fit, discovery calls, site reviews, proposals and won work, including why larger projects pause or close."
+      ],
+      [
+        "Do we need this if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap, while focusing on work your team wants and can handle. Marketing can introduce your capabilities to new plants and help existing customers discover other supported applications."
+      ],
+      [
+        "How can our business show up in AI search?",
+        "For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make useful pages accessible and keep business details current. Inclusion or citations cannot be guaranteed. Use clear application pages, approved demos and explanations that answer questions from engineers, operations and purchasing teams."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a business with the time and skills to manage campaigns, content and reporting. An agency can support the work your team cannot cover. Your engineers should still approve technical descriptions, review project fit and explain which applications your business wants to pursue."
       ]
     ],
     "description": "Marketing for automation and robotics companies. Explain the problems you solve, show examples and help buyers discuss a project.",
-    "buyer_brief": {
-      "decision": "A project may involve several teams. A useful page explains the problem, the system and what a buyer needs to discuss next.",
-      "page": "Link demos to pages about real uses. Ask about the current process, equipment and project stage before a detailed review.",
-      "handoff": "Track whether the project fits, what has been reviewed and who needs to respond. Record why a project is delayed or does not go ahead.",
-      "links": [
+    "buyer_journey": {
+      "heading": "How Buyers Find and Choose an Automation Integrator",
+      "steps": [
+        [
+          "Search for a process improvement",
+          "A plant manager may search for a robotic cell integrator, conveyor automation or a controls upgrade. The starting point is often a production problem rather than a chosen robot. Buyers need to see which tasks, processes and project types your business actually supports."
+        ],
+        [
+          "Compare applications and experience",
+          "Engineers review the technical fit, while operations staff consider the existing workflow and disruption. Purchasing teams compare scope and supplier information, and owners may review the budget. Approved demos and project explanations help these people shortlist integrators for a more detailed conversation."
+        ],
+        [
+          "Describe the process and project stage",
+          "The buyer shares the current task, equipment, problem and stage of planning. Your team checks whether the project fits and asks what information is still missing. A discovery call or site review may come before a proposal, especially when several teams need to agree on the scope."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why Automation & Robotics Integrators Struggle to Get Quote Requests",
+      "challenge_intro": "Buyers need to see whether you fit their job before they get in touch. These gaps can make suitable work harder to win.",
+      "services_heading": "How We Market Automation & Robotics Integrators",
+      "services": [
         {
-          "service": "industrial-seo",
-          "label": "industrial SEO"
+          "title": "Google Ads",
+          "paragraphs": [
+            "We focus on searches such as “robotic cell system integrator,” “industrial conveyor automation” and “PLC control system upgrade.” Campaigns reflect the applications, project types and areas you support. The page explains the process and project details needed, helping separate genuine planning from general interest in robot videos.",
+            "We check search terms and connect calls and forms to their source. Your team’s feedback helps us focus spending on inquiries that fit the work you want, rather than just increasing clicks."
+          ],
+          "service": "industrial-google-ads",
+          "link_label": "Explore industrial Google Ads"
         },
         {
+          "title": "SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps your website appear in unpaid search results. We build pages around the tasks, systems and problems your team works on. A buyer searching for “robotic palletizing integrator” needs to understand application fit and your role. Approved project examples can explain the process, equipment and scope without publishing unsupported performance or payback figures.",
+            "We also check that search engines can access the pages and that related services are easy to find. Real examples and clear details help buyers assess the business while they compare suppliers."
+          ],
+          "service": "industrial-seo",
+          "link_label": "Explore industrial SEO"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Someone searching for an “automation systems integrator” should find clear applications and a useful first contact route. We link demos to pages that explain the work. Inquiry forms collect the current process, equipment, project stage and intended change, giving your team a starting point for review.",
+            "Pages should be easy to read on a phone, with contact details and the next step clearly shown. Your team can then ask the deeper questions needed before a final quote or booking."
+          ],
+          "service": "industrial-websites",
+          "link_label": "Explore industrial website design"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We connect calls from “PLC control system upgrade” campaigns and application-page forms to a shared project record. Track fit, discovery calls, site reviews, proposals and approvals. Notes on people involved and reasons for delay help your team follow a long decision without mistaking a demo view for a sale.",
+            "Agree on what makes an inquiry useful, then record quotes and won work where your records allow. Follow-up reminders keep the next action visible, so reporting goes beyond the first form submission."
+          ],
           "service": "industrial-lead-tracking",
-          "label": "lead tracking and follow-up"
+          "link_label": "Explore lead tracking and follow-up"
         }
-      ]
-    }
+      ],
+      "capabilities_intro": "A project may involve several teams. A useful page explains the problem, the system and what a buyer needs to discuss next.",
+      "work_cards": [
+        [
+          "Robotic cells",
+          "Explain the tasks and applications you support, with approved demos and a clear account of your role. Ask about the current process and equipment before suggesting that a cell from one project is a ready-made answer for another."
+        ],
+        [
+          "Conveyors and material flow",
+          "Describe the material-flow problems and parts of a system your team handles. Show useful examples and give buyers a route to discuss the current layout, equipment and project stage before a proposed scope is defined."
+        ],
+        [
+          "Controls upgrades",
+          "Explain which control systems and upgrade work your team supports. Help buyers share the existing equipment and problem, with technical scope and access arrangements reviewed through your normal project process rather than promised on the page."
+        ],
+        [
+          "System integration",
+          "Show how your work connects machines, controls or production steps within your actual range. Use approved project descriptions to explain the starting problem, your role and the information needed for a new project discussion."
+        ]
+      ],
+      "credentials_title": "Applications, technical capabilities and qualifications",
+      "credentials_body": "Show current qualifications and supported systems where relevant, with approved application details and demos. Describe your role accurately and have technical staff check the claims. Avoid presenting results from one production line as a guaranteed outcome or payback period for another site.",
+      "example": [
+        "A plant manager searches for “robotic cell system integrator” while reviewing a repetitive task. An ad opens a page explaining the application, your role and an approved example. The buyer can assess fit before starting a conversation about the production process.",
+        "The inquiry describes the current task, equipment, problem and project stage. Your team checks the application and asks for missing details, then decides whether to arrange a discovery call or site review before discussing a proposal or possible system scope.",
+        "The request is linked to its marketing source and tracked through review, proposal and decision. Budget delays and team approvals remain visible. Reporting focuses on qualified projects and won work, rather than counting every video view, download or early technical question as a ready-to-start opportunity."
+      ],
+      "website_intro": "Buyers need enough detail to judge fit before they ask for a quote. Keep these basics current so your team starts each discussion with useful information.",
+      "website_checklist": [
+        [
+          "Applications and tasks",
+          "Organize pages around the processes and problems you support. Explain the work clearly before listing robots, controls or software brands."
+        ],
+        [
+          "Supported systems and capabilities",
+          "Publish accurate technical scope and relevant current qualifications. Make the project-review process clear so buyers know how application fit is checked."
+        ],
+        [
+          "Demos with useful context",
+          "Explain the task, your role and what the example shows. Avoid unsupported claims about performance or guaranteed results at another site."
+        ],
+        [
+          "Project inquiry form",
+          "Ask about the current process, equipment, problem and project stage. Explain how your team arranges further information or an initial discussion."
+        ],
+        [
+          "Approved project gallery",
+          "Use real examples that help engineers, operations and purchasing understand the scope. Get permission before sharing customer systems, drawings or production details."
+        ]
+      ],
+      "faq_heading": "Common Questions About Automation & Robotics Marketing"
+    },
+    "lastmod": "2026-10-27",
+    "faq_schema": true,
+    "submit_label": "Get in touch"
   }
 ]

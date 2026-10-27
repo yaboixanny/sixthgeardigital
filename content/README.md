@@ -2,7 +2,7 @@
 
 The twelve sectors in `industries.json` are the editorial source for the static pages.
 
-- Shared markup: `templates/industry.html`
+- Shared markup: `templates/industry.html` and `templates/industry-sections.html`
 - Shared design: `assets/industry.css`
 - Form and navigation behavior: `industrial.js`
 - Page rendering, local SVG illustrations, homepage directory, sitemap: `scripts/build_industries.py`
@@ -11,15 +11,15 @@ Run `python3 scripts/build_industries.py` after editing the data or template. Th
 
 Each industry has a unique title, canonical URL, description, content, capability choices, and Netlify form name. Form submissions include the industry and source URL. Netlify must detect forms on deployment; delivery is not established by local preview.
 
-The steel-building page uses `templates/steel-building.html` and `content/steel-building-sections.html`, selected in its industry record. It shares the service-page styles and adds scoped layout styles in `assets/steel-building.css`. Its steel-frame illustration is `assets/images/steel-building-frame.svg`. Edit these sources and run the normal build; do not edit only the generated page.
+All twelve industries follow the current CNC structure: a one-sentence service introduction, buyer journey, four challenge cards, four service blocks, capabilities, illustrative search-to-quote example, website checklist, FAQs and contact form. Buyer journeys use the restored plain cards, without icons or decorative numbering. The hero has no summary cards or secondary example button.
 
-The CNC page uses `content/cnc-machining-sections.html` with the shared industry template. Its challenge cards and FAQs come from its industry record; the custom sections insert them through `$challenge_cards` and `$faq_items`, plus `$query_tags` for the search examples. `faq_schema` generates FAQPage markup from those same visible answers. Optional `buyer_journey`, `show_hero_summary`, `submit_label` and `lastmod` fields control that page's introduction, hero cards, form button and sitemap date.
+Each industry's `marketing_content` contains its sector-specific copy. The service blocks must link to Google Ads, SEO, websites and lead tracking in that order. `buyer_journey` supplies the three buying steps; `challenges` supplies four cards; `capabilities` supplies the contact-form choices. `faq_schema` generates FAQPage markup from the same answers rendered in `faqs`. `submit_label` controls the form button and `lastmod` records the substantive page edit date. Edit these records and the shared templates, then rebuild; do not edit only a generated page.
 
 The homepage directory is the curated list of sectors requested by the site owner. Each industry page links to the directory and the agency's supporting services. There is no automatic related-industry fallback.
 
 Campaign plans are illustrative. Replace them with client case studies only when supporting facts and publication permission are available. Product capabilities, certifications, and controlled drawing-handling workflows must come from approved business information.
 
-When republishing changed industry content, update `DATE` in the generator to the substantive edit date before regenerating the sitemap entries.
+When republishing changed industry content, update that industry's `lastmod` to the substantive edit date before regenerating the sitemap entries. The generator's `DATE` is only a fallback for older records.
 
 # Core service pages
 
@@ -49,7 +49,7 @@ Netlify now builds with `npm run build && npm run check` and publishes only `dis
 
 The site self-hosts a single Latin Inter variable WOFF2 font, with its OFL license in `assets/fonts/`. The existing template photos are stored as 320px/512px WebP variants, matching the available source resolution rather than upscaling it. Higher-resolution original photography can replace them later. The homepage uses inline SVG icons rather than an icon font.
 
-Service descriptions are authored independently of introductory copy. Industry `buyer_brief` entries provide sector-specific planning guidance and explicitly curated links to supporting service routes. Keep these relationships editorially relevant when adding a sector.
+Service descriptions are authored independently of introductory copy. Industry `marketing_content.services` entries provide sector-specific guidance and explicit links to supporting service routes. Keep these relationships editorially relevant when adding a sector.
 
 About content and examples must not claim client outcomes or geographic coverage without evidence. See `SEO-MEASUREMENT.md` for the account-dependent Search Console baseline and approved-evidence checklist.
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render industry content into static pages, homepage links, SVGs, and sitemap.
 Run from any directory: python3 scripts/build_industries.py
-Edit content/industries.json and templates/industry.html, then regenerate.
+Edit content/industries.json and the shared industry templates, then regenerate.
 """
 from pathlib import Path
 from string import Template
@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
 PAGES = json.loads((ROOT / 'content/industries.json').read_text())
 TEMPLATE = Template((ROOT / 'templates/industry.html').read_text())
+SECTIONS_TEMPLATE = Template((ROOT / 'templates/industry-sections.html').read_text())
 DATE = '2026-10-26'
 
 def e(value):
@@ -43,12 +44,7 @@ for index, page in enumerate(PAGES):
     canonical = f'{BASE}/industries/{slug}/'
     title = page.get('title') or f"{page['short']} Marketing | Sixth Gear Digital"
     description = page['description']
-    challenge_cards = ''.join(f'<article class="card"><h3>{e(t)}</h3><p>{e(b)}</p></article>' for t,b in page['challenges'])
-    playbook_cards = ''.join(f'<article class="card play-card"><h3>{e(t)}</h3><p>{e(b)}</p></article>' for t,b in page['playbook'])
-    capability_cards = ''.join(f'<article class="card capability-card"><div><h3>{e(t)}</h3><p>{e(b)}</p></div></article>' for t,b in page['capabilities'])
-    labels = ['What the buyer needs', 'What the page shows', 'What your team receives']
-    scenario_cards = ''.join(f'<div class="scenario-card"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(labels,page['scenario']))
-    faq_items = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in page['faqs'])
+    content = page['marketing_content']
     schema = {'@context':'https://schema.org','@graph':[
         {'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':description,'isPartOf':{'@id':BASE+'/#website'},'about':{'@type':'Service','name':page['short']+' marketing','provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},'breadcrumb':{'@id':canonical+'#breadcrumb'}},
         {'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Industries','item':BASE+'/#industries'},{'@type':'ListItem','position':3,'name':page['short'],'item':canonical}]}]}
@@ -57,44 +53,33 @@ for index, page in enumerate(PAGES):
             {'@type':'Question','name':question,'acceptedAnswer':{'@type':'Answer','text':answer}}
             for question,answer in page['faqs']
         ]})
-    fields = {k:e(v) for k,v in page.items() if isinstance(v,str)}
-    fields['submit_label'] = e(page.get('submit_label', 'Send your message'))
-    brief = page['buyer_brief']
-    brief_links = ' and '.join(f'<a href="/services/{e(link["service"])}/">{e(link["label"])}</a>' for link in brief['links'])
-    fields['buyer_brief'] = '<section class="section container buyer-brief"><h2>What does your team need to know?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','What the buyer needs'),('page','What the page should explain'),('handoff','What to check next')]) + '</div><p class="context-links">Services that can help: ' + brief_links + '.</p></section>'
+    section_fields = {key:e(value) for key,value in content.items() if isinstance(value,str)}
+    section_fields['challenge_cards'] = ''.join(f'<article class="card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in page['challenges'])
+    expected_services = ['industrial-google-ads','industrial-seo','industrial-websites','industrial-lead-tracking']
+    assert [service['service'] for service in content['services']] == expected_services, slug
+    section_fields['marketing_service_cards'] = ''.join(
+        '<article class="card play-card"><h3>'+e(service['title'])+'</h3>'
+        + ''.join('<p>'+e(paragraph)+'</p>' for paragraph in service['paragraphs'])
+        + '<p class="context-links"><a href="/services/'+e(service['service'])+'/">'+e(service['link_label'])+'</a>.</p></article>'
+        for service in content['services'])
+    section_fields['query_tags'] = ''.join(f'<span class="tag">{e(query)}</span>' for query in page['queries'])
+    section_fields['marketing_work_cards'] = ''.join(f'<article class="card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in content['work_cards'])
+    section_fields['scenario_cards'] = ''.join(f'<div class="scenario-card"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(['The search','The quote request','The tracked lead'],content['example']))
+    section_fields['website_checklist'] = ''.join(f'<li><h3>{e(heading)}</h3><p>{e(body)}</p></li>' for heading,body in content['website_checklist'])
+    section_fields['faq_items'] = ''.join(f'<details><summary>{e(question)}</summary><p>{e(answer)}</p></details>' for question,answer in page['faqs'])
+    page_sections = SECTIONS_TEMPLATE.substitute(section_fields)
 
-    custom_sections = page.get('custom_sections_file')
-    query_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries'])
-    intake_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake'])
-    if custom_sections:
-        fields['page_sections'] = Template((ROOT / custom_sections).read_text()).substitute(
-            challenge_cards=challenge_cards, query_tags=query_tags, faq_items=faq_items)
-        fields['faq_section'] = ''
-    else:
-        fields['faq_section'] = f'  <section class="section faq-section" id="faq"><div class="container narrow"><h2>Common questions.</h2><div class="faq-list">{faq_items}</div></div></section>'
-        fields['page_sections'] = '\n  '.join([
-            f'<section class="section white" id="challenges"><div class="container"><div class="section-heading"><div><h2>Help people understand<br>what you do.</h2></div><p>Clear ads and pages help people decide whether you can help before they call.</p></div><div class="grid three">{challenge_cards}</div></div></section>',
-            f'<section class="section" id="playbook"><div class="container"><div class="section-heading centered"><h2>A practical plan for<br>{e(page["short"])}.</h2><p>Help people find your business, understand your services and get in touch.</p></div><div class="grid four">{playbook_cards}</div><div class="search-strip"><span class="eyebrow">Example searches your customers make</span>{query_tags}</div></div></section>',
-            f'<section class="section white" id="capabilities"><div class="container"><div class="section-heading"><div><h2>Explain the work<br>your business handles.</h2></div><p>We focus on the products you sell, the work you do and the places you serve.</p></div><div class="grid two">{capability_cards}</div></div></section>',
-            f'<section class="section container" id="campaign-example"><div class="blueprint"><div class="blueprint-top"><div><h2>How a customer might<br>find and contact you.</h2></div><span class="plan-label">An example,<br>not a client result.</span></div><div class="grid three">{scenario_cards}</div><div class="intake-row"><p class="eyebrow">Details your team needs</p><div>{intake_tags}</div></div></div></section>',
-            fields['buyer_brief']
-        ])
+    journey = page['buyer_journey']
+    journey_cards = ''.join(f'<article class="card play-card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in journey['steps'])
+    page_sections = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + page_sections
 
-    if journey := page.get('buyer_journey'):
-        journey_cards = ''.join(f'<article class="card play-card"><h3>{e(title)}</h3><p>{e(body)}</p></article>' for title,body in journey['steps'])
-        fields['page_sections'] = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + fields['page_sections']
-
-    fields['hero_summary'] = ''
-    if page.get('show_hero_summary', True):
-        fields['hero_summary'] = f'        <div class="focus-grid"><div><span class="eyebrow">Your customers</span><strong>{e(page["buyers"])}</strong></div><div><span class="eyebrow">What they need</span><strong>{e(page["goal"])}</strong></div><div><span class="eyebrow">Our focus</span><strong>Clear pages.<br>Useful inquiries.</strong></div></div>'
-
-    fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,short_lower=e(page['short'].lower()),goal_placeholder=e('For example: '+page['goal'].lower()),challenge_cards=challenge_cards,playbook_cards=playbook_cards,capability_cards=capability_cards,scenario_cards=scenario_cards,faq_items=faq_items,query_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries']),intake_tags=''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake']),capability_options=''.join(f'<option value="{e(t)}">{e(t)}</option>' for t,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
+    fields = {key:e(value) for key,value in page.items() if isinstance(value,str)}
+    fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,goal_placeholder=e('For example: '+page['goal'].lower()),page_sections=page_sections,submit_label=e(page.get('submit_label','Get in touch')),capability_options=''.join(f'<option value="{e(heading)}">{e(heading)}</option>' for heading,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
-    template = Template((ROOT / page['template']).read_text()) if page.get('template') else TEMPLATE
-    (route / 'index.html').write_text(template.substitute(fields))
+    (route / 'index.html').write_text(TEMPLATE.substitute(fields))
     (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
 # The homepage is the curated directory for the twelve user-requested industries.
