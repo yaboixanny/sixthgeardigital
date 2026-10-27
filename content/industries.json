@@ -628,15 +628,19 @@
     "challenges": [
       [
         "Your services are hard to find",
-        "A general overview may hide the process or material a buyer needs."
+        "A general overview may hide the process or material a buyer needs. Someone searching for aluminum CNC milling should quickly see whether you handle that work. Pages that explain your materials, part sizes and processes make it easier for buyers to check the fit."
       ],
       [
         "Quote requests do not fit the shop",
-        "The part size, material or order quantity may be outside your range."
+        "The part size, material or order quantity may be outside your range. Without clear limits on the website, your team spends time answering requests it cannot quote. Useful capability pages help buyers rule themselves in or out before they ask for an estimate."
       ],
       [
         "Files arrive without enough context",
-        "Drawings alone may not explain the quantity, timing or type of work."
+        "Drawings alone may not explain the quantity, timing or type of work. A buyer might leave out the material grade, required finish or delivery date. A clear request for quote (RFQ) form collects the basics and explains how to share drawings with your team."
+      ],
+      [
+        "New work depends on a few customers",
+        "Repeat orders can keep a shop busy, but losing one large account can leave a gap. New buyers may take months to approve a supplier or send price-focused RFQs to several shops. Marketing needs to build a steady pool of suitable opportunities, with patient follow-up."
       ]
     ],
     "playbook": [
@@ -688,12 +692,32 @@
     ],
     "faqs": [
       [
-        "Can we focus on certain processes or materials?",
-        "Yes. We build pages and ads around the work your shop wants and can handle."
+        "What does marketing for a CNC machine shop cost?",
+        "It depends on the scope: the services you need, your target market, the state of your website and the work involved in tracking inquiries. We agree on the tasks and fees before starting. Google Ads spending and any extra software costs are discussed separately."
       ],
       [
-        "Do buyers need to upload a drawing right away?",
-        "Not always. Start with the job details. Agree on how to share drawings when your team is ready to review them."
+        "How long until we see results?",
+        "Google Ads can bring visitors after a campaign is approved and starts running. Useful quote requests still depend on demand, the page and your offer. SEO usually needs months of steady work. We review early signals and follow inquiries through your sales cycle rather than promise a fixed date."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Start with the channel that fits your situation. Google Ads can test demand for a specific process or material while SEO builds visibility over time. If your website does not explain your capabilities or collect useful requests, fix those gaps before sending more people to it."
+      ],
+      [
+        "How do we know the marketing is working?",
+        "Connect calls and forms to their source, then record which inquiries fit your shop, receive quotes and become orders. Review cost per qualified request and won work alongside website traffic. Because supplier approvals can take time, keep records of open opportunities as well as closed jobs."
+      ],
+      [
+        "Do we need marketing if we already have repeat customers?",
+        "Repeat business is valuable. Marketing can help you reach other suitable buyers before you need to fill a gap in the schedule. It can also help existing customers discover more of your capabilities. Focus on work your team wants and has capacity to handle."
+      ],
+      [
+        "How can our shop show up in AI search?",
+        "Publish clear, accessible pages that answer specific buyer questions and explain your actual capabilities. For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Keep business details current and use real examples. Inclusion or citations cannot be guaranteed."
+      ],
+      [
+        "Should we use an agency or keep marketing in-house?",
+        "An in-house team may suit a shop with the time and skills to run campaigns, write technical content and track results. An agency can support work your team cannot cover. Either way, someone at the shop should check technical details, answer inquiries and share sales feedback."
       ]
     ],
     "description": "Marketing for CNC machine shops and fabricators. Explain your processes and materials, show your work and make it easier to ask for a quote.",
@@ -729,7 +753,11 @@
         ]
       ]
     },
-    "show_hero_summary": false
+    "show_hero_summary": false,
+    "custom_sections_file": "content/cnc-machining-sections.html",
+    "faq_schema": true,
+    "submit_label": "Get in touch",
+    "lastmod": "2026-10-27"
   },
   {
     "slug": "heavy-haul-rigging-marketing",

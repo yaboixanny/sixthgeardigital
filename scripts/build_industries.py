@@ -52,7 +52,13 @@ for index, page in enumerate(PAGES):
     schema = {'@context':'https://schema.org','@graph':[
         {'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'name':title,'description':description,'isPartOf':{'@id':BASE+'/#website'},'about':{'@type':'Service','name':page['short']+' marketing','provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},'breadcrumb':{'@id':canonical+'#breadcrumb'}},
         {'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Industries','item':BASE+'/#industries'},{'@type':'ListItem','position':3,'name':page['short'],'item':canonical}]}]}
+    if page.get('faq_schema'):
+        schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[
+            {'@type':'Question','name':question,'acceptedAnswer':{'@type':'Answer','text':answer}}
+            for question,answer in page['faqs']
+        ]})
     fields = {k:e(v) for k,v in page.items() if isinstance(v,str)}
+    fields['submit_label'] = e(page.get('submit_label', 'Send your message'))
     brief = page['buyer_brief']
     brief_links = ' and '.join(f'<a href="/services/{e(link["service"])}/">{e(link["label"])}</a>' for link in brief['links'])
     fields['buyer_brief'] = '<section class="section container buyer-brief"><h2>What does your team need to know?</h2><div class="grid three">' + ''.join(f'<article class="card"><h3>{label}</h3><p>{e(brief[key])}</p></article>' for key,label in [('decision','What the buyer needs'),('page','What the page should explain'),('handoff','What to check next')]) + '</div><p class="context-links">Services that can help: ' + brief_links + '.</p></section>'
@@ -61,7 +67,8 @@ for index, page in enumerate(PAGES):
     query_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['queries'])
     intake_tags = ''.join(f'<span class="tag">{e(x)}</span>' for x in page['intake'])
     if custom_sections:
-        fields['page_sections'] = (ROOT / custom_sections).read_text()
+        fields['page_sections'] = Template((ROOT / custom_sections).read_text()).substitute(
+            challenge_cards=challenge_cards, query_tags=query_tags, faq_items=faq_items)
         fields['faq_section'] = ''
     else:
         fields['faq_section'] = f'  <section class="section faq-section" id="faq"><div class="container narrow"><h2>Common questions.</h2><div class="faq-list">{faq_items}</div></div></section>'
@@ -107,7 +114,7 @@ p.write_text(s)
 # Preserve existing pages, then replace only the generated industry sitemap block.
 p = ROOT / 'sitemap.xml'
 s = re.sub(r'\s*<!-- INDUSTRY PAGES START -->.*?<!-- INDUSTRY PAGES END -->','',p.read_text(),flags=re.S)
-entries = '\n'.join(f'  <url>\n    <loc>{BASE}/industries/{p["slug"]}/</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>' for p in PAGES)
+entries = '\n'.join(f'  <url>\n    <loc>{BASE}/industries/{p["slug"]}/</loc>\n    <lastmod>{p.get("lastmod", DATE)}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.8</priority>\n  </url>' for p in PAGES)
 s = s.replace('</urlset>',f'  <!-- INDUSTRY PAGES START -->\n{entries}\n  <!-- INDUSTRY PAGES END -->\n</urlset>')
 p.write_text(s)
 

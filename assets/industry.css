@@ -212,3 +212,19 @@ footer .brand b { color: #ff995f; }
 }
 
 .buyer-brief h2{margin-bottom:32px}.context-links{margin-top:26px}.context-links a,.editorial a:not(.button):not(.brand){color:var(--orange);text-decoration:underline;text-underline-offset:3px}.editorial p{max-width:75ch}.about-photo{width:100%;height:auto;border-radius:12px}.about-layout{align-items:center}.about-layout h1{font-size:clamp(36px,5vw,60px);line-height:1.1}.editorial h2{margin-top:0}
+
+.cnc-section .section-heading { align-items: start; }
+.cnc-section .section-heading>div { max-width: 700px; }
+.cnc-section .section-heading>p { line-height: 1.8; }
+.cnc-services .card { padding: 30px; }
+.cnc-services h3 { font-size: 24px; }
+.cnc-certifications { margin-top: 22px; border-left: 3px solid var(--orange); }
+.cnc-certifications p { max-width: 100ch; }
+.cnc-checklist { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 24px 40px; }
+.cnc-checklist li { border-top: 1px solid var(--line); padding-top: 22px; }
+.cnc-checklist p { color: var(--muted); line-height: 1.8; margin-bottom: 0; }
+.cnc-source { color: var(--muted); font-size: 12px; line-height: 1.8; }
+@media(max-width:700px) {
+  .cnc-services .card { padding: 24px; }
+  .cnc-checklist { grid-template-columns: 1fr; gap: 22px; }
+}
