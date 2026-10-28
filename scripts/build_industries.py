@@ -77,12 +77,17 @@ for index, page in enumerate(PAGES):
     fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,goal_placeholder=e('For example: '+page['goal'].lower()),page_sections=page_sections,submit_label=e(page.get('submit_label','Get in touch')),capability_options=''.join(f'<option value="{e(heading)}">{e(heading)}</option>' for heading,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)
+    fields.update(section_fields)
+    fields.update(buyer_heading=e(journey['heading']), buyer_cards=journey_cards,
+                  product_list=''.join(f'<li>{e(product)}</li>' for product in page.get('product_types', [])))
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
-    (route / 'index.html').write_text(TEMPLATE.substitute(fields))
-    (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
+    template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE
+    (route / 'index.html').write_text(template.substitute(fields))
+    if not page.get('hero_image'):
+        (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
-# The homepage is the curated directory for the twelve user-requested industries.
+# The homepage is the curated directory for the user-requested industries.
 # Industry pages link back to this hub and to supporting agency services;
 # no automatic cross-industry related-content recommendations are generated.
 links = ''.join(f'''<a class="industry-directory-card" href="/industries/{e(p['slug'])}/"><span class="industry-directory-number">{i:02} / INDUSTRY</span><h3>{e(p['short'])}</h3><p>{e(p['goal'])}</p><span class="industry-directory-link">Explore {e(p['short'].lower())} marketing <span aria-hidden="true">↗</span></span></a>''' for i,p in enumerate(PAGES,1))
@@ -110,4 +115,4 @@ redirect_text = re.sub(r'\n?# INDUSTRY ROUTES START\n.*?(?:\n# INDUSTRY ROUTES E
 legacy_rules = '\n'.join(f'/industries/{page["slug"]}.html /industries/{page["slug"]}/ 301!' for page in PAGES)
 redirect_text = redirect_text.rstrip() + '\n\n# INDUSTRY ROUTES START\n' + legacy_rules + '\n# INDUSTRY ROUTES END\n'
 redirects.write_text(redirect_text)
-print(f'Built {len(PAGES)} industry pages and illustrations; updated homepage directory and sitemap.')
+print(f'Built {len(PAGES)} industry pages; updated illustrations, homepage directory and sitemap.')

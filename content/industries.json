@@ -2415,5 +2415,225 @@
     "lastmod": "2026-10-27",
     "faq_schema": true,
     "submit_label": "Get in touch"
+  },
+  {
+    "slug": "building-materials-marketing",
+    "name": "Building Materials Manufacturers, Distributors & Suppliers",
+    "short": "Building Materials",
+    "headline": "Marketing for",
+    "accent": "Building Materials Companies",
+    "title": "Building Materials Marketing | Sixth Gear Digital",
+    "description": "Marketing for building materials manufacturers, distributors and suppliers. Google Ads, SEO, websites and lead tracking for product inquiries and quote requests.",
+    "intro": "We help building materials manufacturers, distributors and suppliers with Google Ads, SEO, website design and lead tracking.",
+    "buyers": "Architects, contractors and purchasing teams",
+    "goal": "Product inquiries, samples and quote requests",
+    "queries": [
+      "commercial building materials supplier",
+      "architectural cladding suppliers",
+      "commercial insulation distributor"
+    ],
+    "capabilities": [
+      [
+        "Roofing and cladding",
+        "Roofing products, exterior panels and facade systems."
+      ],
+      [
+        "Lumber and engineered timber",
+        "Structural timber, sheet products and engineered wood."
+      ],
+      [
+        "Insulation and building envelope",
+        "Insulation, membranes and related building products."
+      ],
+      [
+        "Concrete, masonry and aggregates",
+        "Concrete products, brick, stone and bulk materials."
+      ],
+      [
+        "Windows, doors and glazing",
+        "Building openings, glazing products and related systems."
+      ],
+      [
+        "Interior finishes and architectural products",
+        "Flooring, surfaces and other specified building products."
+      ]
+    ],
+    "product_types": [
+      "Roofing & cladding",
+      "Lumber & engineered timber",
+      "Insulation & building envelope",
+      "Concrete, masonry & aggregates",
+      "Windows, doors & glazing",
+      "Interior finishes & architectural products"
+    ],
+    "buyer_journey": {
+      "heading": "Built around the people who choose your products.",
+      "steps": [
+        [
+          "Architects and engineers",
+          "A product may enter a project long before anyone asks for a price. Architects and engineers look for materials that fit a design, with clear specifications, approved documentation and useful application examples. Make that information easy to find and keep the relevant product details current."
+        ],
+        [
+          "Contractors and purchasing teams",
+          "Contractors compare suitability, quantity, availability and delivery. Purchasing staff may need supplier details and a clear quote before placing an order. Your pages should help them check the range and the areas you supply, then explain how your team reviews a project request."
+        ],
+        [
+          "Distributors, dealers and owners",
+          "Some buyers purchase direct; others need a local stockist or dealer. Make the route clear. A useful inquiry shares the product, application, quantity, location and timing. Your team can then confirm fit, discuss supply and agree on the next step toward a sample, quote or order."
+        ]
+      ]
+    },
+    "challenges": [
+      [
+        "Good products can be hard to find",
+        "A broad catalog page may not appear relevant to someone searching for a specific material, application or supplier. Clear product and use pages help the right buyer find the details they need before contacting you."
+      ],
+      [
+        "Different buyers need different details",
+        "A specifier may want product data, a contractor may need delivery information and a distributor may want to discuss supply. One generic contact route can leave all three unsure what to do next."
+      ],
+      [
+        "Price requests arrive without project details",
+        "A request that only asks for your best price may leave out the product, quantity, site and required date. A few useful form questions help your team check the opportunity and prepare a better response."
+      ],
+      [
+        "The decision can take time",
+        "A sample request, specification review and purchase may happen at different stages of a project. Keep the source, people involved and next action visible so an early product inquiry is not forgotten while the project develops."
+      ]
+    ],
+    "marketing_content": {
+      "challenge_heading": "Make it easier to choose your products.",
+      "challenge_intro": "A clear message and useful product information help buyers move from early research to a practical conversation with your team.",
+      "services_heading": "Four services. One clear plan.",
+      "services": [
+        {
+          "title": "Google Ads",
+          "service": "industrial-google-ads",
+          "link_label": "Google Ads for industrial companies",
+          "paragraphs": [
+            "Reach buyers searching for a product or supplier now. We focus on terms such as “commercial insulation distributor,” “architectural cladding suppliers” and the materials you actually sell, in locations you can supply.",
+            "Each ad leads to a relevant page with the product range, useful details and a clear way to ask about a quote, sample or local stockist. Search-term reviews help reduce unsuitable requests."
+          ]
+        },
+        {
+          "title": "SEO",
+          "service": "industrial-seo",
+          "link_label": "Industrial SEO",
+          "paragraphs": [
+            "Search engine optimization (SEO) helps buyers find your website through unpaid search results. We organize pages around product types, applications and real supply areas, including searches such as “commercial building materials supplier.”",
+            "Clear specifications, application information and approved examples help people assess your range. We also check that search engines can access the pages and buyers can find related products and contact details."
+          ]
+        },
+        {
+          "title": "Website design",
+          "service": "industrial-websites",
+          "link_label": "Industrial websites and landing pages",
+          "paragraphs": [
+            "A buyer looking for an “exterior cladding supplier” should quickly understand your products, the projects they suit and how to request more information. We make catalogs, product data and supply routes easier to use.",
+            "Forms collect the product, application, quantity, location and dates. Sample requests, dealer inquiries and project quotes can follow different routes, giving each buyer a useful next step without a long first form."
+          ]
+        },
+        {
+          "title": "Lead tracking",
+          "service": "industrial-lead-tracking",
+          "link_label": "Lead tracking and sales follow-up",
+          "paragraphs": [
+            "A customer relationship management (CRM) system is a shared record of inquiries, quotes and next steps. We help connect product forms, calls and sample requests to that record, including leads from “building material supplier” searches.",
+            "Track who asked, what they need and where the project stands. Your team can follow the conversation from product research to a quote and order, instead of counting every brochure download as a sale."
+          ]
+        }
+      ],
+      "capabilities_intro": "We work with the businesses that make, distribute and supply the products used in buildings. The marketing should explain your range, your role and the route to purchase.",
+      "work_cards": [
+        [
+          "Manufacturers and product brands",
+          "Explain the materials, systems and applications you support. Give specifiers useful product information and make it clear whether a buyer purchases direct or through your distribution network."
+        ],
+        [
+          "Distributors and merchants",
+          "Show the ranges and areas you supply, with a clear way to check stock, delivery and project requirements. Help contractors reach the right branch or sales team."
+        ],
+        [
+          "Specialist product suppliers",
+          "Make the use and limits of your product range easy to understand. Keep technical documents and current certifications tied to the specific product or system they describe."
+        ],
+        [
+          "Architectural and interior products",
+          "Use approved samples and application photos to help designers and contractors assess the product. Explain finishes, available options and the details needed to discuss a project."
+        ]
+      ],
+      "credentials_title": "Product information buyers can trust",
+      "credentials_body": "Keep specifications, current certifications and product documents accurate and easy to find. Any performance or environmental claim should have supporting information for the product described. Your technical team should review the details before publication.",
+      "example": [
+        "A contractor searches for a commercial insulation supplier. An ad opens a page for the relevant product range, showing supply coverage and the information needed to ask about a project.",
+        "The buyer shares the application, quantity, site and target date. Your team checks fit and supply, asks for missing details and decides whether the next step is a sample, product discussion or quote.",
+        "The inquiry is linked to its source and tracked through review, quote and order. Early specification questions stay visible without being mistaken for confirmed purchases. Reporting shows which activity leads to useful opportunities."
+      ],
+      "website_intro": "Help people compare the product, understand your supply route and share enough detail for a useful response. These basics make a catalog much easier to use.",
+      "website_checklist": [
+        [
+          "A clear product range",
+          "Organize products by type and application. Use plain descriptions alongside the technical information, so buyers can find the range that matches their project."
+        ],
+        [
+          "Current specifications and documents",
+          "Keep product data, certificates and installation documents attached to the right product. Make versions and relevant limitations clear."
+        ],
+        [
+          "Useful application examples",
+          "Show approved product and project images with enough context to explain the use. Avoid claiming a result that the example does not support."
+        ],
+        [
+          "Supply areas and buying routes",
+          "Explain where you supply, whether customers buy direct or through dealers, and how to ask about stock, samples or delivery."
+        ],
+        [
+          "A useful inquiry form",
+          "Collect the product, application, quantity, location and timing. Separate project quotes, sample requests and dealer inquiries where it helps your team respond."
+        ]
+      ],
+      "faq_heading": "Building materials marketing. Your questions, answered."
+    },
+    "faqs": [
+      [
+        "What kinds of building materials companies do you work with?",
+        "This page is for manufacturers, distributors, merchants and specialist suppliers. The plan should reflect the products you sell, the buyers you want to reach and how people purchase from you. That may include direct sales, dealer networks, samples or project quotes."
+      ],
+      [
+        "What does building materials marketing cost?",
+        "It depends on the scope, number of product ranges, supply areas and the state of your website and tracking. We agree on the work and fees before starting. Google Ads spending and any extra software costs are discussed separately."
+      ],
+      [
+        "Should we start with Google Ads or SEO?",
+        "Google Ads can test demand for selected products or supply areas while SEO builds useful product and application pages over time. If buyers cannot understand your range or request the right information, improve those pages before sending more people to them."
+      ],
+      [
+        "How long until we see results?",
+        "Ads can bring visitors after a campaign is approved and running. Useful inquiries still depend on demand, the product page and your offer. SEO usually needs months of steady work. Product selection and specification can also happen well before an order, so follow the whole conversation."
+      ],
+      [
+        "Can you help us reach architects as well as contractors?",
+        "The message and next step should match the buyer. Architects may need product data, application examples or samples. Contractors may need quantity, availability and delivery information. We can organize the content and contact routes around those different questions rather than sending everyone to one general form."
+      ],
+      [
+        "How do we know which inquiries are useful?",
+        "Agree on what makes an inquiry a good fit, then track the product, project stage and source. Keep sample requests and specification questions separate from quote-ready projects. Record which conversations lead to quotes and orders so reporting reflects more than traffic and downloads."
+      ],
+      [
+        "How can we appear in AI search?",
+        "Publish clear, accessible product pages that answer real buyer questions and keep specifications current. For Google’s AI search features, the same SEO basics apply; no special AI markup is required. Make claims specific and supported. No agency can guarantee a citation or placement."
+      ]
+    ],
+    "faq_schema": true,
+    "submit_label": "Get in touch",
+    "lastmod": "2026-10-28",
+    "page_template": "templates/building-materials.html",
+    "hero_image": "/assets/images/building-materials-hero-1280.webp",
+    "hero_small": "/assets/images/building-materials-hero-640.webp",
+    "hero_alt": "Modern commercial building with stone, timber and dark metal facade materials",
+    "detail_image": "/assets/images/building-materials-detail-1200.webp",
+    "detail_small": "/assets/images/building-materials-detail-640.webp",
+    "detail_alt": "Building product samples including timber, brick, stone, metal, insulation and a window profile",
+    "og_image": "https://sixthgeardigital.com/assets/images/building-materials-hero-1280.webp"
   }
 ]

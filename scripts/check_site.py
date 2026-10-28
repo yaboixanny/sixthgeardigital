@@ -47,7 +47,10 @@ class Page(HTMLParser):
 
 pages={p.relative_to(DIST).as_posix():Page(p.read_text()) for p in DIST.rglob('*.html')}
 urls=[e.text for e in ET.parse(DIST/'sitemap.xml').findall('.//{*}loc')]
-check(len(urls)==18 and len(set(urls))==18,'Expected 18 unique canonical sitemap URLs')
+expected_urls = {BASE+'/', BASE+'/about/'}
+for group in ('industries', 'services'):
+    expected_urls.update(BASE+'/'+group+'/'+entry['slug']+'/' for entry in json.loads((ROOT/'content'/f'{group}.json').read_text()))
+check(len(urls)==len(expected_urls) and set(urls)==expected_urls,'Sitemap must contain each configured canonical URL exactly once')
 def resolve(path,source='index.html'):
     if path.startswith('/'): rel=path.lstrip('/')
     else:rel=(Path(source).parent/path).as_posix()
