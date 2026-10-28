@@ -34,7 +34,7 @@
     var lerp = function (a, b, x) { return a + (b - a) * x; };
     var f2 = function (v) { return v.toFixed(2); };
 
-    var count = 0, start = null, queue = 0, lastEnd = null, visible = true;
+    var count = 0, start = null, queue = autoSec > 0 ? 1 : 0, lastEnd = null, visible = true;
     var paused = autoSec === 0, previousFrame = null;
 
 
