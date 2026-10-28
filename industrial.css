@@ -28,3 +28,23 @@ html{scroll-padding-top:100px}body{overflow-wrap:break-word}.skip-link{position:
 @media(max-width:800px) { .core-services-grid { grid-template-columns: 1fr; }.core-service-lead { padding: 28px; }.core-service-lead h3 { font-size: 30px; margin-top: 10px; } }
 
 .site-icon{display:inline-block;width:1.2em;height:1.2em;flex-shrink:0;vertical-align:middle}
+
+/* Play once, then keep revenue visible. The shared reduced-motion rule skips it. */
+.hero-outcome { display: inline-grid; vertical-align: baseline; color: #ea580c; white-space: nowrap; }
+.hero-outcome-leads, .hero-outcome-revenue { grid-area: 1 / 1; justify-self: start; }
+.hero-outcome-leads { opacity: 0; animation: hero-leads-exit 650ms ease 1850ms both; }
+.hero-outcome-strike { position: relative; display: inline-block; }
+.hero-outcome-strike::after { content: ''; position: absolute; left: -.04em; right: -.04em; top: 52%; height: .065em; border-radius: 2px; background: currentColor; transform: rotate(-4deg) scaleX(0); transform-origin: left center; animation: hero-strike-draw 500ms cubic-bezier(.25,.65,.3,1) 1100ms both; }
+.hero-outcome-revenue { opacity: 1; animation: hero-revenue-enter 600ms cubic-bezier(.2,.7,.3,1) 2100ms both; }
+@keyframes hero-strike-draw {
+  from { transform: rotate(-4deg) scaleX(0); }
+  to { transform: rotate(-4deg) scaleX(1); }
+}
+@keyframes hero-leads-exit {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-.18em); }
+}
+@keyframes hero-revenue-enter {
+  from { opacity: 0; transform: translateY(.18em); }
+  to { opacity: 1; transform: translateY(0); }
+}
