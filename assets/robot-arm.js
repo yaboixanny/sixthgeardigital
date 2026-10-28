@@ -6,7 +6,7 @@
     var el = {
       src: $('src'), bin: $('bin'), fall: $('fall'), hose: $('hose'), car: $('car'), led: $('led'),
       up: $('up'), sh: $('sh'), fo: $('fo'), elb: $('el'), gr: $('gr'), held: $('held'),
-      fl: $('fl'), fr: $('fr'), count: $('count'), hint: $('hint')
+      fl: $('fl'), fr: $('fr'), count: $('count')
     };
 
     var DUR = 3200, L1 = 200, L2 = 185, SY = 226;
@@ -14,9 +14,8 @@
     var SDX = [0, -60, 60, -30, 30], SDY = [-4, 6, 6, 2, 2];
     var BDX = [0, -42, 42, -21, 21, -63, 63, 0], BDY = [0, 4, 4, -10, -10, 2, 2, -20];
 
-    var autoSec = parseFloat(root.getAttribute('data-auto'));
-    if (isNaN(autoSec)) autoSec = 3;
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) autoSec = 0;
+    var autoplay = root.getAttribute('data-autoplay') === 'true';
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) autoplay = false;
 
     function tok(x, y) {
       var t = document.createElementNS(NS, 'text');
@@ -34,8 +33,8 @@
     var lerp = function (a, b, x) { return a + (b - a) * x; };
     var f2 = function (v) { return v.toFixed(2); };
 
-    var count = 0, start = null, queue = autoSec > 0 ? 1 : 0, lastEnd = null, visible = true;
-    var paused = autoSec === 0, previousFrame = null;
+    var count = 0, start = null, queue = autoplay ? 1 : 0, lastEnd = null, visible = true;
+    var paused = !autoplay, previousFrame = null;
 
 
     function draw(t) {
@@ -99,11 +98,11 @@
       if (start !== null) {
         if (ts - start >= DUR) {
           count++; lastEnd = ts;
-          if (queue > 0) { queue--; start = ts; } else { start = null; }
+          if (queue > 0) { queue--; start = ts; } else { start = autoplay ? ts : null; }
         }
       } else if (queue > 0) {
         queue--; start = ts;
-      } else if (!paused && autoSec > 0 && visible && ts - lastEnd >= autoSec * 1000) {
+      } else if (autoplay && visible) {
         start = ts;
       }
       if (start !== null || ts === lastEnd) draw(start === null ? 0 : Math.min(1, (ts - start) / DUR));
@@ -112,7 +111,6 @@
 
     root.querySelector('button').addEventListener('click', function () {
       queue = Math.min(3, queue + 1);
-      el.hint.setAttribute('opacity', 0);
     });
 
     // only auto-run while the graphic is on screen
