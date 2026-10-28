@@ -17,7 +17,7 @@ Each industry's `marketing_content` contains its sector-specific copy. The servi
 
 The building-materials page uses `templates/building-materials.html` and `assets/building-materials.css`, selected through its `page_template` field. It follows the supplied reference’s bold Montserrat typography, split image-and-copy layout and blue palette. Montserrat is self-hosted in `assets/fonts/` with its OFL license. Its two original generated images are illustrative category images, not client project photography; optimized WebP variants are in `assets/images/`. The industry record remains the source for services, FAQs, product types and form options.
 
-The homepage directory is the curated list of sectors requested by the site owner. Each industry page links to the directory and the agency's supporting services. There is no automatic related-industry fallback.
+The homepage footer directory (`#industries`) is the curated list of sectors requested by the site owner. The section after the hero is rendered from `templates/home-difference.html`: six non-clickable comparison cards reveal on hover or keyboard focus; touch devices show both sides in full. Each industry page links to the directory and the agency's supporting services. There is no automatic related-industry fallback.
 
 Campaign plans are illustrative. Replace them with client case studies only when supporting facts and publication permission are available. Product capabilities, certifications, and controlled drawing-handling workflows must come from approved business information.
 

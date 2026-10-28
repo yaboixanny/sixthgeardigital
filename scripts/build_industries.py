@@ -87,18 +87,16 @@ for index, page in enumerate(PAGES):
     if not page.get('hero_image'):
         (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
-# The homepage is the curated directory for the user-requested industries.
-# Industry pages link back to this hub and to supporting agency services;
-# no automatic cross-industry related-content recommendations are generated.
-links = ''.join(f'''<a class="industry-directory-card" href="/industries/{e(p['slug'])}/"><span class="industry-directory-number">{i:02} / INDUSTRY</span><h3>{e(p['short'])}</h3><p>{e(p['goal'])}</p><span class="industry-directory-link">Explore {e(p['short'].lower())} marketing <span aria-hidden="true">↗</span></span></a>''' for i,p in enumerate(PAGES,1))
-section = f'''<!-- SECTION: WHO WE HELP -->
-<section class="py-24 lg:py-32 bg-brand-surface border-b border-brand-border" id="industries">
-<div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-orange">Industries</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-charcoal tracking-tight mt-3">Marketing for the work you do.</h2><p class="text-lg text-brand-muted mt-4">Choose your industry to see how we can help explain your services and bring in useful inquiries.</p></div><div class="industry-directory">{links}</div></div></section>
-'''
+# Keep the comparison section after the hero and the industry directory in the footer.
+# These are explicitly curated industries; no unrelated recommendations are generated.
 p = ROOT / 'index.html'
 s = p.read_text()
+section = (ROOT/'templates/home-difference.html').read_text()
 s, count = re.subn(r'<!-- SECTION: WHO WE HELP -->.*?(?=<!-- SECTION: OPPORTUNITY MODEL MATRIX -->)',lambda _:section,s,flags=re.S)
-assert count == 1, 'Homepage industry section marker missing'
+assert count == 1, 'Homepage comparison section marker missing'
+links = ''.join(f'<li><a class="hover:text-white transition-colors" href="/industries/{e(page["slug"])}/">{e(page["short"])}</a></li>' for page in PAGES)
+s, count = re.subn(r'<!-- HOMEPAGE INDUSTRY LINKS START -->.*?<!-- HOMEPAGE INDUSTRY LINKS END -->',lambda _:f'<!-- HOMEPAGE INDUSTRY LINKS START -->{links}<!-- HOMEPAGE INDUSTRY LINKS END -->',s,flags=re.S)
+assert count == 1, 'Homepage footer industry markers missing'
 p.write_text(s)
 
 # Preserve existing pages, then replace only the generated industry sitemap block.
