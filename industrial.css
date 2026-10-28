@@ -31,6 +31,10 @@ html{scroll-padding-top:100px}body{overflow-wrap:break-word}.skip-link{position:
 
 /* Play once, then keep revenue visible. The shared reduced-motion rule skips it. */
 .hero-outcome { display: inline-grid; vertical-align: baseline; color: #ea580c; white-space: nowrap; }
+.hero-benefits { display: grid; gap: 15px; width: 100%; padding: 0; list-style: none; color: #64748b; font-size: 16px; line-height: 1.65; }
+.hero-benefits li { display: flex; align-items: flex-start; gap: 12px; }
+.hero-benefits strong { color: #0f172a; font-weight: 700; }
+.hero-benefit-check { flex: 0 0 24px; width: 24px; height: 24px; margin-top: 1px; padding: 5px; border-radius: 50%; color: #fff; background: #ea580c; }
 .hero-outcome-leads, .hero-outcome-revenue { grid-area: 1 / 1; justify-self: start; }
 .hero-outcome-leads { opacity: 0; animation: hero-leads-exit 650ms ease 1850ms both; }
 .hero-outcome-strike { position: relative; display: inline-block; }
