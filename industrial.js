@@ -20,6 +20,8 @@ if (contactDialog) {
   function openContact(trigger) {
     if (contactDialog.open) return;
     contactOpener = trigger;
+    const serviceField = contactDialog.querySelector('[name="service"]');
+    if (serviceField) serviceField.value = trigger?.dataset.contactService || '';
     contactDialog.showModal();
     document.body.classList.add('contact-dialog-open');
   }

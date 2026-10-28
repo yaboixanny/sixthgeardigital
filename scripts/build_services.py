@@ -69,12 +69,27 @@ for s in SERVICES:
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
  (folder/'index.html').write_text(TEMPLATE.substitute(fields))
 
-# Preserve homepage design while making each offering a real destination.
-lead=SERVICES[0]
-other_cards=''.join(f'<a class="core-service-card" href="{route(s)}"><span class="core-service-number">0{i}</span><h3>{e(s["name"])}</h3><p>{e(s["intro"])}</p><span class="core-service-link">Explore {e(s["short"])} ↗</span></a>' for i,s in enumerate(SERVICES[1:],2))
-section=f'''<!-- SECTION: SERVICES -->
-<section class="py-24 lg:py-32 bg-brand-midnight text-white" id="services"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="max-w-3xl mb-16"><span class="text-xs font-bold uppercase tracking-widest text-brand-amber">Our services</span><h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mt-3">How we can help.</h2><p class="text-lg text-slate-400 mt-4">We help people find your business, understand what you offer and get in touch. Then we help you keep track of the requests.</p></div><div class="core-services-grid"><a class="core-service-card core-service-lead" href="{route(lead)}"><span class="core-service-number">01 / GOOGLE ADS</span><h3>{e(lead['name'])}</h3><p>{e(lead['intro'])}</p><ul><li>Search terms that match your services</li><li>Ads for the areas you serve</li><li>A clear way to track calls and quote requests</li></ul><span class="core-service-link">Explore Industrial Google Ads ↗</span></a><div class="core-service-stack">{other_cards}</div></div></div></section>
-'''
+# Homepage offers are curated separately from the complete service-page directory.
+# Facebook Ads currently starts a contact conversation instead of linking to a draft page.
+home_offers = json.loads((ROOT/'content/home-services.json').read_text())
+service_by_slug = {service['slug']:service for service in SERVICES}
+icons = {
+ 'seo':'<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M7.5 12l2-3 2 2 2-4"/>',
+ 'ads':'<path d="m5 3 14 9-7 1-3 7-4-17Z"/><path d="m13 15 4 6M17 4l1-2m3 6 2-1"/>',
+ 'website':'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18m-12 0v11M6 6.5h.01m3 0h.01m3 0h.01m0 6.5h6m-6 3h4"/>',
+ 'facebook':'<path d="M3 10h4l12-5v14L7 14H3v-4Zm4 4 2 7h3l-2-6m12-8 1-1m-1 12 1 1"/>'
+}
+home_cards = []
+for offer in home_offers:
+ icon = '<span class="services-showcase-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'+icons[offer['icon']]+'</svg></span>'
+ if offer.get('service'):
+  service = service_by_slug[offer['service']]
+  action = f'<a class="services-showcase-link" href="{route(service)}" aria-label="Learn more about {e(offer["title"])}">Learn more <span aria-hidden="true">→</span></a>'
+ else:
+  assert offer['action']=='contact'
+  action = '<button class="services-showcase-link" type="button" data-contact-open data-contact-service="'+e(offer['title'])+'" aria-haspopup="dialog" aria-controls="contact-dialog">'+e(offer['action_label'])+' <span aria-hidden="true">→</span></button>'
+ home_cards.append('<article class="services-showcase-card"><div class="services-showcase-card-heading">'+icon+'<h3>'+e(offer['title'])+'</h3></div><p>'+e(offer['description'])+'</p>'+action+'</article>')
+section = Template((ROOT/'templates/home-services.html').read_text()).substitute(cards=''.join(home_cards))
 p=ROOT/'index.html'; html=p.read_text()
 html,count=re.subn(r'<!-- SECTION: SERVICES -->.*?(?=<!-- SECTION: THE 4-STEP BLUEPRINT -->)',lambda _:section,html,flags=re.S)
 assert count==1,'Homepage service markers missing'

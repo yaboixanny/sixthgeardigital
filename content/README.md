@@ -39,7 +39,7 @@ python3 scripts/build_services.py
 python3 scripts/build_industries.py
 ```
 
-The industry renderer reads `services.json` for footer navigation. Service-to-service links use explicit editorial explanations in `build_services.py`; they are not selected by recency or generic similarity. Google Ads is the primary homepage offer. Each service form includes its own form name, service, source URL, industry, and selected priority.
+The industry renderer reads `services.json` for footer navigation. Service-to-service links use explicit editorial explanations in `build_services.py`; they are not selected by recency or generic similarity. The homepage's four featured offers are curated independently in `home-services.json` and rendered by `templates/home-services.html`: SEO, Google Ads, website design and Facebook ads. The first three link to their service pages; Facebook Ads opens the contact dialog and records the selected service. Lead tracking remains available as a supporting service page. Each service form includes its own form name, service, source URL, industry, and selected priority.
 
 The service template uses a local optimized copy of the supplied industrial image and uses scope options in place of unconfirmed template prices. Examples describe planned workflows rather than client results. The website intake examples are interactive field comparisons, not live customer RFQ submission forms.
 
