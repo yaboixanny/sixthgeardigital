@@ -12,7 +12,4 @@
   .sgr .hose{fill:none;stroke:#262C34;stroke-width:6px;stroke-linecap:round}
   .sgr .hl{fill:none;stroke:#fff;stroke-opacity:.3;stroke-width:3px;stroke-linecap:round}
   .sgr .gridln{fill:none;stroke:#1E2630;stroke-opacity:.06;stroke-width:1px}
-.hero-robot-controls { display: flex; justify-content: flex-end; margin-top: 10px; }
-.hero-robot-controls button { color: #475569; font: 500 12px/1.5 Inter, sans-serif; padding: 5px 0; text-decoration: underline; text-underline-offset: 3px; }
-.hero-robot-controls button:focus-visible { outline: 2px solid #c2410c; outline-offset: 4px; }
 

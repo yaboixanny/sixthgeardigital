@@ -36,13 +36,7 @@
 
     var count = 0, start = null, queue = 0, lastEnd = null, visible = true;
     var paused = autoSec === 0, previousFrame = null;
-    var pauseButton = root.parentElement.querySelector('[data-robot-pause]');
-    function updatePause() {
-      pauseButton.textContent = paused ? 'Play animation' : 'Pause animation';
-      pauseButton.setAttribute('aria-pressed', String(paused));
-    }
-    updatePause();
-    pauseButton.addEventListener('click', function () { paused = !paused; if (paused) { start = null; queue = 0; draw(0); } updatePause(); });
+
 
     function draw(t) {
       var k = count % 5, sx = SRC + SDX[k], low = SRCY + SDY[k] - 58, nx = SRC + SDX[(count + 1) % 5];
