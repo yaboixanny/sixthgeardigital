@@ -16,6 +16,8 @@
 <link rel="stylesheet" href="/assets/home.css"/>
 <link rel="stylesheet" href="/industrial.css"/>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://sixthgeardigital.com/#organization", "name": "Sixth Gear Digital", "url": "https://sixthgeardigital.com/", "founder": {"@id": "https://sixthgeardigital.com/about.html#alex"}}, {"@type": "WebSite", "@id": "https://sixthgeardigital.com/#website", "url": "https://sixthgeardigital.com/", "name": "Sixth Gear Digital", "publisher": {"@id": "https://sixthgeardigital.com/#organization"}}, {"@type": "WebPage", "@id": "https://sixthgeardigital.com/#webpage", "url": "https://sixthgeardigital.com/", "name": "Sixth Gear Digital | Industrial Marketing Agency", "isPartOf": {"@id": "https://sixthgeardigital.com/#website"}, "about": {"@id": "https://sixthgeardigital.com/#organization"}}]}</script>
+<link rel="stylesheet" href="/assets/robot-arm.css"/>
+<script src="/assets/robot-arm.js" defer></script>
 </head>
 <body class="bg-brand-surface font-sans text-brand-charcoal antialiased selection:bg-brand-orange selection:text-white">
 <!-- TOP MINIMAL NAVIGATION -->
@@ -80,22 +82,102 @@
 </a>
 </div>
 </div>
-<!-- Right Machinery Showcase -->
-<div class="lg:col-span-5 relative">
-<div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200 bg-brand-charcoal">
-<img alt="Industrial production machinery" class="w-full h-full aspect-[4/3] object-cover object-center filter brightness-95 contrast-105 hover:scale-105 transition-transform duration-700 ease-out" src="/assets/images/industrial-home-512.webp" srcset="/assets/images/industrial-home-320.webp 320w, /assets/images/industrial-home-512.webp 512w" sizes="(min-width: 1024px) 42vw, 100vw" width="1280" height="960" fetchpriority="high"/>
-<div class="absolute inset-0 bg-gradient-to-t from-brand-midnight/80 via-transparent to-transparent pointer-events-none"></div>
-<!-- Subtle Clean Floating Badge -->
-<div class="absolute bottom-5 left-5 right-5 p-4 bg-white/95 backdrop-blur-md rounded-xl border border-white/40 shadow-lg flex items-center justify-between">
-<div>
-<p class="text-xs font-semibold uppercase tracking-wider text-brand-muted">OUR FOCUS</p>
-<p class="text-sm font-bold text-brand-charcoal mt-0.5">Make it easier to get in touch.</p>
+<!-- Interactive robot arm -->
+<div class="lg:col-span-5 relative hero-robot">
+<div class="sgr" data-auto="3">
+  <button type="button" aria-label="Run the robot arm: move a dollar sign from Leads to Revenue">
+    <svg viewBox="0 0 1000 820" aria-hidden="true">
+      <defs>
+        <pattern id="sgr-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" class="gridln"/></pattern>
+        <pattern id="sgr-haz" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="20" height="20" fill="#F2B705"/><rect width="10" height="20" fill="#14171C"/></pattern>
+        <pattern id="sgr-rack" width="20" height="8" patternUnits="userSpaceOnUse"><rect width="20" height="8" fill="#262C34"/><rect width="10" height="8" fill="#5A6472"/></pattern>
+      </defs>
+
+      <rect width="1000" height="820" fill="url(#sgr-grid)"/>
+      <rect y="740" width="1000" height="80" fill="#C9D0D8"/>
+      <rect y="740" width="1000" height="3" fill="#AEB7C2"/>
+
+      <!-- gantry -->
+      <rect x="48" y="130" width="34" height="610" fill="#3A4350"/>
+      <rect x="52" y="130" width="4" height="610" fill="#4C5664"/>
+      <rect x="48" y="660" width="34" height="80" fill="url(#sgr-haz)"/>
+      <rect x="34" y="732" width="62" height="10" rx="2" fill="#4C5664"/>
+      <rect x="918" y="130" width="34" height="610" fill="#3A4350"/>
+      <rect x="922" y="130" width="4" height="610" fill="#4C5664"/>
+      <rect x="918" y="660" width="34" height="80" fill="url(#sgr-haz)"/>
+      <rect x="904" y="732" width="62" height="10" rx="2" fill="#4C5664"/>
+      <rect x="30" y="110" width="940" height="44" rx="4" fill="#3A4350"/>
+      <rect x="30" y="110" width="940" height="6" rx="3" fill="#4C5664"/>
+      <rect x="30" y="130" width="940" height="3" fill="#F2B705"/>
+      <rect x="60" y="154" width="880" height="8" fill="url(#sgr-rack)"/>
+      <path d="M82 162 L122 162 L82 202 Z" fill="#323A45"/>
+      <path d="M918 162 L878 162 L918 202 Z" fill="#323A45"/>
+
+      <!-- bin backs -->
+      <ellipse cx="230" cy="742" rx="120" ry="6" fill="#000" opacity=".18"/>
+      <ellipse cx="750" cy="742" rx="130" ry="6" fill="#000" opacity=".18"/>
+      <rect x="130" y="626" width="200" height="40" fill="#262C34"/>
+      <rect x="126" y="622" width="208" height="8" rx="2" fill="#6B7684"/>
+      <rect x="640" y="612" width="220" height="50" fill="#262C34"/>
+      <rect x="636" y="608" width="228" height="8" rx="2" fill="#6B7684"/>
+
+      <g data-src></g>
+      <g data-bin></g>
+      <text class="tok" data-fall opacity="0">$</text>
+
+      <!-- arm -->
+      <path class="hose" data-hose/>
+      <g data-car>
+        <rect x="-62" y="158" width="124" height="42" rx="6" fill="#2A313B"/>
+        <rect class="arm" x="-62" y="158" width="124" height="8" rx="3"/>
+        <circle cx="-46" cy="183" r="3" fill="#5A6472"/>
+        <circle cx="-30" cy="183" r="3" fill="#5A6472"/>
+        <circle cx="44" cy="183" r="4.5" fill="#5A6472" data-led/>
+        <rect x="-24" y="198" width="48" height="22" fill="#3A4350"/>
+      </g>
+      <g data-up>
+        <path class="arm" d="M0 -26 L200 -19 A19 19 0 0 1 200 19 L0 26 A26 26 0 0 1 0 -26 Z"/>
+        <path d="M18 -5 L182 -3 L182 3 L18 5 Z" fill="#000" opacity=".16"/>
+        <path class="hl" d="M10 -20 L190 -14"/>
+      </g>
+      <g data-sh><circle r="28" fill="#2A313B"/><circle class="arm" r="16"/><circle r="6" fill="#2A313B"/></g>
+      <g data-fo>
+        <path class="arm" d="M0 -21 L185 -15 A15 15 0 0 1 185 15 L0 21 A21 21 0 0 1 0 -21 Z"/>
+        <path d="M16 -4 L170 -3 L170 3 L16 4 Z" fill="#000" opacity=".16"/>
+        <path class="hl" d="M8 -16 L176 -11"/>
+      </g>
+      <g data-el><circle r="23" fill="#2A313B"/><circle class="arm" r="13"/><circle r="5" fill="#2A313B"/></g>
+      <g data-gr>
+        <rect x="-10" y="8" width="20" height="12" fill="#3A4350"/>
+        <text class="tok" x="0" y="58" opacity="0" data-held>$</text>
+        <rect x="-30" y="18" width="60" height="18" rx="4" fill="#2A313B"/>
+        <rect class="arm" x="-30" y="18" width="60" height="4" rx="2"/>
+        <g data-fl><rect x="-8" y="32" width="8" height="46" rx="2" fill="#4C5664"/><rect x="-1" y="64" width="5" height="14" rx="1.5" fill="#6B7684"/></g>
+        <g data-fr><rect x="0" y="32" width="8" height="46" rx="2" fill="#4C5664"/><rect x="-4" y="64" width="5" height="14" rx="1.5" fill="#6B7684"/></g>
+        <circle r="16" fill="#2A313B"/><circle class="arm" r="8"/>
+      </g>
+
+      <!-- bin fronts -->
+      <rect x="122" y="655" width="216" height="85" rx="4" fill="#59636F"/>
+      <rect x="122" y="655" width="216" height="6" rx="3" fill="#6B7684"/>
+      <rect x="146" y="665" width="6" height="68" fill="#4E5762"/>
+      <rect x="308" y="665" width="6" height="68" fill="#4E5762"/>
+      <rect x="180" y="678" width="100" height="36" rx="3" fill="#3A4350"/>
+      <text x="230" y="697" class="lbl lbl-src">LEADS</text>
+      <rect x="632" y="645" width="236" height="95" rx="4" fill="#59636F"/>
+      <rect x="632" y="645" width="236" height="6" rx="3" fill="#6B7684"/>
+      <rect x="654" y="657" width="6" height="76" fill="#4E5762"/>
+      <rect x="840" y="657" width="6" height="76" fill="#4E5762"/>
+      <rect x="680" y="660" width="140" height="42" rx="3" fill="#F2B705"/>
+      <text x="750" y="682" class="lbl lbl-rev">REVENUE</text>
+      <rect x="718" y="710" width="64" height="20" rx="3" fill="#0B0D10"/>
+      <text x="750" y="721" class="cnt" data-count>000</text>
+
+      <text x="500" y="788" class="hint" data-hint>CLICK TO RUN</text>
+    </svg>
+  </button>
 </div>
-<div class="w-9 h-9 rounded-lg bg-orange-50 text-brand-orange flex items-center justify-center shrink-0">
-<svg aria-hidden="true" class="site-icon text-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-10m-6 0h6v6"/></svg>
-</div>
-</div>
-</div>
+<div class="hero-robot-controls"><button type="button" data-robot-pause aria-pressed="false">Pause animation</button></div>
 </div>
 </div>
 </div>
