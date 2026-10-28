@@ -246,114 +246,22 @@
 </div>
 </div>
 </section>
-<!-- SECTION: FINAL CTA & FORM -->
-<section class="py-24 lg:py-32 bg-white" id="growth-plan">
-<div class="max-w-7xl mx-auto px-6 lg:px-12">
-<div class="bg-brand-charcoal text-white rounded-3xl p-8 lg:p-16 shadow-2xl overflow-hidden relative">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-<!-- Left Briefing -->
-<div class="lg:col-span-5 space-y-6">
-<span class="text-xs font-bold uppercase tracking-widest text-brand-amber">LET’S TALK ABOUT YOUR BUSINESS</span>
-<h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                What would you like help with?
-              </h2>
-<p class="text-slate-300 font-normal leading-relaxed text-base font-body">
-                Tell us a little about your business and what needs attention. We can discuss your ads, website or follow-up process and see whether we can help.
-              </p>
-<div class="pt-6 border-t border-slate-700/80 space-y-4 text-sm text-slate-300">
-<div class="flex items-center gap-3">
-<svg aria-hidden="true" class="site-icon text-brand-orange text-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6z"/></svg>
-<span>Tell us what you need</span>
-</div>
-<div class="flex items-center gap-3">
-<svg aria-hidden="true" class="site-icon text-brand-orange text-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="4"/><path d="M2 21v-3a7 7 0 0 1 11-6m2 4 3 3 4-6"/></svg>
-<span>Look at what you have now</span>
-</div>
-<div class="flex items-center gap-3">
-<svg aria-hidden="true" class="site-icon text-brand-orange text-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/></svg>
-<span>Talk through the options</span>
-</div>
-</div>
-</div>
-<!-- Right Clean Form -->
-<div class="lg:col-span-7 bg-white text-brand-charcoal p-8 lg:p-10 rounded-2xl shadow-xl">
-<form class="space-y-5" id="growth-plan-form" name="industrial-growth" method="POST" data-netlify="true" netlify-honeypot="website-confirmation">
-<input type="hidden" name="form-name" value="industrial-growth"/>
-<p hidden><label>Leave this empty <input name="website-confirmation"/></label></p>
-<div><label for="contact-name" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Your name</label><input id="contact-name" name="name" required autocomplete="name" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm" placeholder="Full name"/></div>
-<div><label for="contact-email" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Work email</label><input id="contact-email" name="email" required type="email" autocomplete="email" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm" placeholder="you@company.com"/></div>
-<div>
-<label for="company" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Company name</label>
-<input id="company" name="company" autocomplete="organization" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-all" placeholder="Your company name" required="" type="text"/>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-<div>
-<label for="sector" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Industry</label>
-<select id="sector" name="sector" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none bg-white" required="">
-<option value="">Choose your industry</option>
-<option value="field-service">Heavy Equipment &amp; Field Service</option>
-<option value="machining">CNC Machining &amp; Fabrication</option>
-<option value="construction">Modular, Scaffolding &amp; Sites</option>
-<option value="logistics">Heavy Transport &amp; Logistics</option><option value="other">Other industrial business</option>
-</select>
-</div>
-<div>
-<label for="territory" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Where do you work?</label>
-<input id="territory" name="territory" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-all" placeholder="Your service or delivery area" required="" type="text"/>
-</div>
-</div>
-<div>
-<label for="capability" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Main product or service</label>
-<input id="capability" name="capability" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none transition-all" placeholder="For example, equipment rentals or machine repairs" required="" type="text"/>
-</div>
-<div>
-<label for="budget" class="block text-xs font-bold uppercase tracking-wider text-brand-muted mb-2">Monthly marketing budget</label>
-<select id="budget" name="budget" class="w-full px-4 py-3 rounded-lg border border-slate-200 text-sm focus:border-brand-orange focus:ring-1 focus:ring-brand-orange outline-none bg-white">
-<option value="">Select a range (optional)</option><option value="unsure">Not sure yet</option><option value="3k_6k">$3,000 – $6,000 / month</option>
-<option value="6k_15k">$6,000 – $15,000 / month</option>
-<option value="15k_plus">$15,000+ / month</option>
-</select>
-</div>
-<div class="pt-2">
-<button class="w-full bg-brand-orange hover:bg-brand-amber text-white font-semibold py-4 px-6 rounded-xl shadow-md transition-all text-sm flex items-center justify-center gap-2" type="submit">
-<span>Send your message</span>
-<svg aria-hidden="true" class="site-icon text-lg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16m-6-6 6 6-6 6"/></svg>
-</button>
-<p class="text-[11px] text-center text-brand-muted mt-3">
-                    Please leave out passwords, private drawings and files. We can discuss how to share them later.
-                  </p>
-</div>
-</form>
-<p id="form-status" role="status" class="text-sm mt-4" hidden></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION: TECHNICAL FAQ ACCORDION -->
-<section class="py-24 bg-brand-surface border-t border-brand-border" id="faq">
-<div class="max-w-4xl mx-auto px-6 lg:px-12">
-<div class="text-center mb-16">
-<span class="text-xs font-bold uppercase tracking-widest text-brand-orange">FAQ</span>
-<h2 class="text-3xl sm:text-4xl font-extrabold text-brand-charcoal tracking-tight mt-3">
-            Frequently Asked Questions
-          </h2>
-</div>
-<div class="space-y-4">
-<details class="bg-white p-6 rounded-xl border border-brand-border"><summary class="text-lg font-bold text-brand-charcoal">Do you work with manufacturers and service companies?</summary><p class="text-sm text-brand-muted font-body leading-relaxed">
-              Yes. We plan the work around what your customers need. A repair company may need local ads and clear phone contact. A manufacturer may need detailed service pages and a quote form.
-            </p></details>
-<details class="bg-white p-6 rounded-xl border border-brand-border"><summary class="text-lg font-bold text-brand-charcoal">How long does SEO take?</summary><p class="text-sm text-brand-muted font-body leading-relaxed">
-              SEO takes time. Your website, competition and market affect how quickly things change. We review progress, but do not promise a certain ranking or number of calls.
-            </p></details>
-<details class="bg-white p-6 rounded-xl border border-brand-border"><summary class="text-lg font-bold text-brand-charcoal">Can you show which inquiries become jobs?</summary><p class="text-sm text-brand-muted font-body leading-relaxed">
-              That depends on your tools and sales records. We can help connect calls and forms with quotes and jobs, and make it clear where information is missing.
-            </p></details>
-<details class="bg-white p-6 rounded-xl border border-brand-border"><summary class="text-lg font-bold text-brand-charcoal">How much should we spend on Google Ads?</summary><p class="text-sm text-brand-muted font-body leading-relaxed">
-              There is no single budget that suits every company. We look at your services, location, competition and goals. What you pay Google is discussed separately from our fee.
-            </p></details>
-</div>
-</div>
+<!-- SECTION: CONTACT & QUESTIONS -->
+<section class="contact-faq" id="growth-plan" aria-labelledby="contact-faq-title">
+  <div class="contact-faq-inner">
+    <div class="contact-faq-intro">
+      <h2 id="contact-faq-title">What are you<br><span>waiting for?</span></h2>
+      <p>Whether you need a clearer plan or help putting it into practice, we can help with your ads, website and sales follow-up.</p>
+      <button class="contact-faq-cta" type="button" data-contact-open aria-haspopup="dialog" aria-controls="contact-dialog">Get in touch <span aria-hidden="true">→</span></button>
+    </div>
+    <div class="contact-faq-questions" id="faq" aria-label="Questions about working with Sixth Gear Digital">
+      <details><summary>How do you approach industrial marketing?</summary><p>We start with what you sell, who needs it and how your team handles inquiries. Then we connect the ads, website and follow-up process so you can see which requests are useful and what happens next.</p></details>
+      <details><summary>What kinds of companies do you work with?</summary><p>We focus on manufacturers, equipment suppliers, distributors and industrial service businesses. The plan reflects your products, customers, service areas and the work you want more of.</p></details>
+      <details><summary>Which industries do you specialize in?</summary><p>Our focus includes CNC machining, hydraulics, equipment, building materials, industrial systems and related B2B services. <a href="#industries">Explore our industry pages</a> to see how the approach fits different businesses.</p></details>
+      <details><summary>How do you connect marketing to sales?</summary><p>We help connect calls and forms to their source, then track which inquiries lead to quotes and jobs. What we can report depends on your tools and sales records, and we make any gaps clear.</p></details>
+      <details><summary>How does your pricing work?</summary><p>Pricing depends on the scope, services and work needed. We agree on the tasks and fees before starting. Google Ads spending and any extra software costs are discussed separately, so you know what is included.</p></details>
+    </div>
+  </div>
 </section>
 </main>
 <!-- CLEAN MINIMAL FOOTER -->
@@ -404,4 +312,21 @@
 </div>
 </div>
 </footer>
+
+<dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title" aria-describedby="contact-dialog-description">
+  <div class="contact-dialog-panel">
+    <div class="contact-dialog-heading"><h2 id="contact-dialog-title">Get in touch</h2><button class="contact-dialog-close" type="button" data-contact-close aria-label="Close contact form">×</button></div>
+    <p id="contact-dialog-description">Tell us a little about your business and what you need help with.</p>
+    <form class="contact-dialog-form" id="growth-plan-form" name="industrial-growth" method="POST" data-netlify="true" netlify-honeypot="website-confirmation">
+      <input type="hidden" name="form-name" value="industrial-growth">
+      <p hidden><label>Leave this empty <input name="website-confirmation"></label></p>
+      <label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required autofocus>
+      <label for="contact-email">Work email</label><input id="contact-email" name="email" type="email" autocomplete="email" required>
+      <label for="company">Company</label><input id="company" name="company" autocomplete="organization" required>
+      <label for="contact-message">How can we help? <span>(optional)</span></label><textarea id="contact-message" name="message" rows="3"></textarea>
+      <button class="contact-faq-cta" type="submit">Send your message <span aria-hidden="true">→</span></button>
+    </form>
+    <p id="form-status" role="status" hidden></p>
+  </div>
+</dialog>
 </body></html>

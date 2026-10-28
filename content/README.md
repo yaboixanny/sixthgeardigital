@@ -45,6 +45,8 @@ The service template uses a local optimized copy of the supplied industrial imag
 
 # Production deployment and SEO maintenance
 
+The homepage combines its contact invitation and FAQs in the `#growth-plan` section, with `#faq` on the accordion. “Get in touch” opens the native `#contact-dialog`; incoming `/#growth-plan` links also open it. The shorter form keeps the existing Netlify name `industrial-growth` and uses the shared submission handler in `industrial.js`.
+
 Netlify now builds with `npm run build && npm run check` and publishes only `dist/` (see `netlify.toml`). Run `npm ci` first on a fresh checkout. The build runs both page generators, compiles homepage Tailwind CSS, and copies an explicit production allowlist. Do not change the publish directory back to the repository root: that exposes source templates and legacy drafts.
 
 `_redirects` consolidates old service and `.html` routes. The sitemap contains only the 19 current canonical pages. `scripts/check_site.py` validates the generated publish artifact and confirms internal page links use clean URLs. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.

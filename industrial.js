@@ -14,6 +14,34 @@ menuButton.addEventListener('click', () => {
 menu.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && !menu.hidden) { closeMenu(); menuButton.focus(); } });
 window.matchMedia('(min-width: 1024px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
+const contactDialog = document.querySelector('#contact-dialog');
+if (contactDialog) {
+  let contactOpener;
+  function openContact(trigger) {
+    if (contactDialog.open) return;
+    contactOpener = trigger;
+    contactDialog.showModal();
+    document.body.classList.add('contact-dialog-open');
+  }
+  document.addEventListener('click', event => {
+    const trigger = event.target.closest('[data-contact-open], a[href="#growth-plan"]');
+    if (!trigger || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    openContact(trigger);
+  });
+  contactDialog.querySelector('[data-contact-close]').addEventListener('click', () => contactDialog.close());
+  contactDialog.addEventListener('click', event => { if (event.target === contactDialog) contactDialog.close(); });
+  contactDialog.addEventListener('close', () => {
+    document.body.classList.remove('contact-dialog-open');
+    if (document.activeElement !== document.body && !contactDialog.contains(document.activeElement)) return;
+    const fallback = menuButton.getClientRects().length ? menuButton : document.querySelector('[data-contact-open]');
+    const returnTarget = contactOpener?.getClientRects().length ? contactOpener : fallback;
+    returnTarget?.focus({ preventScroll: true });
+  });
+  const openContactFromHash = () => { if (location.hash === '#growth-plan') openContact(); };
+  window.addEventListener('hashchange', openContactFromHash);
+  openContactFromHash();
+}
 const form = document.querySelector('#growth-plan-form');
 const status = document.querySelector('#form-status');
 if (form && status) form.addEventListener('submit', async event => {
