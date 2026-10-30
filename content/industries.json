@@ -191,7 +191,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about reaching buyers for hydraulic components, systems, repairs and rebuilds."
+    "faq_intro": "Questions about reaching buyers for hydraulic components, systems, repairs and rebuilds.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a hydraulics and fluid power marketing agency?",
+      "items": [
+        [
+          "A plan for the work you want",
+          "We start with your product lines, repair services and service area. Hose replacement, cylinder repairs and hydraulic system supply attract different buyers. We shape the plan around the work your team can handle and the customers you want to reach."
+        ],
+        [
+          "Ads for repairs and product searches",
+          "We separate urgent searches like hydraulic hose repair from searches for pumps, valves and cylinders. Google Ads can focus on your service area and opening hours, with clear routes to a phone call or product inquiry."
+        ],
+        [
+          "Clear pages for technical buyers",
+          "We help explain the brands, pressure ranges, fittings and applications you support. Useful service and product pages give maintenance teams and purchasing staff enough detail to judge whether you can help. Your team checks the technical information before it goes live."
+        ],
+        [
+          "Inquiries with useful details",
+          "We improve pages and forms so buyers can share a part number, equipment type, symptoms and timing. Emergency repair visitors get a clear way to call, while planned work can go through a more detailed quote request."
+        ],
+        [
+          "Follow-up for repairs and repeat orders",
+          "We help route urgent calls to the right person and keep planned quotes visible in your customer records. Follow-up steps can cover outstanding repair estimates, replacement parts and repeat orders, with your team in control of the conversation."
+        ],
+        [
+          "Reporting on the work that matters",
+          "We review which calls and forms lead to suitable repair jobs, parts orders or larger projects. Your team’s feedback helps us adjust the searches, pages and ads. You can also see the work planned and the changes made."
+        ]
+      ]
+    }
   },
   {
     "slug": "attachment-manufacturer-dealer-marketing",
@@ -385,7 +414,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Answers about attachment buyers, product information and quote requests for your sales team."
+    "faq_intro": "Answers about attachment buyers, product information and quote requests for your sales team.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as an equipment attachment marketing agency?",
+      "items": [
+        [
+          "A plan around your attachment range",
+          "We start with the attachments you make or sell, the machines they fit and the territories you cover. Whether you need dealer inquiries or direct sales, the plan focuses on the product lines and customers that matter to your business."
+        ],
+        [
+          "Ads for buyers looking for a fit",
+          "We build Google Ads around attachment types, machine brands and the jobs buyers need to do. We separate purchase searches from rental, used equipment or spare parts where needed, helping your budget reach people you can actually serve."
+        ],
+        [
+          "Product pages that answer fit questions",
+          "We help organize product information around machine compatibility, sizes, operating needs and applications. Your team confirms the specifications. Clear pages make it easier for contractors and dealers to compare options before asking for advice or a price."
+        ],
+        [
+          "Quote requests with machine details",
+          "We improve inquiry forms so buyers can share their machine make and model, intended use and delivery location. That gives your sales team a better starting point and reduces the back-and-forth needed to recommend a suitable attachment."
+        ],
+        [
+          "Follow-up for dealers and direct buyers",
+          "We help keep dealer conversations, product quotes and direct inquiries organized in your customer records. Agreed follow-up steps give your team a way to revisit open quotes without treating every buyer as ready to order today."
+        ],
+        [
+          "A view of inquiries and orders",
+          "We review which products and campaigns bring suitable inquiries, then work with your team to connect them to quotes and orders. You can see what we changed and why, with the next steps shaped by the products you want to sell."
+        ]
+      ]
+    }
   },
   {
     "slug": "commercial-fleet-graphics-marketing",
@@ -579,7 +637,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about attracting fleet operators and turning project interest into useful quote requests."
+    "faq_intro": "Questions about attracting fleet operators and turning project interest into useful quote requests.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a fleet graphics and wraps marketing agency?",
+      "items": [
+        [
+          "A focus on the fleets you want",
+          "We start with your ideal fleet sizes, vehicle types and service area. A multi-vehicle rollout needs a different message from a one-off wrap. We build the plan around the commercial work your team wants and can deliver."
+        ],
+        [
+          "Ads for commercial wrap projects",
+          "We target searches for fleet graphics, commercial vehicle wraps and truck lettering in the areas you cover. We filter out unrelated searches where possible and make it clear that your business can support company vehicles and fleet projects."
+        ],
+        [
+          "Pages that show your process",
+          "We help explain design, print, installation and rollout planning in plain language. A useful project gallery can show vehicle types, branding work and fleet size. Buyers get a clearer picture of what working with your team would involve."
+        ],
+        [
+          "Quote forms that scope the fleet",
+          "We improve forms to ask about vehicle count, models, coverage, locations and deadlines. Those details help your team discuss the job sooner, whether the buyer needs a few vans branded or a phased rollout across several depots."
+        ],
+        [
+          "Follow-up for quotes and rollouts",
+          "We help organize open quotes and next steps in your customer records. Follow-up can reflect artwork approval, vehicle availability and installation scheduling, so a promising fleet conversation is easier to manage over time."
+        ],
+        [
+          "Reporting on commercial opportunities",
+          "We review calls and forms with your team to see which bring the right fleet work. Feedback on project size and fit helps us improve campaigns. You can see the changes made and the work planned for the next stage."
+        ]
+      ]
+    }
   },
   {
     "slug": "modular-buildings-site-offices-marketing",
@@ -773,7 +860,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Answers about marketing modular spaces, separating buyer needs and capturing useful project details."
+    "faq_intro": "Answers about marketing modular spaces, separating buyer needs and capturing useful project details.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a modular buildings and site offices marketing agency?",
+      "items": [
+        [
+          "A plan for sales and hire",
+          "We start with the buildings you offer, your delivery area and whether you want sales, hire or both. Site offices, welfare units and classroom buildings have different buyers. The marketing reflects your stock, capacity and preferred projects."
+        ],
+        [
+          "Ads matched to building needs",
+          "We separate searches for modular buildings for sale from temporary office hire and other rental needs. Google Ads can focus on the areas you deliver to, with pages that explain availability, building use and the next step."
+        ],
+        [
+          "Building pages that answer real questions",
+          "We help present layouts, sizes, uses and options in a clear way. Pages can explain delivery, access, installation and services that need to be arranged. Your team checks the details so buyers understand what is included and what needs discussion."
+        ],
+        [
+          "Quote requests with site details",
+          "We improve forms to collect the building use, location, size, timing and hire period where relevant. Buyers can flag site access or layout needs, giving your team useful information before discussing availability and a quote."
+        ],
+        [
+          "Follow-up through the project stages",
+          "We help organize inquiries, site discussions and quotes in your customer records. Follow-up steps can reflect approval dates, delivery planning and changing project schedules, keeping longer conversations visible to the team handling them."
+        ],
+        [
+          "Reporting on suitable building inquiries",
+          "We review which searches and pages bring inquiries within your delivery area and product range. Sales feedback helps us distinguish a useful project from a poor fit. You can see our work, the findings and what we recommend next."
+        ]
+      ]
+    }
   },
   {
     "slug": "forklift-material-handling-marketing",
@@ -967,7 +1083,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about equipment buyers, rental requests and keeping different types of inquiry clear."
+    "faq_intro": "Questions about equipment buyers, rental requests and keeping different types of inquiry clear.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a forklift and material handling marketing agency?",
+      "items": [
+        [
+          "A plan for your equipment and services",
+          "We start with the forklifts you sell, the rental options you offer and the service work you want. New equipment, used trucks and breakdown support need different messages. Your territory, stock and workshop capacity guide the plan."
+        ],
+        [
+          "Ads that separate sales, hire and repairs",
+          "We build Google Ads around what the buyer needs, from forklift hire to a replacement truck or local service support. Each campaign can use the right area and page, helping buyers reach the part of your business that can help."
+        ],
+        [
+          "Equipment pages with useful specifications",
+          "We help organize capacity, lift height, power type, condition and application details. Clear listings and service pages help warehouse teams compare options. Your staff checks equipment information so the pages reflect what you can supply and support."
+        ],
+        [
+          "Forms that help match the right truck",
+          "We improve inquiries to ask about the load, lift height, work area and timing. Rental buyers can share the hire period and delivery site. Your sales team gets a clearer starting point for a recommendation or quote."
+        ],
+        [
+          "Follow-up for quotes and service requests",
+          "We help route sales, rental and service inquiries to the right team and keep open quotes visible. Agreed follow-up steps make it easier to manage an equipment purchase that needs approval or a rental request with changing dates."
+        ],
+        [
+          "Reporting tied to useful opportunities",
+          "We review calls and forms by service type, location and fit. Your team’s feedback helps show which campaigns lead to equipment quotes, hire bookings or service work. You can see what we are working on and the reasons for each change."
+        ]
+      ]
+    }
   },
   {
     "slug": "commercial-generators-critical-power-marketing",
@@ -1161,7 +1306,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Answers about reaching power equipment buyers and understanding service and project inquiries."
+    "faq_intro": "Answers about reaching power equipment buyers and understanding service and project inquiries.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a generator and critical power marketing agency?",
+      "items": [
+        [
+          "A plan for the power work you provide",
+          "We start with your generator range, service contracts and project capabilities. Equipment supply, planned maintenance and urgent support attract different buyers. We shape the plan around your coverage, capacity and the facilities you want to serve."
+        ],
+        [
+          "Ads for equipment and service needs",
+          "We separate searches for commercial generators, generator servicing and emergency support where you offer it. Ads focus on the areas your team can cover, with clear contact routes that reflect your actual service hours and response arrangements."
+        ],
+        [
+          "Clear information for facilities teams",
+          "We help explain power ranges, applications, maintenance options and project support. Useful pages give facilities managers and purchasing teams a way to assess your offer. Your technical staff reviews the information and any standards or certification claims."
+        ],
+        [
+          "Inquiries that help scope the job",
+          "We improve forms to ask about the site, equipment, application and timing. Buyers can explain whether they need a generator, a service visit or a planned project. Your team can then confirm the technical needs and suitable next step."
+        ],
+        [
+          "Follow-up for contracts and projects",
+          "We help keep equipment quotes, maintenance discussions and project inquiries organized in your customer records. Follow-up can reflect site surveys, approvals and procurement stages, making longer buying decisions easier for your team to manage."
+        ],
+        [
+          "Reporting beyond the first inquiry",
+          "We review which calls and forms turn into suitable service work, equipment quotes or contract discussions. Sales feedback helps us improve targeting and content. You can see the work completed and the next priorities for the marketing."
+        ]
+      ]
+    }
   },
   {
     "slug": "cnc-machining-fabrication-marketing",
@@ -1355,7 +1529,36 @@
       ],
       "faq_heading": "Your CNC Machining & Fabrication marketing questions answered"
     },
-    "faq_intro": "Questions about reaching engineering and purchasing teams and generating RFQs that fit your shop."
+    "faq_intro": "Questions about reaching engineering and purchasing teams and generating RFQs that fit your shop.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a CNC machining and fabrication marketing agency?",
+      "items": [
+        [
+          "A plan for the parts you want to make",
+          "We start with your machines, materials, tolerances and preferred order sizes. Prototype work, production runs and fabrication projects need different messages. The plan focuses on the capabilities and capacity your shop wants to promote."
+        ],
+        [
+          "Ads for relevant machining work",
+          "We build Google Ads around searches for machining services, fabrication processes and the materials you work with. We filter out job searches, courses and machine sales where possible, helping your budget reach buyers looking for a supplier."
+        ],
+        [
+          "Capability pages engineers can assess",
+          "We help present your processes, equipment and material capabilities clearly. Certification and tolerance claims stay grounded in what your team confirms. Engineers and purchasing staff can find the information they need to decide whether to send an RFQ."
+        ],
+        [
+          "RFQs with the details sales needs",
+          "We improve quote forms to ask about material, quantity, process and delivery needs. Where file uploads are needed, we agree on a suitable way to receive them. Your team gets a clearer starting point for reviewing the work."
+        ],
+        [
+          "Follow-up through supplier selection",
+          "We help keep RFQs, quotes and buyer conversations organized in your customer records. Follow-up steps can reflect sample approval, supplier reviews and production schedules, so a longer buying process is easier to track."
+        ],
+        [
+          "Reporting on suitable quote requests",
+          "We review which searches and pages bring work that fits your shop. Your team’s feedback on RFQs, quotes and won jobs helps us improve the marketing. You can see the work planned and how the next decisions are made."
+        ]
+      ]
+    }
   },
   {
     "slug": "heavy-haul-rigging-marketing",
@@ -1549,7 +1752,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about reaching buyers for machinery moving, heavy transport and rigging projects."
+    "faq_intro": "Questions about reaching buyers for machinery moving, heavy transport and rigging projects.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a heavy haul and rigging marketing agency?",
+      "items": [
+        [
+          "A plan around your lift and haul work",
+          "We start with your equipment, crew capabilities and operating area. Machinery moves, heavy transport and specialist lifting need different messages. The marketing focuses on projects your team is equipped to assess and deliver."
+        ],
+        [
+          "Ads within your operating area",
+          "We build Google Ads around heavy haul, machinery moving and rigging searches that match your services. Targeting reflects where you operate, while the pages explain the types of loads and projects buyers should contact you about."
+        ],
+        [
+          "Pages that show project capabilities",
+          "We help explain your equipment, experience and planning process using clear service pages and project examples. Your team checks load, permit and safety details. Buyers can understand your capabilities without the site making promises before a job is assessed."
+        ],
+        [
+          "Inquiries with load and site information",
+          "We improve forms to ask about the load, dimensions, weight, collection and delivery sites, access and timing. That gives your team a useful starting point for discussing feasibility, surveys and the information needed for a quote."
+        ],
+        [
+          "Follow-up for complex move planning",
+          "We help keep site surveys, quote requests and project discussions organized in your customer records. Agreed follow-up steps can reflect shutdown dates, access planning and customer approvals, so longer projects remain visible."
+        ],
+        [
+          "Reporting on the projects that fit",
+          "We review inquiry quality with your team, including location, load type and project scope. That feedback helps us improve ads and pages. You can see our work and which marketing activity brings suitable opportunities for a quote."
+        ]
+      ]
+    }
   },
   {
     "slug": "industrial-refrigeration-marketing",
@@ -1743,7 +1975,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Answers about marketing cooling systems, planned projects and service coverage to the right facilities."
+    "faq_intro": "Answers about marketing cooling systems, planned projects and service coverage to the right facilities.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as an industrial refrigeration marketing agency?",
+      "items": [
+        [
+          "A plan for your systems and customers",
+          "We start with the facilities you serve and the refrigeration work you provide. New installations, upgrades and service contracts have different buyers. Your coverage, engineering capabilities and preferred project types guide the marketing plan."
+        ],
+        [
+          "Ads for projects and service work",
+          "We separate searches for industrial refrigeration installation, cold storage systems and maintenance where relevant. Campaigns focus on the areas you serve and make it clear which work you handle, helping reduce unrelated domestic appliance inquiries."
+        ],
+        [
+          "Content facilities teams can use",
+          "We help explain your systems, applications and service support in clear language. Pages can address cold stores, food production and other facilities you serve. Your technical team reviews refrigerant, compliance and performance information before publication."
+        ],
+        [
+          "Forms that help scope the inquiry",
+          "We improve forms to collect the facility type, location, current system, issue and timing. Buyers can explain whether they need service, an upgrade or a new project. Your team can then confirm the technical details and next step."
+        ],
+        [
+          "Follow-up through site reviews and quotes",
+          "We help organize inquiries, surveys and proposals in your customer records. Follow-up can reflect planned shutdowns, budget reviews and approval stages, so the team can keep track of a project that takes time to move forward."
+        ],
+        [
+          "Reporting on suitable refrigeration work",
+          "We review which calls and forms lead to relevant service or project discussions. Your feedback helps us adjust campaigns by facility type, service area and scope. You can see what we completed and what we plan to improve next."
+        ]
+      ]
+    }
   },
   {
     "slug": "steel-building-marketing",
@@ -1938,7 +2199,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about reaching building buyers, improving quote requests and following projects through to a sale."
+    "faq_intro": "Questions about reaching building buyers, improving quote requests and following projects through to a sale.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a steel building marketing agency?",
+      "items": [
+        [
+          "A plan for the buildings you sell",
+          "We start with your building types, delivery area and role in the project. Kit supply, dealer sales and turnkey construction need different messages. We focus the marketing on the garages, workshops, agricultural or commercial buildings you want to sell."
+        ],
+        [
+          "Ads matched to size and building use",
+          "We build Google Ads around searches for metal building sizes, garages, workshops and other relevant uses. Targeting reflects your delivery or construction area. The pages help buyers understand what your quote includes and which options need discussion."
+        ],
+        [
+          "Pages that make comparison easier",
+          "We help explain sizes, options, applications and the factors that affect price. Useful content can cover delivery, foundations and installation responsibilities. Your team confirms the details so buyers understand your offer before comparing it with another supplier’s quote."
+        ],
+        [
+          "Quote forms that capture the project",
+          "We improve forms to ask about building size, use, location, timing and installation needs. Buyers can share what they have already planned, giving your team a clearer starting point for checking the project and preparing a suitable quote."
+        ],
+        [
+          "Follow-up while buyers compare suppliers",
+          "We help organize quote requests and next steps in your customer records. Agreed emails or reminders give your team a way to answer questions and revisit open quotes as buyers work through site preparation, finance and approvals."
+        ],
+        [
+          "Reporting from inquiry to signed order",
+          "We review which campaigns bring suitable building inquiries and work with your team to track quotes and sales. That feedback helps us improve the pages and targeting. You can see the work planned and what the results suggest we should do next."
+        ]
+      ]
+    }
   },
   {
     "slug": "scaffolding-shoring-formwork-marketing",
@@ -2132,7 +2422,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Questions about reaching contractors and capturing useful rental, supply and project inquiries."
+    "faq_intro": "Questions about reaching contractors and capturing useful rental, supply and project inquiries.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a scaffolding, shoring and formwork marketing agency?",
+      "items": [
+        [
+          "A plan for the systems you provide",
+          "We start with your scaffolding, shoring and formwork range, the services you offer and the projects you want. Hire, equipment sales and design or erection support need different messages. Your stock, crew capacity and coverage guide the plan."
+        ],
+        [
+          "Ads for the right project needs",
+          "We separate searches for scaffolding hire, shoring systems and formwork supply where relevant. Ads focus on the areas you cover and the work you handle, with clear pages that help contractors reach the right part of your business."
+        ],
+        [
+          "Clear pages for contractors and engineers",
+          "We help explain system types, applications and the support available. Product and service pages can show relevant capabilities without guessing at a project solution. Your team checks technical details, standards and any design or load information."
+        ],
+        [
+          "Quote requests with project context",
+          "We improve forms to ask about the site, application, approximate scope, programme and hire period where needed. Contractors can share their project stage, giving your team a better starting point for a discussion or site review."
+        ],
+        [
+          "Follow-up around construction programmes",
+          "We help organize inquiries, estimates and project conversations in your customer records. Follow-up steps can reflect tender stages, revised start dates and site planning, making it easier for your team to keep open opportunities in view."
+        ],
+        [
+          "Reporting on useful contractor inquiries",
+          "We review which searches and pages bring suitable projects, based on location, system needs and scope. Your team’s feedback helps us improve targeting. You can see the work delivered, the findings and our recommended next steps."
+        ]
+      ]
+    }
   },
   {
     "slug": "industrial-automation-robotics-marketing",
@@ -2568,6 +2887,35 @@
     "detail_small": "/assets/images/building-materials-detail-640.webp",
     "detail_alt": "Building product samples including timber, brick, stone, metal, insulation and a window profile",
     "og_image": "https://sixthgeardigital.com/assets/images/building-materials-hero-1280.webp",
-    "faq_intro": "Questions about reaching specifiers, contractors and purchasing teams with useful product information."
+    "faq_intro": "Questions about reaching specifiers, contractors and purchasing teams with useful product information.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a building materials marketing agency?",
+      "items": [
+        [
+          "A plan for your products and buyers",
+          "We start with your product ranges, supply area and route to market. Manufacturers, distributors and specialist suppliers have different needs. We focus on the materials you want to promote and the contractors, specifiers or purchasing teams you want to reach."
+        ],
+        [
+          "Ads for product and supply searches",
+          "We build Google Ads around the materials, applications and supply needs you serve. Targeting reflects your delivery coverage and customer types. Clear pages help buyers find the right range and understand how to ask about stock, pricing or a project."
+        ],
+        [
+          "Product content that supports selection",
+          "We help organize specifications, applications, supporting documents and range information. Architects may need data sheets while contractors need availability and delivery details. Your team reviews technical claims so the content stays accurate and useful to both groups."
+        ],
+        [
+          "Inquiries with product and project details",
+          "We improve forms so buyers can share the product, quantity, project location and timing. Sample requests and specification questions can follow a different path from price inquiries, helping your team understand what the person needs before replying."
+        ],
+        [
+          "Follow-up for specifications and quotes",
+          "We help keep sample requests, project discussions and quotes organized in your customer records. Follow-up steps can reflect specification decisions, tender dates and purchasing stages, so early interest is easier to connect with a later order."
+        ],
+        [
+          "Reporting on the opportunities that fit",
+          "We review which products and campaigns attract relevant inquiries. Your team’s feedback helps distinguish useful project interest from requests outside your range or supply area. You can see the work completed and the next priorities for improvement."
+        ]
+      ]
+    }
   }
 ]

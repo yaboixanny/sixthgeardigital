@@ -228,24 +228,3 @@ footer .brand b { color: #ff995f; }
   .industry-services .card { padding: 24px; }
   .industry-checklist { grid-template-columns: 1fr; gap: 22px; }
 }
-
-/* Optional industry-specific agency expectations preview. */
-.agency-expectations { background: #fff; padding-block: 88px; }
-.agency-expectations h2 { max-width: 940px; margin: 0 auto 64px; text-align: center; font-size: clamp(30px, 3.2vw, 42px); line-height: 1.2; letter-spacing: -1.2px; }
-.agency-expectations-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 56px 38px; }
-.agency-expectation { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 20px; align-items: start; }
-.agency-expectation-icon { display: grid; place-items: center; width: 50px; height: 54px; border-radius: 10px; background: #c4490b; color: #fff; box-shadow: 5px 5px 0 #172133; }
-.agency-expectation:nth-child(3n + 2) .agency-expectation-icon { background: #172133; box-shadow: 5px 5px 0 #f6c4a4; }
-.agency-expectation:nth-child(3n) .agency-expectation-icon { background: #f9e1d1; color: #9f3908; }
-.agency-expectation-icon svg { width: 28px; height: 28px; }
-.agency-expectation h3 { font-size: 19px; line-height: 1.4; margin: 0 0 12px; letter-spacing: -.35px; }
-.agency-expectation p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.8; }
-@media(max-width:1050px) {
-  .agency-expectations-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 32px; }
-}
-@media(max-width:700px) {
-  .agency-expectations { padding-block: 52px; }
-  .agency-expectations h2 { text-align: left; margin-bottom: 36px; }
-  .agency-expectations-grid { grid-template-columns: 1fr; gap: 32px; }
-  .agency-expectation { gap: 18px; }
-}

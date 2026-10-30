@@ -71,6 +71,7 @@ for index, page in enumerate(PAGES):
     section_fields['industry_faq_section'] = Template((ROOT/'templates/industry-faq.html').read_text()).substitute(
         industry_faq_name=e(page['short']), industry_faq_intro=e(page['faq_intro']), faq_items=section_fields['faq_items'])
     page_sections = SECTIONS_TEMPLATE.substitute(section_fields)
+    section_fields['agency_expectations_section'] = ''
 
     if page.get('agency_expectations'):
         expectations = page['agency_expectations']
@@ -85,6 +86,7 @@ for index, page in enumerate(PAGES):
         ]
         cards = ''.join('<article class="agency-expectation"><span class="agency-expectation-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'+icon+'</svg></span><div><h3>'+e(heading)+'</h3><p>'+e(body)+'</p></div></article>' for icon,(heading,body) in zip(icons,expectations['items']))
         section = Template((ROOT/'templates/industry-expectations.html').read_text()).substitute(heading=e(expectations['heading']), cards=cards)
+        section_fields['agency_expectations_section'] = section
         marker = '<section class="section white industry-content" id="capabilities">'
         assert marker in page_sections, slug
         page_sections = page_sections.replace(marker, section+'\n'+marker, 1)
