@@ -72,6 +72,23 @@ for index, page in enumerate(PAGES):
         industry_faq_name=e(page['short']), industry_faq_intro=e(page['faq_intro']), faq_items=section_fields['faq_items'])
     page_sections = SECTIONS_TEMPLATE.substitute(section_fields)
 
+    if page.get('agency_expectations'):
+        expectations = page['agency_expectations']
+        assert len(expectations['items']) == 6, slug
+        icons = [
+            '<path d="M5 4h14v17H5zM9 4V2h6v2M8 9h8M8 13h8M8 17h5"/>',
+            '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><path d="m12 12 8-8M16 4h4v4"/>',
+            '<path d="M4 3h12l4 4v14H4zM15 3v5h5M8 12h8M8 16h6"/>',
+            '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20M6 6.5h.01M9 6.5h.01M7 13h5M7 16h3m5-3 3 3-3 3"/>',
+            '<path d="M4 5h12v4M16 5l-3-3m3 3-3 3M20 19H8v-4M8 19l3 3m-3-3 3-3"/><circle cx="5" cy="12" r="3"/><circle cx="19" cy="12" r="3"/>',
+            '<path d="M3 3v18h18M7 17v-4m5 4V9m5 8V5"/>'
+        ]
+        cards = ''.join('<article class="agency-expectation"><span class="agency-expectation-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">'+icon+'</svg></span><div><h3>'+e(heading)+'</h3><p>'+e(body)+'</p></div></article>' for icon,(heading,body) in zip(icons,expectations['items']))
+        section = Template((ROOT/'templates/industry-expectations.html').read_text()).substitute(heading=e(expectations['heading']), cards=cards)
+        marker = '<section class="section white industry-content" id="capabilities">'
+        assert marker in page_sections, slug
+        page_sections = page_sections.replace(marker, section+'\n'+marker, 1)
+
     journey = page['buyer_journey']
     journey_cards = ''.join(f'<article class="card play-card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in journey['steps'])
     page_sections = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + page_sections

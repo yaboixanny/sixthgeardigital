@@ -2326,7 +2326,36 @@
     "lastmod": "2026-10-30",
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "faq_intro": "Answers about reaching manufacturing teams and turning technical interest into useful project conversations."
+    "faq_intro": "Answers about reaching manufacturing teams and turning technical interest into useful project conversations.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as an automation and robotics marketing agency?",
+      "items": [
+        [
+          "A plan built around your applications",
+          "We start with the systems you build, the plants you serve and the projects you want more of. That gives us a clear focus for your marketing, whether you provide robotic welding cells, machine tending, packaging lines or controls upgrades."
+        ],
+        [
+          "Ads aimed at the right projects",
+          "We build Google Ads around searches for your services and applications. We focus on your sales area and filter out job searches, hobby robots and training courses, so your budget goes toward people looking for a business like yours."
+        ],
+        [
+          "Content that explains your capabilities",
+          "We turn your technical knowledge into clear service pages and search content. Buyers can see the processes, robot brands and industries you work with. Your team reviews technical details so the copy reflects what you can actually deliver."
+        ],
+        [
+          "A clearer path to a project inquiry",
+          "We build or improve pages that help engineers and plant managers take the next step. Inquiry forms can ask about the process, parts, production goals and project timing, giving your sales team useful details before the first call."
+        ],
+        [
+          "Follow-up for longer sales cycles",
+          "Automation projects often need input from engineering, operations and purchasing. We help connect inquiries to your customer records and set up follow-up steps, so early conversations, site visits and proposals are easier to keep track of."
+        ],
+        [
+          "Clear work plans and useful reporting",
+          "You can see what we are working on and why. We review calls, project inquiries and sales progress with your team, then use that feedback to improve the marketing. The focus stays on suitable opportunities, not just clicks."
+        ]
+      ]
+    }
   },
   {
     "slug": "building-materials-marketing",
