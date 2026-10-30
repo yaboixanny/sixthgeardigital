@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 620" fill="none">
+<title>Keep your industrial website moving forward</title>
+<desc>An illustrative lifecycle chart compares a website left unchanged with one reviewed and improved over time. These are conceptual trends, not measured results.</desc>
+<defs><linearGradient id="refresh" x1="316" y1="175" x2="620" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#ffd99e"/><stop offset="1" stop-color="#fff0d7"/></linearGradient><linearGradient id="decline" x1="300" y1="185" x2="300" y2="510" gradientUnits="userSpaceOnUse"><stop stop-color="#ef742f"/><stop offset="1" stop-color="#f5ad82"/></linearGradient></defs>
+<rect x="18" y="28" width="644" height="560" rx="22" fill="#fffaf6"/>
+<text x="49" y="77" fill="#2b3545" font-family="Arial,sans-serif" font-size="23" font-weight="700">Build. Review. Keep improving.</text>
+<text x="49" y="102" fill="#7c746e" font-family="Arial,sans-serif" font-size="13">A website should evolve with your business.</text>
+<!-- The curves are conceptual; no measured values or lifespan claims. -->
+<path d="M49 509C109 478 162 367 220 275S300 191 331 201C406 234 464 242 519 210S589 153 625 137V509H49Z" fill="url(#refresh)"/>
+<path d="M49 509C109 478 162 367 220 275S300 191 331 201C376 222 397 290 454 313S555 354 625 509H49Z" fill="url(#decline)"/>
+<g stroke="#fff" stroke-width="2" stroke-opacity=".75"><path d="M109 170v339M225 170v339M341 170v339M457 170v339M573 170v339"/></g>
+<path d="M49 509C109 478 162 367 220 275S300 191 331 201C406 234 464 242 519 210S589 153 625 137" stroke="#d98a1d" stroke-width="3" stroke-linecap="round"/>
+<path d="M49 509C109 478 162 367 220 275S300 191 331 201C376 222 397 290 454 313S555 354 625 509" stroke="#d45d1e" stroke-width="3" stroke-linecap="round"/>
+<path d="M49 509h576" stroke="#9b7967" stroke-width="1.5"/>
+<path d="M312 158v354" stroke="#c2410c" stroke-width="2"/>
+<path d="M312 141c-7 0-12 5-12 12 0 8 12 18 12 18s12-10 12-18c0-7-5-12-12-12Z" fill="#c2410c"/>
+<rect x="244" y="115" width="137" height="25" rx="12" fill="#fff2e8"/><text x="312" y="132" text-anchor="middle" fill="#b34c16" font-family="Arial,sans-serif" font-size="12" font-weight="700">REVIEW &amp; REFRESH</text>
+<g fill="#7e7169" font-family="Arial,sans-serif" font-size="12" text-anchor="middle"><text x="81" y="535">Launch</text><text x="312" y="535">Time to review</text><text x="573" y="535">Over time</text></g>
+<g font-family="Arial,sans-serif" font-size="12"><circle cx="81" cy="566" r="5" fill="#ef742f"/><text x="94" y="570" fill="#675f59">Left unchanged</text><circle cx="277" cy="566" r="5" fill="#efba61"/><text x="290" y="570" fill="#675f59">Reviewed and improved</text><text x="625" y="604" text-anchor="end" fill="#91867d" font-size="10">Conceptual website lifecycle</text></g>
+</svg>
