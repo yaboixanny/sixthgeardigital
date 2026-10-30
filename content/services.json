@@ -465,7 +465,16 @@
     "website_faq_start": "Your Industrial Web Design",
     "website_faq_end": "Questions Answered.",
     "website_faq_intro": "What goes into an industrial website? Here are a few things to know about the pages, content and quote forms your buyers need.",
-    "website_problem_body": "Engineers, purchasing teams and owners may compare suppliers before making a call. If your capabilities are hard to find or the quote process is unclear, they may move on. We can help you spot what needs attention."
+    "website_problem_body": "Engineers, purchasing teams and owners may compare suppliers before making a call. If your capabilities are hard to find or the quote process is unclear, they may move on. We can help you spot what needs attention.",
+    "website_final_eyebrow": "",
+    "website_final_heading": "Your website should bring you more business.",
+    "website_final_intro": "Book a 30-minute call to explore what’s holding your website back and how we could help you generate more qualified inquiries.",
+    "website_final_points": [
+      "Find gaps in how you explain your services",
+      "Spot friction that makes it harder to inquire",
+      "Get clear on what to improve first"
+    ],
+    "lastmod": "2026-10-30"
   },
   {
     "slug": "industrial-lead-tracking",
@@ -680,6 +689,14 @@
         "How long does a manufacturing website take, and what does it cost?",
         "The scope depends on your pages, catalog size, content, RFQ features and software connections. A starter site or landing page can be ready for review within 3 days once the scope, content and access are agreed. A full manufacturing website with many products or custom integrations takes longer. We agree on the work, fees and timeline before starting."
       ]
+    ],
+    "website_final_eyebrow": "See what’s possible",
+    "website_final_heading": "Ready to grow?",
+    "website_final_intro": "Book a 30-minute discovery call to talk through your website and what you need next.",
+    "website_final_points": [
+      "Learn about your business and buyers",
+      "Review what is working on your website",
+      "Identify useful next steps"
     ]
   }
 ]

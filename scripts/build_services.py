@@ -81,6 +81,10 @@ for s in SERVICES:
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
  page_template = TEMPLATE
  if simplified_hero:
+  fields['website_final_label'] = '<p class="website-final-cta-label">'+e(s['website_final_eyebrow'])+'</p>' if s['website_final_eyebrow'] else ''
+  fields['website_final_intro_html'] = e(s['website_final_intro']).replace('30-minute discovery call','<strong>30-minute discovery call</strong>').replace('30-minute call','<strong>30-minute call</strong>')
+  check_icon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11v1a9 9 0 1 1-5-8"/><path d="m8 11 4 4L22 5"/></svg>'
+  fields['website_final_bullets']=''.join('<li>'+check_icon+e(point)+'</li>' for point in s['website_final_points'])
   fields['website_success_bullets']=''.join('<li>'+e(point)+'</li>' for point in s['website_success_points'])
   fields['website_redesign_bullets']=''.join('<li><strong>'+e(label)+'</strong> '+e(body)+'</li>' for label,body in s['website_redesign_points'])
   schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
