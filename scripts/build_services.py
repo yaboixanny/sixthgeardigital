@@ -74,7 +74,12 @@ for s in SERVICES:
  schema={'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'isPartOf':{'@id':BASE+'/#website'},'name':title,'description':desc,'about':{'@id':canonical+'#service'},'breadcrumb':{'@id':canonical+'#breadcrumb'}},{'@type':'Service','@id':canonical+'#service','name':s['name'],'url':canonical,'description':desc,'provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Services','item':BASE+'/#services'},{'@type':'ListItem','position':3,'name':s['name'],'item':canonical}]}]}
  fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
- (folder/'index.html').write_text(TEMPLATE.substitute(fields))
+ page_template = TEMPLATE
+ if simplified_hero:
+  schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
+  fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
+  page_template = Template((ROOT/'templates/website-service.html').read_text())
+ (folder/'index.html').write_text(page_template.substitute(fields))
 
 # Homepage offers are curated separately from the complete service-page directory.
 # Facebook Ads currently starts a contact conversation instead of linking to a draft page.

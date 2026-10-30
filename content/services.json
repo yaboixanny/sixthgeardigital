@@ -398,20 +398,24 @@
     ],
     "faqs": [
       [
-        "Can you work with our existing website?",
-        "Yes. A few page changes may be enough. We review the site before suggesting a full rebuild."
+        "What should an industrial website include?",
+        "Start with a clear explanation of what you make or do, who you serve and where you work. Add service or product pages, capabilities, equipment details and examples of real projects. Show certifications you hold and make contact details easy to find. Buyers should be able to check whether you fit their job before they ask for a quote."
       ],
       [
-        "Can buyers send CAD drawings through a form?",
-        "We can discuss that as part of the work. First, we need to agree on how files will be sent, stored and shared. Use the general contact form for basic details, not private drawings."
+        "Do we need a full website or just a landing page?",
+        "A full website helps buyers explore your business and compare several products or services. A landing page focuses on one offer, such as a CNC machining service or a specific equipment rental. It can be a useful starting point for Google Ads. We look at what you have and what buyers need before recommending either option."
       ],
       [
-        "Will a rebuild affect traffic from search?",
-        "It can, so we plan for it. We keep useful content and page addresses where possible. If an address changes, we send visitors from the old page to the new one."
+        "Can you help write the content for technical buyers?",
+        "Yes. We turn your product details, service notes and project information into clear website copy. Your team checks technical claims, materials, tolerances and certifications before publication. The goal is to give engineers, purchasing teams and owners useful answers without making every page difficult to read."
       ],
       [
-        "What happens after someone asks for a quote?",
-        "We agree on who gets the request, what details they receive and how they follow up. The form should help your team start the next conversation."
+        "What should our quote request form ask for?",
+        "Ask for contact details and the information needed to start a useful reply. That might include the product or service, quantity, job location and required date. Custom projects may need a short description of the work. Keep the first form manageable, then arrange a suitable way to share drawings or other files if needed."
+      ],
+      [
+        "How long does a website take, and what does it cost?",
+        "Timing and cost depend on the number of pages, the content and any features or connections you need. A starter website or landing page can be ready for review within 3 days once we agree on the scope and receive your content and access. Larger sites take longer. We agree on the work, fees and schedule before starting."
       ]
     ],
     "form_label": "What are you looking for?",
