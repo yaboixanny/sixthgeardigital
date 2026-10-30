@@ -68,3 +68,5 @@
  .website-redesign-grid .website-success-copy { grid-column: 1; grid-row: 1; }
  .website-redesign-grid .website-success-graphic { grid-column: 1; grid-row: 2; }
 }
+
+.website-connections { background: #fffaf6; }

@@ -16,5 +16,5 @@
 <path d="M312 141c-7 0-12 5-12 12 0 8 12 18 12 18s12-10 12-18c0-7-5-12-12-12Z" fill="#c2410c"/>
 <rect x="244" y="115" width="137" height="25" rx="12" fill="#fff2e8"/><text x="312" y="132" text-anchor="middle" fill="#b34c16" font-family="Arial,sans-serif" font-size="12" font-weight="700">REVIEW &amp; REFRESH</text>
 <g fill="#7e7169" font-family="Arial,sans-serif" font-size="12" text-anchor="middle"><text x="81" y="535">Launch</text><text x="312" y="535">Time to review</text><text x="573" y="535">Over time</text></g>
-<g font-family="Arial,sans-serif" font-size="12"><circle cx="81" cy="566" r="5" fill="#ef742f"/><text x="94" y="570" fill="#675f59">Left unchanged</text><circle cx="277" cy="566" r="5" fill="#efba61"/><text x="290" y="570" fill="#675f59">Reviewed and improved</text><text x="625" y="604" text-anchor="end" fill="#91867d" font-size="10">Conceptual website lifecycle</text></g>
+<g font-family="Arial,sans-serif" font-size="12"><circle cx="81" cy="566" r="5" fill="#ef742f"/><text x="94" y="570" fill="#675f59">Left unchanged</text><circle cx="277" cy="566" r="5" fill="#efba61"/><text x="290" y="570" fill="#675f59">Reviewed and improved</text></g>
 </svg>
