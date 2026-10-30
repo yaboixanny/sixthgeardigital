@@ -135,7 +135,7 @@
 .website-design-hero .container { position: relative; z-index: 1; }
 .website-design-hero .hero-center { max-width: 1020px; margin: 0 auto; }
 .website-design-hero .hero-center h1 { max-width: 1000px; margin: 0 auto; color: #172133; font-size: clamp(44px, 4.6vw, 66px); font-weight: 750; line-height: 1.12; letter-spacing: -2.1px; }
-.website-design-hero h1 em { color: #ea580c; white-space: nowrap; }
+.website-design-hero h1 em { color: #ea580c; white-space: normal; }
 .website-design-hero .hero-center .lead { max-width: 790px; margin: 33px auto 38px; color: #596172; font-size: 18px; line-height: 1.8; }
 .website-hero-art { position: absolute; width: 780px; height: auto; right: -240px; top: 50%; transform: translateY(-48%) rotate(-12deg); color: #fff; opacity: .76; pointer-events: none; }
 .website-design-hero .website-discovery-cta { gap: 10px; margin: 0; padding: 16px 32px; border-radius: 12px; background: #ea580c; color: #fff; font-size: 16px; font-weight: 600; line-height: 1.5; box-shadow: 0 10px 15px -3px #f9731633, 0 4px 6px -4px #f9731633; transition: background .2s, box-shadow .2s; }

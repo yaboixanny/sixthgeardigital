@@ -25,7 +25,7 @@ When republishing changed industry content, update that industry's `lastmod` to 
 
 # Core service pages
 
-`services.json` contains the four service pages. Their exact trailing-slash URLs are served by committed `services/<slug>/index.html` files.
+`services.json` contains the core service pages. A focused service record can use `extends` to inherit the parent service’s shared fields while providing its own copy, metadata and FAQs. Their exact trailing-slash URLs are served by committed `services/<slug>/index.html` files.
 
 - Shared markup: `templates/service.html`
 - Shared styling: `assets/industry.css` with `assets/services.css`
@@ -49,7 +49,7 @@ The homepage combines its contact invitation and FAQs in the `#growth-plan` sect
 
 Netlify now builds with `npm run build && npm run check` and publishes only `dist/` (see `netlify.toml`). Run `npm ci` first on a fresh checkout. The build runs both page generators, compiles homepage Tailwind CSS, and copies an explicit production allowlist. Do not change the publish directory back to the repository root: that exposes source templates and legacy drafts.
 
-`_redirects` consolidates old service and `.html` routes. The sitemap contains only the 19 current canonical pages. `scripts/check_site.py` validates the generated publish artifact and confirms internal page links use clean URLs. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.
+`_redirects` consolidates old service and `.html` routes. The sitemap contains only the 20 current canonical pages. `scripts/check_site.py` validates the generated publish artifact and confirms internal page links use clean URLs. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.
 
 The main site self-hosts a Latin Inter variable WOFF2 font; the building-materials page uses a self-hosted Montserrat variable WOFF2. Their OFL licenses are in `assets/fonts/`. The existing template photos are stored as 320px/512px WebP variants, matching the available source resolution rather than upscaling it. Higher-resolution original photography can replace them later. The homepage uses inline SVG icons rather than an icon font.
 
@@ -62,3 +62,5 @@ About content and examples must not claim client outcomes or geographic coverage
 Write for a reader around ninth grade. Use short sentences, familiar words and specific examples. Keep the tone helpful and matter-of-fact. Explain SEO, CRM and other marketing terms the first time they are used. Keep industry terms when they identify the actual work, and explain them where useful.
 
 Use direct labels such as “service area,” “quote requests” and “follow-up.” Avoid sales slogans, pressure, “growth assessments,” “conversion pathways” and similar jargon. Buttons should describe the next step, such as “Get in touch” or “Send your message.” Preserve page topics, URLs and relevant internal links when editing copy.
+
+The industrial and manufacturing website pages share `templates/website-service.html`, `assets/website.css` and `assets/website.js`. Manufacturing-specific copy lives in its `services.json` record; its canonical is `/services/web-design-for-manufacturing-companies/`. Both pages appear in the website Services dropdown, and all service pages are included in the footer and sitemap.

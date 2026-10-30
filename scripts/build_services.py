@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the four static service routes, homepage links, and sitemap entries."""
+"""Generate the configured static service routes, homepage links, and sitemap entries."""
 from pathlib import Path
 from string import Template
 from html import escape
@@ -9,7 +9,10 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
 DATE = '2026-10-26'
-SERVICES = json.loads((ROOT/'content/services.json').read_text())
+SERVICE_RECORDS = json.loads((ROOT/'content/services.json').read_text())
+SERVICE_SOURCES = {record['slug']:record for record in SERVICE_RECORDS}
+# Focused service pages inherit layout content, then override their own copy.
+SERVICES = [{**SERVICE_SOURCES[record['extends']], **record} if record.get('extends') else record for record in SERVICE_RECORDS]
 INDUSTRIES = json.loads((ROOT/'content/industries.json').read_text())
 TEMPLATE = Template((ROOT/'templates/service.html').read_text())
 HERO = '/assets/images/industrial-services-512.webp'
@@ -49,13 +52,14 @@ def form_examples():
 for s in SERVICES:
  canonical=BASE+route(s); title=s['name']+' | Sixth Gear Digital'
  desc=s['description']
- h=HEADINGS[s['slug']]
+ source_slug=s.get('extends',s['slug'])
+ h=HEADINGS[source_slug]
  fields={k:e(v) for k,v in s.items() if isinstance(v,str)}
  fields.update(title=e(title),description=e(desc),canonical=e(canonical),hero_image=e(HERO),form_name='service-'+s['slug'],service_navigation=links(s['slug']),footer_links=links(s['slug']),challenge_title=e(h[0]),challenge_intro=e(h[1]),approach_title=e(h[2]),types_title=e(h[3]),example_title=e(s['example'][0]),form_examples=form_examples() if s['slug']=='industrial-websites' else '')
  fields['journey_steps']=''.join(f'<div><span>{i:02}</span><strong>{e(t)}</strong></div>' for i,t in enumerate(s['steps'],1))
  fields['outcome_cards']=''.join(f'<div class="outcome"><h2>{e(a)}</h2><p>{e(b)}</p></div>' for a,b in s['outcomes'])
  # The website service uses a simpler hero; retain the shared layout elsewhere.
- simplified_hero = s['slug'] == 'industrial-websites'
+ simplified_hero = source_slug == 'industrial-websites'
  fields['hero_breadcrumb'] = '' if simplified_hero else '<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#services">Services</a><span aria-hidden="true">/</span><span aria-current="page">'+fields['name']+'</span></nav>'
  fields['service_navigation_block'] = '' if simplified_hero else '<nav class="service-nav container" aria-label="Core services">'+fields['service_navigation']+'</nav>'
  fields['hero_badge'] = '' if simplified_hero else '<span class="badge"><i></i>'+fields['badge']+'</span>'
@@ -66,8 +70,8 @@ for s in SERVICES:
  fields['type_cards']=''.join(f'<article class="card type-card"><h3>{e(a)}</h3><p>{e(b)}</p><ul>'+''.join(f'<li>{e(x)}</li>' for x in c)+'</ul></article>' for a,b,c in s['types'])
  fields['example_stages']=''.join(f'<div class="example-stage"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(['The buyer','The next step','Your team’s response'],s['example'][1:]))
  fields['scope_cards']=''.join(f'<article class="card scope-card"><span class="card-number">{i:02} / OPTION</span><h3>{e(a)}</h3><p>{e(b)}</p><a class="button'+('' if i==2 else ' button-secondary')+'" href="#audit-form">Ask about this option <span aria-hidden="true">↗</span></a></article>' for i,(a,b) in enumerate(s['scope'],1))
- others=[x for x in SERVICES if x['slug']!=s['slug']]
- fields['related_services']=''.join(f'<a class="related-service" href="{route(other)}"><h3>{e(other["name"])}</h3><p>{e(reason)}</p><span>Explore {e(other["short"])} ↗</span></a>' for other,reason in zip(others,RELATIONS[s['slug']]))
+ others=[x for x in SERVICES if x['slug']!=source_slug and not x.get('extends')]
+ fields['related_services']=''.join(f'<a class="related-service" href="{route(other)}"><h3>{e(other["name"])}</h3><p>{e(reason)}</p><span>Explore {e(other["short"])} ↗</span></a>' for other,reason in zip(others,RELATIONS[source_slug]))
  fields['faq_items']=''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in s['faqs'])
  fields['industry_options']=''.join(f'<option value="{e(p["slug"])}">{e(p["short"])}</option>' for p in INDUSTRIES)
  fields['form_options']=''.join(f'<option value="{e(x)}">{e(x)}</option>' for x in s['form_options'])
@@ -76,9 +80,16 @@ for s in SERVICES:
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
  page_template = TEMPLATE
  if simplified_hero:
+  fields['website_success_bullets']=''.join('<li>'+e(point)+'</li>' for point in s['website_success_points'])
+  fields['website_redesign_bullets']=''.join('<li><strong>'+e(label)+'</strong> '+e(body)+'</li>' for label,body in s['website_redesign_points'])
   fields['website_industry_navigation']=''.join(f'<a href="/industries/{e(page["slug"])}/">{e(page["short"])}</a>' for page in INDUSTRIES)
   offers=json.loads((ROOT/'content/home-services.json').read_text())
-  fields['website_service_navigation']=''.join('<a href="'+('/services/'+offer['service']+'/' if offer.get('service') else '/#growth-plan')+'"'+(' aria-current="page"' if offer.get('service')==s['slug'] else '')+'>'+e(offer['title'])+'</a>' for offer in offers)
+  nav_offers=[]
+  for offer in offers:
+   nav_offers.append(offer)
+   if offer.get('service')=='industrial-websites':
+    nav_offers.extend({'title':record['name'],'service':record['slug']} for record in SERVICE_RECORDS if record.get('extends')=='industrial-websites')
+  fields['website_service_navigation']=''.join('<a href="'+('/services/'+offer['service']+'/' if offer.get('service') else '/#growth-plan')+'"'+(' aria-current="page"' if offer.get('service')==s['slug'] else '')+'>'+e(offer['title'])+'</a>' for offer in nav_offers)
   schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
   fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
   page_template = Template((ROOT/'templates/website-service.html').read_text())
@@ -114,6 +125,6 @@ for label,service in footer_labels.items():
 p.write_text(html)
 
 p=ROOT/'sitemap.xml'; xml=re.sub(r'\s*<!-- SERVICE PAGES START -->.*?<!-- SERVICE PAGES END -->','',p.read_text(),flags=re.S)
-entries='\n'.join(f'  <url>\n    <loc>{BASE}{route(s)}</loc>\n    <lastmod>{DATE}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>{"0.9" if i==0 else "0.8"}</priority>\n  </url>' for i,s in enumerate(SERVICES))
+entries='\n'.join(f'  <url>\n    <loc>{BASE}{route(s)}</loc>\n    <lastmod>{s.get("lastmod",DATE)}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>{"0.9" if i==0 else "0.8"}</priority>\n  </url>' for i,s in enumerate(SERVICES))
 xml=xml.replace('</urlset>',f'  <!-- SERVICE PAGES START -->\n{entries}\n  <!-- SERVICE PAGES END -->\n</urlset>');p.write_text(xml)
-print('Built all four service routes; updated homepage service links and sitemap.')
+print(f'Built {len(SERVICES)} service routes; updated homepage service links and sitemap.')

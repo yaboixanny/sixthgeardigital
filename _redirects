@@ -44,6 +44,8 @@
 /case-studies/walking-tour-seo-case-study/ /404.html 410!
 # REBRAND LEGACY ROUTES END
 
+/services/web-design-for-manufacturing-companies.html /services/web-design-for-manufacturing-companies/ 301!
+
 # INDUSTRY ROUTES START
 /industries/hydraulics-fluid-power-marketing.html /industries/hydraulics-fluid-power-marketing/ 301!
 /industries/attachment-manufacturer-dealer-marketing.html /industries/attachment-manufacturer-dealer-marketing/ 301!
