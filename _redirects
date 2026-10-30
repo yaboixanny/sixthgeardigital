@@ -1,15 +1,15 @@
 /ppc.html /services/industrial-google-ads/ 301!
 /seo.html /services/industrial-seo/ 301!
-/web-design.html /services/industrial-websites/ 301!
-/funnels.html /services/industrial-websites/ 301!
+/web-design.html /services/web-design-for-manufacturing-companies/ 301!
+/funnels.html /services/web-design-for-manufacturing-companies/ 301!
 /code.html / 301!
 /index.html / 301!
 /about.html /about/ 301!
 
 # REBRAND LEGACY ROUTES START
 # Keep exact paths: /services/* and /industries/* remain available.
-/web-design /services/industrial-websites/ 301!
-/web-design/ /services/industrial-websites/ 301!
+/web-design /services/web-design-for-manufacturing-companies/ 301!
+/web-design/ /services/web-design-for-manufacturing-companies/ 301!
 /ppc /services/industrial-google-ads/ 301!
 /ppc/ /services/industrial-google-ads/ 301!
 /ppc.html/ /services/industrial-google-ads/ 301!
@@ -47,6 +47,14 @@
 /services/web-design-for-manufacturing-companies.html /services/web-design-for-manufacturing-companies/ 301!
 
 /services/industrial-facebook-ads.html /services/industrial-facebook-ads/ 301!
+
+/services/industrial-websites /services/web-design-for-manufacturing-companies/ 301!
+/services/industrial-websites/ /services/web-design-for-manufacturing-companies/ 301!
+/services/industrial-websites.html /services/web-design-for-manufacturing-companies/ 301!
+/services/industrial-websites.html/ /services/web-design-for-manufacturing-companies/ 301!
+
+/web-design.html/ /services/web-design-for-manufacturing-companies/ 301!
+/funnels.html/ /services/web-design-for-manufacturing-companies/ 301!
 
 # INDUSTRY ROUTES START
 /industries/hydraulics-fluid-power-marketing.html /industries/hydraulics-fluid-power-marketing/ 301!

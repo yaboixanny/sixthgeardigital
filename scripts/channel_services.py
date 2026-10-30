@@ -9,8 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
 SPLIT = Template((ROOT/'templates/service-split-section.html').read_text())
 IMAGES = [
- ('website-success.svg', 680, 'An industrial website connects search traffic, content, analytics and quote requests.'),
- ('website-redesign.svg', 680, 'An industrial product website with specifications, quote forms and sales software connections.'),
+ ('website-success.svg', 680, 'A manufacturing website connects search traffic, content, analytics and quote requests.'),
+ ('website-redesign.svg', 680, 'A manufacturing product website with specifications, quote forms and sales software connections.'),
  ('website-lifecycle.svg', 620, 'An illustrative lifecycle compares leaving a website unchanged with reviewing and improving it.'),
  ('website-connections.svg', 680, 'A website connects content, email, analytics, careers, CRM and inventory tools.'),
  ('website-project-cost.svg', 620, 'A project is planned through discovery, design, build, launch and support.'),
@@ -36,7 +36,7 @@ def render_channel_service(service, content, footer_links):
             body += '<ul>'+''.join('<li><strong>'+e(label)+':</strong> '+e(text)+'</li>' for label,text in section['points'])+'</ul>'
         if section.get('link'):
             link = section['link']
-            assert link['href'] in ['/services/industrial-websites/', '/services/industrial-lead-tracking/']
+            assert link['href'] in ['/services/web-design-for-manufacturing-companies/', '/services/industrial-lead-tracking/']
             body += '<p><a class="channel-context-link" href="'+e(link['href'])+'">'+e(link['label'])+'</a></p>'
         image,height,alt = IMAGES[index]
         sections.append(SPLIT.substitute(section_class=SECTION_CLASSES[index],section_id=SECTION_IDS[index],grid_class=' website-redesign-grid' if index%2 else '',heading=e(section['heading']),lead=e(section['lead']),content=body,image='/assets/'+image,image_height=height,image_alt=e(alt)))

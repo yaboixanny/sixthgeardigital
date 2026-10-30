@@ -85,6 +85,8 @@ for source,page in pages.items():
         if parsed.fragment and target in pages:check(parsed.fragment in pages[target].ids,f'{source}: missing fragment {link}')
 for forbidden in ['templates','scripts','content','code.html','ppc.html','seo.html','web-design.html','funnels.html','node_modules','package.json']:
     check(not (DIST/forbidden).exists(),'Source/legacy file published: '+forbidden)
+check(not (DIST/'services/industrial-websites').exists(), 'Retired industrial website page must not be published')
+check('/services/industrial-websites/ /services/web-design-for-manufacturing-companies/ 301!' in (DIST/'_redirects').read_text(), 'Retired website page needs a direct permanent redirect')
 for name in ['ppc.html','seo.html','web-design.html','funnels.html','code.html','index.html','about.html']:
     check('/'+name+' ' in (DIST/'_redirects').read_text(),'Missing redirect '+name)
 for page in json.loads((ROOT/'content/industries.json').read_text()):

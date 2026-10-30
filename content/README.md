@@ -50,7 +50,7 @@ The homepage combines its contact invitation and FAQs in the `#growth-plan` sect
 
 Netlify now builds with `npm run build && npm run check` and publishes only `dist/` (see `netlify.toml`). Run `npm ci` first on a fresh checkout. The build runs both page generators, compiles homepage Tailwind CSS, and copies an explicit production allowlist. Do not change the publish directory back to the repository root: that exposes source templates and legacy drafts.
 
-`_redirects` consolidates old service and `.html` routes. The sitemap contains only the 21 current canonical pages. `scripts/check_site.py` validates the generated publish artifact and confirms internal page links use clean URLs. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.
+`_redirects` consolidates old service and `.html` routes. The sitemap contains only the 20 current canonical pages. `scripts/check_site.py` validates the generated publish artifact and confirms internal page links use clean URLs. `assets/home.css` is compiled from `styles/home.css`, `tailwind.config.cjs`, and homepage markup; do not edit the generated CSS directly.
 
 The main site self-hosts a Latin Inter variable WOFF2 font; the building-materials page uses a self-hosted Montserrat variable WOFF2. Their OFL licenses are in `assets/fonts/`. The existing template photos are stored as 320px/512px WebP variants, matching the available source resolution rather than upscaling it. Higher-resolution original photography can replace them later. The homepage uses inline SVG icons rather than an icon font.
 
@@ -64,10 +64,14 @@ Write for a reader around ninth grade. Use short sentences, familiar words and s
 
 Use direct labels such as “service area,” “quote requests” and “follow-up.” Avoid sales slogans, pressure, “growth assessments,” “conversion pathways” and similar jargon. Buttons should describe the next step, such as “Get in touch” or “Send your message.” Preserve page topics, URLs and relevant internal links when editing copy.
 
-The industrial and manufacturing website pages share `templates/website-service.html`, `assets/website.css` and the shared navigation assets. Manufacturing-specific copy lives in its `services.json` record; its canonical is `/services/web-design-for-manufacturing-companies/`. Both pages appear in the website Services dropdown, and all service pages are included in the footer and sitemap.
+The manufacturing website page uses `templates/website-service.html`, `assets/website.css` and the shared navigation assets. Its copy lives in its independent `services.json` record; its canonical is `/services/web-design-for-manufacturing-companies/`. It is the sole Web design entry in the Services dropdown and sitemap.
 
 # Shared site navigation
 
 All current pages use `scripts/navigation.py` with `templates/navigation-desktop.html` and `templates/navigation-mobile.html`. The service and industry generators render these fields directly; `scripts/build_navigation.py` updates the directly maintained homepage and About page. The build runs all three before publishing. Dropdown styling and behavior are in `assets/navigation.css` and `assets/navigation.js`. Industry destinations come from `industries.json`; the service dropdown explicitly lists SEO, Google Ads, Web design and Facebook ads. The manufacturing website page remains published and linked in the footer. Existing page-specific contact buttons keep their destinations.
 
 The SEO, Google Ads and Facebook Ads pages use the website layout through `scripts/channel_services.py`. Their section copy is in `content/channel-services.json`; metadata, hero copy and FAQs remain in `services.json`. The seven alternating sections share `templates/service-split-section.html`, with common problem cards, FAQ and closing CTA. Existing website illustrations are intentionally reused for now. The website pages keep their original content through `templates/website-sections.html` and `templates/website-problems.html`.
+
+# Manufacturing positioning
+
+The homepage, About page and core services target manufacturing companies. `/services/web-design-for-manufacturing-companies/` is the only website-design service and is an independent record, not an inherited duplicate. The retired `/services/industrial-websites` variants permanently redirect to it. Existing SEO, ad and lead-tracking URLs stay unchanged for continuity; their copy and metadata use manufacturing positioning. The homepage and main industry dropdown feature nine manufacturing/product sectors from `home-industries.json`. The thirteen existing niche pages remain published. Keep internal links on the surviving website-design URL.

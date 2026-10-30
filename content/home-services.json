@@ -1,25 +1,25 @@
 [
   {
-    "title": "SEO for industrial companies",
-    "description": "Help buyers find your business when they search for your products and services. Build useful pages around the work you do, the markets you serve and the questions customers ask.",
+    "title": "SEO for manufacturing companies",
+    "description": "Help engineers and purchasing teams find your products and manufacturing capabilities. Build useful pages around your processes, applications and the questions buyers ask.",
     "service": "industrial-seo",
     "icon": "seo"
   },
   {
-    "title": "Google Ads for industrial companies",
-    "description": "Reach buyers who are already searching for what you sell. We build focused campaigns, useful landing pages and clear tracking so you can see which inquiries lead to quotes and work.",
+    "title": "Google Ads for manufacturing companies",
+    "description": "Reach buyers already searching for your parts, products or manufacturing services. Connect focused campaigns, useful landing pages and lead tracking to see which inquiries become quotes and orders.",
     "service": "industrial-google-ads",
     "icon": "ads"
   },
   {
-    "title": "Website design for industrial companies",
-    "description": "Turn technical information into a clear, easy-to-use website. Show your capabilities, answer buyer questions and make it simple to call, request a quote or start a project.",
-    "service": "industrial-websites",
+    "title": "Website design for manufacturing companies",
+    "description": "Show what you make, the work you can handle and how to request a quote. Build a clear website around product information, production capabilities and your sales process.",
+    "service": "web-design-for-manufacturing-companies",
     "icon": "website"
   },
   {
-    "title": "Facebook ads for industrial companies",
-    "description": "Put your products and project work in front of relevant buyers on Facebook. Use clear creative, focused campaigns and follow-up to turn interest into useful conversations.",
+    "title": "Facebook ads for manufacturing companies",
+    "description": "Put your products and production capabilities in front of relevant buyers on Facebook. Use clear creative, a focused offer and useful follow-up to start better sales conversations.",
     "icon": "facebook",
     "service": "industrial-facebook-ads"
   }

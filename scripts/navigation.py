@@ -13,10 +13,13 @@ def navigation_fields(current_path, contact_target):
         return '<a href="'+escape(path, quote=True)+'"'+current+'>'+escape(title)+'</a>'
 
     industries = json.loads((ROOT/'content/industries.json').read_text())
+    by_slug = {page['slug']:page for page in industries}
+    featured = json.loads((ROOT/'content/home-industries.json').read_text())
+    industries = [{**by_slug[item['slug']], 'short':item.get('title',by_slug[item['slug']]['short'])} for item in featured]
     nav_offers = [
         {'title':'SEO', 'service':'industrial-seo'},
         {'title':'Google Ads', 'service':'industrial-google-ads'},
-        {'title':'Web design', 'service':'industrial-websites'},
+        {'title':'Web design', 'service':'web-design-for-manufacturing-companies'},
         {'title':'Facebook ads', 'service':'industrial-facebook-ads'},
     ]
     values = {

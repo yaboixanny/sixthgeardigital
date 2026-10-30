@@ -29,13 +29,13 @@ def links(current=None):
 HEADINGS = {
  'industrial-google-ads':('Make your ads useful to the people who see them.','The search term, the page and the response all affect whether an ad brings useful work.','How we manage your Google Ads.','Different needs call for different ads.'),
  'industrial-seo':('Help buyers find clear answers.','Your website should make it easy to understand what you do and how to contact you.','How we improve your website for search.','Pages for the questions buyers ask.'),
- 'industrial-websites':('Make the next step easy to find.','A useful page answers the buyer’s questions and helps your team respond.','How we plan and build your pages.','Three pages for three different needs.'),
+ 'web-design-for-manufacturing-companies':('Make the next step easy to find.','A useful page answers the buyer’s questions and helps your team respond.','How we plan and build your pages.','Three pages for three different needs.'),
  'industrial-lead-tracking':('Keep track of requests after they arrive.','Clear records help your team know who needs a reply and what happens next.','How we organize requests and follow-up.','Keep track of each type of request.')
 }
 RELATIONS = {
  'industrial-google-ads': ['Use what you learn from ads to improve the pages people find through search.','Give each ad a clear page where people can call or ask for a quote.','See which ad inquiries lead to quotes and jobs.'],
  'industrial-seo': ['Run ads for selected services while you improve the website.','Make your pages clear and easy to use.','Find out whether search visitors become useful customer inquiries.'],
- 'industrial-websites': ['Help people find your service pages through ads.','Help people find your pages through search.','Keep track of calls, forms and follow-up after someone visits your site.'],
+ 'web-design-for-manufacturing-companies': ['Help people find your service pages through ads.','Help people find your pages through search.','Keep track of calls, forms and follow-up after someone visits your site.'],
  'industrial-lead-tracking': ['Use sales feedback to see which ads bring useful work.','Review the inquiries that come from search.','Ask useful questions on your forms and send requests to the right person.']
 }
 EXAMPLE_FIELDS = [
@@ -62,11 +62,11 @@ for s in SERVICES:
  source_slug=s.get('extends',s['slug'])
  h=HEADINGS[source_slug]
  fields={k:e(v) for k,v in s.items() if isinstance(v,str)}
- fields.update(title=e(title),description=e(desc),canonical=e(canonical),hero_image=e(HERO),form_name='service-'+s['slug'],service_navigation=links(s['slug']),footer_links=links(s['slug']),challenge_title=e(h[0]),challenge_intro=e(h[1]),approach_title=e(h[2]),types_title=e(h[3]),example_title=e(s['example'][0]),form_examples=form_examples() if s['slug']=='industrial-websites' else '')
+ fields.update(title=e(title),description=e(desc),canonical=e(canonical),hero_image=e(HERO),form_name='service-'+s['slug'],service_navigation=links(s['slug']),footer_links=links(s['slug']),challenge_title=e(h[0]),challenge_intro=e(h[1]),approach_title=e(h[2]),types_title=e(h[3]),example_title=e(s['example'][0]),form_examples=form_examples() if s['slug']=='web-design-for-manufacturing-companies' else '')
  fields['journey_steps']=''.join(f'<div><span>{i:02}</span><strong>{e(t)}</strong></div>' for i,t in enumerate(s['steps'],1))
  fields['outcome_cards']=''.join(f'<div class="outcome"><h2>{e(a)}</h2><p>{e(b)}</p></div>' for a,b in s['outcomes'])
  # The website service uses a simpler hero; retain the shared layout elsewhere.
- simplified_hero = source_slug == 'industrial-websites'
+ simplified_hero = source_slug == 'web-design-for-manufacturing-companies'
  fields['hero_breadcrumb'] = '' if simplified_hero else '<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#services">Services</a><span aria-hidden="true">/</span><span aria-current="page">'+fields['name']+'</span></nav>'
  fields['service_navigation_block'] = '' if simplified_hero else '<nav class="service-nav container" aria-label="Core services">'+fields['service_navigation']+'</nav>'
  fields['hero_badge'] = '' if simplified_hero else '<span class="badge"><i></i>'+fields['badge']+'</span>'
@@ -80,7 +80,8 @@ for s in SERVICES:
  others=[x for x in SERVICES if x['slug']!=source_slug and not x.get('extends')]
  fields['related_services']=''.join(f'<a class="related-service" href="{route(other)}"><h3>{e(other["name"])}</h3><p>{e(reason)}</p><span>Explore {e(other["short"])} ↗</span></a>' for other,reason in zip(others,RELATIONS[source_slug]))
  fields['faq_items']=''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in s['faqs'])
- fields['industry_options']=''.join(f'<option value="{e(p["slug"])}">{e(p["short"])}</option>' for p in INDUSTRIES)
+ featured_industries=json.loads((ROOT/'content/home-industries.json').read_text())
+ fields['industry_options']=''.join('<option value="'+e(item['slug'])+'">'+e(item['title'])+'</option>' for item in featured_industries)
  fields['form_options']=''.join(f'<option value="{e(x)}">{e(x)}</option>' for x in s['form_options'])
  schema={'@context':'https://schema.org','@graph':[{'@type':'WebPage','@id':canonical+'#webpage','url':canonical,'isPartOf':{'@id':BASE+'/#website'},'name':title,'description':desc,'about':{'@id':canonical+'#service'},'breadcrumb':{'@id':canonical+'#breadcrumb'}},{'@type':'Service','@id':canonical+'#service','name':s['name'],'url':canonical,'description':desc,'provider':{'@type':'Organization','@id':BASE+'/#organization','name':'Sixth Gear Digital','url':BASE+'/'}},{'@type':'BreadcrumbList','@id':canonical+'#breadcrumb','itemListElement':[{'@type':'ListItem','position':1,'name':'Home','item':BASE+'/'},{'@type':'ListItem','position':2,'name':'Services','item':BASE+'/#services'},{'@type':'ListItem','position':3,'name':s['name'],'item':canonical}]}]}
  fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
@@ -97,7 +98,7 @@ for s in SERVICES:
   fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
   fields['service_content_sections'] = Template((ROOT/'templates/website-sections.html').read_text()).substitute(fields)
   fields['service_problem_section'] = Template((ROOT/'templates/website-problems.html').read_text()).substitute(fields)
-  fields['faq_aria_label'] = 'Industrial web design questions'
+  fields['faq_aria_label'] = 'Manufacturing web design questions'
   fields['website_final_prompt'] = 'Let’s talk about your website.'
   page_template = Template((ROOT/'templates/website-service.html').read_text())
  fields.update(navigation_fields(route(s), '/#growth-plan' if simplified_hero else '#audit-form'))
@@ -127,9 +128,6 @@ section = Template((ROOT/'templates/home-services.html').read_text()).substitute
 p=ROOT/'index.html'; html=p.read_text()
 html,count=re.subn(r'<!-- SECTION: SERVICES -->.*?(?=<!-- SECTION: THE 4-STEP BLUEPRINT -->)',lambda _:section,html,flags=re.S)
 assert count==1,'Homepage service markers missing'
-footer_labels={'Google Ads for Industrial OEM':SERVICES[0],'Industrial Technical SEO':SERVICES[1],'Industrial Websites &amp; RFQs':SERVICES[2],'Lead &amp; Pipeline Measurement':SERVICES[3]}
-for label,service in footer_labels.items():
- html=html.replace(f'href="#services">{label}</a>',f'href="{route(service)}">{e(service["short"])}</a>')
 p.write_text(html)
 
 p=ROOT/'sitemap.xml'; xml=re.sub(r'\s*<!-- SERVICE PAGES START -->.*?<!-- SERVICE PAGES END -->','',p.read_text(),flags=re.S)

@@ -56,7 +56,7 @@ for index, page in enumerate(PAGES):
         ]})
     section_fields = {key:e(value) for key,value in content.items() if isinstance(value,str)}
     section_fields['challenge_cards'] = ''.join(f'<article class="card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in page['challenges'])
-    expected_services = ['industrial-google-ads','industrial-seo','industrial-websites','industrial-lead-tracking']
+    expected_services = ['industrial-google-ads','industrial-seo','web-design-for-manufacturing-companies','industrial-lead-tracking']
     assert [service['service'] for service in content['services']] == expected_services, slug
     section_fields['marketing_service_cards'] = ''.join(
         '<article class="card play-card"><h3>'+e(service['title'])+'</h3>'
@@ -122,7 +122,7 @@ items = []
 for item in featured:
  page = by_slug[item['slug']]
  icon = '<span class="home-industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'+industry_icons[item['icon']]+'</svg></span>'
- items.append('<a class="home-industry-item" href="/industries/'+e(page['slug'])+'/">'+icon+'<span><strong>'+e(page['short'])+'</strong><span class="home-industry-description">'+e(item['description'])+'</span></span></a>')
+ items.append('<a class="home-industry-item" href="/industries/'+e(page['slug'])+'/">'+icon+'<span><strong>'+e(item.get('title',page['short']))+'</strong><span class="home-industry-description">'+e(item['description'])+'</span></span></a>')
 industry_section = Template((ROOT/'templates/home-industries.html').read_text()).substitute(items=''.join(items))
 s, count = re.subn(r'<!-- SECTION: INDUSTRIES WE SERVE -->.*?(?=<!-- SECTION: CONTACT & QUESTIONS -->)',lambda _:industry_section,s,flags=re.S)
 assert count == 1, 'Homepage industry grid marker missing'

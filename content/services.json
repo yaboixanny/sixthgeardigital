@@ -1,11 +1,11 @@
 [
   {
     "slug": "industrial-google-ads",
-    "name": "Google Ads for Industrial Companies",
-    "short": "Industrial Google Ads",
-    "headline": "Google Ads for industrial companies",
-    "accent": "focused on useful inquiries.",
-    "intro": "Reach buyers already searching for the equipment, repairs, manufacturing services or contractors you offer. We connect focused search campaigns, clear landing pages and lead tracking so you can see which inquiries fit your business.",
+    "name": "Google Ads for Manufacturing Companies",
+    "short": "Manufacturing Google Ads",
+    "headline": "Google Ads for manufacturing companies",
+    "accent": "focused on qualified quote requests.",
+    "intro": "Reach buyers searching for the parts, products, equipment and manufacturing processes you offer. We connect focused search campaigns, clear landing pages and lead tracking so your sales team can see which inquiries fit your capabilities.",
     "cta": "Talk about your ads",
     "badge": "GOOGLE ADS",
     "steps": [
@@ -142,17 +142,17 @@
       "Another company manages our ads",
       "We want to advertise a new service or area"
     ],
-    "description": "Google Ads for industrial companies. Focused search campaigns, landing pages and lead tracking for equipment, repairs, manufacturers and contractors.",
+    "description": "Google Ads for manufacturing companies. Focused search campaigns, landing pages and lead tracking for product manufacturers, custom shops and equipment makers.",
     "page_template": "channel",
     "lastmod": "2026-10-30"
   },
   {
     "slug": "industrial-seo",
-    "name": "Industrial SEO",
-    "short": "Industrial SEO",
-    "headline": "SEO for industrial companies",
+    "name": "SEO for Manufacturing Companies",
+    "short": "Manufacturing SEO",
+    "headline": "SEO for manufacturing companies",
     "accent": "built around real buyer searches.",
-    "intro": "Help engineers, purchasing teams and business owners find clear answers about your work. We improve your website structure, technical setup and content so buyers can discover your products and services, check whether you fit their needs and get in touch.",
+    "intro": "Help engineers, purchasing teams and business owners find the products and manufacturing capabilities they need. We improve your website structure, technical content and search visibility so buyers can assess your fit and send a useful quote request.",
     "cta": "Talk about your SEO",
     "badge": "SEARCH ENGINE OPTIMIZATION",
     "steps": [
@@ -262,7 +262,7 @@
     ],
     "faqs": [
       [
-        "How long does industrial SEO take?",
+        "How long does manufacturing SEO take?",
         "It depends on your starting point, competition and the work needed. Technical fixes can be checked soon after they are made, while useful visibility from new or improved content takes time to develop. We agree on priorities and review progress over months, without promising a fixed ranking date."
       ],
       [
@@ -290,17 +290,160 @@
       "Help local buyers find us",
       "Review our current SEO work"
     ],
-    "description": "SEO for industrial companies. Clear service pages, technical content and local visibility that help buyers find your business and request a quote.",
+    "description": "SEO for manufacturing companies. Clear product pages, capability content and technical SEO that help engineers and purchasing teams find your business.",
     "page_template": "channel",
     "lastmod": "2026-10-30"
   },
   {
-    "slug": "industrial-websites",
-    "name": "Industrial Websites & Landing Pages",
-    "short": "Industrial Websites",
-    "headline": "Industrial website design that brings your brand",
-    "accent": "to life.",
-    "intro": "Your website should explain what you do and make it easy to get in touch. We build websites and landing pages—pages made for a specific ad or service—that help people call, request equipment or ask for a project quote.",
+    "slug": "industrial-lead-tracking",
+    "name": "Lead Tracking for Manufacturing Companies",
+    "short": "Manufacturing Lead Tracking",
+    "headline": "Lead tracking for manufacturing companies",
+    "accent": "& Sales Follow-Up",
+    "intro": "Keep track of calls, RFQs and quote follow-up in one clear process. We help manufacturing sales teams connect inquiries to their source and understand which ones become qualified opportunities and orders.",
+    "cta": "Talk about lead tracking",
+    "badge": "LEAD TRACKING AND FOLLOW-UP",
+    "steps": [
+      "Call or message",
+      "Check whether you can help",
+      "Send a quote and follow up",
+      "Record the result"
+    ],
+    "outcomes": [
+      [
+        "Keep details together",
+        "See where a request came from and what the customer needs."
+      ],
+      [
+        "Know who is following up",
+        "Give each request a contact person and a next step."
+      ],
+      [
+        "See the results",
+        "Review the requests, quotes and jobs your team records."
+      ]
+    ],
+    "challenges": [
+      [
+        "Details are spread across different tools",
+        "Calls, emails and spreadsheets may each hold part of the story. It can be hard to see which ads or pages led to a job."
+      ],
+      [
+        "No one is sure what happens next",
+        "One person may think a request is new while another has sent a quote. Shared steps help the team stay on the same page."
+      ],
+      [
+        "Quotes are sent and then forgotten",
+        "Without a follow-up date or a recorded result, it is easy to lose track of a quote. Reports also miss whether the request became work."
+      ]
+    ],
+    "pillars": [
+      [
+        "Record where requests come from",
+        "Check how calls and forms reach your team. Where the tools allow, keep the source of the request with the customer’s details.",
+        "Source + customer request"
+      ],
+      [
+        "Agree on the sales steps",
+        "Use clear steps such as new request, ready to quote, quote sent, won and lost. In your customer management system, or CRM, make it clear who owns each request.",
+        "Clear steps and responsibilities"
+      ],
+      [
+        "Set follow-up dates",
+        "Add reminders and tasks that fit the way your team works. The next message should help the buyer, rather than repeat the same sales pitch.",
+        "Contact person + next step + date"
+      ],
+      [
+        "Show what happened",
+        "Build reports around useful requests, quotes and jobs. Make missing details clear so the numbers do not suggest more certainty than the records support.",
+        "Request → quote → result"
+      ]
+    ],
+    "types": [
+      [
+        "Custom part RFQs",
+        "Keep drawing requirements, quantities and quote follow-up together so the team can assess fit and respond.",
+        [
+          "Part or process needed",
+          "Quantity and required date",
+          "Quote owner and status"
+        ]
+      ],
+      [
+        "Product and equipment quotes",
+        "Connect the product request to its source and keep the latest quote and next action visible.",
+        [
+          "Product or model",
+          "Quote status",
+          "Follow-up date"
+        ]
+      ],
+      [
+        "Longer manufacturing projects",
+        "Record project discussions, technical reviews and commercial decisions as the buyer compares suppliers.",
+        [
+          "Project stage",
+          "Person following up",
+          "Order outcome and reason"
+        ]
+      ]
+    ],
+    "example": [
+      "A manufacturing RFQ has a clear next step.",
+      "An engineer requests a quote for a batch of machined parts, including the material, quantity and required date.",
+      "Your sales team checks the fit, prepares the quote and assigns a follow-up date.",
+      "The report connects the request to its source, quote and order outcome once your team records the result."
+    ],
+    "scope": [
+      [
+        "Review how you work now",
+        "Look at your calls, forms, customer records and quote process."
+      ],
+      [
+        "Connect the key details",
+        "Use your current tools where possible to keep requests, owners and next steps together."
+      ],
+      [
+        "Improve follow-up and reports",
+        "Find missing details and make changes that help the people using the system."
+      ]
+    ],
+    "faqs": [
+      [
+        "Can you use our current CRM?",
+        "We start by checking your customer management software, phone system and form tools. What we can connect depends on the features they support."
+      ],
+      [
+        "Can you tell where every job came from?",
+        "No. People may use different devices, call directly or hear about you offline. Reports should show when the source is unknown."
+      ],
+      [
+        "Do we need to record every call?",
+        "No. We choose a setup based on what you need to know. If call recording is part of it, we first agree on consent, access and how long recordings are kept."
+      ],
+      [
+        "Can follow-up happen automatically?",
+        "Some reminders and messages can. That depends on your tools and permission to contact the buyer. Your team still needs to respond to questions and keep the records current."
+      ]
+    ],
+    "form_label": "What needs attention?",
+    "form_options": [
+      "Keeping track of calls and RFQs",
+      "Knowing who owns each quote",
+      "Following up on manufacturing quotes",
+      "Seeing which inquiries become orders",
+      "Not sure yet"
+    ],
+    "description": "Lead tracking for manufacturing companies. Connect calls, RFQs, sales follow-up and reporting to see which marketing inquiries become quotes and won work.",
+    "lastmod": "2026-10-30"
+  },
+  {
+    "slug": "web-design-for-manufacturing-companies",
+    "name": "Web Design for Manufacturing Companies",
+    "short": "Manufacturing Web Design",
+    "headline": "Web design for manufacturing companies",
+    "accent": "built around your buyers.",
+    "intro": "Show buyers what you make, the work you can handle and how to request a quote. We build manufacturing websites that bring product details, production capabilities and technical information together, so engineers, purchasing teams and business owners can decide whether you are the right supplier.",
     "cta": "Talk about your website",
     "badge": "WEBSITES AND LANDING PAGES",
     "steps": [
@@ -410,24 +553,24 @@
     ],
     "faqs": [
       [
-        "What should an industrial website include?",
-        "Start with a clear explanation of what you make or do, who you serve and where you work. Add service or product pages, capabilities, equipment details and examples of real projects. Show certifications you hold and make contact details easy to find. Buyers should be able to check whether you fit their job before they ask for a quote."
+        "What should a manufacturing website include?",
+        "Give buyers a clear view of your processes, products and production capabilities. Include materials, part sizes, tolerances and order volumes where relevant. Add current certifications, quality information, equipment details and examples your team can share. Make it easy to check your location, contact sales and start an RFQ."
       ],
       [
-        "Do we need a full website or just a landing page?",
-        "A full website helps buyers explore your business and compare several products or services. A landing page focuses on one offer, such as a CNC machining service or a specific equipment rental. It can be a useful starting point for Google Ads. We look at what you have and what buyers need before recommending either option."
+        "Do you build sites for custom manufacturers and product manufacturers?",
+        "Yes. A custom manufacturer may need process and capability pages that help buyers assess a drawing or project. A product manufacturer may need a catalog with specifications, applications and supporting documents. We use the same planning process, then shape the page structure and quote flow around how your business sells."
       ],
       [
-        "Can you help write the content for technical buyers?",
-        "Yes. We turn your product details, service notes and project information into clear website copy. Your team checks technical claims, materials, tolerances and certifications before publication. The goal is to give engineers, purchasing teams and owners useful answers without making every page difficult to read."
+        "Can the site include CAD files, specifications and product catalogs?",
+        "Yes. We can plan product pages and document libraries so buyers can find approved drawings, specifications and other resources. We agree on which files can be public, how the information will be updated and whether access controls are needed. Large catalogs or connections to existing product systems are scoped separately."
       ],
       [
-        "What should our quote request form ask for?",
-        "Ask for contact details and the information needed to start a useful reply. That might include the product or service, quantity, job location and required date. Custom projects may need a short description of the work. Keep the first form manageable, then arrange a suitable way to share drawings or other files if needed."
+        "What information should a manufacturing RFQ form collect?",
+        "Start with contact details, the part or product, quantity, required date and delivery location. A short project description can help your team check whether the work fits. Drawings and detailed specifications may need a separate file-sharing step. We plan that process with your team rather than asking buyers to put private files into a basic contact form."
       ],
       [
-        "How long does a website take, and what does it cost?",
-        "Timing and cost depend on the number of pages, the content and any features or connections you need. A starter website or landing page can be ready for review within 3 days once we agree on the scope and receive your content and access. Larger sites take longer. We agree on the work, fees and schedule before starting."
+        "How long does a manufacturing website take, and what does it cost?",
+        "The scope depends on your pages, catalog size, content, RFQ features and software connections. A starter site or landing page can be ready for review within 3 days once the scope, content and access are agreed. A full manufacturing website with many products or custom integrations takes longer. We agree on the work, fees and timeline before starting."
       ]
     ],
     "form_label": "What are you looking for?",
@@ -437,208 +580,6 @@
       "Better forms and quote requests",
       "Help improving the current site"
     ],
-    "description": "Industrial websites and landing pages that explain your work clearly. Help customers call, ask about equipment or send a useful project quote request.",
-    "website_success_title": "What makes an industrial website successful?",
-    "website_success_lead": "Good design gets attention. Clear information helps buyers take the next step.",
-    "website_success_points": [
-      "Loads quickly and makes products, services and capabilities easy to find.",
-      "Gives search engines clear pages to understand and buyers useful answers.",
-      "Uses your brand, project photos and accurate technical details.",
-      "Makes it simple to call or send a useful quote request.",
-      "Works across screen sizes, with readable text and accessible navigation.",
-      "Connects calls and forms to tracking, so your team can review what happens next."
-    ],
-    "website_redesign_lead": "Starting fresh or improving what you have, we build around the way your buyers choose a supplier.",
-    "website_redesign_intro": "We bring the pages, content and quote process together so your website is useful to customers and your sales team.",
-    "website_redesign_points": [
-      [
-        "Custom website structure:",
-        "Organize product catalogs, CAD files and technical specs so buyers can find the right details."
-      ],
-      [
-        "Technical copy and positioning:",
-        "Turn complex engineering capabilities into clear explanations of what you do and why it matters."
-      ],
-      [
-        "Quote forms and lead capture:",
-        "Add RFQ forms, product selectors and click-to-call options that help buyers share what they need."
-      ],
-      [
-        "CRM and ERP connections:",
-        "Connect quote requests to sales and business software, such as HubSpot, Salesforce or a custom system, where it supports the connection."
-      ],
-      [
-        "Search and technical SEO:",
-        "Plan pages around the products and services buyers search for, with a clear structure search engines can understand."
-      ]
-    ],
-    "website_cost_title": "What will my industrial website really cost?",
-    "website_connections_lead": "Your website should work with the tools your team already uses.",
-    "website_faq_start": "Your Industrial Web Design",
-    "website_faq_end": "Questions Answered.",
-    "website_faq_intro": "What goes into an industrial website? Here are a few things to know about the pages, content and quote forms your buyers need.",
-    "website_problem_body": "Engineers, purchasing teams and owners may compare suppliers before making a call. If your capabilities are hard to find or the quote process is unclear, they may move on. We can help you spot what needs attention.",
-    "website_final_eyebrow": "",
-    "website_final_heading": "Your website should bring you more business.",
-    "website_final_intro": "Book a 30-minute call to explore what’s holding your website back and how we could help you generate more qualified inquiries.",
-    "website_final_points": [
-      "Find gaps in how you explain your services",
-      "Spot friction that makes it harder to inquire",
-      "Get clear on what to improve first"
-    ],
-    "lastmod": "2026-10-30"
-  },
-  {
-    "slug": "industrial-lead-tracking",
-    "name": "Lead Tracking & Sales Follow-Up",
-    "short": "Lead Tracking & Follow-Up",
-    "headline": "Industrial Lead Tracking",
-    "accent": "& Sales Follow-Up",
-    "intro": "See what happens after someone calls or fills out a form. We help your team keep track of requests, follow up on quotes and record which inquiries become jobs.",
-    "cta": "Talk about lead tracking",
-    "badge": "LEAD TRACKING AND FOLLOW-UP",
-    "steps": [
-      "Call or message",
-      "Check whether you can help",
-      "Send a quote and follow up",
-      "Record the result"
-    ],
-    "outcomes": [
-      [
-        "Keep details together",
-        "See where a request came from and what the customer needs."
-      ],
-      [
-        "Know who is following up",
-        "Give each request a contact person and a next step."
-      ],
-      [
-        "See the results",
-        "Review the requests, quotes and jobs your team records."
-      ]
-    ],
-    "challenges": [
-      [
-        "Details are spread across different tools",
-        "Calls, emails and spreadsheets may each hold part of the story. It can be hard to see which ads or pages led to a job."
-      ],
-      [
-        "No one is sure what happens next",
-        "One person may think a request is new while another has sent a quote. Shared steps help the team stay on the same page."
-      ],
-      [
-        "Quotes are sent and then forgotten",
-        "Without a follow-up date or a recorded result, it is easy to lose track of a quote. Reports also miss whether the request became work."
-      ]
-    ],
-    "pillars": [
-      [
-        "Record where requests come from",
-        "Check how calls and forms reach your team. Where the tools allow, keep the source of the request with the customer’s details.",
-        "Source + customer request"
-      ],
-      [
-        "Agree on the sales steps",
-        "Use clear steps such as new request, ready to quote, quote sent, won and lost. In your customer management system, or CRM, make it clear who owns each request.",
-        "Clear steps and responsibilities"
-      ],
-      [
-        "Set follow-up dates",
-        "Add reminders and tasks that fit the way your team works. The next message should help the buyer, rather than repeat the same sales pitch.",
-        "Contact person + next step + date"
-      ],
-      [
-        "Show what happened",
-        "Build reports around useful requests, quotes and jobs. Make missing details clear so the numbers do not suggest more certainty than the records support.",
-        "Request → quote → result"
-      ]
-    ],
-    "types": [
-      [
-        "Repair and service calls",
-        "Link the call to the customer and record what happened. Separate new requests from calls about work already in progress.",
-        [
-          "Who called",
-          "What help they need",
-          "Whether the job went ahead"
-        ]
-      ],
-      [
-        "Equipment quotes",
-        "Keep the equipment request, quote status and next follow-up date together.",
-        [
-          "Equipment needed",
-          "Quote status",
-          "Follow-up date"
-        ]
-      ],
-      [
-        "Longer projects",
-        "Keep notes as people compare options and discuss the work. Record who is responsible for the next step.",
-        [
-          "Project stage",
-          "Person following up",
-          "Result and reason"
-        ]
-      ]
-    ],
-    "example": [
-      "A quote has a clear follow-up date.",
-      "An equipment buyer sends a request with details about the job.",
-      "Your team checks the request, sends a quote and sets a date to follow up.",
-      "The report shows the request, the quote and whether the sale went ahead once your team records the result."
-    ],
-    "scope": [
-      [
-        "Review how you work now",
-        "Look at your calls, forms, customer records and quote process."
-      ],
-      [
-        "Connect the key details",
-        "Use your current tools where possible to keep requests, owners and next steps together."
-      ],
-      [
-        "Improve follow-up and reports",
-        "Find missing details and make changes that help the people using the system."
-      ]
-    ],
-    "faqs": [
-      [
-        "Can you use our current CRM?",
-        "We start by checking your customer management software, phone system and form tools. What we can connect depends on the features they support."
-      ],
-      [
-        "Can you tell where every job came from?",
-        "No. People may use different devices, call directly or hear about you offline. Reports should show when the source is unknown."
-      ],
-      [
-        "Do we need to record every call?",
-        "No. We choose a setup based on what you need to know. If call recording is part of it, we first agree on consent, access and how long recordings are kept."
-      ],
-      [
-        "Can follow-up happen automatically?",
-        "Some reminders and messages can. That depends on your tools and permission to contact the buyer. Your team still needs to respond to questions and keep the records current."
-      ]
-    ],
-    "form_label": "What needs attention?",
-    "form_options": [
-      "Keeping track of calls and forms",
-      "Knowing who follows up",
-      "Following up on quotes",
-      "Seeing which inquiries become jobs",
-      "Not sure yet"
-    ],
-    "description": "Industrial lead tracking and sales follow-up. Keep calls, quote requests and next steps together, and see which inquiries become jobs."
-  },
-  {
-    "slug": "web-design-for-manufacturing-companies",
-    "extends": "industrial-websites",
-    "lastmod": "2026-10-30",
-    "name": "Web Design for Manufacturing Companies",
-    "short": "Manufacturing Web Design",
-    "headline": "Web design for manufacturing companies",
-    "accent": "built around your buyers.",
-    "intro": "Show buyers what you make, the work you can handle and how to request a quote. We build manufacturing websites that bring product details, production capabilities and technical information together, so engineers, purchasing teams and business owners can decide whether you are the right supplier.",
     "description": "Web design for manufacturing companies. Clear product catalogs, capability pages and RFQ forms that help technical buyers find details and request a quote.",
     "website_success_title": "What makes a manufacturing website successful?",
     "website_success_lead": "Help buyers understand what you can make before they send a drawing or ask for a quote.",
@@ -680,51 +621,30 @@
     "website_faq_end": "Questions Answered.",
     "website_faq_intro": "Planning a new site for a manufacturer? Here are answers about capability pages, product information, drawings and the quote process.",
     "website_problem_body": "A buyer may compare your shop with several manufacturers before sending an RFQ. If materials, tolerances, certifications or contact details are missing, it is harder to judge whether you can handle the job. We help make those answers easier to find.",
-    "faqs": [
-      [
-        "What should a manufacturing website include?",
-        "Give buyers a clear view of your processes, products and production capabilities. Include materials, part sizes, tolerances and order volumes where relevant. Add current certifications, quality information, equipment details and examples your team can share. Make it easy to check your location, contact sales and start an RFQ."
-      ],
-      [
-        "Do you build sites for custom manufacturers and product manufacturers?",
-        "Yes. A custom manufacturer may need process and capability pages that help buyers assess a drawing or project. A product manufacturer may need a catalog with specifications, applications and supporting documents. We use the same planning process, then shape the page structure and quote flow around how your business sells."
-      ],
-      [
-        "Can the site include CAD files, specifications and product catalogs?",
-        "Yes. We can plan product pages and document libraries so buyers can find approved drawings, specifications and other resources. We agree on which files can be public, how the information will be updated and whether access controls are needed. Large catalogs or connections to existing product systems are scoped separately."
-      ],
-      [
-        "What information should a manufacturing RFQ form collect?",
-        "Start with contact details, the part or product, quantity, required date and delivery location. A short project description can help your team check whether the work fits. Drawings and detailed specifications may need a separate file-sharing step. We plan that process with your team rather than asking buyers to put private files into a basic contact form."
-      ],
-      [
-        "How long does a manufacturing website take, and what does it cost?",
-        "The scope depends on your pages, catalog size, content, RFQ features and software connections. A starter site or landing page can be ready for review within 3 days once the scope, content and access are agreed. A full manufacturing website with many products or custom integrations takes longer. We agree on the work, fees and timeline before starting."
-      ]
-    ],
-    "website_final_eyebrow": "See what’s possible",
-    "website_final_heading": "Ready to grow?",
-    "website_final_intro": "Book a 30-minute discovery call to talk through your website and what you need next.",
+    "website_final_eyebrow": "",
+    "website_final_heading": "Your website should bring you more business.",
+    "website_final_intro": "Book a 30-minute call to explore what’s holding your website back and how we could help you generate more qualified inquiries.",
     "website_final_points": [
-      "Learn about your business and buyers",
-      "Review what is working on your website",
-      "Identify useful next steps"
-    ]
+      "Find gaps in how you explain your services",
+      "Spot friction that makes it harder to inquire",
+      "Get clear on what to improve first"
+    ],
+    "lastmod": "2026-10-30"
   },
   {
     "slug": "industrial-facebook-ads",
-    "name": "Facebook Ads for Industrial Companies",
-    "short": "Industrial Facebook Ads",
+    "name": "Facebook Ads for Manufacturing Companies",
+    "short": "Manufacturing Facebook Ads",
     "page_template": "channel",
     "lastmod": "2026-10-30",
-    "headline": "Facebook ads for industrial companies",
+    "headline": "Facebook ads for manufacturing companies",
     "accent": "built around your buyers.",
-    "intro": "Put your products, equipment and project work in front of relevant buyers on Facebook. We connect clear creative, focused audiences and a useful inquiry process so interest has a better path to a sales conversation.",
-    "description": "Facebook ads for industrial companies. Product and project creative, focused audiences, lead forms and follow-up for manufacturing and industrial businesses.",
+    "intro": "Show your products, production capabilities and completed projects to relevant buyers on Facebook. We connect clear creative, focused audiences and a useful quote process so interest has a better path to a sales conversation.",
+    "description": "Facebook ads for manufacturing companies. Product creative, relevant audiences, quote forms and follow-up for manufacturers and equipment makers.",
     "faqs": [
       [
-        "Can Facebook ads work for an industrial business?",
-        "They can be useful when you have a clear offer, relevant creative and a practical follow-up process. They may help introduce products, show project work or reconnect with previous visitors where the setup supports it. We review fit rather than assuming every industrial company needs the same channel."
+        "Can Facebook ads work for an manufacturing business?",
+        "They can be useful when you have a clear offer, relevant creative and a practical follow-up process. They may help introduce products, show project work or reconnect with previous visitors where the setup supports it. We review fit rather than assuming every manufacturing company needs the same channel."
       ],
       [
         "What photos or videos do we need?",

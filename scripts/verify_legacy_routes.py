@@ -13,7 +13,11 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = (sys.argv[1] if len(sys.argv) > 1 else 'https://sixthgeardigital.com').rstrip('/')
 REDIRECTS = {
-    '/web-design': '/services/industrial-websites/',
+    '/web-design': '/services/web-design-for-manufacturing-companies/',
+    '/services/industrial-websites': '/services/web-design-for-manufacturing-companies/',
+    '/services/industrial-websites.html': '/services/web-design-for-manufacturing-companies/',
+    '/web-design.html': '/services/web-design-for-manufacturing-companies/',
+    '/funnels.html': '/services/web-design-for-manufacturing-companies/',
     '/ppc': '/services/industrial-google-ads/',
     '/ppc.html': '/services/industrial-google-ads/',
     '/seo': '/services/industrial-seo/',

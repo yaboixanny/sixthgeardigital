@@ -2,10 +2,10 @@
   "industrial-seo": {
     "sections": [
       {
-        "heading": "What makes industrial SEO work?",
+        "heading": "What makes manufacturing SEO work?",
         "lead": "Useful search visibility starts with the questions your buyers need answered.",
         "paragraphs": [
-          "A manufacturer looking for a machining supplier searches differently from an owner needing an urgent equipment repair. We look at those needs before choosing topics or changing pages.",
+          "A purchasing team comparing standard components searches differently from an engineer choosing a custom machining supplier. We look at those needs before choosing topics or changing pages.",
           "The aim is to make your website easier to find and more useful when someone arrives. More visits matter when they come from people who could become customers."
         ],
         "points": [
@@ -41,7 +41,7 @@
           ],
           [
             "Search research",
-            "Understand the language buyers use for equipment, repairs, materials and manufacturing processes."
+            "Understand the language buyers use for components, materials, specifications and manufacturing processes."
           ],
           [
             "Service and product content",
@@ -98,7 +98,7 @@
         }
       },
       {
-        "heading": "What does industrial SEO cost?",
+        "heading": "What does manufacturing SEO cost?",
         "lead": "Agree on the work and priorities before the monthly spend.",
         "paragraphs": [
           "The scope depends on your site size, technical issues, product range and the amount of new content needed. A small service website and a large equipment catalog require different levels of work.",
@@ -143,8 +143,8 @@
         ],
         "points": [],
         "link": {
-          "href": "/services/industrial-websites/",
-          "label": "Explore industrial website design and landing pages."
+          "href": "/services/web-design-for-manufacturing-companies/",
+          "label": "Explore manufacturing website design and landing pages."
         }
       }
     ],
@@ -171,7 +171,7 @@
         ]
       ]
     },
-    "faq_title": "Your Industrial SEO",
+    "faq_title": "Your SEO for Manufacturers",
     "faq_intro": "Questions about search visibility, content and measuring useful progress.",
     "cta": {
       "heading": "Help the right buyers find your business.",
@@ -187,10 +187,10 @@
   "industrial-google-ads": {
     "sections": [
       {
-        "heading": "What makes industrial Google Ads work?",
+        "heading": "What makes Google Ads for manufacturers work?",
         "lead": "Match the search, the offer and the next step.",
         "paragraphs": [
-          "Someone looking for an emergency hydraulic repair has a different need from a buyer comparing equipment suppliers. We build campaigns around those differences instead of sending every search to the same page.",
+          "A buyer searching for a custom machined component has a different need from someone comparing standard products. We build campaigns around those differences instead of sending every search to the same page.",
           "Clicks are only useful when the right people can understand your offer and contact your team."
         ],
         "points": [
@@ -222,7 +222,7 @@
         "points": [
           [
             "Search research",
-            "Choose terms tied to real demand for equipment, machining, fabrication, rentals or repair work."
+            "Choose terms tied to real demand for components, machining, fabrication, equipment and contract manufacturing."
           ],
           [
             "Campaign structure",
@@ -283,7 +283,7 @@
         }
       },
       {
-        "heading": "What does industrial Google Ads cost?",
+        "heading": "What does Google Ads for manufacturers cost?",
         "lead": "Separate the ad budget from the work needed to manage it.",
         "paragraphs": [
           "The starting budget depends on the services, locations and level of search demand you want to cover. Management fees and Google ad spending are agreed separately.",
@@ -322,13 +322,13 @@
         "heading": "What if you sell several products or services?",
         "lead": "Give different buyer needs a clear route.",
         "paragraphs": [
-          "Equipment purchases, rental requests and repair calls need different information. We help separate those offers where it makes the campaign and response clearer.",
+          "Standard product purchases, custom part RFQs and equipment projects need different information. We separate those offers where it makes the campaign and sales response clearer.",
           "Each landing page should explain the relevant product or service, the area you cover and the details needed to start a useful conversation.",
           "We can work with your existing pages or plan a focused landing page where the current site does not support the offer."
         ],
         "points": [],
         "link": {
-          "href": "/services/industrial-websites/",
+          "href": "/services/web-design-for-manufacturing-companies/",
           "label": "See how websites and landing pages support ad campaigns."
         }
       }
@@ -356,7 +356,7 @@
         ]
       ]
     },
-    "faq_title": "Your Industrial Google Ads",
+    "faq_title": "Your Google Ads for Manufacturers",
     "faq_intro": "Questions about search campaigns, budgets, lead quality and launch timing.",
     "cta": {
       "heading": "Your ads should bring useful inquiries.",
@@ -372,7 +372,7 @@
   "industrial-facebook-ads": {
     "sections": [
       {
-        "heading": "What makes industrial Facebook ads useful?",
+        "heading": "What makes Facebook ads for manufacturers useful?",
         "lead": "Give people a clear reason to pay attention.",
         "paragraphs": [
           "A product demonstration, completed project or explanation of a common problem can introduce your work before someone starts comparing suppliers.",
@@ -468,7 +468,7 @@
         }
       },
       {
-        "heading": "What does industrial Facebook advertising cost?",
+        "heading": "What does Facebook advertising for manufacturers cost?",
         "lead": "Plan the media budget and the work around it.",
         "paragraphs": [
           "Costs depend on the offer, audience, creative needs and the amount of testing required. Ad spending and management fees are agreed separately.",
@@ -507,13 +507,13 @@
         "heading": "What should your Facebook ads show?",
         "lead": "Make the product, project or problem easy to understand.",
         "paragraphs": [
-          "Industrial buyers need more than a slogan. Show the equipment in use, explain an application or describe the result of a completed job without making claims you cannot support.",
+          "Manufacturing buyers need more than a slogan. Show a product in use, explain an application or demonstrate a production capability without making claims you cannot support.",
           "A simple demonstration can help a buyer understand fit. A clear product or service page can then answer deeper questions about options, coverage and the quote process.",
           "We can work with your existing photos and product information, then agree on what extra material would be useful for the next round of creative."
         ],
         "points": [],
         "link": {
-          "href": "/services/industrial-websites/",
+          "href": "/services/web-design-for-manufacturing-companies/",
           "label": "Explore landing pages that support ad inquiries."
         }
       }
@@ -541,7 +541,7 @@
         ]
       ]
     },
-    "faq_title": "Your Industrial Facebook Ads",
+    "faq_title": "Your Facebook Ads for Manufacturers",
     "faq_intro": "Questions about creative, audiences, lead forms and measuring useful inquiries.",
     "cta": {
       "heading": "Turn interest into better conversations.",
