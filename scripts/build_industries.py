@@ -8,6 +8,7 @@ from string import Template
 from html import escape
 import json
 import re
+from navigation import navigation_fields
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
@@ -74,6 +75,7 @@ for index, page in enumerate(PAGES):
     page_sections = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + page_sections
 
     fields = {key:e(value) for key,value in page.items() if isinstance(value,str)}
+    fields.update(navigation_fields('/industries/'+slug+'/', '#consultation-audit'))
     fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,goal_placeholder=e('For example: '+page['goal'].lower()),page_sections=page_sections,submit_label=e(page.get('submit_label','Get in touch')),capability_options=''.join(f'<option value="{e(heading)}">{e(heading)}</option>' for heading,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
     services = json.loads((ROOT / 'content/services.json').read_text())
     fields['service_links'] = ''.join(f'<a href="/services/{e(service["slug"])}/">{e(service["short"])}</a>' for service in services)

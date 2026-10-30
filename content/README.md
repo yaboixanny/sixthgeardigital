@@ -37,6 +37,7 @@ Run both generators after changes that affect cross-page navigation:
 ```sh
 python3 scripts/build_services.py
 python3 scripts/build_industries.py
+python3 scripts/build_navigation.py
 ```
 
 The industry renderer reads `services.json` for footer navigation. Service-to-service links use explicit editorial explanations in `build_services.py`; they are not selected by recency or generic similarity. The homepage's four featured offers are curated independently in `home-services.json` and rendered by `templates/home-services.html`: SEO, Google Ads, website design and Facebook ads. The first three link to their service pages; Facebook Ads opens the contact dialog and records the selected service. Lead tracking remains available as a supporting service page. Each service form includes its own form name, service, source URL, industry, and selected priority.
@@ -63,4 +64,8 @@ Write for a reader around ninth grade. Use short sentences, familiar words and s
 
 Use direct labels such as “service area,” “quote requests” and “follow-up.” Avoid sales slogans, pressure, “growth assessments,” “conversion pathways” and similar jargon. Buttons should describe the next step, such as “Get in touch” or “Send your message.” Preserve page topics, URLs and relevant internal links when editing copy.
 
-The industrial and manufacturing website pages share `templates/website-service.html`, `assets/website.css` and `assets/website.js`. Manufacturing-specific copy lives in its `services.json` record; its canonical is `/services/web-design-for-manufacturing-companies/`. Both pages appear in the website Services dropdown, and all service pages are included in the footer and sitemap.
+The industrial and manufacturing website pages share `templates/website-service.html`, `assets/website.css` and the shared navigation assets. Manufacturing-specific copy lives in its `services.json` record; its canonical is `/services/web-design-for-manufacturing-companies/`. Both pages appear in the website Services dropdown, and all service pages are included in the footer and sitemap.
+
+# Shared site navigation
+
+All 20 current pages use `scripts/navigation.py` with `templates/navigation-desktop.html` and `templates/navigation-mobile.html`. The service and industry generators render these fields directly; `scripts/build_navigation.py` updates the directly maintained homepage and About page. The build runs all three before publishing. Dropdown styling and behavior are in `assets/navigation.css` and `assets/navigation.js`. Industry destinations come from `industries.json`; the service dropdown follows the curated homepage offers and adds focused website services declared with `extends`. Existing page-specific contact buttons keep their destinations.

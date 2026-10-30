@@ -5,6 +5,7 @@ from string import Template
 from html import escape
 import json
 import re
+from navigation import navigation_fields
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
@@ -82,17 +83,10 @@ for s in SERVICES:
  if simplified_hero:
   fields['website_success_bullets']=''.join('<li>'+e(point)+'</li>' for point in s['website_success_points'])
   fields['website_redesign_bullets']=''.join('<li><strong>'+e(label)+'</strong> '+e(body)+'</li>' for label,body in s['website_redesign_points'])
-  fields['website_industry_navigation']=''.join(f'<a href="/industries/{e(page["slug"])}/">{e(page["short"])}</a>' for page in INDUSTRIES)
-  offers=json.loads((ROOT/'content/home-services.json').read_text())
-  nav_offers=[]
-  for offer in offers:
-   nav_offers.append(offer)
-   if offer.get('service')=='industrial-websites':
-    nav_offers.extend({'title':record['name'],'service':record['slug']} for record in SERVICE_RECORDS if record.get('extends')=='industrial-websites')
-  fields['website_service_navigation']=''.join('<a href="'+('/services/'+offer['service']+'/' if offer.get('service') else '/#growth-plan')+'"'+(' aria-current="page"' if offer.get('service')==s['slug'] else '')+'>'+e(offer['title'])+'</a>' for offer in nav_offers)
   schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
   fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
   page_template = Template((ROOT/'templates/website-service.html').read_text())
+ fields.update(navigation_fields(route(s), '/#growth-plan' if simplified_hero else '#audit-form'))
  (folder/'index.html').write_text(page_template.substitute(fields))
 
 # Homepage offers are curated separately from the complete service-page directory.

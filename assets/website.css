@@ -149,23 +149,3 @@
  .website-design-hero .website-discovery-cta { padding: 16px 23px; font-size: 14px; }
  .website-hero-art { width: 650px; right: -420px; opacity: .42; }
 }
-
-/* Hover navigation on desktop, expandable link groups on mobile. */
-.website-service-page .desktop-nav { align-items: center; }
-.website-nav-dropdown { position: relative; }
-.website-nav-dropdown>button { display: inline-flex; align-items: center; gap: 7px; padding: 9px 0; border: 0; background: transparent; color: inherit; font-family: Urbanist, Inter, Arial, sans-serif; font-size: 16px; font-weight: 650; letter-spacing: -.2px; cursor: pointer; }
-.website-nav-dropdown>button:hover, .website-nav-dropdown>button[aria-expanded=true] { color: #c2410c; }
-.website-nav-chevron { display: inline-block; width: 7px; height: 7px; margin-top: -3px; border-right: 1.5px solid; border-bottom: 1.5px solid; transform: rotate(45deg); }
-.website-nav-panel { position: absolute; top: 100%; left: -20px; min-width: 310px; padding: 12px; border: 1px solid #eee3dc; border-radius: 12px; background: #fff; box-shadow: 0 16px 36px #1721331a; }
-.website-service-page header nav[aria-label="Main navigation"] .website-nav-panel a { display: block; padding: 10px 12px; border-radius: 6px; color: #465164; font-family: Inter, Arial, sans-serif; font-size: 13px; font-weight: 500; line-height: 1.6; letter-spacing: 0; }
-.website-service-page header .website-nav-panel a:hover, .website-service-page header .website-nav-panel a:focus-visible { color: #c2410c; background: #fff6ee; }
-.website-nav-industries { width: 500px; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
-.website-service-page .website-mobile-dropdown { margin: 0; padding: 0; border: 0; background: transparent; border-radius: 0; }
-.website-mobile-dropdown>summary { padding: 10px 25px 10px 0; font: 650 16px/1.6 Urbanist, Inter, Arial, sans-serif; letter-spacing: -.2px; }
-.website-mobile-dropdown>summary:after { content: '+'; right: 0; color: #c2410c; }
-.website-mobile-submenu { border-left: 2px solid #f5d8c5; padding: 0 0 4px 14px; margin: 0 0 9px; }
-.website-service-page header #mobile-menu .website-mobile-submenu a { padding: 8px 0; font: 500 13px/1.6 Inter, Arial, sans-serif; color: #465164; letter-spacing: 0; }
-@media(min-width: 1024px) and (max-width: 1150px) {
- .website-service-page .desktop-nav { gap: 12px; }
- .website-service-page header nav[aria-label="Main navigation"]>a, .website-nav-dropdown>button { font-size: 15px; }
-}

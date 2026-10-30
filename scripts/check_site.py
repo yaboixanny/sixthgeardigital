@@ -71,6 +71,8 @@ for source,page in pages.items():
         check(bool(page.schemas),f'{source}: missing schema')
         check(not page.noindex,f'{source}: unexpected noindex')
     text=(DIST/source).read_text()
+    if source != '404.html':
+        check({'website-industries-menu','website-services-menu','mobile-menu'}.issubset(page.ids),f'{source}: shared navigation missing')
     check(not re.search(r'\$(title|canonical|buyer_brief|headline)',text),f'{source}: template placeholder')
     check('cdn.tailwindcss.com' not in text and 'fonts.googleapis.com' not in text,f'{source}: runtime CDN remains')
     for link in page.links+page.assets:
