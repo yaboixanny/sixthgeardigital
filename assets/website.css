@@ -110,3 +110,37 @@
  .website-problems-cta { justify-self: start; padding: 16px 23px; font-size: 13px; }
  .website-problems-grid { grid-template-columns: 1fr; row-gap: 28px; }
 }
+
+/* Closing discovery-call invitation with an angled, faceted brand background. */
+.website-final-cta { position: relative; isolation: isolate; background: linear-gradient(#fff 0 80px, #131b2e 80px); padding: 145px 0 94px; }
+.website-final-cta:before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: 0 0 76px 76px; clip-path: polygon(0 70px, 100% 0, 100% 100%, 0 100%); background: conic-gradient(from 25deg at 17% 74%, #ffffff00 0 40deg, #ffffff12 40deg 95deg, #ffffff00 95deg 360deg), conic-gradient(from 60deg at 61% 24%, #d94e0e0a 0 75deg, #ffffff16 75deg 135deg, #ffffff00 135deg 360deg), conic-gradient(from 170deg at 83% 85%, #ffffff00 0 100deg, #dc550e13 100deg 180deg, #ffffff00 180deg 360deg), linear-gradient(115deg, #ffad70, #ff8b43 55%, #ffc38c); }
+.website-final-cta-grid { display: grid; grid-template-columns: 1fr 1.08fr; gap: 76px; align-items: center; }
+.website-final-cta-label { margin: 0 0 21px; color: #733619; font-size: 11px; font-weight: 650; text-transform: uppercase; letter-spacing: .7px; }
+.website-final-cta h2 { margin: 0 0 28px; color: #172133; font-size: clamp(40px, 4vw, 54px); font-weight: 750; line-height: 1.12; letter-spacing: -1.7px; }
+.website-final-cta-intro { max-width: 490px; margin: 0 0 23px; color: #293344; font-size: 18px; line-height: 1.75; }
+.website-final-cta-intro strong { color: #172133; font-weight: 700; }
+.website-final-cta ul { display: grid; gap: 14px; margin: 0; padding: 0; list-style: none; }
+.website-final-cta li { display: flex; align-items: flex-start; gap: 12px; color: #293344; font-size: 16px; line-height: 1.6; }
+.website-final-cta li svg { flex: 0 0 23px; width: 23px; height: 23px; margin-top: 1px; color: #5f321d; }
+.website-final-cta-card { padding: 43px 32px 40px; border-radius: 25px; background: #fff; box-shadow: 0 18px 45px #7f350c16; text-align: center; }
+.website-final-cta-prompt { display: flex; align-items: center; justify-content: center; gap: 7px; margin: 0 0 15px; color: #424758; font: italic 21px/1.5 Georgia, serif; }
+.website-final-cta-prompt svg { flex: 0 0 34px; width: 34px; height: 40px; }
+.website-final-cta-button { display: inline-flex; align-items: center; justify-content: center; gap: 15px; max-width: 100%; padding: 19px 29px; border-radius: 999px; background: #c2410c; color: #fff; font-size: 15px; font-weight: 650; line-height: 1.5; box-shadow: 0 6px 18px #c2410c20; }
+.website-final-cta-button:hover { background: #9a3412; }
+.website-final-cta-button>span { font-size: 21px; }
+.website-final-cta-note { max-width: 390px; margin: 20px auto 0; color: #74747e; font-size: 13px; line-height: 1.8; font-style: italic; }
+.website-service-page footer { margin-top: 0; }
+@media(max-width: 1000px) { .website-final-cta-grid { gap: 36px; } .website-final-cta-card { padding: 32px 24px; } .website-final-cta-prompt { font-size: 18px; } }
+@media(max-width: 760px) {
+ .website-final-cta { padding: 98px 0 60px; background: linear-gradient(#fff 0 45px, #131b2e 45px); }
+ .website-final-cta:before { clip-path: polygon(0 40px, 100% 0, 100% 100%, 0 100%); border-radius: 0 0 40px 40px; }
+ .website-final-cta-grid { grid-template-columns: 1fr; gap: 34px; }
+ .website-final-cta h2 { font-size: 42px; margin-bottom: 23px; }
+ .website-final-cta-intro { font-size: 17px; }
+ .website-final-cta li { font-size: 15px; }
+ .website-final-cta-card { padding: 29px 18px; border-radius: 21px; }
+ .website-final-cta-prompt { gap: 2px; font-size: 18px; }
+ .website-final-cta-prompt svg { flex-basis: 29px; width: 29px; }
+ .website-final-cta-button { padding: 16px 19px; font-size: 12px; gap: 9px; }
+ .website-final-cta-note { font-size: 12px; }
+}
