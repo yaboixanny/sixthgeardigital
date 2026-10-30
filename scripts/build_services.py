@@ -54,6 +54,12 @@ for s in SERVICES:
  fields.update(title=e(title),description=e(desc),canonical=e(canonical),hero_image=e(HERO),form_name='service-'+s['slug'],service_navigation=links(s['slug']),footer_links=links(s['slug']),challenge_title=e(h[0]),challenge_intro=e(h[1]),approach_title=e(h[2]),types_title=e(h[3]),example_title=e(s['example'][0]),form_examples=form_examples() if s['slug']=='industrial-websites' else '')
  fields['journey_steps']=''.join(f'<div><span>{i:02}</span><strong>{e(t)}</strong></div>' for i,t in enumerate(s['steps'],1))
  fields['outcome_cards']=''.join(f'<div class="outcome"><h2>{e(a)}</h2><p>{e(b)}</p></div>' for a,b in s['outcomes'])
+ # The website service uses a simpler hero; retain the shared layout elsewhere.
+ simplified_hero = s['slug'] == 'industrial-websites'
+ fields['service_navigation_block'] = '' if simplified_hero else '<nav class="service-nav container" aria-label="Core services">'+fields['service_navigation']+'</nav>'
+ fields['hero_badge'] = '' if simplified_hero else '<span class="badge"><i></i>'+fields['badge']+'</span>'
+ fields['secondary_hero_action'] = '' if simplified_hero else '<a class="button button-secondary" href="#approach">See how we work <span aria-hidden="true">↓</span></a>'
+ fields['outcomes_block'] = '' if simplified_hero else '<div class="service-outcomes grid three">'+fields['outcome_cards']+'</div>'
  fields['challenge_cards']=''.join(f'<article class="card"><span class="card-number">{i:02} / CHALLENGE</span><h3>{e(a)}</h3><p>{e(b)}</p></article>' for i,(a,b) in enumerate(s['challenges'],1))
  fields['pillar_cards']=''.join(f'<article class="card service-pillar"><div class="pillar-top"><span class="card-number">{i:02}</span><span class="eyebrow">{e(s["short"])}</span></div><h3>{e(a)}</h3><p>{e(b)}</p><div class="pillar-strip">{e(c)}</div></article>' for i,(a,b,c) in enumerate(s['pillars'],1))
  fields['type_cards']=''.join(f'<article class="card type-card"><h3>{e(a)}</h3><p>{e(b)}</p><ul>'+''.join(f'<li>{e(x)}</li>' for x in c)+'</ul></article>' for a,b,c in s['types'])
