@@ -6,6 +6,44 @@
 /index.html / 301!
 /about.html /about/ 301!
 
+# REBRAND LEGACY ROUTES START
+# Keep exact paths: /services/* and /industries/* remain available.
+/web-design /services/industrial-websites/ 301!
+/web-design/ /services/industrial-websites/ 301!
+/ppc /services/industrial-google-ads/ 301!
+/ppc/ /services/industrial-google-ads/ 301!
+/ppc.html/ /services/industrial-google-ads/ 301!
+/seo /services/industrial-seo/ 301!
+/seo/ /services/industrial-seo/ 301!
+/seo.html/ /services/industrial-seo/ 301!
+/services / 301!
+/services/ / 301!
+/contact / 301!
+/contact/ / 301!
+/blog / 301!
+/blog/ / 301!
+/case-studies / 301!
+/case-studies/ / 301!
+/google-ads-results / 301!
+/google-ads-results/ / 301!
+
+# Retired client/niche pages: show the existing error page with HTTP 410.
+/sunly-solar /404.html 410!
+/sunly-solar/ /404.html 410!
+/seo-for-walking-tour-businesses /404.html 410!
+/seo-for-walking-tour-businesses/ /404.html 410!
+/belan-j-ecommerce-seo /404.html 410!
+/belan-j-ecommerce-seo/ /404.html 410!
+/ppc-for-restaurants /404.html 410!
+/ppc-for-restaurants/ /404.html 410!
+/local-seo-restaurants /404.html 410!
+/local-seo-restaurants/ /404.html 410!
+/tfa-speed-seo-audit /404.html 410!
+/tfa-speed-seo-audit/ /404.html 410!
+/case-studies/walking-tour-seo-case-study /404.html 410!
+/case-studies/walking-tour-seo-case-study/ /404.html 410!
+# REBRAND LEGACY ROUTES END
+
 # INDUSTRY ROUTES START
 /industries/hydraulics-fluid-power-marketing.html /industries/hydraulics-fluid-power-marketing/ 301!
 /industries/attachment-manufacturer-dealer-marketing.html /industries/attachment-manufacturer-dealer-marketing/ 301!
