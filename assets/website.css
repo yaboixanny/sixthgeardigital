@@ -58,3 +58,13 @@
  .website-success-graphic { max-width: 580px; margin: 0 auto; }
  .website-discovery-cta { font-size: 13px; }
 }
+
+.website-redesign { background: #fffaf6; }
+.website-redesign-grid { grid-template-columns: 1.05fr 1fr; }
+.website-redesign-grid .website-success-copy { grid-column: 2; grid-row: 1; }
+.website-redesign-grid .website-success-graphic { grid-column: 1; grid-row: 1; }
+@media(max-width: 760px) {
+ .website-redesign-grid { grid-template-columns: 1fr; }
+ .website-redesign-grid .website-success-copy { grid-column: 1; grid-row: 1; }
+ .website-redesign-grid .website-success-graphic { grid-column: 1; grid-row: 2; }
+}
