@@ -30,3 +30,10 @@ header #mobile-menu .website-mobile-submenu a { padding: 8px 0; font: 500 13px/1
 }
 
 @media(max-width: 1023px) { header .desktop-nav { display: none; } }
+
+/* Match menu rendering on the homepage and interior pages. */
+header .desktop-nav,
+header #mobile-menu {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
