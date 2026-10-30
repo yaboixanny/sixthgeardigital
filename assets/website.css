@@ -35,3 +35,26 @@
  .contact-faq summary:after { width: 36px; height: 36px; right: 20px; }
  .contact-faq details p { margin: -4px 22px 23px; }
 }
+
+.website-discovery-cta { margin-top: 4px; }
+.website-success { padding: 90px 0 100px; background: #fff; }
+.website-success-grid { display: grid; grid-template-columns: 1fr 1.05fr; align-items: center; gap: 52px; }
+.website-success-copy h2 { max-width: 520px; color: #172133; font-size: clamp(32px, 3vw, 42px); font-weight: 750; line-height: 1.15; letter-spacing: -1.3px; }
+.website-success-rule { display: block; width: 44px; height: 7px; margin: 24px 0; border-top: 2px solid #ea580c; border-bottom: 2px solid #ea580c; }
+.website-success-copy p { color: #545963; font-size: 15px; line-height: 1.85; margin: 0 0 22px; }
+.website-success-copy .website-success-lead { font-size: 19px; line-height: 1.65; color: #394150; }
+.website-success-copy strong { color: #242c39; font-weight: 650; }
+.website-success-copy ul { display: grid; gap: 17px; list-style: none; padding: 0; margin: 28px 0; }
+.website-success-copy li { position: relative; padding-left: 18px; color: #545963; font-size: 15px; line-height: 1.75; }
+.website-success-copy li:before { content: ''; position: absolute; width: 4px; height: 4px; left: 1px; top: 11px; border-radius: 50%; background: #ea580c; }
+.website-success-graphic { width: 100%; margin: 0; }
+.website-success-graphic img { display: block; width: 100%; height: auto; }
+.website-success-graphic figcaption { margin-top: 10px; color: #7a7b83; text-align: center; font-size: 11px; line-height: 1.6; }
+@media(max-width: 1000px) { .website-success-grid { gap: 28px; } }
+@media(max-width: 760px) {
+ .website-success { padding: 58px 0 64px; }
+ .website-success-grid { grid-template-columns: 1fr; gap: 24px; }
+ .website-success-copy h2 { font-size: 34px; }
+ .website-success-graphic { max-width: 580px; margin: 0 auto; }
+ .website-discovery-cta { font-size: 13px; }
+}
