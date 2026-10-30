@@ -2,13 +2,13 @@
   {
     "title": "SEO for manufacturing companies",
     "description": "Help engineers and purchasing teams find your products and manufacturing capabilities. Build useful pages around your processes, applications and the questions buyers ask.",
-    "service": "industrial-seo",
+    "service": "seo",
     "icon": "seo"
   },
   {
     "title": "Google Ads for manufacturing companies",
     "description": "Reach buyers already searching for your parts, products or manufacturing services. Connect focused campaigns, useful landing pages and lead tracking to see which inquiries become quotes and orders.",
-    "service": "industrial-google-ads",
+    "service": "google-ads",
     "icon": "ads"
   },
   {
@@ -21,6 +21,6 @@
     "title": "Facebook ads for manufacturing companies",
     "description": "Put your products and production capabilities in front of relevant buyers on Facebook. Use clear creative, a focused offer and useful follow-up to start better sales conversations.",
     "icon": "facebook",
-    "service": "industrial-facebook-ads"
+    "service": "facebook-ads"
   }
 ]

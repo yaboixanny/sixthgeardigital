@@ -17,10 +17,10 @@ def navigation_fields(current_path, contact_target):
     featured = json.loads((ROOT/'content/home-industries.json').read_text())
     industries = [{**by_slug[item['slug']], 'short':item.get('title',by_slug[item['slug']]['short'])} for item in featured]
     nav_offers = [
-        {'title':'SEO', 'service':'industrial-seo'},
-        {'title':'Google Ads', 'service':'industrial-google-ads'},
+        {'title':'SEO', 'service':'seo'},
+        {'title':'Google Ads', 'service':'google-ads'},
         {'title':'Web design', 'service':'web-design-for-manufacturing-companies'},
-        {'title':'Facebook ads', 'service':'industrial-facebook-ads'},
+        {'title':'Facebook ads', 'service':'facebook-ads'},
     ]
     values = {
         'home_current': ' aria-current="page"' if current_path == '/' else '',

@@ -1,5 +1,5 @@
 {
-  "industrial-seo": {
+  "seo": {
     "sections": [
       {
         "heading": "What makes manufacturing SEO work?",
@@ -93,7 +93,7 @@
           ]
         ],
         "link": {
-          "href": "/services/industrial-lead-tracking/",
+          "href": "/services/lead-tracking/",
           "label": "See how lead tracking connects inquiries to follow-up."
         }
       },
@@ -184,7 +184,7 @@
       "prompt": "Let’s talk about your search visibility."
     }
   },
-  "industrial-google-ads": {
+  "google-ads": {
     "sections": [
       {
         "heading": "What makes Google Ads for manufacturers work?",
@@ -278,7 +278,7 @@
           ]
         ],
         "link": {
-          "href": "/services/industrial-lead-tracking/",
+          "href": "/services/lead-tracking/",
           "label": "Explore lead tracking and sales follow-up."
         }
       },
@@ -369,7 +369,7 @@
       "prompt": "Let’s talk about your Google Ads."
     }
   },
-  "industrial-facebook-ads": {
+  "facebook-ads": {
     "sections": [
       {
         "heading": "What makes Facebook ads for manufacturers useful?",
@@ -463,7 +463,7 @@
           ]
         ],
         "link": {
-          "href": "/services/industrial-lead-tracking/",
+          "href": "/services/lead-tracking/",
           "label": "See how lead tracking supports sales follow-up."
         }
       },

@@ -85,6 +85,11 @@ for source,page in pages.items():
         if parsed.fragment and target in pages:check(parsed.fragment in pages[target].ids,f'{source}: missing fragment {link}')
 for forbidden in ['templates','scripts','content','code.html','ppc.html','seo.html','web-design.html','funnels.html','node_modules','package.json']:
     check(not (DIST/forbidden).exists(),'Source/legacy file published: '+forbidden)
+for old, new in {'industrial-seo':'seo','industrial-google-ads':'google-ads','industrial-facebook-ads':'facebook-ads','industrial-lead-tracking':'lead-tracking'}.items():
+    check(not (DIST/'services'/old).exists(), 'Retired service path published: '+old)
+    check(f'/services/{old}/ /services/{new}/ 301!' in (DIST/'_redirects').read_text(), 'Missing service migration redirect: '+old)
+    for source, page in pages.items():
+        check(not any('/services/'+old in link for link in page.links), source+': internal link uses retired service path '+old)
 check(not (DIST/'services/industrial-websites').exists(), 'Retired industrial website page must not be published')
 check('/services/industrial-websites/ /services/web-design-for-manufacturing-companies/ 301!' in (DIST/'_redirects').read_text(), 'Retired website page needs a direct permanent redirect')
 for name in ['ppc.html','seo.html','web-design.html','funnels.html','code.html','index.html','about.html']:

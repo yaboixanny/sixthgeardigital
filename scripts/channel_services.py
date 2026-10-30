@@ -36,7 +36,7 @@ def render_channel_service(service, content, footer_links):
             body += '<ul>'+''.join('<li><strong>'+e(label)+':</strong> '+e(text)+'</li>' for label,text in section['points'])+'</ul>'
         if section.get('link'):
             link = section['link']
-            assert link['href'] in ['/services/web-design-for-manufacturing-companies/', '/services/industrial-lead-tracking/']
+            assert link['href'] in ['/services/web-design-for-manufacturing-companies/', '/services/lead-tracking/']
             body += '<p><a class="channel-context-link" href="'+e(link['href'])+'">'+e(link['label'])+'</a></p>'
         image,height,alt = IMAGES[index]
         sections.append(SPLIT.substitute(section_class=SECTION_CLASSES[index],section_id=SECTION_IDS[index],grid_class=' website-redesign-grid' if index%2 else '',heading=e(section['heading']),lead=e(section['lead']),content=body,image='/assets/'+image,image_height=height,image_alt=e(alt)))

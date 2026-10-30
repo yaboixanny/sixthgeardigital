@@ -27,16 +27,16 @@ def links(current=None):
  return ''.join(f'<a href="{route(s)}"'+(' aria-current="page"' if s['slug']==current else '')+f'>{e(s["short"])}</a>' for s in SERVICES)
 
 HEADINGS = {
- 'industrial-google-ads':('Make your ads useful to the people who see them.','The search term, the page and the response all affect whether an ad brings useful work.','How we manage your Google Ads.','Different needs call for different ads.'),
- 'industrial-seo':('Help buyers find clear answers.','Your website should make it easy to understand what you do and how to contact you.','How we improve your website for search.','Pages for the questions buyers ask.'),
+ 'google-ads':('Make your ads useful to the people who see them.','The search term, the page and the response all affect whether an ad brings useful work.','How we manage your Google Ads.','Different needs call for different ads.'),
+ 'seo':('Help buyers find clear answers.','Your website should make it easy to understand what you do and how to contact you.','How we improve your website for search.','Pages for the questions buyers ask.'),
  'web-design-for-manufacturing-companies':('Make the next step easy to find.','A useful page answers the buyer’s questions and helps your team respond.','How we plan and build your pages.','Three pages for three different needs.'),
- 'industrial-lead-tracking':('Keep track of requests after they arrive.','Clear records help your team know who needs a reply and what happens next.','How we organize requests and follow-up.','Keep track of each type of request.')
+ 'lead-tracking':('Keep track of requests after they arrive.','Clear records help your team know who needs a reply and what happens next.','How we organize requests and follow-up.','Keep track of each type of request.')
 }
 RELATIONS = {
- 'industrial-google-ads': ['Use what you learn from ads to improve the pages people find through search.','Give each ad a clear page where people can call or ask for a quote.','See which ad inquiries lead to quotes and jobs.'],
- 'industrial-seo': ['Run ads for selected services while you improve the website.','Make your pages clear and easy to use.','Find out whether search visitors become useful customer inquiries.'],
+ 'google-ads': ['Use what you learn from ads to improve the pages people find through search.','Give each ad a clear page where people can call or ask for a quote.','See which ad inquiries lead to quotes and jobs.'],
+ 'seo': ['Run ads for selected services while you improve the website.','Make your pages clear and easy to use.','Find out whether search visitors become useful customer inquiries.'],
  'web-design-for-manufacturing-companies': ['Help people find your service pages through ads.','Help people find your pages through search.','Keep track of calls, forms and follow-up after someone visits your site.'],
- 'industrial-lead-tracking': ['Use sales feedback to see which ads bring useful work.','Review the inquiries that come from search.','Ask useful questions on your forms and send requests to the right person.']
+ 'lead-tracking': ['Use sales feedback to see which ads bring useful work.','Review the inquiries that come from search.','Ask useful questions on your forms and send requests to the right person.']
 }
 EXAMPLE_FIELDS = [
  ('dispatch','Repair service',[('Job location','Where the equipment is'),('Equipment and problem','Machine type and what went wrong'),('How urgent is it?','When help is needed'),('Contact details','Name and phone number')],'Your service team can check the job, location and urgency before calling back.'),

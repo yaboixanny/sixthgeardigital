@@ -1,5 +1,5 @@
-/ppc.html /services/industrial-google-ads/ 301!
-/seo.html /services/industrial-seo/ 301!
+/ppc.html /services/google-ads/ 301!
+/seo.html /services/seo/ 301!
 /web-design.html /services/web-design-for-manufacturing-companies/ 301!
 /funnels.html /services/web-design-for-manufacturing-companies/ 301!
 /code.html / 301!
@@ -10,12 +10,12 @@
 # Keep exact paths: /services/* and /industries/* remain available.
 /web-design /services/web-design-for-manufacturing-companies/ 301!
 /web-design/ /services/web-design-for-manufacturing-companies/ 301!
-/ppc /services/industrial-google-ads/ 301!
-/ppc/ /services/industrial-google-ads/ 301!
-/ppc.html/ /services/industrial-google-ads/ 301!
-/seo /services/industrial-seo/ 301!
-/seo/ /services/industrial-seo/ 301!
-/seo.html/ /services/industrial-seo/ 301!
+/ppc /services/google-ads/ 301!
+/ppc/ /services/google-ads/ 301!
+/ppc.html/ /services/google-ads/ 301!
+/seo /services/seo/ 301!
+/seo/ /services/seo/ 301!
+/seo.html/ /services/seo/ 301!
 /services / 301!
 /services/ / 301!
 /contact / 301!
@@ -46,7 +46,7 @@
 
 /services/web-design-for-manufacturing-companies.html /services/web-design-for-manufacturing-companies/ 301!
 
-/services/industrial-facebook-ads.html /services/industrial-facebook-ads/ 301!
+/services/industrial-facebook-ads.html /services/facebook-ads/ 301!
 
 /services/industrial-websites /services/web-design-for-manufacturing-companies/ 301!
 /services/industrial-websites/ /services/web-design-for-manufacturing-companies/ 301!
@@ -55,6 +55,32 @@
 
 /web-design.html/ /services/web-design-for-manufacturing-companies/ 301!
 /funnels.html/ /services/web-design-for-manufacturing-companies/ 301!
+
+# SHORT SERVICE URLS START
+/services/industrial-seo /services/seo/ 301!
+/services/industrial-seo/ /services/seo/ 301!
+/services/industrial-seo.html /services/seo/ 301!
+/services/industrial-seo.html/ /services/seo/ 301!
+/services/seo.html /services/seo/ 301!
+/services/seo.html/ /services/seo/ 301!
+/services/industrial-google-ads /services/google-ads/ 301!
+/services/industrial-google-ads/ /services/google-ads/ 301!
+/services/industrial-google-ads.html /services/google-ads/ 301!
+/services/industrial-google-ads.html/ /services/google-ads/ 301!
+/services/google-ads.html /services/google-ads/ 301!
+/services/google-ads.html/ /services/google-ads/ 301!
+/services/industrial-facebook-ads /services/facebook-ads/ 301!
+/services/industrial-facebook-ads/ /services/facebook-ads/ 301!
+/services/industrial-facebook-ads.html/ /services/facebook-ads/ 301!
+/services/facebook-ads.html /services/facebook-ads/ 301!
+/services/facebook-ads.html/ /services/facebook-ads/ 301!
+/services/industrial-lead-tracking /services/lead-tracking/ 301!
+/services/industrial-lead-tracking/ /services/lead-tracking/ 301!
+/services/industrial-lead-tracking.html /services/lead-tracking/ 301!
+/services/industrial-lead-tracking.html/ /services/lead-tracking/ 301!
+/services/lead-tracking.html /services/lead-tracking/ 301!
+/services/lead-tracking.html/ /services/lead-tracking/ 301!
+# SHORT SERVICE URLS END
 
 # INDUSTRY ROUTES START
 /industries/hydraulics-fluid-power-marketing.html /industries/hydraulics-fluid-power-marketing/ 301!

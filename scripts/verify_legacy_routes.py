@@ -13,15 +13,23 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = (sys.argv[1] if len(sys.argv) > 1 else 'https://sixthgeardigital.com').rstrip('/')
 REDIRECTS = {
+    '/services/industrial-seo': '/services/seo/',
+    '/services/industrial-seo.html': '/services/seo/',
+    '/services/industrial-google-ads': '/services/google-ads/',
+    '/services/industrial-google-ads.html': '/services/google-ads/',
+    '/services/industrial-facebook-ads': '/services/facebook-ads/',
+    '/services/industrial-facebook-ads.html': '/services/facebook-ads/',
+    '/services/industrial-lead-tracking': '/services/lead-tracking/',
+    '/services/industrial-lead-tracking.html': '/services/lead-tracking/',
     '/web-design': '/services/web-design-for-manufacturing-companies/',
     '/services/industrial-websites': '/services/web-design-for-manufacturing-companies/',
     '/services/industrial-websites.html': '/services/web-design-for-manufacturing-companies/',
     '/web-design.html': '/services/web-design-for-manufacturing-companies/',
     '/funnels.html': '/services/web-design-for-manufacturing-companies/',
-    '/ppc': '/services/industrial-google-ads/',
-    '/ppc.html': '/services/industrial-google-ads/',
-    '/seo': '/services/industrial-seo/',
-    '/seo.html': '/services/industrial-seo/',
+    '/ppc': '/services/google-ads/',
+    '/ppc.html': '/services/google-ads/',
+    '/seo': '/services/seo/',
+    '/seo.html': '/services/seo/',
     '/services': '/', '/contact': '/', '/blog': '/',
     '/case-studies': '/', '/google-ads-results': '/',
 }

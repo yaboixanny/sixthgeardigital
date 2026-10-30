@@ -56,7 +56,7 @@ for index, page in enumerate(PAGES):
         ]})
     section_fields = {key:e(value) for key,value in content.items() if isinstance(value,str)}
     section_fields['challenge_cards'] = ''.join(f'<article class="card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in page['challenges'])
-    expected_services = ['industrial-google-ads','industrial-seo','web-design-for-manufacturing-companies','industrial-lead-tracking']
+    expected_services = ['google-ads','seo','web-design-for-manufacturing-companies','lead-tracking']
     assert [service['service'] for service in content['services']] == expected_services, slug
     section_fields['marketing_service_cards'] = ''.join(
         '<article class="card play-card"><h3>'+e(service['title'])+'</h3>'

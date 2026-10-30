@@ -1,6 +1,6 @@
 [
   {
-    "slug": "industrial-google-ads",
+    "slug": "google-ads",
     "name": "Google Ads for Manufacturing Companies",
     "short": "Manufacturing Google Ads",
     "headline": "Google Ads for manufacturing companies",
@@ -147,7 +147,7 @@
     "lastmod": "2026-10-30"
   },
   {
-    "slug": "industrial-seo",
+    "slug": "seo",
     "name": "SEO for Manufacturing Companies",
     "short": "Manufacturing SEO",
     "headline": "SEO for manufacturing companies",
@@ -295,7 +295,7 @@
     "lastmod": "2026-10-30"
   },
   {
-    "slug": "industrial-lead-tracking",
+    "slug": "lead-tracking",
     "name": "Lead Tracking for Manufacturing Companies",
     "short": "Manufacturing Lead Tracking",
     "headline": "Lead tracking for manufacturing companies",
@@ -632,7 +632,7 @@
     "lastmod": "2026-10-30"
   },
   {
-    "slug": "industrial-facebook-ads",
+    "slug": "facebook-ads",
     "name": "Facebook Ads for Manufacturing Companies",
     "short": "Manufacturing Facebook Ads",
     "page_template": "channel",
