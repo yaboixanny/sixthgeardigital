@@ -68,6 +68,8 @@ for index, page in enumerate(PAGES):
     section_fields['scenario_cards'] = ''.join(f'<div class="scenario-card"><h3>{label}</h3><p>{e(body)}</p></div>' for label,body in zip(['The search','The quote request','The tracked lead'],content['example']))
     section_fields['website_checklist'] = ''.join(f'<li><h3>{e(heading)}</h3><p>{e(body)}</p></li>' for heading,body in content['website_checklist'])
     section_fields['faq_items'] = ''.join(f'<details><summary>{e(question)}</summary><p>{e(answer)}</p></details>' for question,answer in page['faqs'])
+    section_fields['industry_faq_section'] = Template((ROOT/'templates/industry-faq.html').read_text()).substitute(
+        industry_faq_name=e(page['short']), industry_faq_intro=e(page['faq_intro']), faq_items=section_fields['faq_items'])
     page_sections = SECTIONS_TEMPLATE.substitute(section_fields)
 
     journey = page['buyer_journey']

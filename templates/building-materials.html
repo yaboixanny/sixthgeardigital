@@ -18,6 +18,7 @@
   <script src="/industrial.js" defer></script>
   <script type="application/ld+json">$structured_data</script>
 <link rel="stylesheet" href="/assets/navigation.css"><script src="/assets/navigation.js" defer></script>
+<link rel="stylesheet" href="/assets/industry-faq.css">
 </head>
 <body class="materials-page">
 <a class="skip-link" href="#main">Skip to content</a>
@@ -78,9 +79,7 @@
   <div class="container"><div class="materials-section-heading"><h2>From product search<br>to quote request.</h2><p class="materials-example-label">An example, not a client result.</p></div><div class="materials-example-grid">$scenario_cards</div></div>
 </section>
 
-<section class="materials-section materials-faq" id="faq">
-  <div class="container materials-split"><h2>$faq_heading</h2><div class="faq-list">$faq_items</div></div>
-</section>
+$industry_faq_section
   <section class="section container" id="consultation-audit"><div class="audit-panel"><div><h2>Let’s talk about<br>your products.</h2><p>Tell us what you sell, who buys it and what you would like to improve. We can look at your website and discuss where ads, SEO or a clearer inquiry process could help.</p><ul><li>Your products and the buyers you want to reach</li><li>Your website, campaigns and sales follow-up</li><li>The work, scope and next steps</li></ul><a class="support-link" href="/#services">See our marketing services ↗</a></div>
       <div class="form-panel"><form id="growth-plan-form" name="$form_name" method="POST" data-netlify="true" netlify-honeypot="website-confirmation">
         <input type="hidden" name="form-name" value="$form_name"><input type="hidden" name="industry" value="$name"><input type="hidden" name="source-page" value="$canonical">
