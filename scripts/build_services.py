@@ -76,6 +76,9 @@ for s in SERVICES:
  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
  page_template = TEMPLATE
  if simplified_hero:
+  fields['website_industry_navigation']=''.join(f'<a href="/industries/{e(page["slug"])}/">{e(page["short"])}</a>' for page in INDUSTRIES)
+  offers=json.loads((ROOT/'content/home-services.json').read_text())
+  fields['website_service_navigation']=''.join('<a href="'+('/services/'+offer['service']+'/' if offer.get('service') else '/#growth-plan')+'"'+(' aria-current="page"' if offer.get('service')==s['slug'] else '')+'>'+e(offer['title'])+'</a>' for offer in offers)
   schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
   fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
   page_template = Template((ROOT/'templates/website-service.html').read_text())
