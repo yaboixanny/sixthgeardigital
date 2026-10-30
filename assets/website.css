@@ -70,3 +70,19 @@
 }
 
 .website-connections { background: #fffaf6; }
+
+.website-rankings { background: #fffaf6; }
+.website-showcase { background: #fffaf6; padding: 88px 0 96px; }
+.website-showcase-heading { max-width: 730px; margin-bottom: 45px; }
+.website-showcase-heading h2 { color: #172133; font-size: clamp(32px, 3vw, 42px); font-weight: 750; line-height: 1.15; letter-spacing: -1.3px; }
+.website-showcase-heading>p { color: #62677b; font-size: 16px; line-height: 1.8; margin: 20px 0 0; }
+.website-showcase-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); column-gap: 30px; row-gap: 46px; }
+.website-showcase-card { min-width: 0; margin: 0; }
+.website-showcase-card>img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: #f6f3f0; border-radius: 5px; }
+.website-showcase-card figcaption { padding: 20px 7px 0; }
+.website-concept-label { display: block; color: #a84610; font-size: 10px; font-weight: 650; letter-spacing: .5px; text-transform: uppercase; margin-bottom: 9px; }
+.website-showcase-card h3 { font-size: 21px; line-height: 1.3; letter-spacing: -.5px; color: #172133; }
+.website-showcase-card figcaption p { color: #6b6382; font-size: 13px; line-height: 1.7; margin: 11px 0 0; }
+@media(max-width: 1000px) { .website-showcase-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width: 760px) { .website-showcase { padding: 58px 0 64px; } .website-showcase-heading h2 { font-size: 34px; } }
+@media(max-width: 560px) { .website-showcase-grid { grid-template-columns: 1fr; row-gap: 32px; } }
