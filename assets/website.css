@@ -1,4 +1,4 @@
-.contact-faq { padding: 100px 0 110px; background: linear-gradient(180deg, #e9e7fb 0%, #f7f7ff 65%, #fff 100%); }
+.contact-faq { padding: 100px 0 110px; background: #fffaf6; }
 .contact-faq-inner { width: min(1184px, calc(100% - 80px)); margin: 0 auto; display: grid; grid-template-columns: .85fr 1.15fr; gap: 95px; align-items: start; }
 .contact-faq-intro { padding-top: 6px; }
 .contact-faq h2 { color: #0f172a; font-size: clamp(38px, 4vw, 52px); font-weight: 750; line-height: 1.16; letter-spacing: -1.9px; }
