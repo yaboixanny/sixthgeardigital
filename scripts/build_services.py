@@ -56,6 +56,7 @@ for s in SERVICES:
  fields['outcome_cards']=''.join(f'<div class="outcome"><h2>{e(a)}</h2><p>{e(b)}</p></div>' for a,b in s['outcomes'])
  # The website service uses a simpler hero; retain the shared layout elsewhere.
  simplified_hero = s['slug'] == 'industrial-websites'
+ fields['hero_breadcrumb'] = '' if simplified_hero else '<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/#services">Services</a><span aria-hidden="true">/</span><span aria-current="page">'+fields['name']+'</span></nav>'
  fields['service_navigation_block'] = '' if simplified_hero else '<nav class="service-nav container" aria-label="Core services">'+fields['service_navigation']+'</nav>'
  fields['hero_badge'] = '' if simplified_hero else '<span class="badge"><i></i>'+fields['badge']+'</span>'
  fields['secondary_hero_action'] = '' if simplified_hero else '<a class="button button-secondary" href="#approach">See how we work <span aria-hidden="true">↓</span></a>'
