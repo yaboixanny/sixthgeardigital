@@ -233,3 +233,29 @@ body.contact-dialog-open { overflow: hidden; }
  .launch-card-inner { padding: 25px 22px; }
  .launch-time { flex-basis: auto; margin-left: auto; }
 }
+
+/* Curated industry links beneath the three-day service setup cards. */
+.home-industries { padding: 96px 0 104px; background: #fff; }
+.home-industries-inner { width: min(1184px, calc(100% - 80px)); margin: auto; }
+.home-industries-heading { text-align: center; margin-bottom: 64px; }
+.home-industries-label { margin: 0 0 22px; color: #c2410c; font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: .6px; }
+.home-industries-heading h2 { color: #172133; font-size: clamp(36px, 3.7vw, 50px); font-weight: 750; line-height: 1.15; letter-spacing: -1.7px; }
+.home-industries-heading>p:last-child { max-width: 850px; margin: 34px auto 0; color: #4d586a; font-size: 20px; line-height: 1.75; }
+.home-industries-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); column-gap: 38px; row-gap: 35px; }
+.home-industry-item { display: flex; align-items: flex-start; gap: 17px; padding: 5px 0; text-decoration: none; }
+.home-industry-icon { display: grid; place-items: center; flex: 0 0 43px; height: 43px; border-radius: 10px; background: #fff2e9; color: #c2410c; }
+.home-industry-icon svg { width: 25px; height: 25px; }
+.home-industry-item strong { display: block; color: #c2410c; font-size: 15px; font-weight: 600; line-height: 1.5; }
+.home-industry-description { display: block; color: #626773; font-size: 13px; line-height: 1.7; margin-top: 3px; }
+.home-industry-item:hover strong { color: #9a3412; text-decoration: underline; text-underline-offset: 4px; }
+.home-industry-item:focus-visible { outline: 3px solid #c2410c; outline-offset: 7px; border-radius: 5px; }
+@media(max-width: 1000px) { .home-industries-grid { grid-template-columns: repeat(2,minmax(0,1fr)); column-gap: 36px; } }
+@media(max-width: 600px) {
+ .home-industries { padding: 64px 0; }
+ .home-industries-inner { width: calc(100% - 40px); }
+ .home-industries-heading { margin-bottom: 38px; }
+ .home-industries-heading h2 { font-size: 36px; letter-spacing: -1.2px; }
+ .home-industries-heading>p:last-child { font-size: 17px; margin-top: 23px; }
+ .home-industries-grid { grid-template-columns: 1fr; row-gap: 23px; }
+ .home-industry-item { gap: 16px; }
+}

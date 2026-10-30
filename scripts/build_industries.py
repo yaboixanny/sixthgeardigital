@@ -97,6 +97,33 @@ assert count == 1, 'Homepage comparison section marker missing'
 links = ''.join(f'<li><a class="hover:text-white transition-colors" href="/industries/{e(page["slug"])}/">{e(page["short"])}</a></li>' for page in PAGES)
 s, count = re.subn(r'<!-- HOMEPAGE INDUSTRY LINKS START -->.*?<!-- HOMEPAGE INDUSTRY LINKS END -->',lambda _:f'<!-- HOMEPAGE INDUSTRY LINKS START -->{links}<!-- HOMEPAGE INDUSTRY LINKS END -->',s,flags=re.S)
 assert count == 1, 'Homepage footer industry markers missing'
+# The homepage industry grid follows the three-day setup section.
+industry_icons = {
+ 'hydraulics':'<path d="M5 5h14v5H5zM9 10v5m6-5v5M5 15h14v5H5zM2 7h3m14 0h3M2 18h3m14 0h3"/>',
+ 'attachments':'<path d="m5 3 7 6-3 4-6-5 2-5Zm7 6 6 4-5 8-7-5 3-3m9 0 3 2-4 6h-4"/>',
+ 'fleet':'<path d="M3 6h12v11H3zM15 10h4l3 4v3h-7M5 10h7m-7 3h5"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>',
+ 'modular':'<path d="M3 7h18v13H3zM5 4h14l2 3M7 11h4v4H7zM15 11h3v9M1 20h22"/>',
+ 'forklift':'<path d="M3 8h7v9H3zM6 8V4h7v13m4-14v16h5M10 13h3m-8-2h3"/><circle cx="5" cy="19" r="2"/><circle cx="12" cy="19" r="2"/>',
+ 'power':'<rect x="3" y="5" width="18" height="15" rx="2"/><path d="M7 5V3h10v2m-4 4-4 5h4l-2 4 6-6h-4l2-3M6 21v-1m12 1v-1"/>',
+ 'machining':'<path d="m12 2 9 5v10l-9 5-9-5V7l9-5Zm-9 5 9 5 9-5m-9 5v10M8 5l9 5"/><path d="m7 12 2 1v4l-2-1z"/>',
+ 'rigging':'<path d="M4 21V3h14l-6 5H4m0-5 8 5m5-4v10m0 0v2a3 3 0 1 1-5 2M2 21h6m6-13h6"/>',
+ 'cooling':'<path d="M12 2v20M3 7l18 10M3 17 21 7M8 4l4 3 4-3m-8 16 4-3 4 3M3 11l5-1-1-5m14 8-5 1 1 5M3 13l5 1-1 5m14-8-5-1 1-5"/>',
+ 'steel':'<path d="m2 10 10-7 10 7M4 9v12h16V9M8 21v-8h8v8M4 21h16m-8-18v7"/>',
+ 'scaffolding':'<path d="M4 2v20M20 2v20M4 5h16M4 12h16M4 19h16M4 5l16 14M20 5 4 19M1 22h6m10 0h6"/>',
+ 'automation':'<path d="M3 21h18M7 21v-5l6-5-4-6 4-3 6 8-5 6v5M17 10l4-2m-1-2 2 2-1 3"/><circle cx="9" cy="5" r="2"/><circle cx="14" cy="13" r="2"/>',
+ 'materials':'<path d="m12 2 10 5-10 5L2 7l10-5Zm-9 10 9 5 9-5m-18 5 9 5 9-5"/>'
+}
+by_slug = {page['slug']:page for page in PAGES}
+featured = json.loads((ROOT/'content/home-industries.json').read_text())
+assert len({item['slug'] for item in featured}) == len(featured), 'Duplicate homepage industry'
+items = []
+for item in featured:
+ page = by_slug[item['slug']]
+ icon = '<span class="home-industry-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'+industry_icons[item['icon']]+'</svg></span>'
+ items.append('<a class="home-industry-item" href="/industries/'+e(page['slug'])+'/">'+icon+'<span><strong>'+e(page['short'])+'</strong><span class="home-industry-description">'+e(item['description'])+'</span></span></a>')
+industry_section = Template((ROOT/'templates/home-industries.html').read_text()).substitute(items=''.join(items))
+s, count = re.subn(r'<!-- SECTION: INDUSTRIES WE SERVE -->.*?(?=<!-- SECTION: CONTACT & QUESTIONS -->)',lambda _:industry_section,s,flags=re.S)
+assert count == 1, 'Homepage industry grid marker missing'
 p.write_text(s)
 
 # Preserve existing pages, then replace only the generated industry sitemap block.

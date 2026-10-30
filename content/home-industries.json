@@ -1,0 +1,15 @@
+[
+  {"slug":"hydraulics-fluid-power-marketing","description":"Hydraulic repairs, hoses and fluid power systems","icon":"hydraulics"},
+  {"slug":"attachment-manufacturer-dealer-marketing","description":"Equipment attachments, manufacturers and dealers","icon":"attachments"},
+  {"slug":"commercial-fleet-graphics-marketing","description":"Commercial vehicle wraps and fleet branding","icon":"fleet"},
+  {"slug":"modular-buildings-site-offices-marketing","description":"Modular buildings, site offices and portable spaces","icon":"modular"},
+  {"slug":"forklift-material-handling-marketing","description":"Forklift sales, rentals and warehouse equipment","icon":"forklift"},
+  {"slug":"commercial-generators-critical-power-marketing","description":"Backup generators and critical power systems","icon":"power"},
+  {"slug":"cnc-machining-fabrication-marketing","description":"Precision parts, machining and metal fabrication","icon":"machining"},
+  {"slug":"heavy-haul-rigging-marketing","description":"Heavy transport, machinery moving and lifting","icon":"rigging"},
+  {"slug":"industrial-refrigeration-marketing","description":"Industrial cooling, cold storage and service","icon":"cooling"},
+  {"slug":"steel-building-marketing","description":"Steel building suppliers, dealers and contractors","icon":"steel"},
+  {"slug":"scaffolding-shoring-formwork-marketing","description":"Access equipment, temporary support and formwork","icon":"scaffolding"},
+  {"slug":"industrial-automation-robotics-marketing","description":"Automation systems, robotics and integration","icon":"automation"},
+  {"slug":"building-materials-marketing","description":"Building product manufacturers and suppliers","icon":"materials"}
+]
