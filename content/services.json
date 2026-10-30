@@ -3,9 +3,9 @@
     "slug": "industrial-google-ads",
     "name": "Google Ads for Industrial Companies",
     "short": "Industrial Google Ads",
-    "headline": "Google Ads",
-    "accent": "for Industrial Companies",
-    "intro": "We help industrial companies run Google Ads for the products and services they sell. The goal is to reach people who need your help, in places you serve, and make it easy to call or ask for a quote.",
+    "headline": "Google Ads for industrial companies",
+    "accent": "focused on useful inquiries.",
+    "intro": "Reach buyers already searching for the equipment, repairs, manufacturing services or contractors you offer. We connect focused search campaigns, clear landing pages and lead tracking so you can see which inquiries fit your business.",
     "cta": "Talk about your ads",
     "badge": "GOOGLE ADS",
     "steps": [
@@ -115,20 +115,24 @@
     ],
     "faqs": [
       [
-        "Is the ad budget included in your fee?",
-        "No. We discuss what you pay Google separately from our work. We agree on the budget, pages and tracking before the ads start."
+        "How quickly can Google Ads start?",
+        "A focused campaign can be prepared once the scope, account access, offer and landing page are ready. Launch timing also depends on account setup and ad review. Early activity needs checking; a campaign being live is not the same as knowing it brings qualified inquiries."
       ],
       [
-        "Will every inquiry be a good fit?",
-        "No. Clear ads, useful pages and sensible form questions can help, but some inquiries will still be unsuitable. Your team’s feedback helps us improve the ads."
+        "How much should we spend on ads?",
+        "That depends on your services, locations and the searches you want to cover. We agree on a starting ad budget and management scope before work begins. Any landing-page or extra software costs are discussed separately."
       ],
       [
-        "Can you use our existing Google Ads account?",
-        "Yes. We can review your account and past results. We arrange access through Google Ads, so you do not need to share your password."
+        "Can you work with our existing Google Ads account?",
+        "Yes. We review the account history, tracking, search terms and landing pages before recommending changes. Your business should retain access to its account and reporting."
       ],
       [
-        "How do you judge the results?",
-        "We look at the cost of useful inquiries and whether they lead to quotes or jobs. Clicks and calls help explain what happened, but they do not tell the whole story."
+        "Do we need a separate landing page?",
+        "Sometimes. An existing service page may be suitable if it clearly answers the search and makes it easy to inquire. A focused page can help when your homepage or catalog does not explain the specific offer well enough."
+      ],
+      [
+        "Can you guarantee a number of leads?",
+        "No. Demand, competition, budget, the offer and your response process all affect results. We focus on clear targeting, reliable measurement and improving inquiry quality with your team’s feedback."
       ]
     ],
     "form_label": "Are you running Google Ads?",
@@ -138,15 +142,17 @@
       "Another company manages our ads",
       "We want to advertise a new service or area"
     ],
-    "description": "Google Ads for industrial companies. Reach people looking for your products or services, and see which calls and quote requests lead to work."
+    "description": "Google Ads for industrial companies. Focused search campaigns, landing pages and lead tracking for equipment, repairs, manufacturers and contractors.",
+    "page_template": "channel",
+    "lastmod": "2026-10-30"
   },
   {
     "slug": "industrial-seo",
     "name": "Industrial SEO",
     "short": "Industrial SEO",
-    "headline": "Industrial SEO",
-    "accent": "for Manufacturers and Service Companies",
-    "intro": "Search engine optimization, or SEO, helps people find your website through search. We improve your pages so buyers can understand what you do, check whether you can help and get in touch.",
+    "headline": "SEO for industrial companies",
+    "accent": "built around real buyer searches.",
+    "intro": "Help engineers, purchasing teams and business owners find clear answers about your work. We improve your website structure, technical setup and content so buyers can discover your products and services, check whether you fit their needs and get in touch.",
     "cta": "Talk about your SEO",
     "badge": "SEARCH ENGINE OPTIMIZATION",
     "steps": [
@@ -256,20 +262,24 @@
     ],
     "faqs": [
       [
-        "How long does SEO take?",
-        "It usually takes time. Your current website, competition and market all affect progress. We set clear tasks and review results, but we do not promise a ranking or a set number of calls."
+        "How long does industrial SEO take?",
+        "It depends on your starting point, competition and the work needed. Technical fixes can be checked soon after they are made, while useful visibility from new or improved content takes time to develop. We agree on priorities and review progress over months, without promising a fixed ranking date."
       ],
       [
-        "Do we need a page for every city?",
-        "No. A location page should help people in a place you actually serve. Copying the same page for many cities is not a useful starting point."
+        "Do you write technical content?",
+        "Yes. We turn your service information, product details and project knowledge into clear pages. Your team checks specifications, tolerances, certifications and other technical claims before publication."
       ],
       [
-        "Can you use information from our team?",
-        "Yes. Your engineers, product staff and sales team know the details buyers need. We help organize that information and ask your team to check it."
+        "Can you help with local SEO?",
+        "Yes, where location matters to the buyer. We review service areas, location details and your Google Business Profile where relevant. Location pages should describe real coverage and useful local information."
       ],
       [
-        "How does SEO work with Google Ads?",
-        "Ads can bring people to your site while you improve its search visibility. Both work better when the pages answer buyer questions and your team shares feedback on the inquiries."
+        "How do we know SEO is working?",
+        "We review relevant search visibility, visits to useful pages and contact actions. When your sales records allow it, we also look at which inquiries fit, receive quotes and become customers. Traffic alone is not the whole result."
+      ],
+      [
+        "Should we use SEO or Google Ads first?",
+        "It depends on your demand, website and timeline. Google Ads can put a focused offer in front of people searching while SEO work develops. We recommend a starting point around your sales priorities and budget, then review the evidence."
       ]
     ],
     "form_label": "What needs attention?",
@@ -280,7 +290,9 @@
       "Help local buyers find us",
       "Review our current SEO work"
     ],
-    "description": "Industrial SEO for manufacturers and service companies. Help buyers find your website, understand what you offer and ask for a quote."
+    "description": "SEO for industrial companies. Clear service pages, technical content and local visibility that help buyers find your business and request a quote.",
+    "page_template": "channel",
+    "lastmod": "2026-10-30"
   },
   {
     "slug": "industrial-websites",
@@ -697,6 +709,39 @@
       "Learn about your business and buyers",
       "Review what is working on your website",
       "Identify useful next steps"
+    ]
+  },
+  {
+    "slug": "industrial-facebook-ads",
+    "name": "Facebook Ads for Industrial Companies",
+    "short": "Industrial Facebook Ads",
+    "page_template": "channel",
+    "lastmod": "2026-10-30",
+    "headline": "Facebook ads for industrial companies",
+    "accent": "built around your buyers.",
+    "intro": "Put your products, equipment and project work in front of relevant buyers on Facebook. We connect clear creative, focused audiences and a useful inquiry process so interest has a better path to a sales conversation.",
+    "description": "Facebook ads for industrial companies. Product and project creative, focused audiences, lead forms and follow-up for manufacturing and industrial businesses.",
+    "faqs": [
+      [
+        "Can Facebook ads work for an industrial business?",
+        "They can be useful when you have a clear offer, relevant creative and a practical follow-up process. They may help introduce products, show project work or reconnect with previous visitors where the setup supports it. We review fit rather than assuming every industrial company needs the same channel."
+      ],
+      [
+        "What photos or videos do we need?",
+        "Real product photos, demonstrations and approved project images are useful starting points. Clear, accurate material matters more than adding effects. We review what you already have and agree on any new creative needed."
+      ],
+      [
+        "Should we use Facebook lead forms or a website page?",
+        "It depends on the offer and the details sales needs. A lead form can make the first step shorter, while a website page can explain a more technical product or service. We choose a route that gives buyers context and your team useful information."
+      ],
+      [
+        "How much does Facebook advertising cost?",
+        "The scope depends on ad spending, management, creative production and any landing-page or tracking work. We agree on the starting budget and fees before beginning, then review costs alongside inquiry quality."
+      ],
+      [
+        "Will you help us track whether the leads become customers?",
+        "We can help connect lead sources to calls, forms and sales records where your tools support it. Your team’s updates on quotes and won work are important. We explain any measurement gaps rather than treating every lead as a customer."
+      ]
     ]
   }
 ]

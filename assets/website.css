@@ -149,3 +149,6 @@
  .website-design-hero .website-discovery-cta { padding: 16px 23px; font-size: 14px; }
  .website-hero-art { width: 650px; right: -420px; opacity: .42; }
 }
+
+.channel-context-link { color: #c2410c; text-decoration: underline; text-underline-offset: 3px; }
+.channel-context-link:hover { color: #9a3412; }

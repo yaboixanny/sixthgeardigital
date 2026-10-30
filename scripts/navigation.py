@@ -13,15 +13,12 @@ def navigation_fields(current_path, contact_target):
         return '<a href="'+escape(path, quote=True)+'"'+current+'>'+escape(title)+'</a>'
 
     industries = json.loads((ROOT/'content/industries.json').read_text())
-    services = json.loads((ROOT/'content/services.json').read_text())
-    offers = json.loads((ROOT/'content/home-services.json').read_text())
-    nav_offers = []
-    for offer in offers:
-        nav_offers.append(offer)
-        if offer.get('service') == 'industrial-websites':
-            nav_offers.extend({'title':service['name'], 'service':service['slug']}
-                              for service in services
-                              if service.get('extends') == 'industrial-websites')
+    nav_offers = [
+        {'title':'SEO', 'service':'industrial-seo'},
+        {'title':'Google Ads', 'service':'industrial-google-ads'},
+        {'title':'Web design', 'service':'industrial-websites'},
+        {'title':'Facebook ads', 'service':'industrial-facebook-ads'},
+    ]
     values = {
         'home_current': ' aria-current="page"' if current_path == '/' else '',
         'about_current': ' aria-current="page"' if current_path == '/about/' else '',

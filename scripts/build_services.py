@@ -6,6 +6,7 @@ from html import escape
 import json
 import re
 from navigation import navigation_fields
+from channel_services import render_channel_service
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
@@ -15,6 +16,7 @@ SERVICE_SOURCES = {record['slug']:record for record in SERVICE_RECORDS}
 # Focused service pages inherit layout content, then override their own copy.
 SERVICES = [{**SERVICE_SOURCES[record['extends']], **record} if record.get('extends') else record for record in SERVICE_RECORDS]
 INDUSTRIES = json.loads((ROOT/'content/industries.json').read_text())
+CHANNEL_CONTENT = json.loads((ROOT/'content/channel-services.json').read_text())
 TEMPLATE = Template((ROOT/'templates/service.html').read_text())
 HERO = '/assets/images/industrial-services-512.webp'
 
@@ -53,6 +55,10 @@ def form_examples():
 for s in SERVICES:
  canonical=BASE+route(s); title=s['name']+' | Sixth Gear Digital'
  desc=s['description']
+ if s.get('page_template') == 'channel':
+  folder=ROOT/'services'/s['slug']; folder.mkdir(parents=True,exist_ok=True)
+  (folder/'index.html').write_text(render_channel_service(s, CHANNEL_CONTENT[s['slug']], links(s['slug'])))
+  continue
  source_slug=s.get('extends',s['slug'])
  h=HEADINGS[source_slug]
  fields={k:e(v) for k,v in s.items() if isinstance(v,str)}
@@ -89,12 +95,16 @@ for s in SERVICES:
   fields['website_redesign_bullets']=''.join('<li><strong>'+e(label)+'</strong> '+e(body)+'</li>' for label,body in s['website_redesign_points'])
   schema['@graph'].append({'@type':'FAQPage','@id':canonical+'#faq','mainEntity':[{'@type':'Question','name':q,'acceptedAnswer':{'@type':'Answer','text':a}} for q,a in s['faqs']]})
   fields['structured_data']=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')
+  fields['service_content_sections'] = Template((ROOT/'templates/website-sections.html').read_text()).substitute(fields)
+  fields['service_problem_section'] = Template((ROOT/'templates/website-problems.html').read_text()).substitute(fields)
+  fields['faq_aria_label'] = 'Industrial web design questions'
+  fields['website_final_prompt'] = 'Let’s talk about your website.'
   page_template = Template((ROOT/'templates/website-service.html').read_text())
  fields.update(navigation_fields(route(s), '/#growth-plan' if simplified_hero else '#audit-form'))
  (folder/'index.html').write_text(page_template.substitute(fields))
 
 # Homepage offers are curated separately from the complete service-page directory.
-# Facebook Ads currently starts a contact conversation instead of linking to a draft page.
+# Each featured homepage offer links to its published service page.
 home_offers = json.loads((ROOT/'content/home-services.json').read_text())
 service_by_slug = {service['slug']:service for service in SERVICES}
 icons = {

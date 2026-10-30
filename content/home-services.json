@@ -20,8 +20,7 @@
   {
     "title": "Facebook ads for industrial companies",
     "description": "Put your products and project work in front of relevant buyers on Facebook. Use clear creative, focused campaigns and follow-up to turn interest into useful conversations.",
-    "action": "contact",
-    "action_label": "Ask about Facebook ads",
-    "icon": "facebook"
+    "icon": "facebook",
+    "service": "industrial-facebook-ads"
   }
 ]
