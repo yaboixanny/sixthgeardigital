@@ -47,7 +47,7 @@ class Page(HTMLParser):
 
 pages={p.relative_to(DIST).as_posix():Page(p.read_text()) for p in DIST.rglob('*.html')}
 urls=[e.text for e in ET.parse(DIST/'sitemap.xml').findall('.//{*}loc')]
-expected_urls = {BASE+'/', BASE+'/about/'}
+expected_urls = {BASE+'/', BASE+'/about/', BASE+'/contact/'}
 for group in ('industries', 'services'):
     expected_urls.update(BASE+'/'+group+'/'+entry['slug']+'/' for entry in json.loads((ROOT/'content'/f'{group}.json').read_text()))
 check(len(urls)==len(expected_urls) and set(urls)==expected_urls,'Sitemap must contain each configured canonical URL exactly once')
@@ -61,7 +61,7 @@ for source,page in pages.items():
     if source=='404.html':
         check(page.noindex,'404 must have noindex')
     else:
-        expected=BASE+('/' if source=='index.html' else '/about/' if source=='about/index.html' else '/' + source.removesuffix('index.html') if source.startswith(('services/','industries/')) else '/'+source)
+        expected=BASE+('/' if source=='index.html' else '/about/' if source=='about/index.html' else '/contact/' if source=='contact/index.html' else '/' + source.removesuffix('index.html') if source.startswith(('services/','industries/')) else '/'+source)
         check(page.canon==[expected],f'{source}: wrong canonical')
         check(expected in urls,f'{source}: missing from sitemap')
         check(page.h1==1,f'{source}: expected one H1')

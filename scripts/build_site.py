@@ -14,6 +14,8 @@ for name in ('index.html', '404.html', 'robots.txt', 'sitemap.xml', 'industrial.
 for folder in ('services', 'industries'):
     (DIST / folder).mkdir()
 (DIST / 'about').mkdir()
+(DIST / 'contact').mkdir()
+shutil.copy2(ROOT / 'contact.html', DIST / 'contact' / 'index.html')
 shutil.copy2(ROOT / 'about.html', DIST / 'about' / 'index.html')
 for item in json.loads((ROOT / 'content/services.json').read_text()):
     slug = item['slug']
@@ -24,7 +26,7 @@ for item in json.loads((ROOT / 'content/industries.json').read_text()):
     (DIST / 'industries' / slug).mkdir()
     shutil.copy2(ROOT / 'industries' / slug / 'index.html', DIST / 'industries' / slug / 'index.html')
 (DIST / 'assets').mkdir()
-for name in ('home.css', 'robot-arm.css', 'robot-arm.js', 'fonts.css', 'industry.css', 'cnc-hero.css', 'cnc-hero.js', 'industry-faq.css', 'industry-expectations.css', 'building-materials.css', 'services.css', 'website.css', 'navigation.css', 'navigation.js', 'website-success.svg', 'website-redesign.svg', 'website-lifecycle.svg', 'website-connections.svg', 'website-project-cost.svg', 'website-search-migration.svg', 'website-rebrand.svg', 'services.js', 'alex-founder.webp'):
+for name in ('home.css', 'contact.css', 'robot-arm.css', 'robot-arm.js', 'fonts.css', 'industry.css', 'cnc-hero.css', 'cnc-hero.js', 'industry-faq.css', 'industry-expectations.css', 'building-materials.css', 'services.css', 'website.css', 'navigation.css', 'navigation.js', 'website-success.svg', 'website-redesign.svg', 'website-lifecycle.svg', 'website-connections.svg', 'website-project-cost.svg', 'website-search-migration.svg', 'website-rebrand.svg', 'services.js', 'alex-founder.webp'):
     shutil.copy2(ROOT / 'assets' / name, DIST / 'assets' / name)
 for folder in ('industries', 'images', 'fonts'):
     shutil.copytree(ROOT / 'assets' / folder, DIST / 'assets' / folder)

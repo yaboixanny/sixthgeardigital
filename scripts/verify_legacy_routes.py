@@ -30,7 +30,7 @@ REDIRECTS = {
     '/ppc.html': '/services/google-ads/',
     '/seo': '/services/seo/',
     '/seo.html': '/services/seo/',
-    '/services': '/', '/contact': '/', '/blog': '/',
+    '/services': '/', '/blog': '/',
     '/case-studies': '/', '/google-ads-results': '/',
 }
 GONE = [
@@ -62,7 +62,8 @@ def main():
     checks = [(path + suffix, 301, target) for path, target in REDIRECTS.items()
               for suffix in ('', '/')]
     checks += [(path + suffix, 410, None) for path in GONE for suffix in ('', '/')]
-    current = ['/', '/about/']
+    checks += [('/contact', 301, '/contact/')]
+    current = ['/', '/about/', '/contact/']
     for group in ('services', 'industries'):
         current += [f'/{group}/{page["slug"]}/' for page in
                     json.loads((ROOT / f'content/{group}.json').read_text())]

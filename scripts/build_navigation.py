@@ -5,7 +5,7 @@ import re
 from navigation import navigation_fields
 
 ROOT = Path(__file__).resolve().parents[1]
-for filename, route, contact in [('index.html', '/', '#growth-plan'), ('about.html', '/about/', '/#growth-plan')]:
+for filename, route, contact in [('index.html', '/', '#growth-plan'), ('about.html', '/about/', '/#growth-plan'), ('contact.html', '/contact/', '/contact/')]:
     path = ROOT/filename
     html = path.read_text()
     fields = navigation_fields(route, contact)

@@ -8,8 +8,6 @@
 .cnc-hero-page .site-header:not(.is-scrolled) .brand b { color: #ff9a61; }
 .cnc-hero-page .site-header:not(.is-scrolled) .brand-mark { background: #fff; color: #172133; }
 .cnc-hero-page .site-header:not(.is-scrolled) .desktop-nav>a:hover, .cnc-hero-page .site-header:not(.is-scrolled) .website-nav-dropdown>button:hover, .cnc-hero-page .site-header:not(.is-scrolled) .website-nav-dropdown>button[aria-expanded=true] { color: #ffb58a; }
-.cnc-hero-page .site-header:not(.is-scrolled) .header-cta { background: #e55d16; color: #fff; box-shadow: none; border-radius: 2px; }
-.cnc-hero-page .site-header:not(.is-scrolled) .header-cta:hover { background: #c4490b; }
 .cnc-hero-page .site-header:not(.is-scrolled) .menu-toggle { background: transparent; border-color: #ffffff66; }
 .cnc-hero-page .site-header:not(.is-scrolled) .menu-toggle span { background: #fff; }
 .cnc-hero-page #mobile-menu { color: #172133; background: #fff; }

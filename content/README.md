@@ -93,3 +93,5 @@ The background hero and shared styles use `templates/cnc-hero.html`, `assets/cnc
 When adding an industry page, also add its entry to `content/home-industries.json` so it appears in the homepage “Built for your world” section and the industry navigation.
 
 The five service pages also use the industry-style dark hero and overlay-to-sticky navigation. `templates/service-hero.html` supplies the shared hero; service-specific headlines and introductions remain in `services.json`. The common hero styles and scroll behavior are in `assets/cnc-hero.css` and `assets/cnc-hero.js`.
+
+The header “Get in touch” button and mobile menu link lead to the standalone `/contact/` page. `contact.html` is published as `contact/index.html`; its `contact-page` form uses Netlify form detection and the existing submission handler. `/contact` redirects to the canonical trailing-slash URL. Header button styling is shared in `assets/navigation.css` and matches the homepage hero button. The separate discovery-call and homepage popup flows remain available through their existing links.
