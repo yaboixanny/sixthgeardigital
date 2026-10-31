@@ -37,3 +37,26 @@
   .cnc-hero-description { font-size: 17px; line-height: 1.7; margin-top: 25px; }
   .cnc-hero-page .cnc-hero-cta { margin-top: 30px; padding: 16px 23px; font-size: 14px; }
 }
+
+.cnc-strategies { background: #fff; padding: 96px 0 100px; }
+.cnc-strategies-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+.cnc-strategies h2 { margin: 0; font-size: clamp(32px, 3.1vw, 45px); line-height: 1.17; font-weight: 750; letter-spacing: -1.4px; }
+.cnc-strategies h2 span { color: #c4490b; }
+.cnc-strategies figure { margin: 34px 0 0; }
+.cnc-strategies img { display: block; width: 100%; height: auto; }
+.cnc-strategies-copy { font-size: 17px; line-height: 1.8; color: #263347; }
+.cnc-strategies-copy p { margin: 0 0 23px; }
+.cnc-strategies-copy h3 { margin: 28px 0 17px; font-size: 25px; line-height: 1.35; font-weight: 700; letter-spacing: -.5px; color: #0b1c30; }
+.cnc-strategies-copy ul { padding-left: 22px; margin: 22px 0 26px; }
+.cnc-strategies-copy li { padding-left: 5px; margin: 0 0 13px; }
+.cnc-strategies-copy li::marker { color: #c4490b; }
+.cnc-hero-page .cnc-strategies .cnc-hero-cta { margin-top: 7px; }
+@media(max-width:1023px) { .cnc-strategies-grid { gap: 38px; } }
+@media(max-width:760px) {
+  .cnc-strategies { padding: 56px 0; }
+  .cnc-strategies-grid { grid-template-columns: 1fr; gap: 30px; }
+  .cnc-strategies h2 { font-size: 34px; letter-spacing: -.9px; }
+  .cnc-strategies figure { margin-top: 22px; max-width: 480px; margin-inline: auto; }
+  .cnc-strategies-copy h3 { font-size: 24px; }
+  .cnc-hero-page .cnc-strategies .cnc-hero-cta { max-width: 100%; padding: 16px 20px; text-align: center; }
+}

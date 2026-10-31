@@ -111,6 +111,8 @@ for index, page in enumerate(PAGES):
         fields['industry_hero_assets'] = '<link rel="stylesheet" href="/assets/cnc-hero.css"><script src="/assets/cnc-hero.js" defer></script>\n'
         fields['industry_body_attributes'] = ' class="cnc-hero-page"'
     fields['industry_hero'] = Template((ROOT / hero_template).read_text()).substitute(fields)
+    if page.get('hero_style') == 'cnc-background':
+        fields['industry_hero'] += (ROOT / 'templates/cnc-strategies.html').read_text()
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
     template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE
