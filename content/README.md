@@ -91,3 +91,5 @@ Industry-specific copy lives in `content/industries.json`: `hero_eyebrow`, `hero
 The background hero and shared styles use `templates/cnc-hero.html`, `assets/cnc-hero.css` and `assets/cnc-hero.js`; the names are retained for compatibility. The neutral background is `assets/industries/cnc-hero-background.svg`. Each industry record chooses its introduction and buyer-fit illustration paths. Continue writing distinct, industry-relevant copy for each page, rather than copying another industry's content.
 
 When adding an industry page, also add its entry to `content/home-industries.json` so it appears in the homepage “Built for your world” section and the industry navigation.
+
+The five service pages also use the industry-style dark hero and overlay-to-sticky navigation. `templates/service-hero.html` supplies the shared hero; service-specific headlines and introductions remain in `services.json`. The common hero styles and scroll behavior are in `assets/cnc-hero.css` and `assets/cnc-hero.js`.

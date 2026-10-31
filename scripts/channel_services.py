@@ -67,5 +67,6 @@ def render_channel_service(service, content, footer_links):
         'website_final_bullets':''.join('<li>'+check+e(point)+'</li>' for point in cta['points']),
         'website_final_prompt':e(cta['prompt']),'footer_links':footer_links,
     }
+    fields['service_hero'] = Template((ROOT/'templates/service-hero.html').read_text()).substitute(headline=fields['headline'], accent=fields['accent'], intro=fields['intro'], hero_service_label=e(service['name']))
     fields.update(navigation_fields('/services/'+service['slug']+'/', '/#growth-plan'))
     return Template((ROOT/'templates/website-service.html').read_text()).substitute(fields)

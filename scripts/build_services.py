@@ -101,6 +101,7 @@ for s in SERVICES:
   fields['faq_aria_label'] = 'Manufacturing web design questions'
   fields['website_final_prompt'] = 'Let’s talk about your website.'
   page_template = Template((ROOT/'templates/website-service.html').read_text())
+ fields['service_hero'] = Template((ROOT/'templates/service-hero.html').read_text()).substitute(headline=fields['headline'], accent=fields['accent'], intro=fields['intro'], hero_service_label=e(s['name']))
  fields.update(navigation_fields(route(s), '/#growth-plan' if simplified_hero else '#audit-form'))
  (folder/'index.html').write_text(page_template.substitute(fields))
 
