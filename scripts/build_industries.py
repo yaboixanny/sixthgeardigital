@@ -103,6 +103,14 @@ for index, page in enumerate(PAGES):
     fields.update(section_fields)
     fields.update(buyer_heading=e(journey['heading']), buyer_cards=journey_cards,
                   product_list=''.join(f'<li>{e(product)}</li>' for product in page.get('product_types', [])))
+    fields['industry_hero_assets'] = ''
+    fields['industry_body_attributes'] = ''
+    hero_template = 'templates/industry-hero.html'
+    if page.get('hero_style') == 'cnc-background':
+        hero_template = 'templates/cnc-hero.html'
+        fields['industry_hero_assets'] = '<link rel="stylesheet" href="/assets/cnc-hero.css">\n'
+        fields['industry_body_attributes'] = ' class="cnc-hero-page"'
+    fields['industry_hero'] = Template((ROOT / hero_template).read_text()).substitute(fields)
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
     template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE

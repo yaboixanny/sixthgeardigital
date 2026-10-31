@@ -1435,7 +1435,7 @@
     },
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "marketing_content": {
       "challenge_heading": "Why CNC Machine Shops Struggle to Get Quote Requests",
       "challenge_intro": "Good work alone does not help a new buyer find and assess your shop.",
@@ -1558,7 +1558,11 @@
           "We review which searches and pages bring work that fits your shop. Your team’s feedback on RFQs, quotes and won jobs helps us improve the marketing. You can see the work planned and how the next decisions are made."
         ]
       ]
-    }
+    },
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Digital marketing for CNC machine shops",
+    "hero_heading": "Marketing for CNC Machine Shops and Fabricators",
+    "hero_description": "Google Ads, SEO, website design and lead tracking for CNC machine shops and fabricators. Help engineers and purchasing teams find your capabilities, understand the work you do and request a quote."
   },
   {
     "slug": "heavy-haul-rigging-marketing",

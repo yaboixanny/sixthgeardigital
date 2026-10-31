@@ -24,7 +24,7 @@ for item in json.loads((ROOT / 'content/industries.json').read_text()):
     (DIST / 'industries' / slug).mkdir()
     shutil.copy2(ROOT / 'industries' / slug / 'index.html', DIST / 'industries' / slug / 'index.html')
 (DIST / 'assets').mkdir()
-for name in ('home.css', 'robot-arm.css', 'robot-arm.js', 'fonts.css', 'industry.css', 'industry-faq.css', 'industry-expectations.css', 'building-materials.css', 'services.css', 'website.css', 'navigation.css', 'navigation.js', 'website-success.svg', 'website-redesign.svg', 'website-lifecycle.svg', 'website-connections.svg', 'website-project-cost.svg', 'website-search-migration.svg', 'website-rebrand.svg', 'services.js', 'alex-founder.webp'):
+for name in ('home.css', 'robot-arm.css', 'robot-arm.js', 'fonts.css', 'industry.css', 'cnc-hero.css', 'industry-faq.css', 'industry-expectations.css', 'building-materials.css', 'services.css', 'website.css', 'navigation.css', 'navigation.js', 'website-success.svg', 'website-redesign.svg', 'website-lifecycle.svg', 'website-connections.svg', 'website-project-cost.svg', 'website-search-migration.svg', 'website-rebrand.svg', 'services.js', 'alex-founder.webp'):
     shutil.copy2(ROOT / 'assets' / name, DIST / 'assets' / name)
 for folder in ('industries', 'images', 'fonts'):
     shutil.copytree(ROOT / 'assets' / folder, DIST / 'assets' / folder)
