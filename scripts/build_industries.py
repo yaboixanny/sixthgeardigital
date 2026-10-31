@@ -95,6 +95,9 @@ for index, page in enumerate(PAGES):
     journey_cards = ''.join(f'<article class="card play-card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in journey['steps'])
     page_sections = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + page_sections
 
+    if page.get('hero_style') == 'cnc-background':
+        page_sections = section_fields['agency_expectations_section'] + '\n' + section_fields['industry_faq_section']
+
     fields = {key:e(value) for key,value in page.items() if isinstance(value,str)}
     fields.update(navigation_fields('/industries/'+slug+'/', '#consultation-audit'))
     fields.update(title=e(title),description=e(description),canonical=e(canonical),form_name='industry-'+slug,goal_placeholder=e('For example: '+page['goal'].lower()),page_sections=page_sections,submit_label=e(page.get('submit_label','Get in touch')),capability_options=''.join(f'<option value="{e(heading)}">{e(heading)}</option>' for heading,_ in page['capabilities']),structured_data=json.dumps(schema,ensure_ascii=False).replace('<','\\u003c'))
@@ -116,7 +119,13 @@ for index, page in enumerate(PAGES):
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
     template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE
-    (route / 'index.html').write_text(template.substitute(fields))
+    rendered = template.substitute(fields)
+    if page.get('hero_style') == 'cnc-background':
+        start = rendered.index('  <section class="section container" id="consultation-audit">')
+        end = rendered.index('</main>', start)
+        rendered = rendered[:start] + (ROOT / 'templates/cnc-final-cta.html').read_text() + rendered[end:]
+        rendered = rendered.replace('href="#consultation-audit"', 'href="/#growth-plan"')
+    (route / 'index.html').write_text(rendered)
     if not page.get('hero_image'):
         (ROOT / 'assets/industries' / f'{slug}.svg').write_text(illustration(index,page))
 
