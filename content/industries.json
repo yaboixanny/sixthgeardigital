@@ -4373,5 +4373,565 @@
       ],
       "final_prompt": "Let’s talk about your mining customers"
     }
+  },
+  {
+    "slug": "well-drilling-marketing",
+    "name": "Water Well Drilling & Pump Services",
+    "short": "Well Drilling",
+    "headline": "Marketing for",
+    "accent": "Well Drilling Companies",
+    "intro": "Help property owners, farms and businesses find your well drilling and pump services. Google Ads, SEO, website design and lead tracking connect local searches with your team.",
+    "buyers": "Water Well Drilling & Pump Services buyers",
+    "goal": "Relevant inquiries and quote requests",
+    "queries": [
+      "water well drilling company",
+      "well drilling contractor near me",
+      "water well pump installation"
+    ],
+    "challenges": [
+      [
+        "Make your drilling and pump services clear.",
+        "A homeowner with a pump problem and a farm planning a new water well need different help. Both want to know whether your team works in their area and how to get in touch."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Water well drilling",
+        "Drilling for homes, farms or commercial properties within your service area."
+      ],
+      [
+        "Well pumps",
+        "Pump installation and service your team provides."
+      ],
+      [
+        "Well service",
+        "Inspection, repair and other well services within your scope."
+      ]
+    ],
+    "intake": [
+      "Property location",
+      "Water use",
+      "Service needed"
+    ],
+    "faqs": [
+      [
+        "How can a well drilling company get more inquiries?",
+        "Make your drilling and pump services easy to find, show the areas you serve and give people a clear way to call or ask for an estimate. Search campaigns and useful location pages can help people find your company when they need a well contractor."
+      ],
+      [
+        "Can you help us reach customers in specific service areas?",
+        "Yes. We can focus your ads and website content on the locations your team actually serves. We use your real coverage rather than creating location claims for places where you do not work."
+      ],
+      [
+        "What information should a well drilling inquiry include?",
+        "A useful starting point is the property location, intended water use, whether an existing well is involved and the customer’s timing. Your team can ask the technical and site questions needed before quoting."
+      ],
+      [
+        "Should a well drilling company use Google Ads or SEO first?",
+        "Google Ads can help reach people already searching while a longer-term search strategy is developed. The best starting point depends on your service area, capacity, website and budget."
+      ],
+      [
+        "What does well drilling marketing cost?",
+        "Costs depend on the services, locations and work involved. We discuss the scope and fees before starting, including advertising spend and any additional software."
+      ]
+    ],
+    "description": "Marketing for water well drilling companies and pump service providers. Reach property owners, farms and commercial buyers in your service area.",
+    "buyer_journey": {
+      "heading": "How buyers choose a Well Drilling provider",
+      "steps": [
+        [
+          "Find a provider",
+          "A homeowner with a pump problem and a farm planning a new water well need different help. Both want to know whether your team works in their area and how to get in touch."
+        ],
+        [
+          "Compare capabilities",
+          "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request."
+        ],
+        [
+          "Start a conversation",
+          "A useful inquiry tells your team where the job is and what the customer needs help with."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Marketing for Well Drilling",
+      "challenge_intro": "A homeowner with a pump problem and a farm planning a new water well need different help. Both want to know whether your team works in their area and how to get in touch.",
+      "services_heading": "How we market Well Drilling",
+      "services": [
+        {
+          "title": "Google Ads",
+          "service": "google-ads",
+          "paragraphs": [
+            "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request."
+          ],
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "title": "SEO",
+          "service": "seo",
+          "paragraphs": [
+            "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request."
+          ],
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "title": "Website design",
+          "service": "web-design-for-manufacturing-companies",
+          "paragraphs": [
+            "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request."
+          ],
+          "link_label": "Explore web design for manufacturers"
+        },
+        {
+          "title": "Lead tracking",
+          "service": "lead-tracking",
+          "paragraphs": [
+            "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request."
+          ],
+          "link_label": "Explore lead tracking and follow-up"
+        }
+      ],
+      "capabilities_intro": "Your service area, crew capacity and the types of property you work on guide the marketing plan. Your team reviews the technical details and confirms the scope of each job.",
+      "work_cards": [
+        [
+          "Water well drilling",
+          "Drilling for homes, farms or commercial properties within your service area."
+        ],
+        [
+          "Well pumps",
+          "Pump installation and service your team provides."
+        ],
+        [
+          "Well service",
+          "Inspection, repair and other well services within your scope."
+        ]
+      ],
+      "credentials_title": "Capabilities and experience",
+      "credentials_body": "Your service area, crew capacity and the types of property you work on guide the marketing plan. Your team reviews the technical details and confirms the scope of each job.",
+      "example": [
+        "A useful inquiry tells your team where the job is and what the customer needs help with.",
+        "A farm considering a new well may be at an early planning stage, while a homeowner with an existing pump may want to speak with someone soon. Your website can guide each person to the right service.",
+        "Your team can then ask about site conditions and arrange an estimate or visit where appropriate."
+      ],
+      "website_intro": "A useful inquiry tells your team where the job is and what the customer needs help with.",
+      "website_checklist": [
+        [
+          "Ask for the property location and intended water use.",
+          "A farm considering a new well may be at an early planning stage, while a homeowner with an existing pump may want to speak with someone soon. Your website can guide each person to the right service."
+        ],
+        [
+          "Separate new drilling inquiries from pump or well service.",
+          "We help collect the property location, intended use and any existing well information without presenting a form as a substitute for a site assessment."
+        ]
+      ],
+      "faq_heading": "Your Well Drilling marketing questions answered"
+    },
+    "lastmod": "2026-10-31",
+    "faq_schema": true,
+    "submit_label": "Get in touch",
+    "faq_intro": "Answers about reaching local drilling customers, pump inquiries and useful property details.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a well drilling marketing agency?",
+      "items": [
+        [
+          "A plan around your drilling territory",
+          "We begin with the locations you cover, the well work you provide and the jobs your crew has capacity to take on."
+        ],
+        [
+          "Ads for local well searches",
+          "Campaigns can focus on drilling, pump installation and the locations you serve. We review search terms and adjust the ads using feedback from your team."
+        ],
+        [
+          "Pages for your actual services",
+          "We explain drilling, pumps and any related services in clear language. Your team checks coverage and technical information so the site describes the work you really do."
+        ],
+        [
+          "Inquiries with useful property details",
+          "A form can ask where the property is, what the water will be used for and whether an existing well is involved. Customers who need to speak with someone can call."
+        ],
+        [
+          "Follow-up for estimates",
+          "We help keep calls, site discussions and estimates organized. Your staff can track the next step when a property owner is still comparing options or preparing a site."
+        ],
+        [
+          "Reporting your team can use",
+          "We look at which calls and forms become suitable estimates or jobs. Your feedback helps us refine campaigns around the locations and work you want."
+        ]
+      ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_image": "/assets/industries/well-drilling-marketing.svg",
+    "hero_eyebrow": "Digital marketing for well drilling companies",
+    "hero_heading": "Marketing for Well Drilling Companies",
+    "hero_description": "Help property owners, farms and businesses find your well drilling and pump services. Google Ads, SEO, website design and lead tracking connect local searches with your team.",
+    "modern_intro": {
+      "intro_heading": "Help local customers find",
+      "intro_heading_accent": "the well services they need.",
+      "intro_image": "/assets/industries/well-drilling-marketing.svg",
+      "intro_image_alt": "Illustration of a water well drilling rig",
+      "intro_opening": "A homeowner with a pump problem and a farm planning a new water well need different help. Both want to know whether your team works in their area and how to get in touch.",
+      "intro_subheading": "Make your drilling and pump services clear.",
+      "intro_explanation": "We help water well contractors explain their work to property owners, farms and commercial customers, with a direct path to a call or estimate request.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach local searches for water well drilling and pump service."
+        ],
+        [
+          "SEO",
+          "Explain the drilling and well services your team provides."
+        ],
+        [
+          "Website design",
+          "Collect the property location and intended water use."
+        ],
+        [
+          "Lead tracking",
+          "Follow calls and estimate requests through the next step."
+        ]
+      ],
+      "intro_scope": "Your service area, crew capacity and the types of property you work on guide the marketing plan. Your team reviews the technical details and confirms the scope of each job.",
+      "intro_closing": "Customers can find an appropriate starting point while your staff handles the site-specific questions."
+    },
+    "buyer_fit": {
+      "heading": "Start with the property and the water need.",
+      "intro": "A useful inquiry tells your team where the job is and what the customer needs help with.",
+      "paragraphs": [
+        "A farm considering a new well may be at an early planning stage, while a homeowner with an existing pump may want to speak with someone soon. Your website can guide each person to the right service.",
+        "We help collect the property location, intended use and any existing well information without presenting a form as a substitute for a site assessment."
+      ],
+      "bullets": [
+        "Ask for the property location and intended water use.",
+        "Separate new drilling inquiries from pump or well service.",
+        "Let the customer share timing and the best way to reach them."
+      ],
+      "closing": "Your team can then ask about site conditions and arrange an estimate or visit where appropriate.",
+      "image": "/assets/industries/well-drilling-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of well drilling services and an inquiry form."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for well drilling companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach people searching for well help.",
+          "body": "Build campaigns around water well drilling and pump services in the areas you actually cover. Direct each search to a page that explains the relevant service and how to get in touch.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Show up for local drilling searches.",
+          "body": "Create useful pages for your services and coverage areas. Clear information about your business also helps search engines and AI search tools understand what you do.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the people and work behind your company.",
+          "body": "Share approved drilling, pump and crew photos with people in your service region. Review whether those campaigns lead to the kinds of property inquiries your team wants.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make it easy to call or request an estimate.",
+          "body": "Build clear service pages that work on phones and give customers a choice to call or share their property, water-use and timing details.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your well services easier to find.",
+      "final_intro": "Book a 30-minute call about your drilling work, service area and the inquiries you want to attract.",
+      "final_bullets": [
+        "Discuss the drilling and pump work you offer",
+        "Review how local customers find your company",
+        "Find ways to improve calls and estimate requests"
+      ],
+      "final_prompt": "Let’s talk about your service area"
+    }
+  },
+  {
+    "slug": "aerospace-manufacturing-marketing",
+    "name": "Aerospace Manufacturing & Suppliers",
+    "short": "Aerospace Manufacturing",
+    "headline": "Marketing for",
+    "accent": "Aerospace Manufacturing Companies",
+    "intro": "Help aerospace engineering and purchasing teams find your manufacturing capabilities. Google Ads, SEO, website design and lead tracking support better-informed supplier conversations.",
+    "buyers": "Aerospace Manufacturing & Suppliers buyers",
+    "goal": "Relevant inquiries and quote requests",
+    "queries": [
+      "aerospace manufacturing company",
+      "aerospace components manufacturer",
+      "aerospace machining supplier"
+    ],
+    "challenges": [
+      [
+        "Make technical capability easier to assess.",
+        "Aerospace engineering and purchasing teams need to understand a supplier’s processes, materials and quality systems before they begin a detailed sourcing discussion."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Aerospace components",
+        "Manufactured parts and components within your approved capabilities."
+      ],
+      [
+        "Precision machining",
+        "Machining, materials and tolerances your team supports."
+      ],
+      [
+        "Assemblies and production",
+        "Assembly or production services offered by your company."
+      ]
+    ],
+    "intake": [
+      "Material",
+      "Quantity",
+      "Project stage"
+    ],
+    "faqs": [
+      [
+        "How can an aerospace manufacturer attract relevant inquiries?",
+        "Explain your processes, materials, production capabilities and the types of work you want to quote. Clear capability pages and focused search campaigns help engineering and purchasing teams assess whether your company may be a fit."
+      ],
+      [
+        "Should we show aerospace certifications on our website?",
+        "Show current certifications and approvals that your company actually holds, with their scope and status checked by your team. Do not imply that one approval applies to every process, site or product."
+      ],
+      [
+        "What should an aerospace manufacturing RFQ ask for?",
+        "A starting form can ask about the process, material, quantity, timing and project stage. Your team can arrange a suitable way to receive drawings and specifications after discussing confidentiality and requirements with the buyer."
+      ],
+      [
+        "Can marketing support long aerospace supplier approval cycles?",
+        "Yes. We can help keep the inquiry source, technical review, quote and follow-up stages visible in your customer records. Your sales team can track progress as buyers complete their own supplier reviews."
+      ],
+      [
+        "What does aerospace manufacturing marketing cost?",
+        "The scope depends on your capabilities, markets, website and campaign needs. We discuss the work and fees before starting, including advertising spend and any additional tools."
+      ]
+    ],
+    "description": "Marketing for aerospace manufacturers and suppliers. Help engineering and purchasing teams understand your capabilities and request a quote.",
+    "buyer_journey": {
+      "heading": "How buyers choose a Aerospace Manufacturing provider",
+      "steps": [
+        [
+          "Find a provider",
+          "Aerospace engineering and purchasing teams need to understand a supplier’s processes, materials and quality systems before they begin a detailed sourcing discussion."
+        ],
+        [
+          "Compare capabilities",
+          "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ."
+        ],
+        [
+          "Start a conversation",
+          "An aerospace RFQ often begins with capability and quality questions before detailed specifications are shared."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Marketing for Aerospace Manufacturing",
+      "challenge_intro": "Aerospace engineering and purchasing teams need to understand a supplier’s processes, materials and quality systems before they begin a detailed sourcing discussion.",
+      "services_heading": "How we market Aerospace Manufacturing",
+      "services": [
+        {
+          "title": "Google Ads",
+          "service": "google-ads",
+          "paragraphs": [
+            "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ."
+          ],
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "title": "SEO",
+          "service": "seo",
+          "paragraphs": [
+            "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ."
+          ],
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "title": "Website design",
+          "service": "web-design-for-manufacturing-companies",
+          "paragraphs": [
+            "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ."
+          ],
+          "link_label": "Explore web design for manufacturers"
+        },
+        {
+          "title": "Lead tracking",
+          "service": "lead-tracking",
+          "paragraphs": [
+            "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ."
+          ],
+          "link_label": "Explore lead tracking and follow-up"
+        }
+      ],
+      "capabilities_intro": "Your team reviews technical details, certification scope and approved project information before anything goes live.",
+      "work_cards": [
+        [
+          "Aerospace components",
+          "Manufactured parts and components within your approved capabilities."
+        ],
+        [
+          "Precision machining",
+          "Machining, materials and tolerances your team supports."
+        ],
+        [
+          "Assemblies and production",
+          "Assembly or production services offered by your company."
+        ]
+      ],
+      "credentials_title": "Capabilities and experience",
+      "credentials_body": "Your team reviews technical details, certification scope and approved project information before anything goes live.",
+      "example": [
+        "An aerospace RFQ often begins with capability and quality questions before detailed specifications are shared.",
+        "A buyer comparing potential suppliers may be looking for a particular process, material or production range. Your website should make those capabilities clear without claiming approvals or tolerances your company has not confirmed.",
+        "Your specialists can review the requirements and decide what information is needed for a quote or supplier discussion."
+      ],
+      "website_intro": "An aerospace RFQ often begins with capability and quality questions before detailed specifications are shared.",
+      "website_checklist": [
+        [
+          "Explain the processes, materials and production work you support.",
+          "A buyer comparing potential suppliers may be looking for a particular process, material or production range. Your website should make those capabilities clear without claiming approvals or tolerances your company has not confirmed."
+        ],
+        [
+          "Show current certifications and their actual scope.",
+          "We help structure the first inquiry around useful project details. Your team can then agree on an appropriate way to exchange drawings or sensitive information."
+        ]
+      ],
+      "faq_heading": "Your Aerospace Manufacturing marketing questions answered"
+    },
+    "lastmod": "2026-10-31",
+    "faq_schema": true,
+    "submit_label": "Get in touch",
+    "faq_intro": "Answers about aerospace buyers, technical capabilities and tracking opportunities through supplier review.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as an aerospace manufacturing marketing agency?",
+      "items": [
+        [
+          "A plan for your manufacturing capabilities",
+          "We start with the parts, processes and production work your company wants to promote. Your capacity, markets and business goals shape the plan."
+        ],
+        [
+          "Ads for relevant aerospace searches",
+          "We focus campaigns on manufacturing services and applications your team supports, then review search terms and inquiry quality with your sales team."
+        ],
+        [
+          "Technical content reviewed by your team",
+          "We help explain materials, processes and production capabilities in clear terms. Your specialists check specifications, certifications and approvals before publication."
+        ],
+        [
+          "A useful path to an RFQ",
+          "We help buyers share the process, material, quantity and project stage. Your team can arrange how to receive drawings or sensitive specifications after the initial conversation."
+        ],
+        [
+          "Follow-up through supplier review",
+          "We help keep technical discussions, quote requests and next steps organized. That gives your sales team visibility while buyers complete their own evaluations and approvals."
+        ],
+        [
+          "Reporting on suitable opportunities",
+          "We review which inquiries fit your capabilities and track the opportunities your team can follow through to quotes or won work. Feedback helps guide the next changes."
+        ]
+      ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_image": "/assets/industries/aerospace-manufacturing-marketing.svg",
+    "hero_eyebrow": "Digital marketing for aerospace manufacturers",
+    "hero_heading": "Marketing for Aerospace Manufacturing Companies",
+    "hero_description": "Help aerospace engineering and purchasing teams find your manufacturing capabilities. Google Ads, SEO, website design and lead tracking support better-informed supplier conversations.",
+    "modern_intro": {
+      "intro_heading": "Put your aerospace capabilities",
+      "intro_heading_accent": "in front of the right buyers.",
+      "intro_image": "/assets/industries/aerospace-manufacturing-marketing.svg",
+      "intro_image_alt": "Illustration of an aircraft and manufacturing components",
+      "intro_opening": "Aerospace engineering and purchasing teams need to understand a supplier’s processes, materials and quality systems before they begin a detailed sourcing discussion.",
+      "intro_subheading": "Make technical capability easier to assess.",
+      "intro_explanation": "We help aerospace manufacturers and suppliers explain the work they do, the production needs they support and the right way to start an RFQ.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for aerospace manufacturing processes and suppliers."
+        ],
+        [
+          "SEO",
+          "Explain materials, capabilities and verified certifications."
+        ],
+        [
+          "Website design",
+          "Give buyers a clear way to begin a technical inquiry."
+        ],
+        [
+          "Lead tracking",
+          "Keep quotes and supplier discussions visible through follow-up."
+        ]
+      ],
+      "intro_scope": "Your team reviews technical details, certification scope and approved project information before anything goes live.",
+      "intro_closing": "Buyers can find a useful starting point while your staff assesses specifications and supplier requirements."
+    },
+    "buyer_fit": {
+      "heading": "Give technical buyers the information to start.",
+      "intro": "An aerospace RFQ often begins with capability and quality questions before detailed specifications are shared.",
+      "paragraphs": [
+        "A buyer comparing potential suppliers may be looking for a particular process, material or production range. Your website should make those capabilities clear without claiming approvals or tolerances your company has not confirmed.",
+        "We help structure the first inquiry around useful project details. Your team can then agree on an appropriate way to exchange drawings or sensitive information."
+      ],
+      "bullets": [
+        "Explain the processes, materials and production work you support.",
+        "Show current certifications and their actual scope.",
+        "Ask about quantity, material, timing and project stage."
+      ],
+      "closing": "Your specialists can review the requirements and decide what information is needed for a quote or supplier discussion.",
+      "image": "/assets/industries/aerospace-manufacturing-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of aerospace manufacturing services and an inquiry form."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for aerospace manufacturers.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach teams looking for manufacturing support.",
+          "body": "Focus search campaigns on the aerospace processes and supplier capabilities your company actually offers. Use sales feedback to refine which searches lead to relevant technical inquiries.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Help buyers evaluate your capabilities.",
+          "body": "Build clear pages for manufacturing processes, materials and production needs. Accurate information helps search engines and AI search tools understand your offer.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Share approved manufacturing work.",
+          "body": "Use approved facility, equipment and process content to show your capabilities. Review whether campaigns bring relevant business interest, and keep customer-sensitive details private.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make technical RFQs easier to start.",
+          "body": "Present verified certifications, processes and contact options clearly. An inquiry form can collect the basic project context before your team discusses specifications or drawings.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your aerospace capabilities easier to find.",
+      "final_intro": "Book a 30-minute call about your manufacturing work, target buyers and the opportunities you want to reach.",
+      "final_bullets": [
+        "Discuss the processes and projects you support",
+        "Review how aerospace buyers assess your company",
+        "Identify improvements to technical inquiries"
+      ],
+      "final_prompt": "Let’s talk about your capabilities"
+    }
   }
 ]

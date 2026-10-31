@@ -156,7 +156,9 @@ industry_icons = {
  'scaffolding':'<path d="M4 2v20M20 2v20M4 5h16M4 12h16M4 19h16M4 5l16 14M20 5 4 19M1 22h6m10 0h6"/>',
  'automation':'<path d="M3 21h18M7 21v-5l6-5-4-6 4-3 6 8-5 6v5M17 10l4-2m-1-2 2 2-1 3"/><circle cx="9" cy="5" r="2"/><circle cx="14" cy="13" r="2"/>',
  'materials':'<path d="m12 2 10 5-10 5L2 7l10-5Zm-9 10 9 5 9-5m-18 5 9 5 9-5"/>',
- 'mining':'<path d="M3 20h18M4 20l3-6h5l2-4h5l3 10M3 10l5-6 5 6M8 4v6m7 4h4"/>'
+ 'mining':'<path d="M3 20h18M4 20l3-6h5l2-4h5l3 10M3 10l5-6 5 6M8 4v6m7 4h4"/>',
+ 'well_drilling':'<path d="M5 21h14M8 21l4-18 4 18M9 16h6M10 11h4M11 7h2M4 21v-3h16v3M12 3V1"/>',
+ 'aerospace':'<path d="m3 13 8-2 4-8 2 1-2 7 5 2v2l-6-1-3 6-2-1 1-6-7 2z"/>'
 }
 by_slug = {page['slug']:page for page in PAGES}
 featured = json.loads((ROOT/'content/home-industries.json').read_text())

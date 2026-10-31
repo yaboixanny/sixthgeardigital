@@ -58,5 +58,17 @@
     "description": "Mining companies, equipment and site services",
     "icon": "mining",
     "title": "Mining"
+  },
+  {
+    "slug": "well-drilling-marketing",
+    "description": "Water well drilling, pumps and well services",
+    "icon": "well_drilling",
+    "title": "Well Drilling"
+  },
+  {
+    "slug": "aerospace-manufacturing-marketing",
+    "description": "Aerospace components, precision manufacturing and suppliers",
+    "icon": "aerospace",
+    "title": "Aerospace Manufacturing"
   }
 ]

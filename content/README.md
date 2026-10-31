@@ -84,8 +84,10 @@ The CNC page selects `hero_style: cnc-background` and supplies its hero eyebrow,
 
 ## Industry page template
 
-All 14 industry pages use `templates/industry-modern.html`. The shared order is: background hero, introductory split, six agency expectations, buyer-fit split (text left/image right), four-service revenue grid, tailored FAQ and closing discovery call. The CNC page is the original reference for this layout. The neutral hero background and each page's illustrations can be replaced with industry-specific photos when available.
+All 16 industry pages use `templates/industry-modern.html`. The shared order is: background hero, introductory split, six agency expectations, buyer-fit split (text left/image right), four-service revenue grid, tailored FAQ and closing discovery call. The CNC page is the original reference for this layout. The neutral hero background and each page's illustrations can be replaced with industry-specific photos when available.
 
 Industry-specific copy lives in `content/industries.json`: `hero_eyebrow`, `hero_heading`, `hero_description`, `modern_intro`, `agency_expectations`, `buyer_fit`, `revenue_section`, FAQs and `modern_closing`. `scripts/industry_modern.py` renders the tailored introduction, buyer-fit section, service grid and closing CTA through `templates/industry-modern-introduction.html`, `templates/industry-buyer-fit.html`, `templates/industry-revenue.html` and `templates/industry-modern-final-cta.html`. The revenue cards have intentionally curated links in this order: Google Ads, SEO, Facebook Ads and web design; AI search is discussed within SEO. The CNC page currently retains its original introductory and closing templates, which carry the same layout.
 
 The background hero and shared styles use `templates/cnc-hero.html`, `assets/cnc-hero.css` and `assets/cnc-hero.js`; the names are retained for compatibility. The neutral background is `assets/industries/cnc-hero-background.svg`. Each industry record chooses its introduction and buyer-fit illustration paths. Continue writing distinct, industry-relevant copy for each page, rather than copying another industry's content.
+
+When adding an industry page, also add its entry to `content/home-industries.json` so it appears in the homepage “Built for your world” section and the industry navigation.
