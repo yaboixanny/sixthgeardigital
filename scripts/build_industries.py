@@ -9,7 +9,7 @@ from html import escape
 import json
 import re
 from navigation import navigation_fields
-from industry_modern import render_modern_sections
+from industry_modern import render_modern_sections, render_modern_intro, render_modern_cta
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
@@ -117,9 +117,10 @@ for index, page in enumerate(PAGES):
         fields['industry_body_attributes'] = ' class="cnc-hero-page"'
     fields['industry_hero'] = Template((ROOT / hero_template).read_text()).substitute(fields)
     if page.get('hero_style') == 'cnc-background':
-        fields['industry_hero'] += (ROOT / page['introduction_template']).read_text()
+        fields['industry_hero'] += render_modern_intro(page) if page.get('modern_intro') else (ROOT / page['introduction_template']).read_text()
     if modern_layout:
-        fields['industry_final_cta'] = (ROOT / page['closing_template']).read_text()
+        fields['industry_final_cta'] = render_modern_cta(page) if page.get('modern_closing') else (ROOT / page['closing_template']).read_text()
+        fields['industry_og_image'] = e(BASE + page.get('hero_image', '/assets/industries/'+slug+'.svg'))
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
     template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE

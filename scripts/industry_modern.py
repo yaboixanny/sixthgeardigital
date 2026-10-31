@@ -31,3 +31,17 @@ def render_modern_sections(page):
         cards.append('<article class="industry-revenue-card">'+icon+'<h3>'+e(card['title'])+'</h3><p class="industry-revenue-subtitle">'+e(card['subtitle'])+'</p><p>'+e(card['body'])+'</p><a href="/services/'+e(service)+'/">'+e(card['link_label'])+' <span aria-hidden="true">→</span></a></article>')
     grid = Template((ROOT/'templates/industry-revenue.html').read_text()).substitute(heading=e(revenue['heading']),cards=''.join(cards))
     return split + '\n' + grid
+
+
+def render_modern_intro(page):
+    data = page['modern_intro']
+    fields = {key:e(value) for key,value in data.items() if isinstance(value,str)}
+    fields['intro_bullets'] = ''.join('<li><strong>'+e(label)+':</strong> '+e(body)+'</li>' for label,body in data['intro_bullets'])
+    return Template((ROOT/'templates/industry-modern-introduction.html').read_text()).substitute(fields)
+
+def render_modern_cta(page):
+    data = page['modern_closing']
+    fields = {key:e(value) for key,value in data.items() if isinstance(value,str)}
+    check = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="m8 12 3 3 5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+    fields['final_bullets'] = ''.join('<li>'+check+e(bullet)+'</li>' for bullet in data['final_bullets'])
+    return Template((ROOT/'templates/industry-modern-final-cta.html').read_text()).substitute(fields)

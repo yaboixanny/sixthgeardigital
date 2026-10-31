@@ -188,7 +188,7 @@
       ],
       "faq_heading": "Your Hydraulics & Fluid Power marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about reaching buyers for hydraulic components, systems, repairs and rebuilds.",
@@ -220,6 +220,99 @@
           "We review which calls and forms lead to suitable repair jobs, parts orders or larger projects. Your team’s feedback helps us adjust the searches, pages and ads. You can also see the work planned and the changes made."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for hydraulic service and supply",
+    "hero_heading": "Marketing for Hydraulic Repair & Fluid Power Companies",
+    "hero_description": "Reach maintenance teams and equipment buyers looking for hose repairs, component supply and hydraulic service. We connect Google Ads, SEO, website design and lead tracking around the work your team supports.",
+    "modern_intro": {
+      "intro_heading": "Turn hydraulic searches",
+      "intro_heading_accent": "into useful service and product inquiries.",
+      "intro_image": "/assets/industries/hydraulics-fluid-power-marketing.svg",
+      "intro_image_alt": "Illustration of Hydraulics & Fluid Power equipment and capabilities",
+      "intro_opening": "A failed hose can stop a fleet or production line, while a pump buyer may spend weeks comparing suppliers. Your marketing should make it clear which problems your team can solve and how quickly a customer can reach you.",
+      "intro_subheading": "Be clear when equipment is down.",
+      "intro_explanation": "Maintenance teams need to know your coverage, supported equipment and actual service hours before they call. Purchasing teams need component information and a straightforward way to ask about supply.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach local buyers looking for mobile hose repair or cylinder service."
+        ],
+        [
+          "SEO",
+          "Help component buyers find relevant pump, motor and valve information."
+        ],
+        [
+          "Website design",
+          "Route urgent calls and planned repair requests to the right team."
+        ],
+        [
+          "Lead tracking",
+          "Review which calls become suitable repair jobs or parts orders."
+        ]
+      ],
+      "intro_scope": "We shape the plan around your workshop, mobile coverage and product lines, with your team checking technical information before it goes live.",
+      "intro_closing": "The result is a clearer way for people to find the right service and give your staff a useful starting point."
+    },
+    "buyer_fit": {
+      "heading": "Give your team the details to respond.",
+      "intro": "A breakdown call and a planned cylinder rebuild should not follow the same path.",
+      "paragraphs": [
+        "A customer with a burst hose may need a phone number and coverage details immediately. Someone planning a rebuild can share equipment information and photos before your team reviews the job.",
+        "Separate paths help your staff understand the request without promising a repair or response time before it has been assessed."
+      ],
+      "bullets": [
+        "Show mobile coverage and published operating hours.",
+        "Ask about equipment, component type and the problem.",
+        "Offer a clear phone route alongside a planned-service form."
+      ],
+      "closing": "Your feedback on calls and repair quotes helps us make the pages more useful over time.",
+      "image": "/assets/industries/hydraulics-fluid-power-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Hydraulics & Fluid Power service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Hydraulic Repair & Fluid Power Companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers with equipment problems.",
+          "body": "Separate local searches for hose repair from component and cylinder queries. Campaigns can reflect the locations and hours your mobile team actually serves.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Make repair and parts information findable.",
+          "body": "Build pages around hydraulic repairs, supported equipment and component ranges. Accurate descriptions help search engines and AI search tools understand what your company offers.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Keep your workshop visible to customers.",
+          "body": "Share approved workshop photos, maintenance tips and service-area updates with the customers you want to stay in touch with. Test whether those visits lead to relevant repair or parts inquiries.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Give urgent and planned requests clear paths.",
+          "body": "Make emergency contact details prominent and give planned repairs a form for equipment and problem details. Product pages can direct component buyers to the right sales contact.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your hydraulic services easier to find.",
+      "final_intro": "Talk through your repair capacity, product range and service area on a 30-minute discovery call.",
+      "final_bullets": [
+        "Discuss the repair work and components you want to promote",
+        "Review how breakdown and parts buyers reach your team",
+        "Choose a practical place to start"
+      ],
+      "final_prompt": "Let’s talk about your service area"
     }
   },
   {
@@ -411,7 +504,7 @@
       ],
       "faq_heading": "Your Attachments & Dealers marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Answers about attachment buyers, product information and quote requests for your sales team.",
@@ -443,6 +536,99 @@
           "We review which products and campaigns bring suitable inquiries, then work with your team to connect them to quotes and orders. You can see what we changed and why, with the next steps shaped by the products you want to sell."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for equipment attachment businesses",
+    "hero_heading": "Marketing for Attachment Manufacturers & Equipment Dealers",
+    "hero_description": "Help contractors and dealers find the breakers, buckets and other tools they need. Our Google Ads, SEO, website design and lead tracking put your applications and machine compatibility questions front and center.",
+    "modern_intro": {
+      "intro_heading": "Help attachment buyers",
+      "intro_heading_accent": "find the right fit.",
+      "intro_image": "/assets/industries/attachment-manufacturer-dealer-marketing.svg",
+      "intro_image_alt": "Illustration of Attachments & Dealers equipment and capabilities",
+      "intro_opening": "A contractor comparing an excavator breaker or a forestry mulcher needs more than a product name. They need to know whether the attachment suits their machine and the work ahead.",
+      "intro_subheading": "Make product selection easier.",
+      "intro_explanation": "We help manufacturers and dealers show their ranges, applications and sales coverage so buyers know what to ask before requesting a quote.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for breakers, buckets and other equipment attachments."
+        ],
+        [
+          "SEO",
+          "Organize product information around machine classes and applications."
+        ],
+        [
+          "Website design",
+          "Capture the carrier make, model and intended use in quote requests."
+        ],
+        [
+          "Lead tracking",
+          "Keep dealer inquiries and direct buyer quotes visible to your sales team."
+        ]
+      ],
+      "intro_scope": "Your product specialists confirm specifications and compatibility; the website gives buyers the information to begin that discussion.",
+      "intro_closing": "Whether you sell through dealers or directly to contractors, the plan reflects the route to market you use."
+    },
+    "buyer_fit": {
+      "heading": "Get the machine details before the quote.",
+      "intro": "A promising attachment inquiry starts with the carrier and the job.",
+      "paragraphs": [
+        "An operator looking for a demolition tool may arrive with a different set of questions from a forestry contractor comparing mulchers. Product pages can guide each person toward the right discussion.",
+        "We help your team collect the carrier make, model and application so it can check fit before recommending an attachment."
+      ],
+      "bullets": [
+        "Show the machine classes and applications your range supports.",
+        "Ask for carrier details and intended work.",
+        "Explain how buyers can discuss a custom attachment or dealer purchase."
+      ],
+      "closing": "A clearer inquiry makes the sales conversation more productive for both sides.",
+      "image": "/assets/industries/attachment-manufacturer-dealer-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Attachments & Dealers service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Attachment Manufacturers & Equipment Dealers.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers comparing attachments.",
+          "body": "Build campaigns around the attachment types and equipment brands you sell, with separate paths for contractor buyers and dealer inquiries where relevant.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Show up for equipment and application searches.",
+          "body": "Create useful pages for attachment applications and supported machine classes. Clear product information helps ordinary search and AI search tools interpret your range.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the tools doing their work.",
+          "body": "Show approved demonstrations of buckets, breakers or mulchers at work. Use campaign feedback to see which applications attract the buyers your team wants to serve.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make compatibility questions easier to answer.",
+          "body": "Organize the product range around use and compatibility, with forms for carrier make, model and delivery location. Your team makes the final fit assessment.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Connect with more attachment buyers.",
+      "final_intro": "Book a 30-minute call to discuss your product range, dealers and the inquiries you want to attract.",
+      "final_bullets": [
+        "Review your key attachment categories",
+        "Discuss dealer and direct sales priorities",
+        "Find gaps in your product and quote pages"
+      ],
+      "final_prompt": "Let’s talk about your product range"
     }
   },
   {
@@ -634,7 +820,7 @@
       ],
       "faq_heading": "Your Fleet Graphics & Wraps marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about attracting fleet operators and turning project interest into useful quote requests.",
@@ -666,6 +852,99 @@
           "We review calls and forms with your team to see which bring the right fleet work. Feedback on project size and fit helps us improve campaigns. You can see the changes made and the work planned for the next stage."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for fleet graphics specialists",
+    "hero_heading": "Marketing for Commercial Fleet Graphics & Wrap Companies",
+    "hero_description": "Show fleet operators how you handle vehicle graphics, installation and multi-site rollouts. We use Google Ads, SEO, website design and lead tracking to help bring the right projects to your team.",
+    "modern_intro": {
+      "intro_heading": "Put your fleet graphics work",
+      "intro_heading_accent": "in front of the right businesses.",
+      "intro_image": "/assets/industries/commercial-fleet-graphics-marketing.svg",
+      "intro_image_alt": "Illustration of Fleet Graphics & Wraps equipment and capabilities",
+      "intro_opening": "A fleet manager planning a multi-vehicle rollout needs to see more than a nice-looking wrap. They need confidence that artwork, vehicle access and installation can be coordinated across the fleet.",
+      "intro_subheading": "Show the work behind a fleet rollout.",
+      "intro_explanation": "We help commercial wrap companies explain their design, production and installation process to the people responsible for company vehicles.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Target searches for fleet wraps and commercial vehicle graphics."
+        ],
+        [
+          "SEO",
+          "Show approved examples by vehicle type and project size."
+        ],
+        [
+          "Website design",
+          "Ask about vehicle counts, locations and installation timing."
+        ],
+        [
+          "Lead tracking",
+          "Follow up with buyers planning work across multiple sites."
+        ]
+      ],
+      "intro_scope": "The marketing can reflect the fleets you handle, from service vans to delivery trucks and specialist equipment.",
+      "intro_closing": "Clear project details make it easier for buyers to understand whether your team can manage their rollout."
+    },
+    "buyer_fit": {
+      "heading": "Turn fleet interest into a project brief.",
+      "intro": "Vehicle count is only one part of a useful graphics inquiry.",
+      "paragraphs": [
+        "A buyer may need several vans wrapped at one location or a phased installation across multiple depots. The website should let them describe the rollout before your team prepares a quote.",
+        "Approved photos and a simple explanation of artwork, print and installation help buyers understand the scope of your work."
+      ],
+      "bullets": [
+        "Ask for the number and types of vehicles.",
+        "Collect locations, preferred timing and artwork status.",
+        "Show relevant commercial fleet examples with your role explained."
+      ],
+      "closing": "Better project context helps your staff respond with sensible next steps.",
+      "image": "/assets/industries/commercial-fleet-graphics-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Fleet Graphics & Wraps service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Commercial Fleet Graphics & Wrap Companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach commercial fleet buyers.",
+          "body": "Focus on searches for commercial vehicle wraps, fleet graphics and installation in the locations your team covers. Separate commercial projects from unrelated personal wrap searches.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Help operators find local installers.",
+          "body": "Create pages for fleet sizes, vehicle types and installation areas. Descriptive project information supports both search results and AI-assisted research.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the transformation across a fleet.",
+          "body": "Use approved before-and-after images and rollout photos to demonstrate your work. Test which creative attracts fleet operators rather than one-off consumer projects.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Collect the details behind a rollout.",
+          "body": "Present your gallery, service area and rollout process clearly. A project form can ask for vehicle counts, types, locations and deadlines.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Let’s talk about your next fleet project.",
+      "final_intro": "Book a 30-minute conversation about the commercial graphics work you want more of.",
+      "final_bullets": [
+        "Discuss the fleet sizes and vehicles you serve",
+        "Review how buyers see your project work",
+        "Identify ways to improve quote requests"
+      ],
+      "final_prompt": "Let’s look at your fleet work"
     }
   },
   {
@@ -857,7 +1136,7 @@
       ],
       "faq_heading": "Your Modular Buildings & Site Offices marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Answers about marketing modular spaces, separating buyer needs and capturing useful project details.",
@@ -889,6 +1168,99 @@
           "We review which searches and pages bring inquiries within your delivery area and product range. Sales feedback helps us distinguish a useful project from a poor fit. You can see our work, the findings and what we recommend next."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for modular building businesses",
+    "hero_heading": "Marketing for Modular Building & Site Office Suppliers",
+    "hero_description": "Reach buyers looking for site offices, temporary space and modular buildings. Google Ads, SEO, website design and lead tracking help make your units, sales options and rental coverage clear.",
+    "modern_intro": {
+      "intro_heading": "Make it easier to find",
+      "intro_heading_accent": "the right modular space.",
+      "intro_image": "/assets/industries/modular-buildings-site-offices-marketing.svg",
+      "intro_image_alt": "Illustration of Modular Buildings & Site Offices equipment and capabilities",
+      "intro_opening": "A contractor hiring a site office has different questions from an organization buying a permanent modular building. Both need to know where you deliver, what is included and how to discuss availability.",
+      "intro_subheading": "Bring clarity to sales and rental inquiries.",
+      "intro_explanation": "We help suppliers present their building types and delivery coverage so project teams can quickly identify the right next step.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach buyers searching for site office hire or modular building supply."
+        ],
+        [
+          "SEO",
+          "Explain layouts, building uses and the services included."
+        ],
+        [
+          "Website design",
+          "Collect site location, project dates and intended use."
+        ],
+        [
+          "Lead tracking",
+          "Keep building purchases and rental requests organized separately."
+        ]
+      ],
+      "intro_scope": "Campaigns and pages can reflect the units you supply, the locations you cover and whether you offer purchase, rental or both.",
+      "intro_closing": "Your team confirms availability and technical requirements as each project moves forward."
+    },
+    "buyer_fit": {
+      "heading": "Help buyers describe the space they need.",
+      "intro": "A useful quote starts with the site, the schedule and how the building will be used.",
+      "paragraphs": [
+        "A temporary site office might require a delivery date and hire period; a larger modular project may begin with a layout discussion. Your website can guide both without treating them as the same request.",
+        "We help present unit options and the questions your team needs answered before discussing the scope."
+      ],
+      "bullets": [
+        "Ask about intended use, location and required dates.",
+        "Separate rental periods from purchase inquiries.",
+        "Explain that site access and unit availability need review."
+      ],
+      "closing": "These details help your team respond with the right questions and a realistic next step.",
+      "image": "/assets/industries/modular-buildings-site-offices-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Modular Buildings & Site Offices service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Modular Building & Site Office Suppliers.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers looking for modular space.",
+          "body": "Organize search campaigns around modular building sales, site office rentals and other units you supply, with targeting based on actual delivery coverage.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Explain your units and coverage.",
+          "body": "Build pages for building uses, locations and common buyer questions. Accurate descriptions of units and services also help AI search tools interpret your offer.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show how your spaces are used.",
+          "body": "Show approved site-office layouts and completed modular spaces to illustrate how units are used. Measure whether those campaigns lead to relevant site discussions.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make site and schedule details easy to share.",
+          "body": "Give each building type a clear page and let buyers provide the site, intended use, schedule and rental period when requesting details.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Start more modular building conversations.",
+      "final_intro": "Book a 30-minute call to discuss your units, delivery area and the projects you want to reach.",
+      "final_bullets": [
+        "Review your sales and rental priorities",
+        "Look at how buyers compare your units",
+        "Discuss better site and project inquiries"
+      ],
+      "final_prompt": "Let’s talk about your buildings"
     }
   },
   {
@@ -1080,7 +1452,7 @@
       ],
       "faq_heading": "Your Forklifts & Material Handling marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about equipment buyers, rental requests and keeping different types of inquiry clear.",
@@ -1112,6 +1484,99 @@
           "We review calls and forms by service type, location and fit. Your team’s feedback helps show which campaigns lead to equipment quotes, hire bookings or service work. You can see what we are working on and the reasons for each change."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for material handling companies",
+    "hero_heading": "Marketing for Forklift & Material Handling Businesses",
+    "hero_description": "Connect warehouse teams with the forklifts, rentals and support you offer. We use Google Ads, SEO, website design and lead tracking to bring sales and service inquiries to the right people.",
+    "modern_intro": {
+      "intro_heading": "Put your equipment and service",
+      "intro_heading_accent": "in front of the right buyers.",
+      "intro_image": "/assets/industries/forklift-material-handling-marketing.svg",
+      "intro_image_alt": "Illustration of Forklifts & Material Handling equipment and capabilities",
+      "intro_opening": "A warehouse manager looking for a short-term rental is not shopping the same way as a buyer planning a forklift fleet replacement. Your website and campaigns should help each person find the right team.",
+      "intro_subheading": "Separate sales, hire and service needs.",
+      "intro_explanation": "We help material handling businesses show the trucks, support and territory they cover, from a single rental to a larger equipment discussion.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach buyers searching for forklifts, rentals and repair support."
+        ],
+        [
+          "SEO",
+          "Present lift capacity, power type and available equipment clearly."
+        ],
+        [
+          "Website design",
+          "Ask for load, lift height and site details in an inquiry."
+        ],
+        [
+          "Lead tracking",
+          "Route sales and service conversations to the right people."
+        ]
+      ],
+      "intro_scope": "The plan can support equipment sales, short-term hire, maintenance or automated warehouse projects according to what your team provides.",
+      "intro_closing": "Your staff confirms availability and equipment suitability before making a recommendation."
+    },
+    "buyer_fit": {
+      "heading": "Help buyers explain the lifting job.",
+      "intro": "The right conversation starts with the load, the site and the way the truck will be used.",
+      "paragraphs": [
+        "Equipment buyers often compare capacity, lift height and power type before contacting a supplier. Rental customers also need to explain their hire dates and delivery location.",
+        "We make those questions easier to answer without turning a sales inquiry into a technical questionnaire."
+      ],
+      "bullets": [
+        "Show relevant truck types and current equipment information.",
+        "Ask about load, lift height and operating environment.",
+        "Collect rental dates and delivery details when needed."
+      ],
+      "closing": "Your team can use the information to discuss the options that fit the application.",
+      "image": "/assets/industries/forklift-material-handling-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Forklifts & Material Handling service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Forklift & Material Handling Businesses.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers with a lifting need.",
+          "body": "Keep forklift sales, rental and service searches in separate campaigns, matched to the areas and services your team can support.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Make equipment and service pages useful.",
+          "body": "Develop useful equipment and service pages around real warehouse applications. Clear specifications help buyers and AI search tools understand your range.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Keep your range in front of operators.",
+          "body": "Share available equipment, approved customer stories and service updates. Review which campaigns bring worthwhile discussions about trucks or warehouse projects.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Guide the right request to the right team.",
+          "body": "Present equipment information in a way that is easy to compare and provide separate paths for rental, purchase and service inquiries.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Find more material handling opportunities.",
+      "final_intro": "Schedule a 30-minute call about your equipment, service territory and ideal customers.",
+      "final_bullets": [
+        "Discuss sales, rental and service priorities",
+        "Review how buyers compare your equipment",
+        "Find ways to capture better site details"
+      ],
+      "final_prompt": "Let’s talk about your equipment"
     }
   },
   {
@@ -1303,7 +1768,7 @@
       ],
       "faq_heading": "Your Generators & Critical Power marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Answers about reaching power equipment buyers and understanding service and project inquiries.",
@@ -1335,6 +1800,99 @@
           "We review which calls and forms turn into suitable service work, equipment quotes or contract discussions. Sales feedback helps us improve targeting and content. You can see the work completed and the next priorities for the marketing."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for commercial power businesses",
+    "hero_heading": "Marketing for Generator & Critical Power Companies",
+    "hero_description": "Help facilities teams find your generator equipment, maintenance and critical power services. Our Google Ads, SEO, website design and lead tracking focus on the sites and projects your team can support.",
+    "modern_intro": {
+      "intro_heading": "Help power buyers find",
+      "intro_heading_accent": "the support they need.",
+      "intro_image": "/assets/industries/commercial-generators-critical-power-marketing.svg",
+      "intro_image_alt": "Illustration of Generators & Critical Power equipment and capabilities",
+      "intro_opening": "Facilities teams researching standby power, rentals or maintenance need to know which equipment and locations a company supports. A clear first step matters when the right solution depends on the site.",
+      "intro_subheading": "Make the scope of your work clear.",
+      "intro_explanation": "We help generator suppliers and service companies explain their equipment, coverage and project support to facilities and purchasing teams.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for commercial generators and planned maintenance."
+        ],
+        [
+          "SEO",
+          "Explain equipment ranges, applications and actual service coverage."
+        ],
+        [
+          "Website design",
+          "Give buyers separate routes for equipment, rental and service questions."
+        ],
+        [
+          "Lead tracking",
+          "Keep surveys, proposals and maintenance discussions visible."
+        ]
+      ],
+      "intro_scope": "We build around the facilities and services you support, while your technical staff reviews power requirements and any published specifications.",
+      "intro_closing": "Buyers get useful information and your team keeps control of the technical assessment."
+    },
+    "buyer_fit": {
+      "heading": "Start with the facility and the power need.",
+      "intro": "A maintenance request needs different information from a new standby power project.",
+      "paragraphs": [
+        "A facilities manager asking about an existing generator can share the equipment and site. A project buyer may need a conversation about intended use, timing and the people involved.",
+        "We help make those paths clear and collect initial details without implying that a website form can size a system."
+      ],
+      "bullets": [
+        "Ask about the facility, location and intended use.",
+        "Let service buyers describe existing equipment.",
+        "Show actual support hours and coverage."
+      ],
+      "closing": "Your specialists can then decide what information or site review is needed next.",
+      "image": "/assets/industries/commercial-generators-critical-power-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Generators & Critical Power service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Generator & Critical Power Companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach facilities with a power need.",
+          "body": "Build distinct campaigns for generator supply, rentals and maintenance where offered. Location targeting follows your real delivery and service coverage.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Help buyers understand your capabilities.",
+          "body": "Explain generator applications, service options and project stages in clear pages. Accurate content helps both search engines and AI search tools understand your capabilities.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the equipment and work you support.",
+          "body": "Share approved equipment, maintenance and project updates that illustrate the facilities you support. Review campaign activity against relevant business inquiries.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Route each request to the right team.",
+          "body": "Give equipment buyers and service customers clear paths, with forms that collect site and project details for your technical team to review.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your power services easier to find.",
+      "final_intro": "Book a 30-minute call to discuss your generator services, coverage and target facilities.",
+      "final_bullets": [
+        "Discuss the equipment and services you offer",
+        "Review how facilities teams reach you",
+        "Choose where clearer inquiries would help"
+      ],
+      "final_prompt": "Let’s discuss your power business"
     }
   },
   {
@@ -1805,7 +2363,7 @@
       ],
       "faq_heading": "Your Heavy Haul & Rigging marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about reaching buyers for machinery moving, heavy transport and rigging projects.",
@@ -1837,6 +2395,99 @@
           "We review inquiry quality with your team, including location, load type and project scope. That feedback helps us improve ads and pages. You can see our work and which marketing activity brings suitable opportunities for a quote."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for specialized transport and rigging",
+    "hero_heading": "Marketing for Heavy Haul & Rigging Companies",
+    "hero_description": "Reach project teams arranging machinery moves, specialized transport and rigging. Google Ads, SEO, website design and lead tracking help buyers share the details your crew needs.",
+    "modern_intro": {
+      "intro_heading": "Get in front of buyers",
+      "intro_heading_accent": "planning complex moves.",
+      "intro_image": "/assets/industries/heavy-haul-rigging-marketing.svg",
+      "intro_image_alt": "Illustration of Heavy Haul & Rigging equipment and capabilities",
+      "intro_opening": "Moving an oversized load or relocating machinery starts with practical questions about weight, access, routes and timing. Buyers need to understand your role before they invite your team to assess the job.",
+      "intro_subheading": "Show the projects your crew can handle.",
+      "intro_explanation": "We help heavy haul and rigging businesses explain their equipment, coverage and project process to plant teams, contractors and freight buyers.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for machinery moving, heavy haul and rigging."
+        ],
+        [
+          "SEO",
+          "Show approved project examples and the work your crew provided."
+        ],
+        [
+          "Website design",
+          "Ask for load dimensions, weight and pickup and delivery locations."
+        ],
+        [
+          "Lead tracking",
+          "Track survey requests and open project quotes."
+        ]
+      ],
+      "intro_scope": "The plan reflects your equipment and operating territory, with route, lift and permit decisions left to your experienced team.",
+      "intro_closing": "Buyers can describe the job clearly, and your staff can decide what needs review before a quote."
+    },
+    "buyer_fit": {
+      "heading": "Collect the facts behind the move.",
+      "intro": "The weight, route and site access can change the scope of a heavy transport or rigging project.",
+      "paragraphs": [
+        "A plant relocation may involve a shutdown window and several machines; a single oversized delivery may start with dimensions and route details. Each needs a useful first conversation.",
+        "We help structure the inquiry so your team can identify missing information before arranging a survey or preparing a quote."
+      ],
+      "bullets": [
+        "Ask for known load dimensions and weight.",
+        "Collect origin, destination and site-access details.",
+        "Let buyers explain timing and their project stage."
+      ],
+      "closing": "Your crew reviews the actual site, equipment and route requirements before a plan is confirmed.",
+      "image": "/assets/industries/heavy-haul-rigging-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Heavy Haul & Rigging service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Heavy Haul & Rigging Companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers planning a move.",
+          "body": "Target searches for machinery movers, oversized transport and rigging in your operating areas, matching each ad to the relevant service page.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Explain your equipment and coverage.",
+          "body": "Explain the load types and relocation services you support using approved project details. Useful descriptions support search and AI-assisted supplier research.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show your crew’s work in the field.",
+          "body": "Show approved images of lifts, machinery moves and transport projects, with a clear account of your role. Look for inquiries that fit your actual equipment.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Collect the details needed to assess a job.",
+          "body": "Make service coverage and project capabilities clear, then provide a form for load, location, site access and schedule details.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Bring more suitable moving projects your way.",
+      "final_intro": "Book a 30-minute call about your heavy haul and rigging work and the projects you want to pursue.",
+      "final_bullets": [
+        "Discuss your equipment and operating area",
+        "Review how project teams find your services",
+        "Identify gaps in the inquiry process"
+      ],
+      "final_prompt": "Let’s talk about your projects"
     }
   },
   {
@@ -2028,7 +2679,7 @@
       ],
       "faq_heading": "Your Industrial Refrigeration marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Answers about marketing cooling systems, planned projects and service coverage to the right facilities.",
@@ -2060,6 +2711,99 @@
           "We review which calls and forms lead to relevant service or project discussions. Your feedback helps us adjust campaigns by facility type, service area and scope. You can see what we completed and what we plan to improve next."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for industrial refrigeration businesses",
+    "hero_heading": "Marketing for Industrial Refrigeration Contractors",
+    "hero_description": "Connect with plant managers and project teams seeking refrigeration service, upgrades or new systems. We combine Google Ads, SEO, website design and lead tracking around the facilities you serve.",
+    "modern_intro": {
+      "intro_heading": "Reach the facilities that need",
+      "intro_heading_accent": "your refrigeration expertise.",
+      "intro_image": "/assets/industries/industrial-refrigeration-marketing.svg",
+      "intro_image_alt": "Illustration of Industrial Refrigeration equipment and capabilities",
+      "intro_opening": "A food plant needing system service and a developer planning cold storage have different decisions to make. Both need to understand the facilities, systems and regions your team supports.",
+      "intro_subheading": "Explain the work behind reliable cooling.",
+      "intro_explanation": "We help refrigeration contractors describe installation, maintenance and upgrades in terms that plant managers and project teams can use.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for industrial refrigeration service and projects."
+        ],
+        [
+          "SEO",
+          "Show the facilities and system types your team supports."
+        ],
+        [
+          "Website design",
+          "Collect the location, system and timing behind each inquiry."
+        ],
+        [
+          "Lead tracking",
+          "Follow opportunities from the first conversation through the proposal."
+        ]
+      ],
+      "intro_scope": "Your technical team reviews system descriptions, qualifications and refrigerant details before they appear on the site.",
+      "intro_closing": "Clear information helps buyers start a conversation without treating every facility as the same project."
+    },
+    "buyer_fit": {
+      "heading": "Get the right context for each facility.",
+      "intro": "A planned system upgrade and a service visit begin with different questions.",
+      "paragraphs": [
+        "A cold-storage operator may want to discuss a current system, while a food processor may be planning a larger expansion. The first inquiry should give your team enough context to understand the request.",
+        "We help separate service and project paths, making it clear which details a buyer can share before a site review."
+      ],
+      "bullets": [
+        "Ask for the facility type and site location.",
+        "Let buyers describe the current system or planned project.",
+        "Collect the requested timing and a contact for follow-up."
+      ],
+      "closing": "Your specialists assess the actual system and determine what technical information comes next.",
+      "image": "/assets/industries/industrial-refrigeration-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Industrial Refrigeration service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Industrial Refrigeration Contractors.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach facilities with a cooling need.",
+          "body": "Separate searches for refrigeration contractors, cold storage systems and service where they match your work. Target the areas your team can support.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Make your system capabilities clear.",
+          "body": "Explain your facility applications and service capabilities with accurate, reviewed content that search engines and AI search tools can interpret.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show relevant refrigeration work.",
+          "body": "Share approved project milestones, team updates and facility work that show the type of refrigeration projects you handle. Review the quality of inquiries that follow.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Collect context before a site review.",
+          "body": "Give facilities teams distinct ways to ask about maintenance, system upgrades and new installations, with room to explain the site and equipment.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Start a better refrigeration project conversation.",
+      "final_intro": "Schedule a 30-minute call about the facilities you serve and the work you want to promote.",
+      "final_bullets": [
+        "Discuss your systems and service area",
+        "Review how facilities teams find your company",
+        "Identify improvements to project inquiries"
+      ],
+      "final_prompt": "Let’s discuss your refrigeration work"
     }
   },
   {
@@ -2252,7 +2996,7 @@
       ],
       "faq_heading": "Your Steel Buildings & Structures marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about reaching building buyers, improving quote requests and following projects through to a sale.",
@@ -2284,6 +3028,99 @@
           "We review which campaigns bring suitable building inquiries and work with your team to track quotes and sales. That feedback helps us improve the pages and targeting. You can see the work planned and what the results suggest we should do next."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for steel and metal building businesses",
+    "hero_heading": "Marketing for Steel Building Suppliers & Contractors",
+    "hero_description": "Help buyers compare your steel buildings, delivery area and project options. Google Ads, SEO, website design and lead tracking support the journey from early research to a useful quote request.",
+    "modern_intro": {
+      "intro_heading": "Help building buyers",
+      "intro_heading_accent": "move from research to a quote.",
+      "intro_image": "/assets/industries/steel-building-marketing.svg",
+      "intro_image_alt": "Illustration of Steel Buildings & Structures equipment and capabilities",
+      "intro_opening": "A buyer may search for a 40-by-60 building price long before choosing a supplier. They compare building types, delivery, foundations and installation as they narrow down their options.",
+      "intro_subheading": "Make it easier to compare your offer.",
+      "intro_explanation": "We help suppliers, manufacturers and contractors explain their building options, service areas and project scope to people who are planning a purchase.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for metal garages, workshops and building sizes."
+        ],
+        [
+          "SEO",
+          "Show your building types, delivery areas and available options."
+        ],
+        [
+          "Website design",
+          "Ask about project use, dimensions, location and timing."
+        ],
+        [
+          "Lead tracking",
+          "Follow quote requests while buyers compare suppliers."
+        ]
+      ],
+      "intro_scope": "Your marketing can show whether you supply a kit, provide erection or handle a wider project, so buyers understand what needs discussion.",
+      "intro_closing": "Price ranges and project examples can help when they reflect what your business actually offers."
+    },
+    "buyer_fit": {
+      "heading": "Make the building quote easier to scope.",
+      "intro": "Buyers need to know what you sell; your team needs the basics of the project.",
+      "paragraphs": [
+        "A workshop buyer may already know the footprint, while a commercial buyer may still be comparing uses and locations. A helpful form gives both a place to begin.",
+        "Clear information about delivery, erection and the parts of a project handled separately helps reduce confusion when quotes are compared."
+      ],
+      "bullets": [
+        "Ask about building use, approximate size and location.",
+        "Show whether delivery or erection is part of your offer.",
+        "Collect the buyer’s preferred project timing."
+      ],
+      "closing": "Your team can review the site and options before confirming the full scope or price.",
+      "image": "/assets/industries/steel-building-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Steel Buildings & Structures service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Steel Building Suppliers & Contractors.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach people planning a building.",
+          "body": "Reach searches for the building types, sizes and service areas you actually supply, with pages that explain your role in the project.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Answer size and building-type questions.",
+          "body": "Publish useful pages for building types, locations and common size or price questions. Clear answers help search engines and AI tools understand your offer.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show completed projects and options.",
+          "body": "Share approved photos of garages, workshops or commercial buildings and reconnect with interested visitors. Review which campaigns bring suitable project inquiries.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Turn research into a useful quote request.",
+          "body": "Show building options and your delivery area, with a short form that captures project use, dimensions, location and installation needs.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Bring more building plans to the table.",
+      "final_intro": "Book a 30-minute call about your building range, service area and the buyers you want to reach.",
+      "final_bullets": [
+        "Discuss the buildings and projects you sell",
+        "Review how buyers compare your offer",
+        "Identify gaps in your quote process"
+      ],
+      "final_prompt": "Let’s talk about your buildings"
     }
   },
   {
@@ -2475,7 +3312,7 @@
       ],
       "faq_heading": "Your Scaffolding, Shoring & Formwork marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Questions about reaching contractors and capturing useful rental, supply and project inquiries.",
@@ -2507,6 +3344,99 @@
           "We review which searches and pages bring suitable projects, based on location, system needs and scope. Your team’s feedback helps us improve targeting. You can see the work delivered, the findings and our recommended next steps."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for construction access and support suppliers",
+    "hero_heading": "Marketing for Scaffolding, Shoring & Formwork Suppliers",
+    "hero_description": "Reach contractors looking for scaffolding, shoring and formwork within your coverage area. We use Google Ads, SEO, website design and lead tracking to support rental and project inquiries.",
+    "modern_intro": {
+      "intro_heading": "Help construction teams find",
+      "intro_heading_accent": "the systems you supply.",
+      "intro_image": "/assets/industries/scaffolding-shoring-formwork-marketing.svg",
+      "intro_image_alt": "Illustration of Scaffolding, Shoring & Formwork equipment and capabilities",
+      "intro_opening": "A contractor arranging access equipment, a shoring system or concrete formwork needs to know what you supply and where. The equipment and hire period depend on the project and site.",
+      "intro_subheading": "Separate the equipment from the project questions.",
+      "intro_explanation": "We help suppliers explain their scaffolding, shoring and formwork range while giving contractors a clear way to discuss availability and scope.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for access equipment, shoring and formwork."
+        ],
+        [
+          "SEO",
+          "Present product ranges and actual branch coverage."
+        ],
+        [
+          "Website design",
+          "Ask about the site, equipment needs and hire dates."
+        ],
+        [
+          "Lead tracking",
+          "Keep rental, supply and project discussions organized."
+        ]
+      ],
+      "intro_scope": "Your team reviews technical documentation and confirms which services or systems you can offer on a particular project.",
+      "intro_closing": "Buyers can find a useful starting point without treating a product page as a design for their site."
+    },
+    "buyer_fit": {
+      "heading": "Give contractors a clear way to scope the request.",
+      "intro": "Equipment needs, site location and hire dates help your team start the right conversation.",
+      "paragraphs": [
+        "A contractor may need a short rental at one site or a phased supply plan for a longer construction programme. The inquiry should let them describe what is known and what still needs review.",
+        "We help your website explain the products and services you offer, with technical decisions left to qualified project staff."
+      ],
+      "bullets": [
+        "Ask for the site and type of construction work.",
+        "Collect the equipment needed and expected hire period.",
+        "Make branch coverage and the next review step clear."
+      ],
+      "closing": "Your team can then discuss availability, site requirements and the information needed for a quote.",
+      "image": "/assets/industries/scaffolding-shoring-formwork-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Scaffolding, Shoring & Formwork service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Scaffolding, Shoring & Formwork Suppliers.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach contractors with equipment needs.",
+          "body": "Separate commercial scaffold, shoring and formwork searches by service and territory, so contractors reach a page relevant to their request.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Explain your systems and branch coverage.",
+          "body": "Create useful pages for product systems, applications and branch coverage. Clear, reviewed descriptions support ordinary search and AI-assisted research.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show equipment in its project setting.",
+          "body": "Share approved images of equipment and construction projects that illustrate the work you supply. Review whether campaigns reach relevant contractor inquiries.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Capture the site and hire details.",
+          "body": "Organize system categories and rental information around buyer needs, with a form for site, project stage and expected equipment dates.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Connect with more construction project teams.",
+      "final_intro": "Book a 30-minute call about your equipment range, locations and the contractor inquiries you want.",
+      "final_bullets": [
+        "Discuss scaffolding, shoring and formwork priorities",
+        "Review how buyers find your branch or products",
+        "Identify missing details in quote requests"
+      ],
+      "final_prompt": "Let’s talk about your equipment range"
     }
   },
   {
@@ -2698,7 +3628,7 @@
       ],
       "faq_heading": "Your Automation & Robotics marketing questions answered"
     },
-    "lastmod": "2026-10-30",
+    "lastmod": "2026-10-31",
     "faq_schema": true,
     "submit_label": "Get in touch",
     "faq_intro": "Answers about reaching manufacturing teams and turning technical interest into useful project conversations.",
@@ -2730,6 +3660,99 @@
           "You can see what we are working on and why. We review calls, project inquiries and sales progress with your team, then use that feedback to improve the marketing. The focus stays on suitable opportunities, not just clicks."
         ]
       ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for industrial automation companies",
+    "hero_heading": "Marketing for Automation & Robotics Integrators",
+    "hero_description": "Help manufacturers understand the robotic cells, controls and integration projects your team handles. Google Ads, SEO, website design and lead tracking connect your applications with relevant plant teams.",
+    "modern_intro": {
+      "intro_heading": "Help manufacturers understand",
+      "intro_heading_accent": "what your automation team can solve.",
+      "intro_image": "/assets/industries/industrial-automation-robotics-marketing.svg",
+      "intro_image_alt": "Illustration of Automation & Robotics equipment and capabilities",
+      "intro_opening": "A manufacturer considering machine tending or a controls upgrade needs to see how an integrator approaches the production problem. The buying team may include engineering, operations and purchasing.",
+      "intro_subheading": "Connect technical capabilities to real production needs.",
+      "intro_explanation": "We help integrators explain their applications, experience and project process so buyers know when to start a conversation.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for robotic cells, controls and integration."
+        ],
+        [
+          "SEO",
+          "Explain supported applications with approved project examples."
+        ],
+        [
+          "Website design",
+          "Ask about the current process, equipment and production goals."
+        ],
+        [
+          "Lead tracking",
+          "Keep engineering discussions and proposals visible to sales."
+        ]
+      ],
+      "intro_scope": "The plan reflects the industries, robot brands and integration work your team actually supports. Your engineers review technical information before publication.",
+      "intro_closing": "Buyers can see your capabilities clearly while your team assesses each application on its own merits."
+    },
+    "buyer_fit": {
+      "heading": "Turn a production problem into a useful first discussion.",
+      "intro": "A project inquiry should give your engineers context without asking buyers to design the solution.",
+      "paragraphs": [
+        "A plant considering robotic welding may be at a different stage from a manufacturer upgrading controls on an existing line. Clear application pages can help both identify whether your team is a good fit.",
+        "We help collect the current process, equipment and goals so the right questions can be discussed in the first call."
+      ],
+      "bullets": [
+        "Describe the applications and industries you support.",
+        "Ask about the process, parts and equipment involved.",
+        "Capture the project stage, timing and production goals."
+      ],
+      "closing": "Your engineers can then decide whether a site visit, technical review or further information is the right next step.",
+      "image": "/assets/industries/industrial-automation-robotics-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Automation & Robotics service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Automation & Robotics Integrators.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach teams planning automation.",
+          "body": "Focus searches on automation applications your team handles, such as robotic cells, machine tending or controls upgrades, rather than unrelated consumer robotics.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Explain the applications you integrate.",
+          "body": "Build useful application pages around production challenges and system capabilities. Accurate, reviewed content also helps AI search tools interpret your work.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show automation at work.",
+          "body": "Use approved demonstrations, facility photos and project stories to show the processes your team automates. Test which content leads to relevant plant discussions.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make complex projects easier to discuss.",
+          "body": "Explain applications and the integration process in plain language, with an inquiry form for equipment, production goals and project timing.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Start more useful automation conversations.",
+      "final_intro": "Book a 30-minute call about your applications, ideal manufacturers and project inquiries.",
+      "final_bullets": [
+        "Discuss the systems and industries you support",
+        "Review how plant teams find your capabilities",
+        "Find ways to improve project inquiries"
+      ],
+      "final_prompt": "Let’s talk about your applications"
     }
   },
   {
@@ -2934,8 +3957,8 @@
     ],
     "faq_schema": true,
     "submit_label": "Get in touch",
-    "lastmod": "2026-10-30",
-    "page_template": "templates/building-materials.html",
+    "lastmod": "2026-10-31",
+    "page_template": "templates/industry-modern.html",
     "hero_image": "/assets/images/building-materials-hero-1280.webp",
     "hero_small": "/assets/images/building-materials-hero-640.webp",
     "hero_alt": "Modern commercial building with stone, timber and dark metal facade materials",
@@ -2972,6 +3995,98 @@
           "We review which products and campaigns attract relevant inquiries. Your team’s feedback helps distinguish useful project interest from requests outside your range or supply area. You can see the work completed and the next priorities for improvement."
         ]
       ]
+    },
+    "hero_style": "cnc-background",
+    "hero_eyebrow": "Marketing for building materials suppliers",
+    "hero_heading": "Marketing for Building Materials Companies",
+    "hero_description": "Put your product ranges and technical information in front of specifiers, contractors and purchasing teams. We use Google Ads, SEO, website design and lead tracking to support product and project inquiries.",
+    "modern_intro": {
+      "intro_heading": "Put your building materials",
+      "intro_heading_accent": "in front of the right project teams.",
+      "intro_image": "/assets/images/building-materials-hero-1280.webp",
+      "intro_image_alt": "Exterior of a modern building with cladding and glazing",
+      "intro_opening": "Architects, contractors and purchasing teams do not all look for the same product information. A specifier may need a data sheet while a contractor wants to know about stock and delivery.",
+      "intro_subheading": "Make the product information easy to use.",
+      "intro_explanation": "We help manufacturers, distributors and suppliers explain their ranges and routes to purchase to the people choosing and ordering materials.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for the products and applications you supply."
+        ],
+        [
+          "SEO",
+          "Organize specifications, data sheets and product options."
+        ],
+        [
+          "Website design",
+          "Capture project location, quantity and sample needs."
+        ],
+        [
+          "Lead tracking",
+          "Follow product inquiries through specification and purchasing."
+        ]
+      ],
+      "intro_scope": "Marketing reflects your actual product lines, supply coverage and whether customers purchase direct or through distributors.",
+      "intro_closing": "Your team confirms product claims and technical documents so specifiers can work from accurate information."
+    },
+    "buyer_fit": {
+      "heading": "Give specifiers and contractors a clearer path.",
+      "intro": "The details needed to choose a material can differ from the details needed to order it.",
+      "paragraphs": [
+        "An architect may be comparing a product for an upcoming design, while a contractor needs a quantity and delivery date. The website can help both people reach the right next step.",
+        "We help organize product details and inquiry options around your route to market, whether that means direct sales, sample requests or a branch contact."
+      ],
+      "bullets": [
+        "Keep product specifications and documents with the right range.",
+        "Ask about product, quantity and project location.",
+        "Offer a clear way to request a sample or discuss availability."
+      ],
+      "closing": "Sales staff can use the request to answer the buyer’s actual question and follow the project as it develops.",
+      "image": "/assets/industries/building-materials-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of Building Materials service information and an inquiry form with relevant project details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for Building Materials Companies.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers searching for materials.",
+          "body": "Target searches for the materials and applications you supply, matched to your delivery coverage and the types of buyer you serve.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Help specifiers understand your products.",
+          "body": "Develop useful product and application pages with accurate specifications. Clear information supports search results and helps AI search tools understand your products.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the material in use.",
+          "body": "Show approved installation photos, material finishes and product applications. Test which examples bring relevant interest from contractors and project teams.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Connect the right request to your team.",
+          "body": "Make product ranges, data sheets and supply routes easy to navigate, with separate paths for samples, specifications and pricing questions.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your materials easier to discover.",
+      "final_intro": "Book a 30-minute call about your product range, buyers and the inquiries you want to attract.",
+      "final_bullets": [
+        "Discuss your products and routes to market",
+        "Review what specifiers and contractors need",
+        "Identify improvements to product inquiries"
+      ],
+      "final_prompt": "Let’s talk about your products"
     }
   }
 ]
