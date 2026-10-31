@@ -87,3 +87,10 @@
  .example-tabs { gap: 7px; }
  .example-tabs button { font-size: 12px; padding: 10px; }
 }
+
+/* Match the industry hero headline while retaining the service page background. */
+.service-hero .hero-center { max-width: 1120px; }
+.service-hero .hero-center h1 { max-width: 1120px; color: #172133; font-size: clamp(44px, 5.25vw, 72px); font-weight: 750; line-height: 1.08; letter-spacing: -2.3px; }
+.service-hero .hero-center h1 em { color: inherit; font-style: normal; }
+@media(max-width:1023px) { .service-hero .hero-center h1 { font-size: clamp(42px, 6.5vw, 62px); } }
+@media(max-width:600px) { .service-hero .hero-center h1 { font-size: clamp(36px, 9.8vw, 48px); letter-spacing: -1.2px; line-height: 1.12; } }
