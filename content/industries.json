@@ -4088,5 +4088,290 @@
       ],
       "final_prompt": "Let’s talk about your products"
     }
+  },
+  {
+    "slug": "mining-marketing",
+    "name": "Mining Companies, Equipment & Services",
+    "short": "Mining",
+    "headline": "Marketing for",
+    "accent": "Mining Companies & Suppliers",
+    "intro": "We help mining companies, equipment suppliers and site-service providers with Google Ads, SEO, website design and lead tracking.",
+    "buyers": "Mine operators, engineers and purchasing teams",
+    "goal": "Mining equipment and service inquiries",
+    "queries": [
+      "mining equipment supplier",
+      "mine equipment maintenance services",
+      "mining conveyor equipment supplier"
+    ],
+    "challenges": [
+      [
+        "Long purchasing cycles",
+        "Equipment and service decisions can involve engineering, operations and procurement."
+      ],
+      [
+        "Complex equipment",
+        "Buyers need clear information about applications, specifications and support."
+      ],
+      [
+        "Site and service coverage",
+        "Remote operations need to know where a supplier can deliver and provide support."
+      ]
+    ],
+    "capabilities": [
+      [
+        "Equipment supply",
+        "Equipment and components for supported mining operations."
+      ],
+      [
+        "Maintenance services",
+        "Repairs and support within your actual service area."
+      ],
+      [
+        "Site infrastructure",
+        "Project services and systems your business provides."
+      ]
+    ],
+    "intake": [
+      "Equipment or service needed",
+      "Mine location",
+      "Project stage",
+      "Timing"
+    ],
+    "faqs": [
+      [
+        "Who do you work with in the mining industry?",
+        "We can support mining operators, equipment manufacturers, component suppliers, maintenance providers and contractors. We start by understanding your business and whether you want to reach customers, suppliers, partners or other audiences."
+      ],
+      [
+        "How can a mining supplier attract more relevant inquiries?",
+        "Explain the equipment, components or services you offer, the applications you support and the regions you cover. Search campaigns and useful product pages can then guide buyers to an inquiry form or sales contact that fits their needs."
+      ],
+      [
+        "What should a mining equipment or service inquiry include?",
+        "Start with the equipment or service needed, site location, application and project stage. Depending on the request, your team may also need the equipment make and model, operating conditions or required timing before discussing a quote."
+      ],
+      [
+        "Can you help market to buyers with long purchasing cycles?",
+        "Yes. We can help keep the inquiry source, follow-up and proposal stages visible in your customer records. Your team can track technical reviews and procurement discussions as the buyer moves through its own process."
+      ],
+      [
+        "What does marketing for a mining company cost?",
+        "The cost depends on the markets, content, website and campaigns involved. We discuss the scope and fees before work begins; advertising spend and any additional software are considered separately."
+      ]
+    ],
+    "description": "Marketing for mining companies, equipment suppliers and service providers. Reach relevant buyers and partners with clear, useful information.",
+    "buyer_journey": {
+      "heading": "How mining buyers choose a supplier",
+      "steps": [
+        [
+          "Identify the need",
+          "Operations teams define equipment, maintenance or project needs."
+        ],
+        [
+          "Review suppliers",
+          "Engineering and procurement review applications, coverage and supplier information."
+        ],
+        [
+          "Start a discussion",
+          "The buyer shares the site, equipment and timing for an initial review."
+        ]
+      ]
+    },
+    "marketing_content": {
+      "challenge_heading": "Why mining suppliers struggle to reach buyers",
+      "challenge_intro": "Technical scope and site coverage need to be clear.",
+      "services_heading": "Marketing for mining suppliers",
+      "services": [
+        {
+          "title": "Google Ads",
+          "paragraphs": [
+            "Marketing for mining equipment and service buyers."
+          ],
+          "service": "google-ads",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "title": "SEO",
+          "paragraphs": [
+            "Marketing for mining equipment and service buyers."
+          ],
+          "service": "seo",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "title": "Website design",
+          "paragraphs": [
+            "Marketing for mining equipment and service buyers."
+          ],
+          "service": "web-design-for-manufacturing-companies",
+          "link_label": "Explore web design for manufacturers"
+        },
+        {
+          "title": "Lead tracking",
+          "paragraphs": [
+            "Marketing for mining equipment and service buyers."
+          ],
+          "service": "lead-tracking",
+          "link_label": "Explore lead tracking and follow-up"
+        }
+      ],
+      "capabilities_intro": "Explain the equipment and services your business provides.",
+      "work_cards": [
+        [
+          "Mining equipment",
+          "Present equipment and applications."
+        ],
+        [
+          "Site maintenance",
+          "Explain service and coverage."
+        ]
+      ],
+      "credentials_title": "Capabilities and qualifications",
+      "credentials_body": "Publish current, verified details that apply to your services.",
+      "example": [
+        "A buyer searches for a mining supplier.",
+        "The buyer shares site and equipment details.",
+        "Your sales team reviews the inquiry and follows up."
+      ],
+      "website_intro": "Give buyers useful information before they contact you.",
+      "website_checklist": [
+        [
+          "Equipment and services",
+          "Show products and work you provide."
+        ],
+        [
+          "Coverage",
+          "Explain locations and service areas."
+        ]
+      ],
+      "faq_heading": "Your Mining marketing questions answered"
+    },
+    "lastmod": "2026-10-31",
+    "faq_schema": true,
+    "submit_label": "Get in touch",
+    "faq_intro": "Answers about reaching mine operators and turning equipment and service searches into useful sales conversations.",
+    "agency_expectations": {
+      "heading": "What can you expect working with us as a mining marketing agency?",
+      "items": [
+        [
+          "A plan around your mining customers",
+          "We start with your mining operations, equipment, components or site services and the customers or partners you want to reach. Your market, territory and capacity shape the plan."
+        ],
+        [
+          "Search campaigns for the work you offer",
+          "We focus ads on relevant equipment and site-service searches. Campaigns can reflect the regions you serve and direct buyers to information that matches their request."
+        ],
+        [
+          "Clear technical content",
+          "We help explain applications, equipment and support in language mine operators and procurement teams can use. Your specialists review technical details and any claims before publication."
+        ],
+        [
+          "Inquiries with site and equipment details",
+          "We improve quote paths to ask about the application, mine location, equipment and timing. Your sales team gets context before arranging a call or technical review."
+        ],
+        [
+          "Follow-up through the buying process",
+          "Equipment and site projects may require input from operations, engineering and purchasing. We help keep inquiries, next steps and proposals organized in your customer records."
+        ],
+        [
+          "Reporting on suitable opportunities",
+          "We review calls and forms with your team and look at which inquiries become relevant quotes or projects. That feedback helps guide improvements to campaigns and pages."
+        ]
+      ]
+    },
+    "page_template": "templates/industry-modern.html",
+    "hero_style": "cnc-background",
+    "hero_image": "/assets/industries/mining-marketing.svg",
+    "hero_eyebrow": "Digital marketing for the mining industry",
+    "hero_heading": "Marketing for Mining Companies & Suppliers",
+    "hero_description": "Help mining operators, equipment suppliers and service companies explain their work and reach the right buyers and partners. Google Ads, SEO, website design and lead tracking support clearer business conversations.",
+    "modern_intro": {
+      "intro_heading": "Help mining buyers understand",
+      "intro_heading_accent": "what your business can provide.",
+      "intro_image": "/assets/industries/mining-marketing.svg",
+      "intro_image_alt": "Schematic illustration of mining equipment at a mine site",
+      "intro_opening": "Mining operators, equipment suppliers and site-service providers each need to explain different work. Buyers and potential partners want to understand your operations, capabilities and coverage before they start a conversation.",
+      "intro_subheading": "Make your capabilities easier to find and assess.",
+      "intro_explanation": "We help mining companies, equipment manufacturers, component suppliers and site-service providers explain their offer to the customers, partners and project teams they want to reach.",
+      "intro_bullets": [
+        [
+          "Google Ads",
+          "Reach searches for the equipment and mine services you offer."
+        ],
+        [
+          "SEO",
+          "Organize product, application and service coverage information."
+        ],
+        [
+          "Website design",
+          "Help buyers share the equipment, site and project details."
+        ],
+        [
+          "Lead tracking",
+          "Keep technical discussions and proposals visible to your sales team."
+        ]
+      ],
+      "intro_scope": "The plan reflects your operations, products, customers and actual coverage. Your team reviews equipment specifications, operating details and technical claims before they go live.",
+      "intro_closing": "Buyers get a clearer starting point, and your specialists remain responsible for reviewing the application and recommending next steps."
+    },
+    "buyer_fit": {
+      "heading": "Start with the operation and the application.",
+      "intro": "A useful mining inquiry gives your team enough context to determine the next conversation.",
+      "paragraphs": [
+        "A maintenance manager asking about an existing conveyor may need a different discussion from a procurement team comparing replacement equipment for a new project. A clear website can guide both to the right contact.",
+        "We help your company explain its supported equipment and services, then ask for the site, application and timing your sales team needs for an initial review."
+      ],
+      "bullets": [
+        "Show equipment, components or site services your team supports.",
+        "Ask about the mine location and relevant equipment or application.",
+        "Collect the project stage and requested timing."
+      ],
+      "closing": "Your technical team can then identify the information needed for a quote, site visit or further assessment.",
+      "image": "/assets/industries/mining-marketing-buyer-fit.svg",
+      "image_alt": "Illustration of mining supplier services and an inquiry form for site and equipment details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for mining companies and suppliers.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers searching for mining solutions.",
+          "body": "Focus campaigns on the equipment, components and site services you actually supply. Ads can reflect your sales territory and send buyers to the information most relevant to their search.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Explain your applications and coverage.",
+          "body": "Build useful pages for equipment types, mining applications and service locations. Clear, reviewed information helps search engines and AI search tools understand what your business provides.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Show the equipment and work you support.",
+          "body": "Share approved equipment photos, maintenance work and project examples. Test which messages bring relevant visits and inquiries from the markets your team wants to serve.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make technical inquiries easier to start.",
+          "body": "Organize equipment information, applications and support coverage so buyers can assess the fit. Quote forms can collect the site, equipment and project stage for your sales team.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    },
+    "modern_closing": {
+      "final_heading": "Make your mining capabilities easier to find.",
+      "final_intro": "Book a 30-minute call about your mining business and the customers or partners you want to reach.",
+      "final_bullets": [
+        "Discuss your products, services and sales territory",
+        "Review how mining buyers find and assess your business",
+        "Identify improvements to equipment and project inquiries"
+      ],
+      "final_prompt": "Let’s talk about your mining customers"
+    }
   }
 ]

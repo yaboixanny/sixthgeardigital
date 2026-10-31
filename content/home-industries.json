@@ -52,5 +52,11 @@
     "description": "Building materials, components and product manufacturers",
     "icon": "materials",
     "title": "Building Product Manufacturers"
+  },
+  {
+    "slug": "mining-marketing",
+    "description": "Mining companies, equipment and site services",
+    "icon": "mining",
+    "title": "Mining"
   }
 ]
