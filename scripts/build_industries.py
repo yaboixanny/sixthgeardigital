@@ -9,6 +9,7 @@ from html import escape
 import json
 import re
 from navigation import navigation_fields
+from industry_modern import render_modern_sections
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://sixthgeardigital.com'
@@ -41,6 +42,7 @@ def illustration(index, page):
 
 for index, page in enumerate(PAGES):
     slug = page['slug']
+    modern_layout = page.get('page_template') == 'templates/industry-modern.html'
     assert re.fullmatch(r'[a-z0-9-]+', slug), slug
     canonical = f'{BASE}/industries/{slug}/'
     title = page.get('title') or f"{page['short']} Marketing | Sixth Gear Digital"
@@ -95,8 +97,8 @@ for index, page in enumerate(PAGES):
     journey_cards = ''.join(f'<article class="card play-card"><h3>{e(heading)}</h3><p>{e(body)}</p></article>' for heading,body in journey['steps'])
     page_sections = f'<section class="section" id="buyer-journey"><div class="container"><div class="section-heading centered"><h2>{e(journey["heading"])}</h2></div><div class="grid three">{journey_cards}</div></div></section>\n  ' + page_sections
 
-    if page.get('hero_style') == 'cnc-background':
-        page_sections = section_fields['agency_expectations_section'] + '\n' + section_fields['industry_faq_section']
+    if modern_layout:
+        page_sections = section_fields['agency_expectations_section'] + '\n' + render_modern_sections(page) + '\n' + section_fields['industry_faq_section']
 
     fields = {key:e(value) for key,value in page.items() if isinstance(value,str)}
     fields.update(navigation_fields('/industries/'+slug+'/', '#consultation-audit'))
@@ -115,15 +117,14 @@ for index, page in enumerate(PAGES):
         fields['industry_body_attributes'] = ' class="cnc-hero-page"'
     fields['industry_hero'] = Template((ROOT / hero_template).read_text()).substitute(fields)
     if page.get('hero_style') == 'cnc-background':
-        fields['industry_hero'] += (ROOT / 'templates/cnc-strategies.html').read_text()
+        fields['industry_hero'] += (ROOT / page['introduction_template']).read_text()
+    if modern_layout:
+        fields['industry_final_cta'] = (ROOT / page['closing_template']).read_text()
     route = ROOT / 'industries' / slug
     route.mkdir(parents=True, exist_ok=True)
     template = Template((ROOT / page['page_template']).read_text()) if page.get('page_template') else TEMPLATE
     rendered = template.substitute(fields)
-    if page.get('hero_style') == 'cnc-background':
-        start = rendered.index('  <section class="section container" id="consultation-audit">')
-        end = rendered.index('</main>', start)
-        rendered = rendered[:start] + (ROOT / 'templates/cnc-final-cta.html').read_text() + rendered[end:]
+    if modern_layout:
         rendered = rendered.replace('href="#consultation-audit"', 'href="/#growth-plan"')
     (route / 'index.html').write_text(rendered)
     if not page.get('hero_image'):

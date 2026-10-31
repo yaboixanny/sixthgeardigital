@@ -1562,7 +1562,59 @@
     "hero_style": "cnc-background",
     "hero_eyebrow": "Digital marketing for CNC machine shops",
     "hero_heading": "Marketing for CNC Machine Shops and Fabricators",
-    "hero_description": "Google Ads, SEO, website design and lead tracking for CNC machine shops and fabricators. Help engineers and purchasing teams find your capabilities, understand the work you do and request a quote."
+    "hero_description": "Google Ads, SEO, website design and lead tracking for CNC machine shops and fabricators. Help engineers and purchasing teams find your capabilities, understand the work you do and request a quote.",
+    "page_template": "templates/industry-modern.html",
+    "introduction_template": "templates/cnc-strategies.html",
+    "closing_template": "templates/cnc-final-cta.html",
+    "buyer_fit": {
+      "heading": "More quote requests for the work your shop does best.",
+      "intro": "A busy inbox only helps if the jobs fit your machines, skills and capacity.",
+      "paragraphs": [
+        "A buyer looking for one prototype part needs a different supplier from a team sourcing thousands of production parts. We help your marketing make that difference clear before someone sends an RFQ.",
+        "We work with you to explain the processes, materials and order sizes you want to promote. Buyers can check the fit, and your sales team gets more context when they ask for a quote."
+      ],
+      "bullets": [
+        "Show the materials, tolerances and part sizes your team can handle.",
+        "Explain whether you take prototypes, small batches or repeat production work.",
+        "Ask for quantity, material and delivery needs on the quote form."
+      ],
+      "closing": "Feedback from the people quoting the jobs helps us improve your pages and campaigns. Over time, the marketing can focus more closely on the work you actually want to win.",
+      "image": "/assets/industries/cnc-buyer-fit.svg",
+      "image_alt": "A CNC capability page leading to a quote request with material, quantity and delivery details."
+    },
+    "revenue_section": {
+      "heading": "How we generate more revenue for your CNC machine shop.",
+      "cards": [
+        {
+          "service": "google-ads",
+          "title": "Google Ads",
+          "subtitle": "Reach buyers who need a machining supplier.",
+          "body": "Put your shop in front of people searching for CNC machining, precision parts and fabrication services. We focus campaigns on your capabilities and sales area, then use feedback on quote quality to improve where the budget goes.",
+          "link_label": "Explore Google Ads for manufacturers"
+        },
+        {
+          "service": "seo",
+          "title": "SEO",
+          "subtitle": "Help engineers find and assess your shop.",
+          "body": "Search engine optimization (SEO) helps your pages appear for the work you do. We build useful content around processes, materials and applications. Clear, accurate pages also support AI SEO by making your capabilities easier for AI search tools to understand.",
+          "link_label": "Explore SEO for manufacturers"
+        },
+        {
+          "service": "facebook-ads",
+          "title": "Facebook Ads",
+          "subtitle": "Keep your capabilities in view.",
+          "body": "Use project photos, part examples and shop videos to show what you can make. Facebook ads can help bring interested visitors back to your capabilities and quote pages. We test which messages lead to relevant inquiries before increasing the budget.",
+          "link_label": "Explore Facebook Ads for manufacturers"
+        },
+        {
+          "service": "web-design-for-manufacturing-companies",
+          "title": "Web design",
+          "subtitle": "Make the next quote request easier.",
+          "body": "Give technical buyers a clear view of your equipment, materials, tolerances and certifications. We design pages that work well on phones and desktops, with quote forms that capture the details your team needs to assess a job.",
+          "link_label": "Explore web design for manufacturers"
+        }
+      ]
+    }
   },
   {
     "slug": "heavy-haul-rigging-marketing",

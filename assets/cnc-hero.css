@@ -96,3 +96,47 @@
 }
 
 .cnc-hero-page footer { margin-top: 0; }
+
+/* Reusable modern industry sections: buyer fit, then a four-service revenue grid. */
+.industry-buyer-fit { padding: 88px 0; background: #fff6ee; }
+.industry-buyer-fit-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.industry-buyer-fit h2, .industry-revenue h2 { margin: 0 0 26px; font-size: clamp(32px, 3.1vw, 44px); line-height: 1.17; letter-spacing: -1.3px; font-weight: 750; color: #0b1c30; }
+.industry-buyer-fit-copy { color: #354153; font-size: 17px; line-height: 1.8; }
+.industry-buyer-fit-copy p { margin: 0 0 20px; }
+.industry-buyer-fit-copy .industry-buyer-fit-lead { font-size: 21px; line-height: 1.55; color: #172133; }
+.industry-buyer-fit ul { padding-left: 21px; margin: 0 0 22px; }
+.industry-buyer-fit li { margin-bottom: 10px; padding-left: 5px; }
+.industry-buyer-fit li::marker { color: #c4490b; }
+.industry-buyer-fit figure { margin: 0; }
+.industry-buyer-fit img { display: block; width: 100%; height: auto; }
+.cnc-hero-page .industry-buyer-fit .cnc-hero-cta { margin-top: 10px; }
+.industry-revenue { padding: 90px 0 96px; background: #eef1f6; }
+.industry-revenue h2 { max-width: 1000px; margin-bottom: 42px; }
+.industry-revenue-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.industry-revenue-card { position: relative; overflow: hidden; isolation: isolate; display: flex; flex-direction: column; align-items: start; padding: 39px 36px 34px; background: #fff; }
+.industry-revenue-card::before { content: ''; position: absolute; top: -42px; right: -32px; width: 180px; height: 180px; transform: rotate(30deg); z-index: -1; background: linear-gradient(60deg, #fff3e9 50%, #f7e9df 50%); opacity: .75; }
+.industry-revenue-icon { position: absolute; top: 28px; right: 28px; display: grid; place-items: center; width: 62px; height: 69px; color: #fff; background: #c4490b; clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%); }
+.industry-revenue-icon svg { width: 32px; height: 32px; }
+.industry-revenue-card h3 { margin: 0 75px 10px 0; font-size: 31px; line-height: 1.2; font-weight: 750; letter-spacing: -.9px; }
+.industry-revenue-card p { margin: 22px 0; color: #354153; font-size: 17px; line-height: 1.8; }
+.industry-revenue-card .industry-revenue-subtitle { margin: 0; max-width: 85%; min-height: 54px; color: #a73e0c; font-size: 19px; font-weight: 650; line-height: 1.5; }
+.industry-revenue-card a { margin-top: auto; color: #b3420d; font-size: 16px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.industry-revenue-card a:hover { color: #7d2c08; }
+.industry-revenue-card a span { display: inline-block; margin-left: 6px; text-decoration: none; }
+@media(max-width:1000px) {
+ .industry-buyer-fit-grid { gap: 36px; }
+ .industry-revenue-card { padding: 30px 26px; }
+ .industry-revenue-icon { width: 50px; height: 57px; right: 22px; top: 23px; }
+ .industry-revenue-card h3 { font-size: 29px; }
+}
+@media(max-width:760px) {
+ .industry-buyer-fit, .industry-revenue { padding: 55px 0; }
+ .industry-buyer-fit-grid, .industry-revenue-grid { grid-template-columns: 1fr; gap: 28px; }
+ .industry-buyer-fit h2, .industry-revenue h2 { font-size: 34px; letter-spacing: -.9px; }
+ .industry-buyer-fit figure { max-width: 520px; margin-inline: auto; }
+ .cnc-hero-page .industry-buyer-fit .cnc-hero-cta { margin-top: 6px; }
+ .industry-revenue-card { padding: 30px 24px; }
+ .industry-revenue-card h3 { font-size: 28px; }
+ .industry-revenue-card .industry-revenue-subtitle { max-width: 100%; min-height: 0; padding-right: 40px; font-size: 18px; }
+ .industry-revenue-card p { font-size: 16px; }
+}
